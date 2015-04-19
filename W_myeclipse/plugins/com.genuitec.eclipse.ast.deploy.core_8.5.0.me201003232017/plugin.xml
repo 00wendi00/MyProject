@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to workaround 2.1 bug -->
+<plugin>
+   <extension-point id="packagerStrategy" name="Packaging Strategy for JEE Projects" schema="schema/packagerStrategy.exsd"/>
+   <extension-point id="deploymentBuildParticipant" name="Deployment build participants" schema="schema/deploymentBuildParticipant.exsd"/>
+
+    <!-- Added all server plugins so will spin up properly to populate app registry in 3.0 -->
+<!--
+    <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+-->
+
+   <extension
+         id="deploymentnature"
+         name="%deploymentnature.name"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.genuitec.eclipse.ast.deploy.core.DeploymentNature">
+         </run>
+      </runtime>
+      <builder
+            id="com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder">
+      </builder>
+   </extension>
+<!-- Builders -->
+   <extension
+         id="DeploymentBuilder"
+         name="%DeploymentBuilder.name"
+         point="org.eclipse.core.resources.builders">
+      <builder>
+         <run
+               class="com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder">
+         </run>
+      </builder>
+   </extension>
+   
+   <!-- Deploy tools on MyEclipse menu bar -->
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="%actionSet.myeclipse.deploytools.label"
+            visible="true"
+            id="com.genuitec.myeclipse.actions.deploytools">
+         <!-- Web Browser editor button added for 3.8.3 -->
+	     <!-- PR#3747 Removed this action and added new action below
+	     <action
+	          id="org.eclipse.webbrowser.action.open"
+	          toolbarPath="Normal/debug"
+	          label="Open MyEclipse Web Browser"
+	          tooltip="Open MyEclipse Web Browser"
+	          icon="icons/internal_browser.gif"
+	          class="org.eclipse.ui.internal.browser.OpenBrowserWorkbenchAction"> 
+	     </action>
+         --> 
+	     <action
+	          id="org.eclipse.webbrowser.action.open"
+	          toolbarPath="Normal/debug"
+	          label="%action.org.eclipse.webbrowser.open.label"
+	          tooltip="%action.org.eclipse.webbrowser.open.tooltip"
+	          icon="icons/internal_browser.gif"
+	          class="com.genuitec.eclipse.ast.deploy.core.ui.action.OpenMyEclipseWebBrowserAction"> 
+	     </action>
+         <action
+               label="%action.easie.server.toolbar.label"
+               style="pulldown"
+               icon="icons/run_on_server.gif"
+               tooltip="%action.easie.server.toolbar.tooltip"
+               class="com.genuitec.eclipse.easie.core.ui.action.ServerDropdownAction"
+               toolbarPath="Normal/debug"              
+               id="com.genuitec.myeclipse.easie.server.toolbar.action">
+         </action>
+         <action
+               class="com.genuitec.eclipse.ast.deploy.core.ui.action.DeploymentMgmtActionDelegate"
+               disabledIcon="icons/deploy_icon_ghost.gif"
+               enablesFor="*"
+               icon="icons/deploy_icon.gif"
+               id="com.genuitec.myeclipse.deploy.action.deployaction"
+               label="%action.myeclipse.deploy.label"
+               toolbarPath="Normal/debug"
+               tooltip="%action.myeclipse.deploy.tooltip">
+         </action>
+         
+	   </actionSet>
+      <actionSet
+            id="com.genuitec.eclipse.ast.deploy.core.actionSet2"
+            label="%actionSet.actionSet2.label"
+            visible="false">
+         <action
+               class="com.genuitec.eclipse.ast.deploy.core.ui.action.ManageDeploymentsAction"
+               disabledIcon="icons/deploy_icon_ghost.gif"
+               icon="icons/deploy_icon.gif"
+               id="com.genuitec.myeclipse.deploy.action.manage"
+               label="%action.myeclipse.deploy.manage.label"
+               menubarPath="menuServers/manage"
+               tooltip="%action.myeclipse.deploy.manage.tooltip">
+         </action>
+      </actionSet>
+   </extension>
+
+<!-- Popup Menus -->
+   <extension
+         id="com.genuitec.eclipse.ast.deploy.popup"
+         name="PopupMenu"
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="com.genuitec.eclipse.ast.deploy.popup.contribution">
+         <visibility>
+            <or>
+               <objectState
+                     name="nature"
+                     value="org.eclipse.jdt.core.javanature">
+               </objectState>
+               <objectState
+                     name="nature"
+                     value="com.genuitec.eclipse.j2eedt.core.earnature">
+               </objectState>
+               <objectState
+                     name="nature"
+                     value="com.genuitec.eclipse.j2eedt.core.ejbnature">
+               </objectState>
+               <objectState
+                     name="nature"
+                     value="com.genuitec.eclipse.j2eedt.core.webnature">
+               </objectState>
+               <objectState
+                     name="nature"
+                     value="org.eclipse.wst.common.project.facet.core.nature">
+               </objectState>
+            </or>
+         </visibility>
+         <action
+               label="%action.myeclipse.deploy.popup.label"
+               class="com.genuitec.eclipse.ast.deploy.core.ui.action.DeploymentMgmtActionDelegate"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"
+               enablesFor="1"
+               id="com.genuitec.myeclipse.deploy.action.popupdeployaction">
+         </action>
+      </objectContribution>
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="com.genuitec.eclipse.ast.deploy.popup.contribution">
+         <visibility>
+            <or>
+               <objectState name="nature" value="com.genuitec.eclipse.j2eedt.core.earnature"/>
+               <objectState name="nature" value="org.eclipse.wst.common.project.facet.core.nature"/>
+            </or>
+         </visibility>
+         <action
+               label="%action.myeclipse.deploy.updatemanifest.label"
+               class="com.genuitec.eclipse.ast.deploy.core.ui.action.UpdateManifestsActionDelegate"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"
+               enablesFor="1"
+               id="com.genuitec.myeclipse.deploy.action.updatemanifestsaction">
+         </action>
+      </objectContribution>
+   </extension>
+
+   <extension
+         id="problemmarker"
+         name="%problemmarker.myeclipse.deployment"
+         point="org.eclipse.core.resources.markers">
+      <super
+            type="org.eclipse.core.resources.problemmarker">
+      </super>
+      <attribute
+            name="errorMsg">
+      </attribute>
+      <persistent
+            value="true">
+      </persistent>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="com.genuitec.eclipse.views.myEclipseJEECategory"
+            class="com.genuitec.eclipse.ast.deploy.core.ui.ServerView"
+            icon="icons/servers_view.gif"
+            id="com.genuitec.eclipse.ast.deploy.core.serverview"
+            name="%view.ast.deploy.core.serverview.name"/>
+   </extension>
+   
+   
+   <extension point="org.eclipse.debug.core.sourcePathComputers">
+	     <sourcePathComputer
+	        id="com.genuitec.eclipse.wdt.jsp.debug.sourceLookup.deployedProjectsPathComputer"
+	        class="com.genuitec.eclipse.ast.deploy.core.ServerSourcePathComputerDelegate"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="org.eclipse.debug.ui.DebugPerspective">
+         <viewShortcut id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+         <view
+               id="com.genuitec.eclipse.ast.deploy.core.serverview"
+               relationship="stack"
+               relative="org.eclipse.debug.ui.DebugView"
+               />
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            delegate="com.genuitec.eclipse.ast.deploy.core.ui.debug.RunOnServerLaunchConfigurationDelegate"
+            id="com.genuitec.eclipse.ast.deploy.core.runonserver"
+            modes="run, debug"
+            name="%launchConfigurationType.runonserver.name">
+      </launchConfigurationType>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="com.genuitec.eclipse.ast.deploy.core.ui.debug.RunOnServerConfigurationTabGroup"
+            id="com.genuitec.eclipse.ast.deploy.core.runOnServerTabGroup"
+            type="com.genuitec.eclipse.ast.deploy.core.runonserver">
+      </launchConfigurationTabGroup>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+            configTypeID="com.genuitec.eclipse.ast.deploy.core.runonserver"
+            icon="icons/run_on_server.gif"
+            id="com.genuitec.eclipse.ast.deploy.core.runonserverimage">
+      </launchConfigurationTypeImage>
+   </extension>
+   
+      <extension
+         point="org.eclipse.debug.ui.launchShortcuts">
+      <shortcut
+            class="com.genuitec.eclipse.ast.deploy.core.ui.debug.RunOnServerLaunchShortcut"
+            icon="icons/run_on_server.gif"
+            id="com.genuitec.eclipse.ast.deploy.core.runonservershortcut"
+            label="%shortcut.runonserver.label"
+            modes="debug,run">
+         <contextualLaunch>
+            <contextLabel
+                  label="%contextLabel.debugonserver.label"
+                  mode="debug"/>
+            <enablement>
+               <with variable="selection">
+                  <count value="1"/>
+               	  <iterate>
+                      <adapt type="org.eclipse.jdt.core.IJavaElement">
+		                <test
+                        forcePluginActivation="true"
+                        property="com.genuitec.eclipse.ast.deploy.core.isMyEclipseApplication"/>
+		             </adapt>
+		          </iterate>
+               </with>
+            </enablement>
+            <contextLabel
+                  label="%contextLabel.runonserver.label"
+                  mode="run">
+            </contextLabel>
+         </contextualLaunch>
+      </shortcut>
+   </extension>
+      <extension
+            point="org.eclipse.core.expressions.propertyTesters">
+         <propertyTester
+               class="com.genuitec.eclipse.ast.deploy.core.ui.debug.DebugPropertyTester"
+               id="com.genuitec.eclipse.ast.deploy.core.debuggerPropertyTester"
+               namespace="com.genuitec.eclipse.ast.deploy.core"
+               properties="isMyEclipseApplication"
+               type="org.eclipse.core.runtime.IAdaptable">
+         </propertyTester>
+      </extension>
+    <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.genuitec.eclipse.ast.deploy.core.ui.action.J2EEProjectDeleteResourcesHandler"
+            commandId="org.eclipse.ltk.ui.refactoring.commands.deleteResources">
+            <activeWhen>
+   <with variable="selection">
+    <iterate
+          ifEmpty="false"
+          operator="and">
+     <adapt type="org.eclipse.core.resources.IProject" />
+    </iterate>
+   </with>
+  </activeWhen>
+            
+      </handler>
+      
+   </extension>
+   
+</plugin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将包“一百位”移至“一百位正整数的加减乘除/src”&#x0D;&#x0A;－ 原始项目：“加减乘除”&#x0D;&#x0A;－ 目标元素：“一百位正整数的加减乘除/src”&#x0D;&#x0A;－ 原始元素：“加减乘除/src/一百位”&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动包" destination="=一百位正整数的加减乘除/src" element1="/src&lt;一百位" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1411461322158" version="1.0"/>
+</session>

@@ -1,0 +1,34 @@
+package ´°¿Ú;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class Test {
+     public static void main(String args[])
+     {
+    	JFrame jFrame = new JFrame("qq"); 
+    	Panel panel1 = new Panel();
+    	Panel panel2 = new Panel();
+    	Panel panel3 = new Panel();
+    	Label label1 = new Label("ÕËºÅ");
+    	Label label2 = new Label("ÃÜÂë");
+    	TextField textField1 = new TextField();
+    	TextField textField2 = new TextField();
+    	Button button1 = new Button();
+    	Button button2 = new Button();
+    	
+    	jFrame.setBounds(100, 100, 300, 500);
+    	jFrame.add(panel1);
+    	jFrame.add(panel2);
+    	jFrame.add(panel3);    
+    	jFrame.setLayout(new FlowLayout());
+    	
+    	panel1.add(button1);
+    	panel2.add(textField1);
+    	panel2.add(button2);
+    	panel2.add(textField2);
+    	
+    	jFrame.setVisible(true);
+    	
+     }
+}

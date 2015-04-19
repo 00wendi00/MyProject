@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.chain.ui,fr.obeo.acceleo.chain.ui.debu
+ g,fr.obeo.acceleo.chain.ui.popupMenus,fr.obeo.acceleo.chain.ui.wizard
+ s
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.ui.ide,org.eclipse.emf.ecore.editor,fr.obeo.
+ acceleo.chain,fr.obeo.acceleo.gen.ui,org.eclipse.debug.ui,org.eclipse
+ .debug.core,fr.obeo.acceleo.gen.debug.ui,org.eclipse.emf.ecore.xmi,fr
+ .obeo.acceleo.ecore,fr.obeo.acceleo.tools,fr.obeo.acceleo.gen,fr.obeo
+ .acceleo.tools.ui,org.eclipse.pde.ui,org.eclipse.compare
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.chain.ui.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.chain.ui.AcceleoChainUiPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.chain.ui; singleton:=true
+
+Name: plugin.xml
+SHA1-Digest: kqvGbmP56k4++5XsBx3njyp4ab4=
+
+Name: icons/launchAll.gif
+SHA1-Digest: wn5TL/w0pDxP3HRQ4cn9fnuBMmg=
+
+Name: fr.obeo.acceleo.chain.ui.jar
+SHA1-Digest: rSceH99WxdL2cAifYD/ubH8Vwlc=
+
+Name: plugin.properties
+SHA1-Digest: v+D1KAcXueVSXm/Y/TyACYK4WuI=
+
+Name: icons/launcher.gif
+SHA1-Digest: Scmr12pNCNs96OMEDm/cOjmVz/c=
+
+Name: icons/chain.gif
+SHA1-Digest: d4/caCyTtzpGuEeSr8UTWk3IzHo=
+
+Name: fr.obeo.acceleo.chain.uisrc.zip
+SHA1-Digest: Rk0qHI01S34chXSqHPflRizX+dk=
+

@@ -1,0 +1,823 @@
+Manifest-Version: 1.0
+Export-Package: EDU.oswego.cs.dl.util.concurrent,antlr,antlr.ASdebug,a
+ ntlr.actions.cpp,antlr.actions.csharp,antlr.actions.java,antlr.action
+ s.python,antlr.build,antlr.collections,antlr.collections.impl,antlr.d
+ ebug,antlr.debug.misc,antlr.preprocessor,bsh,cfg,com.genuitec.eclipse
+ .hibernate.tool.hbm2x,com.mchange,com.mchange.lang,com.mchange.util,c
+ om.mchange.v1,com.mchange.v1.db,com.mchange.v1.db.sql,com.mchange.v1.
+ identicator,com.mchange.v1.io,com.mchange.v1.lang,com.mchange.v1.util
+ ,com.mchange.v1.xml,com.mchange.v2,com.mchange.v2.async,com.mchange.v
+ 2.beans,com.mchange.v2.c3p0,com.mchange.v2.c3p0.cfg,com.mchange.v2.c3
+ p0.filter,com.mchange.v2.c3p0.impl,com.mchange.v2.c3p0.jboss,com.mcha
+ nge.v2.c3p0.management,com.mchange.v2.c3p0.mbean,com.mchange.v2.c3p0.
+ stmt,com.mchange.v2.c3p0.subst,com.mchange.v2.c3p0.util,com.mchange.v
+ 2.cfg,com.mchange.v2.cfg.junit,com.mchange.v2.coalesce,com.mchange.v2
+ .codegen,com.mchange.v2.codegen.bean,com.mchange.v2.codegen.intfc,com
+ .mchange.v2.debug,com.mchange.v2.encounter,com.mchange.v2.holders,com
+ .mchange.v2.io,com.mchange.v2.lang,com.mchange.v2.log,com.mchange.v2.
+ log.jdk14logging,com.mchange.v2.log.log4j,com.mchange.v2.management,c
+ om.mchange.v2.naming,com.mchange.v2.resourcepool,com.mchange.v2.ser,c
+ om.mchange.v2.sql,com.mchange.v2.sql.filter,com.mchange.v2.util,com.o
+ pensymphony.oscache.base,com.opensymphony.oscache.base.algorithm,com.
+ opensymphony.oscache.base.events,com.opensymphony.oscache.base.persis
+ tence,com.opensymphony.oscache.extra,com.opensymphony.oscache.general
+ ,com.opensymphony.oscache.plugins.clustersupport,com.opensymphony.osc
+ ache.plugins.diskpersistence,com.opensymphony.oscache.util,com.opensy
+ mphony.oscache.web,com.opensymphony.oscache.web.filter,com.opensympho
+ ny.oscache.web.tag,com.sun.security.auth,com.sun.security.auth.login,
+ dao,doc,doc.entities,doc.tables,dot,dtd,freemarker,freemarker.cache,f
+ reemarker.core,freemarker.debug,freemarker.debug.impl,freemarker.ext.
+ ant,freemarker.ext.beans,freemarker.ext.dom,freemarker.ext.jdom,freem
+ arker.ext.jsp,freemarker.ext.jython,freemarker.ext.rhino,freemarker.e
+ xt.servlet,freemarker.ext.util,freemarker.ext.xml,freemarker.log,free
+ marker.template,freemarker.template.utility,hbm,javassist,javassist.b
+ ytecode,javassist.bytecode.annotation,javassist.compiler,javassist.co
+ mpiler.ast,javassist.convert,javassist.expr,javassist.runtime,javassi
+ st.scopedpool,javassist.tools,javassist.tools.reflect,javassist.tools
+ .rmi,javassist.tools.web,javassist.util,javassist.util.proxy,javax.ma
+ nagement,javax.management.loading,javax.management.modelmbean,javax.m
+ anagement.monitor,javax.management.openmbean,javax.management.relatio
+ n,javax.management.timer,javax.persistence,javax.persistence.spi,java
+ x.resource,javax.resource.cci,javax.resource.spi,javax.resource.spi.s
+ ecurity,javax.security.auth,javax.security.auth.callback,javax.securi
+ ty.auth.login,javax.security.auth.spi,javax.sql,javax.transaction,jav
+ ax.transaction.xa,lint,net.sf.cglib.beans,net.sf.cglib.core,net.sf.cg
+ lib.proxy,net.sf.cglib.reflect,net.sf.cglib.transform,net.sf.cglib.tr
+ ansform.hook,net.sf.cglib.transform.impl,net.sf.cglib.util,net.sf.ehc
+ ache,net.sf.ehcache.bootstrap,net.sf.ehcache.config,net.sf.ehcache.co
+ nstructs.asynchronous,net.sf.ehcache.constructs.blocking,net.sf.ehcac
+ he.constructs.concurrent,net.sf.ehcache.constructs.web,net.sf.ehcache
+ .constructs.web.filter,net.sf.ehcache.distribution,net.sf.ehcache.eve
+ nt,net.sf.ehcache.hibernate,net.sf.ehcache.store,net.sf.ehcache.util,
+ net.sf.swarmcache,org.aopalliance.aop,org.aopalliance.intercept,org.a
+ pache.commons.collections,org.apache.commons.collections.comparators,
+ org.apache.commons.collections.iterators,org.apache.commons.dbcp,org.
+ apache.commons.dbcp.cpdsadapter,org.apache.commons.dbcp.datasources,o
+ rg.apache.commons.jocl,org.apache.commons.logging,org.apache.commons.
+ logging.impl,org.apache.commons.pool,org.apache.commons.pool.impl,org
+ .apache.log4j,org.apache.log4j.chainsaw,org.apache.log4j.config,org.a
+ pache.log4j.helpers,org.apache.log4j.jdbc,org.apache.log4j.jmx,org.ap
+ ache.log4j.lf5,org.apache.log4j.lf5.config,org.apache.log4j.lf5.util,
+ org.apache.log4j.lf5.viewer,org.apache.log4j.lf5.viewer.categoryexplo
+ rer,org.apache.log4j.lf5.viewer.configure,org.apache.log4j.lf5.viewer
+ .images,org.apache.log4j.net,org.apache.log4j.nt,org.apache.log4j.or,
+ org.apache.log4j.or.jms,org.apache.log4j.or.sax,org.apache.log4j.spi,
+ org.apache.log4j.varia,org.apache.log4j.xml,org.apache.lucene,org.apa
+ che.lucene.analysis,org.apache.lucene.analysis.standard,org.apache.lu
+ cene.document,org.apache.lucene.index,org.apache.lucene.queryParser,o
+ rg.apache.lucene.search,org.apache.lucene.search.function,org.apache.
+ lucene.search.payloads,org.apache.lucene.search.spans,org.apache.luce
+ ne.store,org.apache.lucene.util,org.apache.velocity,org.apache.veloci
+ ty.anakia,org.apache.velocity.app,org.apache.velocity.app.event,org.a
+ pache.velocity.app.tools,org.apache.velocity.context,org.apache.veloc
+ ity.convert,org.apache.velocity.exception,org.apache.velocity.io,org.
+ apache.velocity.runtime,org.apache.velocity.runtime.compiler,org.apac
+ he.velocity.runtime.configuration,org.apache.velocity.runtime.default
+ s,org.apache.velocity.runtime.directive,org.apache.velocity.runtime.e
+ xception,org.apache.velocity.runtime.log,org.apache.velocity.runtime.
+ parser,org.apache.velocity.runtime.parser.node,org.apache.velocity.ru
+ ntime.resource,org.apache.velocity.runtime.resource.loader,org.apache
+ .velocity.runtime.visitor,org.apache.velocity.servlet,org.apache.velo
+ city.test,org.apache.velocity.test.misc,org.apache.velocity.test.prov
+ ider,org.apache.velocity.test.view,org.apache.velocity.texen,org.apac
+ he.velocity.texen.ant,org.apache.velocity.texen.defaults,org.apache.v
+ elocity.texen.util,org.apache.velocity.tools.generic,org.apache.veloc
+ ity.tools.generic.log,org.apache.velocity.util,org.apache.velocity.ut
+ il.introspection,org.apache.xerces.impl.xs,org.dom4j,org.dom4j.bean,o
+ rg.dom4j.datatype,org.dom4j.dom,org.dom4j.dtd,org.dom4j.io,org.dom4j.
+ jaxb,org.dom4j.rule,org.dom4j.rule.pattern,org.dom4j.swing,org.dom4j.
+ tree,org.dom4j.util,org.dom4j.xpath,org.dom4j.xpp,org.hibernate,org.h
+ ibernate.action,org.hibernate.annotations,org.hibernate.annotations.c
+ ommon,org.hibernate.annotations.common.annotationfactory,org.hibernat
+ e.annotations.common.reflection,org.hibernate.annotations.common.refl
+ ection.java,org.hibernate.annotations.common.reflection.java.generics
+ ,org.hibernate.annotations.common.util,org.hibernate.bytecode,org.hib
+ ernate.bytecode.cglib,org.hibernate.bytecode.javassist,org.hibernate.
+ bytecode.util,org.hibernate.cache,org.hibernate.cache.entry,org.hiber
+ nate.cfg,org.hibernate.cfg.annotations,org.hibernate.cfg.annotations.
+ reflection,org.hibernate.cfg.reveng,org.hibernate.cfg.reveng.dialect,
+ org.hibernate.classic,org.hibernate.collection,org.hibernate.connecti
+ on,org.hibernate.console,org.hibernate.console.execution,org.hibernat
+ e.console.node,org.hibernate.console.preferences,org.hibernate.contex
+ t,org.hibernate.criterion,org.hibernate.dialect,org.hibernate.dialect
+ .function,org.hibernate.dialect.lock,org.hibernate.eclipse,org.hibern
+ ate.eclipse.launch,org.hibernate.eclipse.logging,org.hibernate.eclips
+ e.logging.xpl,org.hibernate.ejb,org.hibernate.ejb.connection,org.hibe
+ rnate.ejb.event,org.hibernate.ejb.instrument,org.hibernate.ejb.packag
+ ing,org.hibernate.ejb.transaction,org.hibernate.ejb.util,org.hibernat
+ e.engine,org.hibernate.engine.loading,org.hibernate.engine.query,org.
+ hibernate.engine.query.sql,org.hibernate.engine.transaction,org.hiber
+ nate.event,org.hibernate.event.def,org.hibernate.exception,org.hibern
+ ate.hql,org.hibernate.hql.antlr,org.hibernate.hql.ast,org.hibernate.h
+ ql.ast.exec,org.hibernate.hql.ast.tree,org.hibernate.hql.ast.util,org
+ .hibernate.hql.classic,org.hibernate.id,org.hibernate.id.enhanced,org
+ .hibernate.id.insert,org.hibernate.impl,org.hibernate.intercept,org.h
+ ibernate.intercept.cglib,org.hibernate.intercept.javassist,org.hibern
+ ate.jdbc,org.hibernate.jmx,org.hibernate.loader,org.hibernate.loader.
+ collection,org.hibernate.loader.criteria,org.hibernate.loader.custom,
+ org.hibernate.loader.custom.sql,org.hibernate.loader.entity,org.hiber
+ nate.loader.hql,org.hibernate.lob,org.hibernate.mapping,org.hibernate
+ .metadata,org.hibernate.param,org.hibernate.persister,org.hibernate.p
+ ersister.collection,org.hibernate.persister.entity,org.hibernate.pret
+ ty,org.hibernate.property,org.hibernate.proxy,org.hibernate.proxy.dom
+ 4j,org.hibernate.proxy.map,org.hibernate.proxy.pojo,org.hibernate.pro
+ xy.pojo.cglib,org.hibernate.proxy.pojo.javassist,org.hibernate.search
+ ,org.hibernate.search.annotations,org.hibernate.search.backend,org.hi
+ bernate.search.backend.impl,org.hibernate.search.backend.impl.jms,org
+ .hibernate.search.backend.impl.lucene,org.hibernate.search.bridge,org
+ .hibernate.search.bridge.builtin,org.hibernate.search.engine,org.hibe
+ rnate.search.event,org.hibernate.search.filter,org.hibernate.search.i
+ mpl,org.hibernate.search.jpa,org.hibernate.search.jpa.impl,org.hibern
+ ate.search.query,org.hibernate.search.reader,org.hibernate.search.sto
+ re,org.hibernate.search.store.optimization,org.hibernate.search.util,
+ org.hibernate.secure,org.hibernate.sql,org.hibernate.stat,org.hiberna
+ te.tool,org.hibernate.tool.ant,org.hibernate.tool.hbm2ddl,org.hiberna
+ te.tool.hbm2x,org.hibernate.tool.hbm2x.doc,org.hibernate.tool.hbm2x.p
+ ojo,org.hibernate.tool.hbm2x.visitor,org.hibernate.tool.hbmlint,org.h
+ ibernate.tool.hbmlint.detector,org.hibernate.tool.ide.completion,org.
+ hibernate.tool.ide.formatting,org.hibernate.tool.instrument,org.hiber
+ nate.tool.instrument.cglib,org.hibernate.tool.instrument.javassist,or
+ g.hibernate.tool.stat,org.hibernate.transaction,org.hibernate.transfo
+ rm,org.hibernate.tuple,org.hibernate.tuple.component,org.hibernate.tu
+ ple.entity,org.hibernate.type,org.hibernate.usertype,org.hibernate.ut
+ il,org.hibernate.validator,org.hibernate.validator.event,org.hibernat
+ e.validator.interpolator,org.hibernate.validator.resources,org.jboss,
+ org.jboss.cache,org.jboss.cache.aop,org.jboss.cache.aop.collection,or
+ g.jboss.cache.aop.util,org.jboss.cache.config,org.jboss.cache.evictio
+ n,org.jboss.cache.factories,org.jboss.cache.interceptors,org.jboss.ca
+ che.loader,org.jboss.cache.loader.bdbje,org.jboss.cache.loader.rmi,or
+ g.jboss.cache.loader.tcp,org.jboss.cache.lock,org.jboss.cache.marshal
+ l,org.jboss.cache.optimistic,org.jboss.cache.rpc,org.jboss.cache.stat
+ etransfer,org.jboss.cache.transaction,org.jboss.cache.util,org.jboss.
+ cache.xml,org.jboss.deployment,org.jboss.deployment.cache,org.jboss.d
+ eployment.scanner,org.jboss.logging,org.jboss.logging.appender,org.jb
+ oss.logging.filter,org.jboss.logging.layout,org.jboss.logging.util,or
+ g.jboss.mx.capability,org.jboss.mx.interceptor,org.jboss.mx.loading,o
+ rg.jboss.mx.metadata,org.jboss.mx.modelmbean,org.jboss.mx.notificatio
+ n,org.jboss.mx.persistence,org.jboss.mx.server,org.jboss.mx.server.re
+ gistry,org.jboss.mx.service,org.jboss.mx.util,org.jboss.mx.util.prope
+ rtyeditor,org.jboss.net.protocol,org.jboss.net.protocol.file,org.jbos
+ s.net.protocol.http,org.jboss.net.protocol.njar,org.jboss.net.protoco
+ l.resource,org.jboss.net.sockets,org.jboss.net.ssl,org.jboss.system,o
+ rg.jboss.system.pm,org.jboss.system.server,org.jboss.util,org.jboss.u
+ til.coerce,org.jboss.util.collection,org.jboss.util.deadlock,org.jbos
+ s.util.file,org.jboss.util.id,org.jboss.util.loading,org.jboss.util.p
+ latform,org.jboss.util.property,org.jboss.util.property.jmx,org.jboss
+ .util.propertyeditor,org.jboss.util.state,org.jboss.util.state.xml,or
+ g.jboss.util.stream,org.jboss.util.threadpool,org.jboss.util.timeout,
+ org.jboss.util.xml,org.jboss.xml,org.jboss.xml.binding,org.jboss.xml.
+ binding.metadata,org.jboss.xml.binding.metadata.marshalling,org.jboss
+ .xml.binding.metadata.unmarshalling,org.jboss.xml.binding.metadata.un
+ marshalling.impl,org.jboss.xml.binding.parser,org.jboss.xml.binding.p
+ arser.sax,org.jboss.xml.binding.parser.xni,org.jgroups,org.jgroups.bl
+ ocks,org.jgroups.conf,org.jgroups.debug,org.jgroups.demos,org.jgroups
+ .demos.applets,org.jgroups.demos.wb,org.jgroups.persistence,org.jgrou
+ ps.protocols,org.jgroups.protocols.pbcast,org.jgroups.protocols.ring,
+ org.jgroups.service,org.jgroups.service.lease,org.jgroups.stack,org.j
+ groups.tests,org.jgroups.tests.adapt,org.jgroups.tests.adaptjms,org.j
+ groups.tests.adapttcp,org.jgroups.tests.adaptudp,org.jgroups.tests.pe
+ rf,org.jgroups.tests.perf.transports,org.jgroups.tests.stack,org.jgro
+ ups.util,org.logicalcobwebs.asm,org.logicalcobwebs.asm.tree,org.logic
+ alcobwebs.asm.util,org.logicalcobwebs.cglib.core,org.logicalcobwebs.c
+ glib.proxy,org.logicalcobwebs.cglib.reflect,org.logicalcobwebs.cglib.
+ util,org.logicalcobwebs.concurrent,org.logicalcobwebs.logging,org.log
+ icalcobwebs.logging.impl,org.logicalcobwebs.proxool,org.logicalcobweb
+ s.proxool.admin,org.logicalcobwebs.proxool.admin.jmx,org.logicalcobwe
+ bs.proxool.admin.servlet,org.logicalcobwebs.proxool.configuration,org
+ .logicalcobwebs.proxool.resources,org.logicalcobwebs.proxool.util,org
+ .objectweb.asm,org.objectweb.asm.attrs,org.objectweb.jotm,org.objectw
+ eb.jotm.jta.jeremie,org.objectweb.jotm.jta.rmi,org.objectweb.jotm.ots
+ ,org.objectweb.transaction.jta,org.springframework.aop,org.springfram
+ ework.aop.aspectj,org.springframework.aop.aspectj.annotation,org.spri
+ ngframework.aop.aspectj.autoproxy,org.springframework.aop.config,org.
+ springframework.aop.framework,org.springframework.aop.framework.adapt
+ er,org.springframework.aop.framework.autoproxy,org.springframework.ao
+ p.framework.autoproxy.target,org.springframework.aop.interceptor,org.
+ springframework.aop.scope,org.springframework.aop.support,org.springf
+ ramework.aop.support.annotation,org.springframework.aop.target,org.sp
+ ringframework.aop.target.dynamic,org.springframework.asm,org.springfr
+ amework.asm.commons,org.springframework.asm.signature,org.springframe
+ work.beans,org.springframework.beans.annotation,org.springframework.b
+ eans.factory,org.springframework.beans.factory.access,org.springframe
+ work.beans.factory.access.el,org.springframework.beans.factory.annota
+ tion,org.springframework.beans.factory.config,org.springframework.bea
+ ns.factory.generic,org.springframework.beans.factory.parsing,org.spri
+ ngframework.beans.factory.serviceloader,org.springframework.beans.fac
+ tory.support,org.springframework.beans.factory.wiring,org.springframe
+ work.beans.factory.xml,org.springframework.beans.propertyeditors,org.
+ springframework.beans.support,org.springframework.cache.ehcache,org.s
+ pringframework.context,org.springframework.context.access,org.springf
+ ramework.context.annotation,org.springframework.context.config,org.sp
+ ringframework.context.event,org.springframework.context.i18n,org.spri
+ ngframework.context.support,org.springframework.context.weaving,org.s
+ pringframework.core,org.springframework.core.annotation,org.springfra
+ mework.core.enums,org.springframework.core.io,org.springframework.cor
+ e.io.support,org.springframework.core.style,org.springframework.core.
+ task,org.springframework.core.task.support,org.springframework.core.t
+ ype,org.springframework.core.type.classreading,org.springframework.co
+ re.type.filter,org.springframework.dao,org.springframework.dao.annota
+ tion,org.springframework.dao.support,org.springframework.ejb.access,o
+ rg.springframework.ejb.config,org.springframework.ejb.interceptor,org
+ .springframework.ejb.support,org.springframework.instrument.classload
+ ing,org.springframework.instrument.classloading.glassfish,org.springf
+ ramework.instrument.classloading.oc4j,org.springframework.instrument.
+ classloading.tomcat,org.springframework.instrument.classloading.weblo
+ gic,org.springframework.jca.cci,org.springframework.jca.cci.connectio
+ n,org.springframework.jca.cci.core,org.springframework.jca.cci.core.s
+ upport,org.springframework.jca.cci.object,org.springframework.jca.con
+ text,org.springframework.jca.endpoint,org.springframework.jca.support
+ ,org.springframework.jca.work,org.springframework.jca.work.glassfish,
+ org.springframework.jca.work.jboss,org.springframework.jdbc,org.sprin
+ gframework.jdbc.core,org.springframework.jdbc.core.metadata,org.sprin
+ gframework.jdbc.core.namedparam,org.springframework.jdbc.core.simple,
+ org.springframework.jdbc.core.support,org.springframework.jdbc.dataso
+ urce,org.springframework.jdbc.datasource.lookup,org.springframework.j
+ dbc.object,org.springframework.jdbc.support,org.springframework.jdbc.
+ support.incrementer,org.springframework.jdbc.support.lob,org.springfr
+ amework.jdbc.support.nativejdbc,org.springframework.jdbc.support.rows
+ et,org.springframework.jms,org.springframework.jms.config,org.springf
+ ramework.jms.connection,org.springframework.jms.core,org.springframew
+ ork.jms.core.support,org.springframework.jms.listener,org.springframe
+ work.jms.listener.adapter,org.springframework.jms.listener.endpoint,o
+ rg.springframework.jms.listener.serversession,org.springframework.jms
+ .remoting,org.springframework.jms.support,org.springframework.jms.sup
+ port.converter,org.springframework.jms.support.destination,org.spring
+ framework.jmx,org.springframework.jmx.access,org.springframework.jmx.
+ export,org.springframework.jmx.export.annotation,org.springframework.
+ jmx.export.assembler,org.springframework.jmx.export.metadata,org.spri
+ ngframework.jmx.export.naming,org.springframework.jmx.export.notifica
+ tion,org.springframework.jmx.support,org.springframework.jndi,org.spr
+ ingframework.jndi.support,org.springframework.mail,org.springframewor
+ k.mail.javamail,org.springframework.metadata,org.springframework.meta
+ data.commons,org.springframework.orm,org.springframework.orm.hibernat
+ e3,org.springframework.orm.hibernate3.annotation,org.springframework.
+ orm.hibernate3.support,org.springframework.orm.ibatis,org.springframe
+ work.orm.ibatis.support,org.springframework.orm.jdo,org.springframewo
+ rk.orm.jdo.support,org.springframework.orm.jpa,org.springframework.or
+ m.jpa.persistenceunit,org.springframework.orm.jpa.support,org.springf
+ ramework.orm.jpa.vendor,org.springframework.orm.toplink,org.springfra
+ mework.orm.toplink.support,org.springframework.remoting,org.springfra
+ mework.remoting.caucho,org.springframework.remoting.httpinvoker,org.s
+ pringframework.remoting.jaxrpc,org.springframework.remoting.jaxrpc.su
+ pport,org.springframework.remoting.jaxws,org.springframework.remoting
+ .rmi,org.springframework.remoting.soap,org.springframework.remoting.s
+ upport,org.springframework.scheduling,org.springframework.scheduling.
+ backportconcurrent,org.springframework.scheduling.commonj,org.springf
+ ramework.scheduling.concurrent,org.springframework.scheduling.quartz,
+ org.springframework.scheduling.support,org.springframework.scheduling
+ .timer,org.springframework.scripting,org.springframework.scripting.bs
+ h,org.springframework.scripting.config,org.springframework.scripting.
+ groovy,org.springframework.scripting.jruby,org.springframework.script
+ ing.support,org.springframework.stereotype,org.springframework.transa
+ ction,org.springframework.transaction.annotation,org.springframework.
+ transaction.config,org.springframework.transaction.interceptor,org.sp
+ ringframework.transaction.jta,org.springframework.transaction.support
+ ,org.springframework.ui,org.springframework.ui.context,org.springfram
+ ework.ui.context.support,org.springframework.ui.freemarker,org.spring
+ framework.ui.jasperreports,org.springframework.ui.velocity,org.spring
+ framework.util,org.springframework.util.comparator,org.springframewor
+ k.util.xml,org.springframework.validation,org.springframework.web,org
+ .springframework.web.context,org.springframework.web.context.request,
+ org.springframework.web.context.support,org.springframework.web.filte
+ r,org.springframework.web.jsf,org.springframework.web.jsf.el,org.spri
+ ngframework.web.util,org.w3c.tidy,org.w3c.tidy.ant,pojo
+Bundle-ClassPath: org.hibernate.eclipse.jar,myeclipse-data/3.0/lib/asm
+ .jar,myeclipse-data/3.0/lib/asm-attrs.jar,myeclipse-data/3.0/lib/comm
+ ons-collections-2.1.1.jar,myeclipse-data/3.0/lib/commons-logging-1.0.
+ 4.jar,myeclipse-data/3.0/lib/concurrent-1.3.2.jar,myeclipse-data/3.0/
+ lib/connector.jar,myeclipse-data/3.1/lib/dom4j-1.6.1.jar,lib/hibernat
+ e/hibernate3.jar,myeclipse-data/3.2/lib/jboss-cache.jar,myeclipse-dat
+ a/3.0/lib/optional/jboss-common.jar,myeclipse-data/3.0/lib/optional/j
+ boss-jmx.jar,myeclipse-data/3.0/lib/optional/jboss-system.jar,myeclip
+ se-data/3.0/lib/jdbc2_0-stdext.jar,myeclipse-data/3.0/lib/jta.jar,mye
+ clipse-data/3.0/lib/jaas.jar,myeclipse-data/3.0/lib/oscache-2.1.jar,m
+ yeclipse-data/3.0/lib/proxool-0.8.3.jar,myeclipse-data/3.0/lib/swarmc
+ ache-1.0rc2.jar,lib/tools/hibernate-tools.jar,lib/tools/freemarker.ja
+ r,lib/bsh-core-2.0b4.jar,myeclipse-data/3.2/lib/entitymanager/ejb3-pe
+ rsistence.jar,lib/annotations/hibernate-annotations.jar,myeclipse-dat
+ a/3.1/lib/cglib-2.1.3.jar,myeclipse-data/3.1/lib/jgroups-2.2.8.jar,my
+ eclipse-data/3.2/lib/antlr-2.7.6.jar,lib/tools/jtidy-r8-20060801.jar,
+ lib/annotations/hibernate-entitymanager.jar,myeclipse-data/3.2/lib/ja
+ vassist.jar,myeclipse-data/3.2/lib/ehcache-1.2.3.jar,myeclipse-data/3
+ .2/lib/c3p0-0.9.1.jar,lib/annotations/hibernate-commons-annotations.j
+ ar,myeclipse-data/3.2/lib/entitymanager/hibernate-validator.jar,lib/a
+ nnotations/hibernate-search.jar,lib/annotations/lucene-core-2.2.0.jar
+ ,lib/hibernate/log4j-1.2.15.jar,lib/tools/velocity-1.4.jar,lib/tools/
+ velocity-tools-generic-1.1.jar,lib/springhibernate/commons-dbcp.jar,l
+ ib/springhibernate/commons-pool.jar,lib/springhibernate/jotm.jar,lib/
+ springhibernate/spring.jar
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui.console,org.ec
+ lipse.jface,org.eclipse.wst.xml.core
+Bundle-Vendor: %bundleVendor
+Eclipse-LazyStart: true
+Bundle-Version: 3.2.4.CR1-me201003101716
+Eclipse-BuddyPolicy: registered
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.hibernate.eclipse.HibernatePlugin
+Bundle-SymbolicName: com.genuitec.org.hibernate.eclipse;singleton:=tru
+ e
+
+Name: myeclipse-data/3.1/lib/licenses/apache.license.txt
+SHA1-Digest: eQWshMjGBhRUgcLraogPRg/dZI4=
+
+Name: myeclipse-data/3.1/lib/jgroups-2.2.8.jar
+SHA1-Digest: ExEsKXC3K/Mj9ZmgPw17930Dc9U=
+
+Name: lib/annotations/hibernate-search.jar
+SHA1-Digest: YxVuJyHxe70hwjvO9Vgj8dYBf/M=
+
+Name: lib/annotations/hibernate-entitymanager.jar
+SHA1-Digest: JpKYzSfHJwylBzkvHG2M3dqkIKY=
+
+Name: myeclipse-data/3.2/lib/licenses/lgpl.txt
+SHA1-Digest: y5rjvGlFeFbHOl5OYUqp9wh/nk8=
+
+Name: myeclipse-data/3.0/lib/xerces-2.6.2.jar
+SHA1-Digest: WZS53yPN/xCcKPgmO1roekDJCQo=
+
+Name: hibernate-log4j.properties
+SHA1-Digest: CAaB9kyc2j0hCVMk7CtuR+sz82g=
+
+Name: myeclipse-data/3.2/lib/hibernate3.jar
+SHA1-Digest: jKqbFoMta3v2KZ//tlJ/nF+XHUo=
+
+Name: org.hibernate.eclipse.jar
+SHA1-Digest: ndS2wQtbhgP2HXzrtwEkuxBRCCM=
+
+Name: myeclipse-data/3.3/lib/optional/c3p0/c3p0-0.9.1.jar
+SHA1-Digest: B1n2wR9RXueZgUxD5KUCgSIAFMo=
+
+Name: myeclipse-data/3.1/lib/licenses/connector.licence.txt
+SHA1-Digest: kmvvWczApkD7cqBAdeNzsMmoW/o=
+
+Name: myeclipse-data/3.2/lib/c3p0-0.9.1.jar
+SHA1-Digest: B1n2wR9RXueZgUxD5KUCgSIAFMo=
+
+Name: myeclipse-data/3.0/lib/jta.jar
+SHA1-Digest: PdFXpPT+EVrF0WXWwhRj0M6ePHs=
+
+Name: myeclipse-data/3.0/lib/concurrent-1.3.2.jar
+SHA1-Digest: kCds5kx3zPaDwExAOIizYcu2jys=
+
+Name: myeclipse-data/3.2/lib/entitymanager/jboss-archive-browsing.jar
+SHA1-Digest: clcOrpXvynVxsAKMoeqP40hUirM=
+
+Name: myeclipse-data/3.0/lib/commons-logging-1.0.4.jar
+SHA1-Digest: 8Cmirv4rPhUXVzxYD5SMqsMbEFY=
+
+Name: myeclipse-data/3.2/lib/licenses/c3p0.license.txt
+SHA1-Digest: 5gwueAiG+V35ye42mSuO2r7AC8w=
+
+Name: lib/springhibernate/commons-pool.jar
+SHA1-Digest: DrI3JsanGEUiE5H5hUe8BNOsw58=
+
+Name: myeclipse-data/3.0/lib/commons-collections-2.1.1.jar
+SHA1-Digest: AXxZnPzJjTHOLSaItPiCa765qpg=
+
+Name: myeclipse-data/3.3/lib/bytecode/javassist/javassist-3.9.0.GA.jar
+SHA1-Digest: gy33qPMp/xKFoRV2BGhHo4t0nUU=
+
+Name: myeclipse-data/3.3/lib/entitymanager/dom4j.jar
+SHA1-Digest: XTzMBWtvBW2/Dd399DiUuQZaj5Q=
+
+Name: myeclipse-data/2.1/lib/_README.txt
+SHA1-Digest: xdyogq9L99+e0nxiIcfcIYM35V8=
+
+Name: myeclipse-data/2.1/lib/dom4j-1.4.jar
+SHA1-Digest: jey34sBMk0A3Wq991Dp6apuaRrE=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-system.jar
+SHA1-Digest: Pu7xcneYTx8TMkVogRdv4u+ThUE=
+
+Name: myeclipse-data/3.0/lib/log4j-1.2.9.jar
+SHA1-Digest: VYVtcRq4uI+MewT9hf8WQ/+/3nw=
+
+Name: myeclipse-data/3.2/lib/licenses/apache.license.txt
+SHA1-Digest: eQWshMjGBhRUgcLraogPRg/dZI4=
+
+Name: myeclipse-data/3.0/lib/licenses/apache.license.txt
+SHA1-Digest: eQWshMjGBhRUgcLraogPRg/dZI4=
+
+Name: myeclipse-data/3.1/lib/licenses/c3p0.license.txt
+SHA1-Digest: 5gwueAiG+V35ye42mSuO2r7AC8w=
+
+Name: myeclipse-data/3.2/lib/readme.txt
+SHA1-Digest: xpe5lIvOl7ybyBm4LER0T+ZeR28=
+
+Name: myeclipse-data/2.1/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: 8sA9eL++tciBjbBOTHPZYFecs+M=
+
+Name: myeclipse-data/2.1/lib/xerces-2.4.0.jar
+SHA1-Digest: nU/KGhLp4Gdk61MOjeI1OSHw5Dc=
+
+Name: myeclipse-data/2.1/lib/proxool-0.8.3.jar
+SHA1-Digest: 5oZ7pbZOn6TtjDP8iYhxBekNADs=
+
+Name: myeclipse-data/2.1/lib/jgroups-2.2.7.jar
+SHA1-Digest: FSAamJSJctTokKHZvWtyi5F+8hw=
+
+Name: lib/hibernate/hibernate3.jar
+SHA1-Digest: ekOw2Nn3M5jUQF7ODsgTY1lSix4=
+
+Name: myeclipse-data/3.0/lib/antlr-2.7.5H3.jar
+SHA1-Digest: qGPjILKflHddNtp1YIc6uZYICWA=
+
+Name: myeclipse-data/2.1/lib/licenses/c3p0.license.txt
+SHA1-Digest: r5jowKHkZds5cAD03AAkAB0HgOk=
+
+Name: myeclipse-data/3.0/lib/jaas.licence.txt
+SHA1-Digest: 1a7RJG+O1rKrTCmZr0gQQbMunBc=
+
+Name: myeclipse-data/3.2/lib/entitymanager/readme.txt
+SHA1-Digest: zCv/ZUpcyJo7deMYr3w4OEHf2zA=
+
+Name: myeclipse-data/3.1/lib/licenses/jta.licence.txt
+SHA1-Digest: gYx0w9JV27jvjufKBZe6JNMjCCE=
+
+Name: myeclipse-data/3.1/lib/jaxen-1.1-beta-7.jar
+SHA1-Digest: 0zTiGEaAu3k32s6f2LgMXt2IDk8=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-entitymanager.jar
+SHA1-Digest: mb7QrGk0YwXjBlL1fjDGKlh0xBs=
+
+Name: myeclipse-data/3.3/lib/_README.txt
+SHA1-Digest: 6eSH18rdgk12zWxNb6da5yto+zY=
+
+Name: about.html
+SHA1-Digest: nVPNN+NFR9ft4joPv3BWkmRXZGU=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-jmx.jar
+SHA1-Digest: PTjlI0xOmUfuIV6G0zzEt9uuV4I=
+
+Name: myeclipse-data/2.1/lib/xml-apis.jar
+SHA1-Digest: XzuuxzJi6+vIekV/skASvttvDKY=
+
+Name: myeclipse-data/2.1/lib/licenses/jaas.licence.txt
+SHA1-Digest: 1a7RJG+O1rKrTCmZr0gQQbMunBc=
+
+Name: lib/annotations/hibernate-commons-annotations.jar
+SHA1-Digest: yPU3Mv47dZNfBVC9w7qSvJNFNg8=
+
+Name: myeclipse-data/2.1/lib/oscache-2.0.jar
+SHA1-Digest: A0XlZJ/cwcJUSkolCVnhAB6PEH8=
+
+Name: myeclipse-data/2.1/lib/jta.jar
+SHA1-Digest: PdFXpPT+EVrF0WXWwhRj0M6ePHs=
+
+Name: lib/annotations/hibernate-annotations.jar
+SHA1-Digest: hvw8WxHYpphQK+ZD8B7m20XgB7A=
+
+Name: lib/annotations/lucene-core-2.2.0.jar
+SHA1-Digest: R7bu4uF71okR5wRYlqHAneCy3ag=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-system.jar
+SHA1-Digest: 7XMlqJ8pjny7t/UYoY87CfDCNDM=
+
+Name: myeclipse-data/3.3/lib/hibernate-validator.jar
+SHA1-Digest: sBokVFE0eGN+LUEJ1UwfUtwr6lM=
+
+Name: myeclipse-data/2.1/lib/swarmcache-1.0rc2.jar
+SHA1-Digest: t0CDiHcWwtwGvvbdwcflrgnafsY=
+
+Name: myeclipse-data/2.1/lib/licenses/apache.license.txt
+SHA1-Digest: eQWshMjGBhRUgcLraogPRg/dZI4=
+
+Name: lib/tools/jtidy-r8-20060801.jar
+SHA1-Digest: eI6Jd17qoPTnd0LsgzbHW3z/YUY=
+
+Name: myeclipse-data/3.0/lib/cleanimports.jar
+SHA1-Digest: YBpdsBXqxpGGAVuz+hoW0aMHBEE=
+
+Name: myeclipse-data/3.0/lib/jdbc2_0-stdext.jar
+SHA1-Digest: pbY8gx4ohlFmElj36Z8hQ5iHHAs=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-annotations.jar
+SHA1-Digest: DEl1dyvl2exxO/R1zzMVqtg7kEY=
+
+Name: myeclipse-data/3.3/lib/bytecode/cglib/cglib-2.2.jar
+SHA1-Digest: l9A0YdwcBP/GNtyyV5qudySnjvI=
+
+Name: myeclipse-data/3.0/lib/connector.jar
+SHA1-Digest: 4ciLHgZmgKr2En7snTmBB1OxkoI=
+
+Name: myeclipse-data/3.0/lib/dom4j-1.6.jar
+SHA1-Digest: UpVV3U04cqWfWsIUz76P4TOcJx0=
+
+Name: myeclipse-data/3.0/lib/jaas.jar
+SHA1-Digest: fLM/Y4hwg8gPbQHfZ61ZkwlNhYY=
+
+Name: myeclipse-data/3.3/lib/entitymanager/ejb3-persistence.jar
+SHA1-Digest: vmSDtu1goVWI9U+RwloJx0XfB2A=
+
+Name: myeclipse-data/2.1/lib/commons-dbcp-1.2.1.jar
+SHA1-Digest: rQ1zv2CbTjnao69I8aQykHIW9l4=
+
+Name: myeclipse-data/2.1/lib/licenses/jta.licence.txt
+SHA1-Digest: gYx0w9JV27jvjufKBZe6JNMjCCE=
+
+Name: myeclipse-data/3.1/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: 8sA9eL++tciBjbBOTHPZYFecs+M=
+
+Name: myeclipse-data/2.1/lib/jcs-1.0-dev.jar
+SHA1-Digest: XQix16vH5xmmMFWRN1d0Ag9mpq4=
+
+Name: lib/tools/hibernate-tools.jar
+SHA1-Digest: ZuW6c+UMKICSL2Dg6SAmaNR8Sv0=
+
+Name: myeclipse-data/3.0/lib/optional/version.properties
+SHA1-Digest: eecX+DRoy8aG5b8l5bktM4Nm8C8=
+
+Name: about.properties
+SHA1-Digest: WMdoiT+XrVIpP+vuLkaD64Agso8=
+
+Name: myeclipse-data/3.0/lib/licenses/antlr.license.txt
+SHA1-Digest: oILP1PcPlk6D+U7XeToeEY+xBNY=
+
+Name: plugin.xml
+SHA1-Digest: uK3gvJoOGgCuStjBtZB6oDFVQ7U=
+
+Name: myeclipse-data/3.0/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: 8sA9eL++tciBjbBOTHPZYFecs+M=
+
+Name: myeclipse-data/3.3/lib/optional/proxool/proxool-0.8.3.jar
+SHA1-Digest: 5oZ7pbZOn6TtjDP8iYhxBekNADs=
+
+Name: schema/configurationrepository.exsd
+SHA1-Digest: NJXYHEdFEQY0rHOvIUB6b/mKAZ0=
+
+Name: myeclipse-data/3.1/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: myeclipse-data/3.3/lib/required/jta-1.1.jar
+SHA1-Digest: 07gL7wMWj7krUNbXw6OpYR/MAUM=
+
+Name: myeclipse-data/3.2/lib/version.properties
+SHA1-Digest: Lo2xmIlpO55l07+Ld4u+s9QLQsQ=
+
+Name: lib/hibernate/log4j-1.2.15.jar
+SHA1-Digest: 8KDS4p7ZEICMMxNaOlpRu6Y1j3s=
+
+Name: myeclipse-data/3.1/lib/licenses/jaas.licence.txt
+SHA1-Digest: 1a7RJG+O1rKrTCmZr0gQQbMunBc=
+
+Name: myeclipse-data/2.1/lib/licenses/connector.licence.txt
+SHA1-Digest: kmvvWczApkD7cqBAdeNzsMmoW/o=
+
+Name: lib/hibernate/connector.jar
+SHA1-Digest: 4ciLHgZmgKr2En7snTmBB1OxkoI=
+
+Name: myeclipse-data/2.1/lib/connector.jar
+SHA1-Digest: 4ciLHgZmgKr2En7snTmBB1OxkoI=
+
+Name: hibernate_icon.gif
+SHA1-Digest: LbUwvdqhG7XRTns8RR83DAtWF44=
+
+Name: myeclipse-data/2.1/lib/jaas.jar
+SHA1-Digest: fLM/Y4hwg8gPbQHfZ61ZkwlNhYY=
+
+Name: myeclipse-data/2.1/lib/commons-lang-1.0.1.jar
+SHA1-Digest: iOT1XcSsQlu1YrWTPa5kQMz5HIc=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-commons-annotatio
+ ns.jar
+SHA1-Digest: 1MraQZaSkqc/mOqmduBpXO8vjKk=
+
+Name: lib/tools/velocity-1.4.jar
+SHA1-Digest: k21WyCEDZE7wQhOdnnlswM+O3DI=
+
+Name: myeclipse-data/3.3/lib/required/commons-collections-3.1.jar
+SHA1-Digest: QPsEgJfK6s2xHbsztXVYVNie/es=
+
+Name: myeclipse-data/3.0/lib/asm.jar
+SHA1-Digest: LXDdH7dvzEnBMcbYQdYlMocJCdA=
+
+Name: lib/tools/freemarker.jar
+SHA1-Digest: vYWQdzhAXI+J4f4Z9it6AkZxfWs=
+
+Name: myeclipse-data/2.1/lib/ehcache-0.9.jar
+SHA1-Digest: 3v6CppAP3T5EXUcShccP5iYzApw=
+
+Name: myeclipse-data/2.1/lib/odmg-3.0.jar
+SHA1-Digest: qY39oEUVEIZ4rpzr4QBugQSLjtA=
+
+Name: myeclipse-data/3.0/lib/cglib-2.1.jar
+SHA1-Digest: sXd7vWI5WWf40hiUN9bWOb4TCMc=
+
+Name: lib/bsh-core-2.0b4.jar
+SHA1-Digest: SV4lqZ4plw/+i6Cx1VHh0amZH8E=
+
+Name: myeclipse-data/3.1/lib/_README.txt
+SHA1-Digest: w/+d4yX5pYcOpKu9agEWRGfHaM4=
+
+Name: plugin.properties
+SHA1-Digest: 6JiBfQr5q7BKwrldivDucsuBBXM=
+
+Name: myeclipse-data/3.3/lib/required/slf4j-log4j12-1.5.8.jar
+SHA1-Digest: NJhS8SCQgQopJ14N2uVj6xycwKk=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-annotations.jar
+SHA1-Digest: IIOyd8dgNyUxidF+aLqG0tpHhEA=
+
+Name: myeclipse-data/3.0/lib/_README.txt
+SHA1-Digest: qwp544L9da4AShD723Y4CSncma8=
+
+Name: lib/springhibernate/jotm.jar
+SHA1-Digest: LSqieXWGfKBBYeKcpSeV1QSoy7s=
+
+Name: myeclipse-data/3.0/lib/hibernate3.jar
+SHA1-Digest: FbxxGGZfeFWTY73xvZQtE19og90=
+
+Name: myeclipse-data/3.2/lib/ehcache-1.2.3.jar
+SHA1-Digest: J2OfOU+5ZXMMM0ZIsHA/7mHILHo=
+
+Name: about.ini
+SHA1-Digest: ncJLvQXaU2KFGqmSMwhX8urad4U=
+
+Name: myeclipse-data/2.1/lib/concurrent-1.3.3.jar
+SHA1-Digest: 3VZEG8SD/uYf05kL+tjbWi/vf1k=
+
+Name: myeclipse-data/3.2/lib/javassist.jar
+SHA1-Digest: Tf8CynaWmCcAuNslQzKJNkzAKP8=
+
+Name: myeclipse-data/3.1/lib/cglib-2.1.3.jar
+SHA1-Digest: 04UeNmuf6LfYIV3g+euYCzWdjeA=
+
+Name: myeclipse-data/3.0/lib/oscache-2.1.jar
+SHA1-Digest: 7opEOWdzdZmP0tn7wlSS5adMIKk=
+
+Name: myeclipse-data/2.1/lib/log4j-1.2.8.jar
+SHA1-Digest: NkDdcQadeYbJoU0zNRkhb0ylwJQ=
+
+Name: myeclipse-data/3.3/lib/hibernate3.jar
+SHA1-Digest: 49CjPQsNJc0tbNU8tDv+k2Md7IM=
+
+Name: myeclipse-data/3.0/lib/c3p0-0.8.5.2.jar
+SHA1-Digest: dhwl7ugKckr03PF4yQn+Yi8hSl4=
+
+Name: myeclipse-data/3.2/lib/jboss-cache.jar
+SHA1-Digest: Gqnx5UpLWKXK9chssA6HN0I+7hU=
+
+Name: lib/springhibernate/commons-dbcp.jar
+SHA1-Digest: T9TGEQ6byjplW3F+suWSD+u4QD0=
+
+Name: myeclipse-data/3.0/lib/licenses/c3p0.license.txt
+SHA1-Digest: 5gwueAiG+V35ye42mSuO2r7AC8w=
+
+Name: myeclipse-data/3.0/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-entitymanager.jar
+SHA1-Digest: UEsc9TZa7aD5UPebmj7ppcnxi58=
+
+Name: myeclipse-data/3.3/lib/optional/swarmcache/swarmcache-1.0RC2.jar
+SHA1-Digest: t0CDiHcWwtwGvvbdwcflrgnafsY=
+
+Name: myeclipse-data/3.1/lib/antlr-2.7.6rc1.jar
+SHA1-Digest: SPFIyQnlrTNVEEmQgKOn9Qo+JcE=
+
+Name: myeclipse-data/3.0/lib/xml-apis.jar
+SHA1-Digest: XzuuxzJi6+vIekV/skASvttvDKY=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-cache.jar
+SHA1-Digest: C4dq1eTkTIicakPzpOljMmeYvBY=
+
+Name: myeclipse-data/3.0/lib/jacc-1_0-fr.jar
+SHA1-Digest: LbBHgTZxQcc09tedrAzcKg1/Et8=
+
+Name: myeclipse-data/3.1/lib/log4j-1.2.11.jar
+SHA1-Digest: 7kKJVVjdWpsCWgI1gHs8XKVgAys=
+
+Name: myeclipse-data/3.2/lib/antlr-2.7.6.jar
+SHA1-Digest: z09n2uXfT5kyrngQ9FSO8+FN014=
+
+Name: myeclipse-data/3.1/lib/dom4j-1.6.1.jar
+SHA1-Digest: XTzMBWtvBW2/Dd399DiUuQZaj5Q=
+
+Name: myeclipse-data/3.3/lib/required/slf4j-api-1.5.8.jar
+SHA1-Digest: Kq9Jbf1VGtubB59Yp+LVXrOD/II=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-common.jar
+SHA1-Digest: zJdNYe1+QHzOalpbMPg0yHoVvuk=
+
+Name: myeclipse-data/3.3/lib/optional/oscache/oscache-2.1.jar
+SHA1-Digest: 7opEOWdzdZmP0tn7wlSS5adMIKk=
+
+Name: myeclipse-data/3.3/lib/optional/ehcache/ehcache-1.2.3.jar
+SHA1-Digest: RhdStOPXOlgVc33yQ3gqxwEStIk=
+
+Name: myeclipse-data/2.1/lib/commons-pool-1.2.jar
+SHA1-Digest: m7eqhEsF2HG8tO6pqaHu3gCE3Z4=
+
+Name: myeclipse-data/3.3/lib/optional/jbosscache/jboss-cache-1.4.1.GA.
+ jar
+SHA1-Digest: /Opo64D17TxktPAUUgWWIJwTGFo=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-common.jar
+SHA1-Digest: rGxVMHrn4nUkTGDtvzRPTcd2bKs=
+
+Name: myeclipse-data/3.1/lib/licenses/antlr.license.txt
+SHA1-Digest: QST/USOi5QoMaPRYhSGq0Q8TKdc=
+
+Name: lib/tools/velocity-tools-generic-1.1.jar
+SHA1-Digest: 1giCm+HxfuUMfTJRqhWaxoQLDa4=
+
+Name: myeclipse-data/3.2/lib/entitymanager/ejb3-persistence.jar
+SHA1-Digest: 9QKyyWyV4IdDXHnT1smqhbsRVLw=
+
+Name: myeclipse-data/2.1/lib/cglib-full-2.0.2.jar
+SHA1-Digest: CFhgtKWYcJLqH5k+QauJ6PxceSg=
+
+Name: myeclipse-data/3.2/lib/changelog.txt
+SHA1-Digest: R5V5lHXEEy+OPxPKXqGRnPeHS8o=
+
+Name: myeclipse-data/3.1/lib/hibernate3.jar
+SHA1-Digest: Ce4AEMmVfc/7LiBfjAS8vnYQH7s=
+
+Name: myeclipse-data/3.2/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: myeclipse-data/3.1/lib/c3p0-0.9.0.jar
+SHA1-Digest: lrDLMYzE3RSpj3o1JQlEGXdY728=
+
+Name: myeclipse-data/2.1/lib/jdbc2_0-stdext.jar
+SHA1-Digest: pbY8gx4ohlFmElj36Z8hQ5iHHAs=
+
+Name: myeclipse-data/3.0/lib/licenses/connector.licence.txt
+SHA1-Digest: kmvvWczApkD7cqBAdeNzsMmoW/o=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-validator.jar
+SHA1-Digest: EFteJJv6Odmy57WjAyyUcSjosag=
+
+Name: myeclipse-data/3.2/lib/_README.txt
+SHA1-Digest: ErHo3/OjIqMd3AzRQrTxIPnXcAo=
+
+Name: about.mappings
+SHA1-Digest: IlNsE++A/kY8Cd8SgW8yCFDq9iA=
+
+Name: myeclipse-data/3.0/lib/ehcache-1.1.jar
+SHA1-Digest: x4HIfC604GKkc4IkhsykbNeFsko=
+
+Name: myeclipse-data/3.3/lib/optional/jbosscache2/jbosscache-core-3.1.
+ 0.GA.jar
+SHA1-Digest: aB5zdRMA4qbtc2g/8I3etswa/pw=
+
+Name: myeclipse-data/2.1/lib/commons-collections-2.1.1.jar
+SHA1-Digest: AXxZnPzJjTHOLSaItPiCa765qpg=
+
+Name: myeclipse-data/3.0/lib/swarmcache-1.0rc2.jar
+SHA1-Digest: t0CDiHcWwtwGvvbdwcflrgnafsY=
+
+Name: myeclipse-data/3.0/lib/proxool-0.8.3.jar
+SHA1-Digest: 5oZ7pbZOn6TtjDP8iYhxBekNADs=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-jmx.jar
+SHA1-Digest: /EEEILaUTgBDo0DMz/bJBsfCbvM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: o/5NpUxgoK6Qu+s9CDM/yulGLig=
+
+Name: myeclipse-data/3.3/lib/required/log4j-1.2.14.jar
+SHA1-Digest: A7JUyHK5UUF1H0FONTolwqwmG1E=
+
+Name: myeclipse-data/2.1/lib/xalan-2.4.0.jar
+SHA1-Digest: LTvhmoyW741f7TFBo199I81fiSc=
+
+Name: myeclipse-data/3.2/lib/licenses/antlr.license.txt
+SHA1-Digest: Ng6e2tu1TjOnRQCQVZLSnmNdPxk=
+
+Name: myeclipse-data/2.1/lib/hibernate2.jar
+SHA1-Digest: wVf7FOL+nhclKAbXb4Fs8uuItcs=
+
+Name: myeclipse-data/3.0/lib/jaxen-1.1-beta-4.jar
+SHA1-Digest: iC8lr4xScvQJgw83/MB0j66mebg=
+
+Name: myeclipse-data/3.0/lib/jgroups-2.2.7.jar
+SHA1-Digest: FSAamJSJctTokKHZvWtyi5F+8hw=
+
+Name: myeclipse-data/2.1/lib/commons-logging-1.0.4.jar
+SHA1-Digest: 8Cmirv4rPhUXVzxYD5SMqsMbEFY=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-commons-annotatio
+ ns.jar
+SHA1-Digest: yPU3Mv47dZNfBVC9w7qSvJNFNg8=
+
+Name: myeclipse-data/3.0/lib/licenses/jta.licence.txt
+SHA1-Digest: gYx0w9JV27jvjufKBZe6JNMjCCE=
+
+Name: myeclipse-data/3.1/lib/version.properties
+SHA1-Digest: J8cZLfg5Ftk3hwulQc5GiqMqsg4=
+
+Name: lib/springhibernate/spring.jar
+SHA1-Digest: s53tzR+iNFB5oFfvrDCwFa5zxWc=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-cache.jar
+SHA1-Digest: PCv4HlURWG6v+sZt4W02yzsr9kE=
+
+Name: myeclipse-data/2.1/lib/c3p0-0.8.4.5.jar
+SHA1-Digest: OH0LS2NygaUphlpFBzVwh39huIE=
+
+Name: myeclipse-data/3.0/lib/asm-attrs.jar
+SHA1-Digest: zBZNBWpxGLenBwX2Qpy8a7RP2Nw=
+

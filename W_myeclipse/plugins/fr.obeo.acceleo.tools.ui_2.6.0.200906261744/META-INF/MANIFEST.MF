@@ -1,0 +1,137 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.tools.ui,fr.obeo.acceleo.tools.ui.grap
+ hics,fr.obeo.acceleo.tools.ui.resources,fr.obeo.acceleo.tools.ui.view
+ s,fr.obeo.acceleo.tools.ui.views.log
+Require-Bundle: org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.run
+ time,org.eclipse.core.resources,org.eclipse.pde.runtime,fr.obeo.accel
+ eo.tools,org.eclipse.pde.ui,com.ibm.icu,org.eclipse.core.filesystem,o
+ rg.eclipse.ui.console,org.eclipse.emf.ecore,org.eclipse.jdt.core,org.
+ eclipse.jdt.launching,org.eclipse.compare,org.eclipse.jdt.ui,org.ecli
+ pse.emf.edit
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.tools.ui.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.tools.ui.AcceleoToolsUiPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.tools.ui; singleton:=true
+
+Name: fr.obeo.acceleo.tools.uisrc.zip
+SHA1-Digest: hUQ898W9hTZ3AfVBwl2xXR5KFIg=
+
+Name: icons/log/elcl16/refresh.gif
+SHA1-Digest: VHUDPMiwiKJcwN0BG7ABhxxFfrA=
+
+Name: icons/log/eview16/event_next.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: icons/log/dlcl16/import_log.gif
+SHA1-Digest: SxtffMU4O/VSeZSN6ImP8rplnhQ=
+
+Name: icons/log/elcl16/clear.gif
+SHA1-Digest: VlQe11EC8Oaogw6cJZ8novJsO8o=
+
+Name: icons/log/eview16/error_log.gif
+SHA1-Digest: LAk9b3JhDZkN7ReBzWYwiAodRNc=
+
+Name: icons/log/obj16/error_st_obj.gif
+SHA1-Digest: WAt1eUSMsWDa3LK80FhLbzh53Uw=
+
+Name: icons/log/dlcl16/filter_ps.gif
+SHA1-Digest: iXPygJMDDBcF32VHQKY9wio+2v8=
+
+Name: icons/log/dlcl16/clear.gif
+SHA1-Digest: TgcAjGyWfMp0Pq94//ebrD5JZ7s=
+
+Name: icons/log/elcl16/export_log.gif
+SHA1-Digest: NOZy9NDgf632qlX0VJzbEZOi52s=
+
+Name: fr.obeo.acceleo.tools.ui.jar
+SHA1-Digest: NKjxeRhY9lcbs8Yza5xYkSz7p0s=
+
+Name: icons/plugins/registry.gif
+SHA1-Digest: Scmr12pNCNs96OMEDm/cOjmVz/c=
+
+Name: icons/log/elcl16/remove.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: icons/log/elcl16/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: icons/log/obj16/warning_st_obj.gif
+SHA1-Digest: B813ktKtSfZ54krEOlrcTF6r6+A=
+
+Name: icons/log/obj16/hierarchical.gif
+SHA1-Digest: J08i2rueFvxIsJ1Z9BgktWZSpEE=
+
+Name: icons/log/dlcl16/collapseall.gif
+SHA1-Digest: EN6RuFqPlyvDFFYtWeaHigGxVBI=
+
+Name: icons/log/elcl16/import_log.gif
+SHA1-Digest: IiLvk1Oh9lWGzlvtDt8psuDtA/U=
+
+Name: icons/log/dlcl16/find_obj.gif
+SHA1-Digest: tJguEhNGo++ldFwR3aTbkHCTaCI=
+
+Name: icons/log/obj16/ok_st_obj.gif
+SHA1-Digest: Ka6cTIH6PVjzjBFO5FbyHku+EDU=
+
+Name: icons/logView.gif
+SHA1-Digest: F0EunRSTWwz9qFsQjp8bh32ELWg=
+
+Name: icons/log/elcl16/properties.gif
+SHA1-Digest: SiN6prHCwieMFicsdiWU6vMEFDc=
+
+Name: icons/log/obj16/error_stack.gif
+SHA1-Digest: VTv+8cZn+XvOTKcMuzexeXXrP54=
+
+Name: plugin.properties
+SHA1-Digest: g9XEeUpxJ/oXtTaq4zrV7Be55Bo=
+
+Name: icons/log/dlcl16/remove.gif
+SHA1-Digest: 7TUbqjqyM3XNK/xYWXoNIIGCXME=
+
+Name: icons/log/elcl16/open_log.gif
+SHA1-Digest: NzsThvdxZF25Scmc9XYVHLaXqjw=
+
+Name: icons/log/dlcl16/open_log.gif
+SHA1-Digest: 7suiR0VdZ70l3bFWcxyR1IyLYcc=
+
+Name: icons/log/dlcl16/properties.gif
+SHA1-Digest: obCjOSQiAKjN6Dog7o9Nqt3PIuY=
+
+Name: icons/log/dlcl16/restore_log.gif
+SHA1-Digest: /6lfyz+Y0NsB0Bixg5zd22Sra+Q=
+
+Name: icons/log/elcl16/restore_log.gif
+SHA1-Digest: i60SMdUakAIIRKakVCon5Ji4s6E=
+
+Name: icons/log/dlcl16/refresh.gif
+SHA1-Digest: Utf/sIa3nWgl458R9yCSi1UtaqE=
+
+Name: icons/log/elcl16/find_obj.gif
+SHA1-Digest: KAeudWAcz8OwfYCiUsRwtKa5t+Q=
+
+Name: icons/log/obj16/info_st_obj.gif
+SHA1-Digest: CpXNe92+/EmxI9jj/+ky1TT7j8A=
+
+Name: plugin.xml
+SHA1-Digest: A7TxLKEUgOk5fLUDe3zN9hvhFKY=
+
+Name: icons/plugins/bundle.gif
+SHA1-Digest: 2QDa5Whjfl+NmWwEyKA7OctzB2o=
+
+Name: icons/log/eview16/event_prev.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: icons/log/dlcl16/export_log.gif
+SHA1-Digest: a2LGTl4B1a3+dIS2v6fiOICN/RI=
+
+Name: icons/plugins/file.gif
+SHA1-Digest: eapzZyAVGzPEpCXOdnmYlVY6Tho=
+
+Name: icons/log/elcl16/filter_ps.gif
+SHA1-Digest: Dgm5TKSpKnWrbtmhTDDVmdrWBzw=
+

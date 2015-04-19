@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easieresin4.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,com.genuitec.eclipse.easie.resin,org.eclipse.core
+ .runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.resin4.Resin4LauncherPlugin
+Bundle-Version: 8.5.0.me201003121946
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.resin4;singleton:=true
+
+Name: icons/stop.gif
+SHA1-Digest: p7vH2XOt5EGARpAYURbkUhybzLY=
+
+Name: preferences.ini
+SHA1-Digest: /IAhHD5tBiN1soa9dK235Vdg3PU=
+
+Name: plugin.xml
+SHA1-Digest: Sr3St8YpkpUAhqwEs6ulIM8x2wU=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: easieresin4.jar
+SHA1-Digest: 14y60nj++/P7m+BeMwyWOQU10EI=
+
+Name: about.html
+SHA1-Digest: xqvo3OGN+e+IWKGP8xeibcPwzzU=
+
+Name: plugin.properties
+SHA1-Digest: dRNSk2ZBmTQusA25zsEa0YccDN4=
+
+Name: icons/start.gif
+SHA1-Digest: 5pPUS+LFBM2//sB8S2NOlVn1nTM=
+

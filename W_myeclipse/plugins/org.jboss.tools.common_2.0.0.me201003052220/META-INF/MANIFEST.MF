@@ -1,0 +1,109 @@
+Manifest-Version: 1.0
+Export-Package: org.jboss.tools.common,org.jboss.tools.common.log,org.
+ jboss.tools.common.reporting,org.jboss.tools.common.util,org.jboss.to
+ ols.common.xml
+Bundle-ClassPath: lib/commons-logging.jar,common.jar,lib/velocity-1.3.
+ 1.jar,lib/velocity-dep-1.3.1.jar,lib/xercesImpl.jar,lib/resolver.jar,
+ lib/commons-lang-2.0.jar,lib/commons-httpclient-3.0.jar,lib/commons-c
+ odec-1.3.jar
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.wst.wsdl.validati
+ on,org.eclipse.wst.xml.core;visibility:=reexport,org.eclipse.jface,or
+ g.eclipse.core.resources,org.eclipse.ui,org.eclipse.ui.ide,org.eclips
+ e.wst.common.uriresolver;visibility:=reexport,org.eclipse.core.net
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Activator: org.jboss.tools.common.CommonPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jboss.tools.common;singleton:=true
+Provide-Package: org.jboss.tools.common,org.jboss.tools.common.reporti
+ ng,org.jboss.tools.common.util,org.jboss.tools.common.xml,org.jboss.t
+ ools.common.log,org.apache.commons.codec,org.apache.commons.codec.bin
+ ary,org.apache.commons.codec.digest,org.apache.commons.codec.language
+ ,org.apache.commons.codec.net,org.apache.commons.collections,org.apac
+ he.commons.httpclient,org.apache.commons.httpclient.auth,org.apache.c
+ ommons.httpclient.cookie,org.apache.commons.httpclient.methods,org.ap
+ ache.commons.httpclient.methods.multipart,org.apache.commons.httpclie
+ nt.params,org.apache.commons.httpclient.protocol,org.apache.commons.h
+ ttpclient.util,org.apache.commons.lang,org.apache.commons.lang.builde
+ r,org.apache.commons.lang.enum,org.apache.commons.lang.exception,org.
+ apache.commons.lang.math,org.apache.commons.lang.time,org.apache.comm
+ ons.logging,org.apache.commons.logging.impl,org.apache.html.dom,org.a
+ pache.log,org.apache.log.filter,org.apache.log.format,org.apache.log.
+ output,org.apache.log.output.db,org.apache.log.output.io,org.apache.l
+ og.output.io.rotate,org.apache.log.output.jms,org.apache.log.output.n
+ et,org.apache.log.util,org.apache.oro.io,org.apache.oro.text,org.apac
+ he.oro.text.awk,org.apache.oro.text.perl,org.apache.oro.text.regex,or
+ g.apache.oro.util,org.apache.velocity,org.apache.velocity.anakia,org.
+ apache.velocity.app,org.apache.velocity.app.event,org.apache.velocity
+ .app.tools,org.apache.velocity.context,org.apache.velocity.convert,or
+ g.apache.velocity.exception,org.apache.velocity.io,org.apache.velocit
+ y.runtime,org.apache.velocity.runtime.compiler,org.apache.velocity.ru
+ ntime.configuration,org.apache.velocity.runtime.directive,org.apache.
+ velocity.runtime.exception,org.apache.velocity.runtime.log,org.apache
+ .velocity.runtime.parser,org.apache.velocity.runtime.parser.node,org.
+ apache.velocity.runtime.resource,org.apache.velocity.runtime.resource
+ .loader,org.apache.velocity.runtime.visitor,org.apache.velocity.servl
+ et,org.apache.velocity.test,org.apache.velocity.test.misc,org.apache.
+ velocity.test.provider,org.apache.velocity.test.view,org.apache.veloc
+ ity.texen,org.apache.velocity.texen.ant,org.apache.velocity.texen.uti
+ l,org.apache.velocity.util,org.apache.velocity.util.introspection,org
+ .apache.wml,org.apache.wml.dom,org.apache.xerces.dom,org.apache.xerce
+ s.dom.events,org.apache.xerces.dom3,org.apache.xerces.dom3.as,org.apa
+ che.xerces.dom3.bootstrap,org.apache.xerces.impl,org.apache.xerces.im
+ pl.dtd,org.apache.xerces.impl.dtd.models,org.apache.xerces.impl.dv,or
+ g.apache.xerces.impl.dv.dtd,org.apache.xerces.impl.dv.util,org.apache
+ .xerces.impl.dv.xs,org.apache.xerces.impl.io,org.apache.xerces.impl.m
+ sg,org.apache.xerces.impl.validation,org.apache.xerces.impl.xpath,org
+ .apache.xerces.impl.xpath.regex,org.apache.xerces.impl.xs,org.apache.
+ xerces.impl.xs.identity,org.apache.xerces.impl.xs.models,org.apache.x
+ erces.impl.xs.opti,org.apache.xerces.impl.xs.traversers,org.apache.xe
+ rces.impl.xs.util,org.apache.xerces.jaxp,org.apache.xerces.parsers,or
+ g.apache.xerces.util,org.apache.xerces.xinclude,org.apache.xerces.xni
+ ,org.apache.xerces.xni.grammars,org.apache.xerces.xni.parser,org.apac
+ he.xerces.xs,org.apache.xml.resolver,org.apache.xml.resolver.apps,org
+ .apache.xml.resolver.helpers,org.apache.xml.resolver.readers,org.apac
+ he.xml.resolver.tools,org.apache.xml.serialize,org.w3c.dom.html,org.w
+ 3c.dom.ls
+
+Name: lib/resolver.jar
+SHA1-Digest: ptx0L+5rc5uuP1jXnN57XHJf1D4=
+
+Name: lib/velocity-dep-1.3.1.jar
+SHA1-Digest: 8ZbDigA6I/f62WA/yInHEI+ov7Q=
+
+Name: lib/xml-apis.jar
+SHA1-Digest: KCVOCXV2CA9uKoqjFsC/Kumxy9g=
+
+Name: lib/xercesImpl.jar
+SHA1-Digest: WZS53yPN/xCcKPgmO1roekDJCQo=
+
+Name: plugin.properties
+SHA1-Digest: pag3LH6uOSKU6Lw4NZ8Je7xRLq4=
+
+Name: common.jar
+SHA1-Digest: 6aGqWKmOLBLYXlPYlWxT5D4Hr4c=
+
+Name: lib/commons-logging.jar
+SHA1-Digest: iHwBhOq8iyJHRMH1VmxkHgLwHNw=
+
+Name: lib/xmlParserAPIs.jar
+SHA1-Digest: BlrO3h5TBb0rkiE9e1dhMoxvT9k=
+
+Name: lib/commons-httpclient-3.0.jar
+SHA1-Digest: M2ooDReLuVflIzGJ8PMuBnNmxOU=
+
+Name: plugin.xml
+SHA1-Digest: r4RSdZD2ECm6KwDeM0s/Y0KtgGc=
+
+Name: lib/commons-codec-1.3.jar
+SHA1-Digest: /TJ4Z4birbZk1ezJZdpHYp3KFLo=
+
+Name: lib/commons-lang-2.0.jar
+SHA1-Digest: spIbeGLnsmtDqiOcLCDMFkMaj/0=
+
+Name: lib/velocity-1.3.1.jar
+SHA1-Digest: I/voHJVsPVFMglc5ZZoi/pb4kxM=
+

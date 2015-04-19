@@ -1,0 +1,170 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.gen.ui,fr.obeo.acceleo.gen.ui.builders
+ ,fr.obeo.acceleo.gen.ui.editors,fr.obeo.acceleo.gen.ui.editors.reflec
+ tive,fr.obeo.acceleo.gen.ui.editors.reflective.actions,fr.obeo.accele
+ o.gen.ui.editors.reflective.preview,fr.obeo.acceleo.gen.ui.editors.so
+ urce,fr.obeo.acceleo.gen.ui.editors.template,fr.obeo.acceleo.gen.ui.e
+ ditors.template.rule,fr.obeo.acceleo.gen.ui.editors.template.scanner,
+ fr.obeo.acceleo.gen.ui.markers,fr.obeo.acceleo.gen.ui.natures,fr.obeo
+ .acceleo.gen.ui.perspectives,fr.obeo.acceleo.gen.ui.popupMenus,fr.obe
+ o.acceleo.gen.ui.wizards
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .editors,org.eclipse.ui.views,org.eclipse.ui.workbench.texteditor,org
+ .eclipse.jface.text,org.eclipse.compare,org.eclipse.core.resources,or
+ g.eclipse.jdt.ui,org.eclipse.emf.ecore,org.eclipse.emf.ecore.xmi,org.
+ eclipse.emf.ecore.editor,org.eclipse.emf.edit,org.eclipse.emf.codegen
+ .ecore,fr.obeo.acceleo.ecore,fr.obeo.acceleo.gen,fr.obeo.acceleo.tool
+ s.ui,org.eclipse.search,org.eclipse.debug.ui,fr.obeo.acceleo.tools.ui
+ ,org.eclipse.jdt.core,org.eclipse.ui.console,org.eclipse.pde.ui,fr.ob
+ eo.acceleo.template,fr.obeo.acceleo.ecore.ui
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.gen.ui.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.gen.ui.AcceleoEcoreGenUiPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.gen.ui; singleton:=true
+
+Name: icons/wizard/product.gif
+SHA1-Digest: xMR9zwyrBH+gqw8LlnlJjeKYaiY=
+
+Name: icons/sample.gif
+SHA1-Digest: F0EunRSTWwz9qFsQjp8bh32ELWg=
+
+Name: images/newTemplate.png
+SHA1-Digest: W0g0ZH6n2zOSzptWVAeoNiH29PU=
+
+Name: fr.obeo.acceleo.gen.ui.jar
+SHA1-Digest: eIWRHIDIVmUkzzWzXF9zOAx6O4w=
+
+Name: icons/actions/sortedTemplate.gif
+SHA1-Digest: Xb4vU5NkE9Zgx4+/OsFEXw78HvU=
+
+Name: icons/proposals/statement.gif
+SHA1-Digest: vx4jRo7dYW9OAzcGMsmLqq/GNlA=
+
+Name: icons/proposals/model_operation.gif
+SHA1-Digest: nCu5T9kG3cEVyf9azLycBqNaVKo=
+
+Name: icons/reflective_editor.gif
+SHA1-Digest: YxnCPB6o4Rk9iZST61P5WCTrN9U=
+
+Name: icons/reflective/generate.gif
+SHA1-Digest: n4ITRFE+4hFQ39mcRvU+VbTjkto=
+
+Name: icons/actions/refresh.gif
+SHA1-Digest: 3NWUc5UjsZeI5q6NCFvfEyeUB1I=
+
+Name: icons/acceleoLogo.gif
+SHA1-Digest: d7kj9QAYU+ro49JW8eMJLgT2GPI=
+
+Name: icons/deleteMarker.gif
+SHA1-Digest: /GoPVhCpQ+0VtZ7rmiudbpEXoyg=
+
+Name: icons/proposals/model_reference.gif
+SHA1-Digest: PKye0KYkKIoEIzUKdgyT1zhOiKo=
+
+Name: schema/requestloader.exsd
+SHA1-Digest: XTnT9yKjxc9kkPnChRLHCAV6Gnw=
+
+Name: icons/openModel.gif
+SHA1-Digest: 5CgQ5Qto1X3RfB9ujXTBxhbgHco=
+
+Name: icons/reflective/error.gif
+SHA1-Digest: 837WZOYq5P1nCsjer7IptxeeAX0=
+
+Name: icons/template_editor.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: about.html
+SHA1-Digest: Ow0TQkWy1xKVwrXKqJZx+424h74=
+
+Name: icons/actions/unsorted.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: icons/proposals/url.gif
+SHA1-Digest: QZvokYPQ58DwxHhf1Lkx1UW+Llo=
+
+Name: icons/proposals/condition.gif
+SHA1-Digest: YWfx6AwMxRTLU7dk0N0jwS0lPeI=
+
+Name: icons/problemMarker.gif
+SHA1-Digest: syy/dePAYAEfMNGOGwFWBBH993s=
+
+Name: icons/wizard/export.gif
+SHA1-Digest: TuylECx5yiFdbeFkNE5182GjqcE=
+
+Name: icons/proposals/model_class.gif
+SHA1-Digest: 2Uf02xBHd1a9wIXdOKW/Z/SzGoY=
+
+Name: icons/actions/delete.gif
+SHA1-Digest: h0kZkzhUBBwSKCLEH4ItnWNDcLk=
+
+Name: icons/proposals/service.gif
+SHA1-Digest: 2Ke6TikiepOi0G4qQtdtHi3Aauw=
+
+Name: icons/actions/generate_hierarchy.gif
+SHA1-Digest: XC7x/xQw5q9Hf0A1YIGGepwod8Y=
+
+Name: images/newGeneratorProject.png
+SHA1-Digest: C2h5D7tIy7+R8PRyaRZU+ymfr5c=
+
+Name: icons/proposals/EcoreModelFile.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: plugin.properties
+SHA1-Digest: CzqO6HEZa78IYprmtDgAgOpL9I4=
+
+Name: icons/proposals/eobject.gif
+SHA1-Digest: wYiPEn5F7h+np5TOZhDH7RamMbw=
+
+Name: icons/proposals/feature.gif
+SHA1-Digest: mG7/OV3UJZKZQKVD8GC5j+CbHIQ=
+
+Name: icons/wizard/import.gif
+SHA1-Digest: AuMoh0CPhzMIgsuUqU5YxU1z9oA=
+
+Name: icons/actions/open_default_editor.gif
+SHA1-Digest: KU9/px6RAkKw7+F3rzeubZgZZ+8=
+
+Name: fr.obeo.acceleo.gen.uisrc.zip
+SHA1-Digest: kbbi2T7Sz3DPdglUFKYAS3sx/Kg=
+
+Name: about.ini
+SHA1-Digest: mgo86SCjoCwLewzckw7aFjW0+0w=
+
+Name: icons/proposals/model_attribute.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: icons/acceleoGenNature.gif
+SHA1-Digest: KT975n/DldWODDmEPqlQroX8AYo=
+
+Name: icons/actions/sortedEClass.gif
+SHA1-Digest: FQ+tSDMWX0f8HupSbevvE4XyS4c=
+
+Name: icons/proposals/predefined.gif
+SHA1-Digest: oenduxrVzVYLM9MhnRYy2AvOh+s=
+
+Name: about.properties
+SHA1-Digest: Par6vZaKE56w8Tqwb9MR2IJB6Bc=
+
+Name: plugin.xml
+SHA1-Digest: fZd0dg21L8mWtNhIeE9TmkAc228=
+
+Name: icons/proposals/deprecatedService.gif
+SHA1-Digest: cpgFkTZB5vgR05tLrAVmi3281/g=
+
+Name: icons/proposals/template.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: icons/actions/open_link.gif
+SHA1-Digest: pXkIADXrLcrr9wqpwVHQRFtzqiE=
+
+Name: icons/actions/show_types.gif
+SHA1-Digest: OUCWkqiowA6QaB+iyRAez9+Dojs=
+
+Name: icons/acceleoPerspective.gif
+SHA1-Digest: ttCuZGMD/4872EhcZhfRFRApN40=
+

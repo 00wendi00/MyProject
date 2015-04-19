@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+    <extension
+    point = "org.eclipse.ui.newWizards">
+    <category
+      id = "org.eclipse.emf.ecore.Wizard.category.ID"
+      name="%_UI_Wizard_category">
+    </category>
+    <wizard
+      id = "fr.obeo.acceleo.chain.presentation.ChainModelWizardID"
+      name = "%_UI_ChainModelWizard_label"
+      class = "fr.obeo.acceleo.chain.presentation.ChainModelWizard"
+      category = "org.eclipse.emf.ecore.Wizard.category.ID"
+      icon = "icons/full/obj16/ChainModelFile.gif">
+      <description>%_UI_ChainModelWizard_description</description>
+      <selection class = "org.eclipse.core.resources.IResource" />
+    </wizard>
+  </extension>
+
+  <extension point = "org.eclipse.ui.editors">
+    <editor
+        id = "fr.obeo.acceleo.chain.presentation.ChainEditorID"
+        name = "%_UI_ChainEditor_label"
+        icon = "icons/full/obj16/ChainModelFile.gif"
+        extensions = "chain"
+        class = "fr.obeo.acceleo.chain.presentation.ChainEditor" 
+        contributorClass="fr.obeo.acceleo.chain.presentation.ChainActionBarContributor" >
+    </editor>
+  </extension>    
+</plugin>

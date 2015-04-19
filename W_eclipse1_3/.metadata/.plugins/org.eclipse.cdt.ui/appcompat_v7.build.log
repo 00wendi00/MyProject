@@ -1,0 +1,6 @@
+19:55:13 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+
+19:55:14 Build Finished (took 53ms)
+

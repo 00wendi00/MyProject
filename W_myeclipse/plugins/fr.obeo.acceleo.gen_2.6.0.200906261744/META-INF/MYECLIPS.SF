@@ -1,0 +1,80 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: qoOSUcPw3RORMV/TKD6kjrYyv+0=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: sR+LesmGgUwMh9xooLVgi9QKKtc=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Contex
+ tServices.java
+SHA1-Digest: pqCnHUPTTNe38p+FxN+bbiclmkw=
+
+Name: plugin.properties
+SHA1-Digest: ssbK0TpSFL34x9Amv1RjLEdgvlE=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Reques
+ tServices.java
+SHA1-Digest: FnU3yeJzI/bGeAjkyphcinkACjE=
+
+Name: icons/acceleoLogo.gif
+SHA1-Digest: ApMnJgdEj13qL1dwOALgD/OsQSc=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/EObjec
+ tServices.java
+SHA1-Digest: JXClc6HQsl8FcTSuBpdRWS0nUgs=
+
+Name: about.ini
+SHA1-Digest: qJe8s7oxcDlOESio8/IEUInMMoM=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Proper
+ tiesServices.java
+SHA1-Digest: tpDUkTzQ1ZrXxNyQml0dAW6ed4E=
+
+Name: schema/module.exsd
+SHA1-Digest: wVk7/IR6afid/cbO7zUC3xuQi2Q=
+
+Name: schema/scriptloader.exsd
+SHA1-Digest: sVCtnufaLDGWjg28LeoZ675X8ic=
+
+Name: schema/overdonecode.exsd
+SHA1-Digest: XgAyU8bHOAKypuKh9dw3HR3VwwI=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/System
+ ServicesFactory.java
+SHA1-Digest: 5PWKCTKaZXYvwSTGv4I1dn4vjz8=
+
+Name: about.properties
+SHA1-Digest: kt79xYYR/dNse4kvyzNT+jmcb2g=
+
+Name: plugin.xml
+SHA1-Digest: r+rVygp53AyPlQzxZReMEhloaeU=
+
+Name: acceleoCore.product
+SHA1-Digest: KJJ3FF4WmXHaAVoaKfiexQCPeiQ=
+
+Name: fr.obeo.acceleo.gen.jar
+SHA1-Digest: /j7fkGyov9S7KzCo0cbWZ5ektso=
+
+Name: about.html
+SHA1-Digest: wAz/mT0RuEVlijowgN4c0LFxSY4=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/XpathS
+ ervices.java
+SHA1-Digest: mB6LriBvgsmFCtCWE87nDTPav0A=
+
+Name: fr.obeo.acceleo.gensrc.zip
+SHA1-Digest: EHfC7ErFPG/Jf6yum7wTgAysbiU=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/ENodeS
+ ervices.java
+SHA1-Digest: hqHHmDtWnYN61Kg3dg0w22eZwfs=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Resour
+ ceServices.java
+SHA1-Digest: tm9XTTqhPfh8JXQIDbZkcuxhYRE=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/String
+ Services.java
+SHA1-Digest: 8FNr7Q+KEH08sPl+GSIpSIi+lZE=
+
+Name: schema/syncphantom.exsd
+SHA1-Digest: o48Yfe2cNEEZ3TPzZ+15iLdr0n8=
+

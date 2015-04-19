@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Nnnn/jni/AndroidNDK.cpp&apos; to &apos;AndroidNDK.c&apos;" description="Rename resource &apos;AndroidNDK.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="jni/AndroidNDK.cpp" name="AndroidNDK.c" stamp="1428493473754" updateReferences="true"/>
+</session>

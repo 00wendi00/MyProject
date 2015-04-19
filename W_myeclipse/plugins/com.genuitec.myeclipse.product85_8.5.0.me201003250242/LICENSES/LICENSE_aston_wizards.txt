@@ -1,0 +1,20 @@
+Aston Wizard License
+
+This plugin is open source and free, but I would appreciate 
+that you read and follow a few rules:
+
+1] I am not responsible if you are unable to use correctly 
+   a computer. So, if after the install of this plugin
+   your computer reboot or crash blame yourself not me !
+
+2] If you want to use the source of this plugin for whatever,
+   please keeps the author names in source files and template
+   files. Simply add yours.
+
+3] Try to make readable source files.
+
+You can contact me if you need more information at 
+renaud91@netcourrier.com
+
+Have fun,
+Ferret Renaud.

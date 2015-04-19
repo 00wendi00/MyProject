@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+     <extension point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*.ecore"
+            id="fr.obeo.acceleo.ecore.ui.popupMenus.contribution">
+         <menu
+            id="fr.obeo.acceleo.ecore.ui.menu.Metamodel" 
+            label="%ecoreMenuLabel" 
+            path="additionsAcceleo"> 
+            <separator name="metamodel"/> 
+         </menu>
+         <!--<action
+               class="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenJarAction"
+               enablesFor="1"
+               id="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenJarAction"
+               icon = "icons/jar.gif"
+               label="Create Jar"
+               menubarPath="fr.obeo.acceleo.ecore.ui.menu.Metamodel/metamodel">
+         </action>-->
+         <action
+               class="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenMetamodelAndEditorsAction"
+               enablesFor="1"
+               id="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenMetamodelAndEditorsAction"
+               icon = "icons/metamodel_project_ecore.gif"
+               label="%generateEditorActionLabel"
+               menubarPath="fr.obeo.acceleo.ecore.ui.menu.Metamodel/metamodel">
+         </action>
+         <action
+               class="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenMetamodelAction"
+               enablesFor="1"
+               id="fr.obeo.acceleo.ecore.ui.popupMenus.AcceleoGenMetamodelAction"
+               icon = "icons/metamodel_project_ecore.gif"
+               label="%generateCodeActionLabel"
+               menubarPath="fr.obeo.acceleo.ecore.ui.menu.Metamodel/metamodel">
+         </action>
+      </objectContribution>  
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.ecore.ui.wizards.NewEcoreMetamodelProjectWizard"
+            icon="icons/metamodel_project_ecore.gif"
+            id="fr.obeo.acceleo.ecore.ui.wizards.NewEcoreMetamodelProjectWizard"
+            name="%metamodelProjectWizardName"
+            project="true">
+         <description>
+            %metamodelProjectWizardDescription
+         </description>
+      </wizard>
+   </extension>
+
+</plugin>

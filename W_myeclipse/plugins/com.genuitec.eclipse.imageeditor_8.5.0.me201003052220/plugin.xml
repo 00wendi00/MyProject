@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.genuitec.eclipse.imageeditor.view.ImageEditingPerspective"
+            icon="icons/ime_perspective.gif"
+            id="com.genuitec.eclipse.imageeditor.perspective"
+            name="%perspective.ImageEditingPerspective.name"/>
+   </extension>
+   
+   <!-- perspectiveExtensions moved to myeclipse.perspective plugin
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.uml.umlPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.imageeditor.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+   </extension>
+   -->
+   <!--             contributorClass="com.genuitec.eclipse.imageeditor.editor.ImageEditorActionBarContributor" -->   
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.genuitec.eclipse.imageeditor.editor.ImageEditor"
+            default="true"
+            extensions="gif,jpeg,jpg,jpe,jfif,jfi,jif,bmp,png,tga,tpic,pcx,pict,ras,psd,tiff,tif,ie"
+            icon="icons/ime.gif"
+            id="com.genuitec.eclipse.imageeditor.editor.ImageEditor"
+            name="%editor.ImageEditor.name"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editorActions">
+      <editorContribution
+            id="com.genuitec.eclipse.imageeditor.editormenubar"
+            targetID="com.genuitec.eclipse.imageeditor.editor.ImageEditor">
+         <menu
+               id="com.genuitec.eclipse.imageeditor.menu.filter"
+               label="%menu.Filter.label"
+               path="additions">
+            <separator name="main"/>
+            <groupMarker name="filters"/>
+            <separator name="filters"/>
+         </menu>
+         <menu
+               id="com.genuitec.eclipse.imageeditor.menu.layer"
+               label="%menu.Layer.label"
+               path="additions">
+            <separator name="main"/>
+         </menu>
+         <!--
+         <menu
+               id="distortmenu"
+               label="Distort"
+               path="com.genuitec.eclipse.imageeditor.menu.filter/filters">
+            <separator name="main"/>
+         </menu>
+         -->
+         <menu
+               id="com.genuitec.eclipse.imageeditor.menu.image"
+               label="%menu.Image.label"
+               path="additions">
+            <separator name="main"/>
+            <separator name="transform"/>
+            <separator name="fill"/>
+         </menu>
+         <menu
+               id="com.genuitec.eclipse.imageeditor.menu.selection"
+               label="%menu.Selection.label"
+               path="additions">
+            <separator name="main"/>
+         </menu>
+         <menu
+               id="com.genuitec.eclipse.imageeditor.menu.view"
+               label="%menu.View.label"
+               path="additions">
+            <separator name="main"/>
+            <separator name="ratio"/>
+            <separator name="grid"/>
+         </menu>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.ZoomOutAction"
+               id="com.genuitec.eclipse.imageeditor.action.zoomout"
+               label="%action.ZoomOutAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/main"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.ZoomInAction"
+               id="com.genuitec.eclipse.imageeditor.action.zoomin"
+               label="%action.ZoomInAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/main"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.SixteenToOneAction"
+               id="com.genuitec.eclipse.imageeditor.action.sixteen2one"
+               label="%action.SixteenToOneAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/ratio"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.EightToOneAction"
+               id="com.genuitec.eclipse.imageeditor.action.eight2one"
+               label="%action.EightToOneAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/ratio"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FourToOneAction"
+               id="com.genuitec.eclipse.imageeditor.action.four2one"
+               label="%action.FourToOne.Actionlabel"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/ratio"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.TwoToOneAction"
+               id="com.genuitec.eclipse.imageeditor.action.two2one"
+               label="%action.TwoToOneAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/ratio"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.OneToOneAction"
+               id="com.genuitec.eclipse.imageeditor.action.one2one"
+               label="%action.OneToOneActionlabel"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/ratio"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.ShowGridAction"
+               id="com.genuitec.eclipse.imageeditor.action.showgrid"
+               label="%action.ShowGridAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/grid"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.ToolPropertiesAction"
+               id="com.genuitec.eclipse.imageeditor.action.toolproperties"
+               label="%action.ToolPropertiesAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.view/grid"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FromLayerAction"
+               id="com.genuitec.eclipse.imageeditor.action.fromlayer"
+               label="%action.FromLayerAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.selection/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FeatherAction"
+               id="com.genuitec.eclipse.imageeditor.action.feather"
+               label="%action.FeatherAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.selection/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.InvertAction"
+               id="com.genuitec.eclipse.imageeditor.action.invert"
+               label="%action.InvertAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.selection/main"
+               state="true"
+               style="push"/>
+         
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.SelectNoneAction"
+               id="com.genuitec.eclipse.imageeditor.action.selectnone"
+               label="%action.SelectNoneAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.selection/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.SelectAllAction"
+               id="com.genuitec.eclipse.imageeditor.action.selectall"
+               label="%action.SelectAllAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.selection/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.ImageSizeAction"
+               id="com.genuitec.eclipse.imageeditor.action.imagesize"
+               label="%action.ImageSizeAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.CropAction"
+               id="com.genuitec.eclipse.imageeditor.action.crop"
+               label="%action.CropAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateAction"
+               id="com.genuitec.eclipse.imageeditor.action.rotate"
+               label="%action.RotateAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateImage180Action"
+               id="com.genuitec.eclipse.imageeditor.action.rotateimage180"
+               label="%action.RotateImage180Action.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateImageCCWAction"
+               id="com.genuitec.eclipse.imageeditor.action.rotateimage90neg"
+               label="%action.RotateImageCCWAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateImageCWAction"
+               id="com.genuitec.eclipse.imageeditor.action.rotateimage90"
+               label="%action.RotateImageCWAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipImageDiagonalAction"
+               id="com.genuitec.eclipse.imageeditor.action.flipimagediagonal"
+               label="%action.FlipImageDiagonalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipImageVerticalAction"
+               id="com.genuitec.eclipse.imageeditor.action.flipimagevertical"
+               label="%action.FlipImageVerticalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipImageHorizontalAction"
+               id="com.genuitec.eclipse.imageeditor.action.flipimagehorizontal"
+               label="%action.FipImageHorizontalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/transform"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FillSelectionAction"
+               id="com.genuitec.eclipse.imageeditor.action.fillselection"
+               label="%action.FillSelectionAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.image/fill"
+               state="true"
+               style="push"/>
+        <action
+        	   class="com.genuitec.eclipse.imageeditor.action.RepeatFilterAction"
+               id="com.genuitec.eclipse.imageeditor.action.repeatlastfilter"
+               label="%action.RepeatFilterAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.filter/main"
+               state="true"
+               style="push"/>
+        <action
+               class="com.genuitec.eclipse.imageeditor.action.ShowLastFilterAction"
+               id="com.genuitec.eclipse.imageeditor.action.showlastfilter"
+               label="%action.ShowLastFilterAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.filter/main"
+               state="true"
+               style="push"/>
+               
+        <action
+               class="com.genuitec.eclipse.imageeditor.action.Rotate180Action"
+               id="com.genuitec.eclipse.imageeditor.action.rotate180"
+               label="%action.Rotate180Action.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateCCWAction"
+               id="com.genuitec.eclipse.imageeditor.action.rotate90neg"
+               label="%action.RotateCCWAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.RotateCWAction"
+               id="com.genuitec.eclipse.imageeditor.action.rotate90"
+               label="%action.RotateCWAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipDiagonalAction"
+               id="com.genuitec.eclipse.imageeditor.action.flipdiagonal"
+               label="%action.FlipDiagonalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipVerticalAction"
+               id="com.genuitec.eclipse.imageeditor.action.flipvertical"
+               label="%action.FlipVerticalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+         <action
+               class="com.genuitec.eclipse.imageeditor.action.FlipHorizontalAction"
+               id="com.genuitec.eclipse.imageeditor.action.fliphorizontal"
+               label="%action.FlipHorizontalAction.label"
+               menubarPath="com.genuitec.eclipse.imageeditor.menu.layer/main"
+               state="true"
+               style="push"/>
+      </editorContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="com.genuitec.eclipse.myeclipse.image"
+            name="%category.Image.name"
+            parentCategory="com.genuitec.eclipse.myeclipse"/>
+      <wizard
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.image"
+            class="com.genuitec.eclipse.imageeditor.wizard.NewImageFileWizard"
+            icon="icons/ime.gif"
+            id="com.genuitec.eclipse.imageeditor.wizard.NewImageFileWizard"
+            name="%wizard.NewImageFileWizard.name"
+            preferredPerspectives="com.genuitec.eclipse.imageeditor.perspective"
+            project="false">
+         <description/>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="com.genuitec.eclipse.viper.preferencepage.editor"
+            class="com.genuitec.eclipse.imageeditor.preferences.ImageEditorPreferencePage"
+            id="com.genuitec.eclipse.imageeditor.editorpreferencepage"
+            name="%page.Image.name"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">         
+      <!-- add shortcuts to all ME perspective from all SDK perspectives -->
+      <perspectiveExtension
+      		targetID="org.eclipse.team.cvs.ui.cvsPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.debug.ui.DebugPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaBrowsingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.jdt.ui.JavaHierarchyPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.pde.ui.PDEPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.team.ui.TeamSynchronizingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      
+      <!-- Add cross shortcuts for each ME perspective to other ME perspectives -->
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>            
+      </perspectiveExtension>
+
+      <perspectiveExtension
+            targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>      
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.uml.umlPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>      
+      </perspectiveExtension>
+      
+      <perspectiveExtension targetID="com.genuitec.eclipse.dehory.dehoryperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective">            
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>      
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.web20.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension targetID="com.genuitec.dali.adapter.persistencePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.imageeditor.perspective"/>
+      </perspectiveExtension>      
+      
+	</extension>   
+
+</plugin>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+   <extension
+         id="com.genuitec.eclipse.easie.jonas5.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.easie.jonas.preferencepage"
+            class="com.genuitec.eclipse.easie.jonas5.preference.Jonas5LauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.jonas5.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.jonas.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.jonas5.preferencepage"
+            class="com.genuitec.eclipse.easie.jonas5.preference.Jonas5LauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.jonas5.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.jonas.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.jonas5.preferencepage"
+            class="com.genuitec.eclipse.easie.jonas5.preference.Jonas5LauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.jonas5.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.jonas.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.jonas5.preferencepage"
+            class="com.genuitec.eclipse.easie.jonas5.preference.Jonas5LauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.jonas5.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.jonas.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+   </extension>
+
+</plugin>

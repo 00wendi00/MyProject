@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: mvQ4c79R2VqAF/9yt2lhlPxUmHY=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: YSix3pEYVlNWF9zYC0Kt8WwClxw=
+
+Name: schema/precondition.exsd
+SHA1-Digest: 2EIF2KAz9JFd7/hTKzeBKAIli14=
+
+Name: schema/custom.exsd
+SHA1-Digest: FCWH7nLc9xNJqucjsXWCByAXod8=
+
+Name: runtime/fr.obeo.acceleo.chain.jar
+SHA1-Digest: aNdINCcCL+6r0WBjTPly/TqvY1M=
+
+Name: plugin.xml
+SHA1-Digest: L2f6fD6fZk7yCNF7XqeKf3c0ah0=
+
+Name: schema/postGeneration.exsd
+SHA1-Digest: zVNMnMSIdOSBF8ZcEaR6ON/pn2s=
+
+Name: plugin.properties
+SHA1-Digest: x3V0au7eu7XZM95FnpG7KZAC/88=
+
+Name: model/chain.ecore
+SHA1-Digest: ouW+uM/wXYscvW+AdTfyF9Lad0g=
+
+Name: model/chain.genmodel
+SHA1-Digest: /y9cQ0dilj+fyalmi2NXTw38CDg=
+
+Name: runtime/fr.obeo.acceleo.chainsrc.zip
+SHA1-Digest: L49nHMbxmFLJsiPyPvdHgJmaau8=
+

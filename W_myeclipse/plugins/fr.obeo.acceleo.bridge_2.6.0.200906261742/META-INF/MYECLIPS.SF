@@ -1,0 +1,71 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: SeL7omGMwfQXVxVoG6dpenRWRXE=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: yDigghAm7AHMaa4RKHtM8+95piE=
+
+Name: lib/jdom-jaxen-saxpath/jaxen-1.0-FCS-full.jar
+SHA1-Digest: WLClZjPV0+9tziSha4IL+Ayk3is=
+
+Name: model/01-02-15_Diff.xml
+SHA1-Digest: QTNNy75NpN/qLu91iua2MoTIDBA=
+
+Name: fr.obeo.acceleo.bridgesrc.zip
+SHA1-Digest: S85eVmGzjQpMENXubwHYXrMjLSs=
+
+Name: lib/jmi/uml13.jar
+SHA1-Digest: t/K9dnm7ho4Gxj8UZUqP1o7lGxw=
+
+Name: lib/mdr/nbmdr.jar
+SHA1-Digest: kB+DKDhdgZuUy+Yv0ZzJYtFVYYM=
+
+Name: lib/jmi/jmi.jar
+SHA1-Digest: 8fqG4B/rPm4uzxXefHdNXzq5RDc=
+
+Name: schema/xmiloader.exsd
+SHA1-Digest: I+FseJAiBWxUQcQ7MnEqSrw4IFY=
+
+Name: plugin.properties
+SHA1-Digest: LvDqSsMujGwEGoVuHhdzEApF4kE=
+
+Name: model/01-12-02_Diff.xml
+SHA1-Digest: eEMIsFpXoajvImYC7X73b88aPcI=
+
+Name: lib/jdom-jaxen-saxpath/saxpath.jar
+SHA1-Digest: q+ZkhtrPJG1J5Z2ENhTc9ADmkpg=
+
+Name: model/01-02-15.xml
+SHA1-Digest: 67qK6CHikqkEyAoxOb4LsFZB7Rk=
+
+Name: lib/jsr173_1.0_ri.jar
+SHA1-Digest: q4eGZ8qdhBjboJh8KwQmArCOKQE=
+
+Name: lib/jmi/mof.jar
+SHA1-Digest: SrX/Zietst36Hg9ix7PEyEBpcO8=
+
+Name: lib/jmi/uml-1.4.jar
+SHA1-Digest: w8tauh02QdPWPkfdMs63qbJBHBo=
+
+Name: lib/jdom-jaxen-saxpath/jdom-1.0b8.jar
+SHA1-Digest: 5MCI6nYZTJYO8leIqe8g5RSEEGQ=
+
+Name: lib/mdr/jmiutils.jar
+SHA1-Digest: TmwLJgiSHZjUZ4KX2lr38nTEzSc=
+
+Name: model/01-12-02.xml
+SHA1-Digest: ug7T+nauFPtZMoi0S5V+U/37d00=
+
+Name: plugin.xml
+SHA1-Digest: ujb/7/d4wpchwW1w/KAPSLViBuo=
+
+Name: lib/mdr/openide-util.jar
+SHA1-Digest: 05GBuy9M3W1kCxz5o7wDjlIRAFM=
+
+Name: lib/jsr173_1.0_api.jar
+SHA1-Digest: KeJETursfsrYV/PqkwwrpXzwWmQ=
+
+Name: fr.obeo.acceleo.bridge.jar
+SHA1-Digest: vg5DfhN4ATVgVyFzDpp+xZYsC3o=
+
+Name: lib/mdr/mdrapi.jar
+SHA1-Digest: fsUMMgbt4B5NdYr/wMu8fHx6PgM=
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	Note to translators, the following need to be translated: 
+		label attributes on link tags 
+		url attributes on link tags (except for link id="meWhatsNewUpdates")
+		the content of text tags
+-->
+<introContent>
+  	<extensionContent id="com.genuitec.myeclipse.product.whatsnewEx1" name="MyEclipse Updates" alt-style="css/whatsnew.properties" style="css/myeclipse.css" path="whatsnew/@">
+  	   <group style-id="content-group" id="meWhatsNew">
+       		<link style-id="content-link" label="New MyEclipse Features" 
+       			url="http://org.eclipse.ui.intro/openBrowser?url=http://www.myeclipseide.com/module-htmlpages-display-pid-370.html" 
+	       		id="meWhatsNewAndNoteworthy">
+          		<text>Discover the new MyEclipse features in this release.</text>
+       		</link>
+       		<link style-id="content-link" label="Install MyEclipse New Features and Updates" 
+       			url="http://org.eclipse.ui.intro/runAction?pluginId=com.genuitec.eclipse.dashboard&amp;class=com.genuitec.eclipse.dashboard.actions.DashboardAction" 
+       			id="meWhatsNewUpdates">
+          		<text>Get the latest MyEclipse features and updates from Genuitec.</text>
+       		</link>
+       		<link style-id="content-link" label="MyEclipse Community" 
+       			url="http://www.myeclipseide.com/index.php?module=PNphpBB2" 
+       			id="meWhatsNewCommunity">
+          		<text>Become part of the MyEclipse community. Visit the MyEclipse forums.</text>
+       		</link>
+			<group id="meWhatsNewRss" label="MyEclipse News" expandable="true" expanded="true">
+				<contentProvider id="me-rss-viewer" pluginId="com.genuitec.myeclipse.product7" class="com.genuitec.myeclipse.product.MyEclipseNewsContentProvider">
+				</contentProvider>
+			</group>
+       </group>
+  	</extensionContent>
+</introContent>

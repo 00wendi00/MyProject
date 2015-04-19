@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	Note to translators, the following need to be translated: 
+		label attributes on link tags 
+		the content of text tags
+-->
+<introContent>
+  	<extensionContent id="com.genuitec.myeclipse.product.tutorialsEx1" name="MyEclipse" alt-style="css/tutorials.properties" style="css/myeclipse.css" path="tutorials/@">
+		<group label="MyEclipse" style-id="content-group" id="meTutorials">
+		    <link label="Using Maven with MyEclipse (Maven4MyEclipse)" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/maven/mavenCreateTutorial/index.html" 
+                id="meTutorialsMaven" style-id="content-link">
+                <text>Learn how to use the Maven build system with MyEclipse web, EJB and Java projects.</text>
+            </link>
+            <link label="Developing Portlets with MyEclipse" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/portlet_overview/index.html" 
+                id="meTutorialsPortlets" style-id="content-link">
+                <text>Learn how to develop Portlets with MyEclipse.</text>
+            </link>
+            <link label="Developing REST Web Services" url="http://www.myeclipseide.com/documentation/quickstarts/webservices_rest/" 
+                id="meTutorialsJAXRS" style-id="content-link">
+                <text>Learn how to develop RESTful JAX-RS Web Services and Clients.</text>
+            </link>
+            <link label="Developing JAX-WS Web Services and Clients" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/webservices_jaxws/index.html" 
+                id="meTutorialsJAXWS" style-id="content-link">
+                <text>Learn how to develop JAX-WS Web Services and Clients.</text>
+            </link>
+            <link label="Learn to use the Java Persistence Tools (JPA)" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/jpa/index.html" 
+       			id="meTutorialsJPA" style-id="content-link">
+          		<text>Learn how to create POJO entites and map them to a relational database using JPA.</text>
+       		</link>
+       		<link label="Develop using JPA and Spring" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/jpaspring/index.html" 
+       			id="meTutorialsJPA" style-id="content-link">
+          		<text>Learn how to develop applications using both JPA and Spring technologies.</text>
+       		</link>
+       		<link label="Create a EJB3 Enterprise Beans " url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/ejb3/index.html" 
+       			id="meTutorialsEJB" style-id="content-link">
+          		<text>Learn how to create EJB3 enterprise Java beans.</text>
+       		</link>
+       		<link label="Develop using the Visual JSF Page Designer" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/jsfdesigner/index.html" 
+       			id="meTutorialsJSF" style-id="content-link">
+          		<text>Learn how to create Java Server Faces pages with the MyEclipse JSF Visual Page Designer.</text>
+       		</link>     		
+       		<link label="Develop a JSF Facelets Application" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/facelets/index.html" 
+       			id="meTutorialsFacelets" style-id="content-link">
+          		<text>Learn about MyEclipse JSF Facelet tools.</text>
+       		</link>
+			<link label="Create a JSF Web Application" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/jsf/index.html" 
+       			id="meTutorialsJSF" style-id="content-link">
+          		<text>Learn how to create a Java Server Faces application.</text>
+       		</link>  
+       		       		
+       		<link label="Creating a Web Service" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/webservices/index.html" 
+       			id="meTutorialsWebService" style-id="content-link">
+          		<text>Learn how to create a web service using MyEclipse's XFire support.</text>
+       		</link>
+			<anchor id="matisse"/>
+			<link label="Overview of AJAX / Web 2.0 Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/web20overview/index.html" 
+       			id="meTutorialsWeb20" style-id="content-link">
+          		<text>Learn how to create and debug Web2.0 applications with the MyEclipse Web 2.0 Workbench.</text>
+       		</link>
+			<link label="Visual Web Designer" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/webdesigner/index.html" 
+       			id="meTutorialsWebdesigner" style-id="content-link">
+          		<text>Learn how to use MyEclipse's powerful visual web designer to create HTML, XHTML, JSP, and Struts pages.</text>
+       		</link>       		
+			<link label="Working with MyEclipse Hibernate Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/hibernate/index.html" 
+       			id="meTutorialsHibernate" style-id="content-link">
+          		<text>Learn how to use Hibernate to generate object-relational mappings.</text>
+       		</link>
+			<link label="UML Roundtrip Modeling" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/uml/index.html" 
+       			id="meTutorialsUML" style-id="content-link">
+          		<text>Learn how to use the MyEclipse UML tools to create UML diagrams from your Java projects and Java classes from your UML diagrams.</text>
+       		</link>
+       		<link label="Using the MyEclipse Derby Database Server" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/derby/index.html" 
+       			id="meTutorialsDatabase" style-id="content-link">
+          		<text>Learn how to use the MyEclipse Derby Database Server right out of the box.</text>
+       		</link>
+			<link label="Using MyEclipse with your Database" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/dbexplorer/index.html" 
+       			id="meTutorialsDatabase" style-id="content-link">
+          		<text>Learn how to use MyEclipse to browse, manage, and query your database.</text>
+       		</link>
+			<link label="Creating and Maintaining ER Diagrams" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/erdesigner/index.html" 
+       			id="meTutorialsERD" style-id="content-link">
+          		<text>Learn how to create entity-relationship diagrams using MyEclipse.</text>
+       		</link>
+       		<link label="Using the MyEclipse Tomcat 6 Server" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/tomcat/index.html" 
+       			id="meTutorialsAppServer" style-id="content-link">
+          		<text>Learn how to use the MyEclipse Tomcat 6 Server right out of the box.</text>
+       		</link>
+			<link label="Working with Application Server Connectors" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/appservers/index.html" 
+       			id="meTutorialsAppServer" style-id="content-link">
+          		<text>Learn how to deploy your J2EE projects to over 20 J2EE application servers.</text>
+       		</link>
+			<link label="Create a J2EE Web Application" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/webprojects/index.html" 
+       			id="meTutorialsWebApp" style-id="content-link">
+          		<text>Learn how to create a web application using MyEclipse's web tools.</text>
+       		</link>
+			<link label="Create a Struts Web Application" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/quickstarts/struts/index.html" 
+       			id="meTutorialsStruts" style-id="content-link">
+          		<text>Learn how to use MyEclipse to create a Struts web application.</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

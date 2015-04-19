@@ -1,0 +1,175 @@
+Manifest-Version: 1.0
+Require-Bundle: org.apache.ant,org.eclipse.ui,org.eclipse.core.runtime
+ ,org.eclipse.core.resources,org.eclipse.jdt.ui,org.eclipse.wst.common
+ .uriresolver,org.eclipse.wst.sse.core,org.eclipse.wst.sse.ui,org.ecli
+ pse.wst.xml.core,org.eclipse.wst.xml.ui,org.eclipse.wst.command.env,o
+ rg.eclipse.wst.command.env.core,org.eclipse.wst.command.env.ui,org.ec
+ lipse.wst.wsdl.ui,org.eclipse.jst.ws.creation.ui,org.eclipse.jst.ws.c
+ onsumption.ui,org.eclipse.wst.ws.service.policy.ui,org.eclipse.jst.ws
+ .uddiregistry,com.genuitec.eclipse.core,com.genuitec.eclipse.core.com
+ mon,com.genuitec.eclipse.j2eedt.core;visibility:=reexport,com.genuite
+ c.eclipse.templates,org.eclipse.wst.ws.explorer,org.eclipse.wst.wsdl.
+ validation,org.eclipse.wst.ws.ui,com.genuitec.eclipse.easie.core,org.
+ eclipse.core.filesystem,org.eclipse.wst.ws.parser,org.eclipse.wst.wsd
+ l,org.eclipse.jst.ws.consumption,org.eclipse.wst.common.frameworks,or
+ g.eclipse.emf.ecore,javax.wsdl;bundle-version="[1.5.0,1.6.0)",org.ecl
+ ipse.jdt.apt.core,com.genuitec.eclipse.ast.deploy.core,org.apache.com
+ mons.io;bundle-version="1.3.2",org.eclipse.wst.validation;bundle-vers
+ ion="1.2.2",org.eclipse.atf.mozilla.ide.ui,org.eclipse.atf.mozilla.id
+ e.core,org.jdom,com.genuitec.myeclipse.perspective
+Export-Package: com.genuitec.eclipse.ws.jaxws,com.genuitec.eclipse.ws.
+ jaxws.wizard,com.genuitec.eclipse.ws.xfire,com.genuitec.eclipse.ws.xf
+ ire.actions,com.genuitec.eclipse.ws.xfire.builder,com.genuitec.eclips
+ e.ws.xfire.editor,com.genuitec.eclipse.ws.xfire.generator,com.genuite
+ c.eclipse.ws.xfire.preferences,com.genuitec.eclipse.ws.xfire.properti
+ es,com.genuitec.eclipse.ws.xfire.wizards,com.sun.codemodel,com.sun.to
+ ols.ws.processor.model,com.sun.tools.ws.processor.model.java,com.sun.
+ tools.ws.processor.modeler.wsdl,com.sun.tools.ws.wscompile,com.sun.to
+ ols.xjc.api
+Bundle-Vendor: %bundleVendor
+Eclipse-LazyStart: true
+Bundle-ClassPath: xfire.jar,lib/webservices-extra.jar,lib/webservices-
+ extra-api.jar,lib/webservices-tools.jar,lib/webservices-rt.jar,lib/we
+ bservices-api.jar
+Bundle-Version: 8.5.0.me201003052220
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.genuitec.eclipse.ws.xfire.XFireCore
+Bundle-SymbolicName: com.genuitec.eclipse.ws.xfire; singleton:=true
+
+Name: icons/services_open_highlighted.gif
+SHA1-Digest: xYqAkJOPoptU/Y5Uh7Umfrnglic=
+
+Name: lib/webservices-extra-api.jar
+SHA1-Digest: sq+QaLXwzaJwFSXohf1kdcp5caM=
+
+Name: icons/import_ws.gif
+SHA1-Digest: tRvVsWoVajQPCMQArivIzL04/fE=
+
+Name: icons/full/wizban/webservices_project_wiz.gif
+SHA1-Digest: wntI420OBpeKlPfM2k3PswEPQ6c=
+
+Name: icons/import_wsil.gif
+SHA1-Digest: 6qy9r05Zl6SJD6obZ2XnbVZyXqQ=
+
+Name: templates/XFireServiceIF.vtl
+SHA1-Digest: +EvP/5Is3DWvZGjiS6Y3vy9f63o=
+
+Name: lib/webservices-rt.jar
+SHA1-Digest: pvt4j9ya4Hb7n4FX6csDCrG4ayE=
+
+Name: icons/new_webserv_wiz.gif
+SHA1-Digest: 1efoXKoQhvUfvw2hcnKUeg57Ugo=
+
+Name: xfire.jar
+SHA1-Digest: Ok4H1Pg2UkXV3i0A1m8ZbDEmm94=
+
+Name: icons/ServiceRef.gif
+SHA1-Digest: uk1IfU95CTwfhIBDPoDmtu/r1KA=
+
+Name: icons/newclient_webserv_wiz.gif
+SHA1-Digest: TRXZtcqcTL5YIXpLsSk1cyCoUiM=
+
+Name: icons/services_closed_highlighted.gif
+SHA1-Digest: vLwtN19upY4l+3/3EDtnqwg+ZAY=
+
+Name: lib/webservices-extra.jar
+SHA1-Digest: lud5EiftcSou+mGgdWxxQUio2BA=
+
+Name: templates/XFireServiceImpl.vtl
+SHA1-Digest: n9Txzhl2NY7IpePbfKDk0dHOOg0=
+
+Name: templates/services.xml.vtl
+SHA1-Digest: kDdAXaC7bBTccvPD4HTqW5MBJJ8=
+
+Name: lib/license/webservices.LICENSE.txt
+SHA1-Digest: R4iurSuUI/I20/e1Ia2bRMjUTCg=
+
+Name: lib/webservices-tools.jar
+SHA1-Digest: nYGzvXOoJ56QarRF6nqCH3UP7sE=
+
+Name: icons/wsdl_perspective_highlighted.gif
+SHA1-Digest: PrhqZiGPduVXdOrpXN/7xbfb+8o=
+
+Name: dtd/spring-beans_xfire.dtd
+SHA1-Digest: mNPb9pN2HGOnBS9E0I+nYoceeAI=
+
+Name: icons/wsceditor.gif
+SHA1-Digest: nBU23q8cMj/9PhRye9xOjr3qqas=
+
+Name: icons/full/wizban/webservicesclient_wiz.gif
+SHA1-Digest: M79KLD1NynBGGl+GFA2YXNqYRGY=
+
+Name: icons/wseditor.gif
+SHA1-Digest: 96/aM2Icd6gGlmswXxqdvE/fcEU=
+
+Name: icons/import_ws_wiz.gif
+SHA1-Digest: AzA16842UetiC51JyARwdx4zw2c=
+
+Name: icons/import_wiz_banner_wsil.gif
+SHA1-Digest: dS+PbhKBw8I6f9SbK2o7T29lzNY=
+
+Name: icons/full/wizban/webservices_wiz.png
+SHA1-Digest: GgKhQC6lolsfaLZ+MeS7ec7pe5g=
+
+Name: icons/wsdl_file_obj.gif
+SHA1-Digest: z9QtLbQEK0DUE1YFUjwvwvHcKig=
+
+Name: icons/webservice_ovr.gif
+SHA1-Digest: K+G/qpGiEUvPqwCCT7omZ6v8Qio=
+
+Name: icons/wsdl_service_node.gif
+SHA1-Digest: V5PmqSCg3hGlJsxv26PnHRWj5N0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: o/5NpUxgoK6Qu+s9CDM/yulGLig=
+
+Name: templates/AsyncWrapperBinding.vm
+SHA1-Digest: dtJgFguRfrVlERWkj8p76oGxsLk=
+
+Name: plugin.properties
+SHA1-Digest: NgHYKUdTeDGyj7bna7UtOzgF8eU=
+
+Name: icons/services_open_enabled.gif
+SHA1-Digest: XybV464RfiZn7SulKDMn8uf+GrE=
+
+Name: icons/full/ctool16/newclient_webserv_wiz.gif
+SHA1-Digest: TRXZtcqcTL5YIXpLsSk1cyCoUiM=
+
+Name: icons/serviceref_obj.gif
+SHA1-Digest: BjEmQ4iE8noUExFSpFUGp70Laio=
+
+Name: lib/license/cddl.htm
+SHA1-Digest: nXim4DrEuVTSKz80YkaUkTA8PEk=
+
+Name: icons/webservicedesc.gif
+SHA1-Digest: V5PmqSCg3hGlJsxv26PnHRWj5N0=
+
+Name: icons/services_closed_enabled.gif
+SHA1-Digest: 8SShDCfd1aWDVPawLEwTk1ihQPU=
+
+Name: lib/webservices-api.jar
+SHA1-Digest: b8gUmQMJ36wu7ajg4aYJFgpqFAg=
+
+Name: templates/ServiceImplementation.vm
+SHA1-Digest: veLU3qXl0KDOG/pLAi76Aw6Rja8=
+
+Name: templates.xml
+SHA1-Digest: OTXir1sBNQtPxP7CJnMPnigNgyw=
+
+Name: preferences.ini
+SHA1-Digest: iIZczaSScmd0rHYiAhSFRQ7jACk=
+
+Name: icons/rest_explorer_action.gif
+SHA1-Digest: s8Yk2NXZ20ZVgeEfP9VHrUbzjx0=
+
+Name: plugin.xml
+SHA1-Digest: 9dwUS/p5frTTIEzo/sRZW/IL41k=
+
+Name: icons/full/ctool16/new_webserv_wiz.gif
+SHA1-Digest: 1efoXKoQhvUfvw2hcnKUeg57Ugo=
+
+Name: icons/registry.gif
+SHA1-Digest: B0373oJ85e+QYrRFYlLAnT7mAvQ=
+

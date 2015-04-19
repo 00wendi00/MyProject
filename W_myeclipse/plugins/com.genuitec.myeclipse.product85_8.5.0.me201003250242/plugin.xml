@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         id="ide"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            description="%productDescription"
+            name="%productName">
+         <property
+               name="aboutImage"
+               value="$nl$/images/about.png"/>
+         <property
+               name="aboutText"
+               value="%aboutText"/>
+         <property
+               name="appName"
+               value="MyEclipse Enterprise Workbench"/>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini"/>
+         <property
+               name="startupForegroundColor"
+               value="FFFFFF"/>
+         <property
+               name="startupMessageRect"
+               value="3,262,450,18"/>
+         <property
+               name="startupProgressRect"
+               value="0,280,455,15"/>
+		 <property
+                name="windowImages"
+                value="$nl$/images/myeclipse-title-icon-16x16.png,$nl$/images/myeclipse-title-icon-32x32.png,$nl$/images/myeclipse-title-icon-48x48.png,$nl$/images/myeclipse-title-icon-64x64.png"/>               
+          <property
+          		name="introTitle"
+          		value="%productIntroTitle"/>
+          <property
+          		name="introBrandingImage"
+          		value="product:images/MyEclipse-logo.png"/>
+          <property
+          		name="introBrandingImageText"
+          		value="%productIntroBrandingText"/>
+		  <property
+				name="introDescription-overview"
+				value="%introDescription-overview"/>
+		  <property
+				name="introDescription-tutorials"
+				value="%introDescription-tutorials"/>
+		  <property
+				name="introDescription-whatsnew"
+				value="%introDescription-whatsnew"/>                   
+      </product>
+   </extension>
+   	
+	<extension
+         point="org.eclipse.ui.intro">    
+   <introProductBinding
+            introId="org.eclipse.ui.intro.universal"
+            productId="com.genuitec.myeclipse.product85.ide"/>
+   </extension>
+     
+   <extension
+         point="org.eclipse.ui.intro.configExtension">
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="$nl$/intro/overviewEx1.xml"/>
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="$nl$/intro/tutorialEx1.xml"/>
+      <configExtension            
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="$nl$/intro/sampleExtensionContent.xml"/>
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="$nl$/intro/whatsnewEx1.xml"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="%actionSet.about.label"
+            visible="true"
+            id="com.genuitec.myeclipse.product.actions">
+            <!-- This menu is replicated exactly in each plugin that
+              contributes to it to ensure that it is available when
+              the plugins load.  Without this replication, Eclipse 3.3
+              will often throw errors about "invalid menu path" and
+              refuse to load the contributed actions. -->
+         <menu
+               label="%menu.myeclipse.menu.label"
+               id="com.genuitec.myeclipse.menu">
+           <separator
+                  name="capabilitiesSeparator">
+            </separator>
+            <separator
+                  name="configurationSeparator">
+            </separator>
+            <separator
+                  name="utilitiesSeparator">
+            </separator>
+            <separator
+                  name="supportSeparator">
+            </separator>
+         </menu>
+         <action
+               label="%action.about.label"
+               class="com.genuitec.myeclipse.product.AboutActionDelegate"
+               menubarPath="com.genuitec.myeclipse.menu/configurationSeparator"
+               id="com.genuitec.myeclipse.about.aboutaction">
+         </action>
+         <action
+               label="%action.preferences.label"
+               class="com.genuitec.myeclipse.product.PreferencesActionDelegate"
+               menubarPath="com.genuitec.myeclipse.menu/configurationSeparator"
+               id="com.genuitec.myeclipse.about.preferencesaction">
+         </action>
+         
+       </actionSet>
+   </extension>
+
+   <!--
+   <extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="com.genuitec.myeclipse.product.splash.FortuneSplashHandler"
+            id="com.genuitec.myeclipse.product.splash.fortune">
+      </splashHandler>
+      <splashHandlerProductBinding
+            productId="com.genuitec.myeclipse.product.ide"
+            splashId="com.genuitec.myeclipse.product.splash.fortune">
+      </splashHandlerProductBinding>
+   </extension>
+   -->   
+  
+</plugin>

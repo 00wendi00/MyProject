@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.vpe,org.eclipse.ui,org.eclipse.core.ru
+ ntime,org.jboss.tools.jst.jsp,org.mozilla.xpcom,org.jboss.tools.jsf.v
+ pe.richfaces;bundle-version="2.1.0",org.jboss.tools.jsf.vpe.jsf;bundl
+ e-version="2.1.0"
+Bundle-Vendor: %Bundle-Vendor.0
+Eclipse-LazyStart: true
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.jboss.tools.jsf.vpe.ajax4jsf.Activator
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.ajax4jsf;singleton:=true
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFReapeatTemplat
+ e.class
+SHA1-Digest: cSxQuRO3ONJJGNZDPb5Q6bKZYM0=
+
+Name: templates/vpe-templates-ajax4jsf.xml
+SHA1-Digest: UDQYpamUMTVCXhbDbK12suEFL58=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFStatusTemplate
+ $Creator.class
+SHA1-Digest: qU8+2Spw6L1jSYJbOwxN8wv2lMI=
+
+Name: plugin.xml
+SHA1-Digest: oUfTWFyRnOUzjMwaQWSnMNkvxBo=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFMediaOutput.cl
+ ass
+SHA1-Digest: xgSeq+PZDVK16P2L2b2bm+da/D8=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSF.class
+SHA1-Digest: Tz/jOXz3dXonYee0m6e6ca+33/E=
+
+Name: plugin.properties
+SHA1-Digest: Opi3uNwyDPSXg8Tj4pGSCpfQlu0=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/Activator.class
+SHA1-Digest: dfzqynohxjDm8GEnFqbf+bKMCU0=
+
+Name: resources/mediaOutput/mediaOutput.jpg
+SHA1-Digest: 7zMzDnINi1gYVuHU/cRLUB6xiFw=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFLogTemplate.cl
+ ass
+SHA1-Digest: MIEoTcdgLw9TaxjLM5PMq4/gK1s=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFPageTemplate.c
+ lass
+SHA1-Digest: Aryp1WRe8A3Kwdq/RWlyMtxNF3E=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFStatusTemplate
+ .class
+SHA1-Digest: AIJWhDUPd4L75DiJapck6BuX6Kk=
+

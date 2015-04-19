@@ -1,0 +1,86 @@
+package com.example.mydrawable;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.util.DisplayMetrics;
+import android.view.Gravity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.ImageView;
+import android.widget.GridLayout.LayoutParams;
+import android.widget.ImageView.ScaleType;
+
+public class MyDrawable extends ActionBarActivity {
+	//String[] images= null;
+	//AssetInputStream assets = null;
+	Button buttonStart;
+	GridLayout gridLayout;
+	int[] ID = {R.drawable.a123,R.drawable.aaa,R.drawable.ddd,R.drawable.fff,
+			R.drawable.ggg,R.drawable.hhh,R.drawable.iii,R.drawable.jjj};
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_my_drawable);
+		
+		//这种方法被弃用 了
+		//WindowManager wm1 = this.getWindowManager();  
+		//int width1 = wm1.getDefaultDisplay().getWidth();  
+		//int height1 = wm1.getDefaultDisplay().getHeight();  
+		//获取屏幕 长宽
+		WindowManager manager = this.getWindowManager();  
+		DisplayMetrics outMetrics = new DisplayMetrics();  
+		manager.getDefaultDisplay().getMetrics(outMetrics);  
+		final int width = outMetrics.widthPixels;  
+		final int height = outMetrics.heightPixels;
+
+		buttonStart = (Button)findViewById(R.id.buttonS);
+		gridLayout = (GridLayout)findViewById(R.id.haode);
+		
+		for(int i = 0;i<ID.length;i++){
+			ImageView imageView = new ImageView(this);
+			imageView.setImageResource(R.drawable.aa);
+			imageView.setScaleType(ScaleType.FIT_XY);
+			if(i>=4)
+				i++;
+			GridLayout.Spec rowSpec = GridLayout.spec(i/3); 
+			GridLayout.Spec columnSpec = GridLayout.spec(i%3);
+			GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+			params.height =height/3*11/12 ;
+			params.width = width/3*11/12;
+			//params.setGravity(Gravity.FILL); 
+			gridLayout.addView(imageView,params);
+			if(i>4)
+				i--;
+		}
+
+		/*for(int i = 0;i<ID.length;i++){
+			ImageView imageView = new ImageView(this);
+			imageView.setImageResource(ID[i]);
+			GridLayout.Spec rowSpec = GridLayout.spec(i/3); 
+			GridLayout.Spec columnSpec = GridLayout.spec(i%3);
+			GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+			params.setGravity(Gravity.FILL); 
+			gridLayout.addView(imageView,params);
+		}*/
+		buttonStart.setOnClickListener(new OnClickListener() {	
+			@Override
+			public void onClick(View v) {
+				ImageView imageView = new ImageView(MyDrawable.this);
+				imageView.setImageResource(R.drawable.bb);
+				imageView.setScaleType(ScaleType.FIT_XY);
+				GridLayout.Spec rowSpec = GridLayout.spec(2);
+				GridLayout.Spec columnSpec  = GridLayout.spec(2);
+				GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+				params.height =height/3*11/12 ;
+				params.width = width/3*11/12;
+				//params.setGravity(Gravity.FILL); 
+				gridLayout.addView(imageView,params);
+				imageView.setImageResource(R.drawable.aaa);
+				gridLayout.addView(imageView,params);
+			}
+		});
+	}
+}

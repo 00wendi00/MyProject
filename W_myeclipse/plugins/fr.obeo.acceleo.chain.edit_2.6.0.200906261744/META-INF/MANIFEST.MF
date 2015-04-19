@@ -1,0 +1,141 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.chain.provider
+Require-Bundle: org.eclipse.core.runtime,fr.obeo.acceleo.chain,org.ecl
+ ipse.emf.edit
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: runtime/fr.obeo.acceleo.chain.edit.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.chain.provider.ChainEditPlugin$Imple
+ mentation
+Bundle-SymbolicName: fr.obeo.acceleo.chain.edit;singleton:=true
+
+Name: icons/full/ctool16/CreateActionSet_actions_CustomAction.gif
+SHA1-Digest: 1PS5CdJiuOZG7LKD4jyDPdd43xY=
+
+Name: icons/full/ctool16/CreateRepository_members_Repository.gif
+SHA1-Digest: MEK36rukqqo8Snnq8/SWXIdwyD8=
+
+Name: icons/full/obj16/Generator.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: icons/full/obj16/CustomFile.gif
+SHA1-Digest: hKWbPY9IGKI88i73fsZ8W60cNQs=
+
+Name: icons/full/obj16/Model.gif
+SHA1-Digest: 5CgQ5Qto1X3RfB9ujXTBxhbgHco=
+
+Name: icons/full/ctool16/CreateRepository_files_Folder.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: icons/full/ctool16/CreateActionSet_actions_ConvertXmi.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: icons/full/obj16/Repository.gif
+SHA1-Digest: MEK36rukqqo8Snnq8/SWXIdwyD8=
+
+Name: icons/full/obj16/ModelSet.gif
+SHA1-Digest: 5CgQ5Qto1X3RfB9ujXTBxhbgHco=
+
+Name: icons/full/obj16/ConvertXmi.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: icons/full/ctool16/CreateRepository_files_ModelSet.gif
+SHA1-Digest: 5CgQ5Qto1X3RfB9ujXTBxhbgHco=
+
+Name: icons/full/ctool16/CreateRepository_files_Model.gif
+SHA1-Digest: 5CgQ5Qto1X3RfB9ujXTBxhbgHco=
+
+Name: icons/full/obj16/Generate.gif
+SHA1-Digest: j5/caRFZWzW9Ny0gLuUEZF0mkpc=
+
+Name: icons/full/ctool16/CreateRepository_files_CustomFile.gif
+SHA1-Digest: hKWbPY9IGKI88i73fsZ8W60cNQs=
+
+Name: runtime/fr.obeo.acceleo.chain.edit.jar
+SHA1-Digest: HXMhRoKt2TtUFhtTYJXsJF4GvIA=
+
+Name: icons/full/ctool16/CreateActionSet_actions_ChainCall.gif
+SHA1-Digest: wn5TL/w0pDxP3HRQ4cn9fnuBMmg=
+
+Name: icons/full/obj16/ChainCall.gif
+SHA1-Digest: wn5TL/w0pDxP3HRQ4cn9fnuBMmg=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Remove.gif
+SHA1-Digest: /GoPVhCpQ+0VtZ7rmiudbpEXoyg=
+
+Name: icons/full/obj16/File.gif
+SHA1-Digest: AUyZYH7KuCJQIePO6lB59JW3UfM=
+
+Name: icons/full/obj16/Clear.gif
+SHA1-Digest: VlQe11EC8Oaogw6cJZ8novJsO8o=
+
+Name: icons/full/obj16/Remove.gif
+SHA1-Digest: /GoPVhCpQ+0VtZ7rmiudbpEXoyg=
+
+Name: icons/full/ctool16/CreateChain_repository_Repository.gif
+SHA1-Digest: MEK36rukqqo8Snnq8/SWXIdwyD8=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Backup.gif
+SHA1-Digest: McO4rArHqZPhAYZl0ThswpWXcHI=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Clear.gif
+SHA1-Digest: VlQe11EC8Oaogw6cJZ8novJsO8o=
+
+Name: icons/full/obj16/Action.gif
+SHA1-Digest: Os03QpmcrkaTkA8DP/c2nxBrfms=
+
+Name: icons/full/obj16/Metamodel.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: plugin.properties
+SHA1-Digest: vmEdEU5gaU/HNnRz51O+WFNTBDo=
+
+Name: icons/full/obj16/Chain.gif
+SHA1-Digest: wn5TL/w0pDxP3HRQ4cn9fnuBMmg=
+
+Name: icons/full/obj16/Backup.gif
+SHA1-Digest: McO4rArHqZPhAYZl0ThswpWXcHI=
+
+Name: icons/full/obj16/Folder.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Generate.gif
+SHA1-Digest: j5/caRFZWzW9Ny0gLuUEZF0mkpc=
+
+Name: icons/full/obj16/EmfMetamodel.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: icons/full/obj16/ActionSet.gif
+SHA1-Digest: VGGKl00asdcN9l5kCH1YBpozszA=
+
+Name: icons/full/obj16/CustomAction.gif
+SHA1-Digest: 1PS5CdJiuOZG7LKD4jyDPdd43xY=
+
+Name: icons/full/ctool16/CreateChain_actions_ActionSet.gif
+SHA1-Digest: VGGKl00asdcN9l5kCH1YBpozszA=
+
+Name: runtime/fr.obeo.acceleo.chain.editsrc.zip
+SHA1-Digest: xtB2JEBnhYML+cRxyCPhz385q1I=
+
+Name: plugin.xml
+SHA1-Digest: NOgUDf8EZeM+bMDRI6jKZ5o4bF8=
+
+Name: icons/full/obj16/Log.gif
+SHA1-Digest: hr9KapYdFbdDY/cqQR+BD4BxcaA=
+
+Name: icons/full/obj16/Data.gif
+SHA1-Digest: jJvbEj/AnQDDiWrvW+EYo4EE5co=
+
+Name: icons/full/ctool16/CreateRepository_files_Generator.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: icons/full/ctool16/CreateRepository_files_EmfMetamodel.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: icons/full/ctool16/CreateRepository_files_Log.gif
+SHA1-Digest: hr9KapYdFbdDY/cqQR+BD4BxcaA=
+

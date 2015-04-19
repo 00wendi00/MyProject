@@ -1,0 +1,84 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common.model.ui,org.eclipse.jface.text
+ ,org.eclipse.jdt.core,org.jboss.tools.common,org.jboss.tools.common.m
+ odel,org.jboss.tools.jst.jsp,org.jboss.tools.jst.web,org.jboss.tools.
+ common.kb,org.eclipse.wst.sse.core,org.eclipse.jst.jsp.ui,org.eclipse
+ .wst.sse.ui,org.eclipse.wst.xml.core,org.eclipse.wst.xml.ui,org.eclip
+ se.wst.html.core,org.eclipse.wst.common.modulecore,org.eclipse.compar
+ e,org.eclipse.wst.common.ui,org.eclipse.jst.jsp.core,org.eclipse.wst.
+ common.snippets,org.eclipse.wst.html.ui,org.eclipse.jst.j2ee.web,org.
+ eclipse.wst.common.project.facet.core,org.eclipse.core.resources,org.
+ eclipse.core.runtime,org.eclipse.swt,org.eclipse.jface,org.eclipse.ui
+ ,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.views,org.eclipse
+ .ui.ide,org.jboss.tools.vpe.xulrunner,org.mozilla.xpcom,org.eclipse.d
+ raw2d,org.jboss.tools.jst.web,org.jboss.tools.vpe.resref,org.jboss.to
+ ols.common.el.core,org.eclipse.atf.mozilla.ide.core;bundle-version="0
+ .2.2",org.eclipse.core.expressions;bundle-version="3.4.100"
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: vpe.jar
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.vpe.VpePlugin
+Bundle-SymbolicName: org.jboss.tools.vpe;singleton:=true
+Provide-Package: meta,org.jboss.tools.vpe,org.jboss.tools.vpe.dnd,org.
+ jboss.tools.vpe.editor,org.jboss.tools.vpe.editor.bundle,org.jboss.to
+ ols.vpe.editor.context,org.jboss.tools.vpe.editor.dnd,org.jboss.tools
+ .vpe.editor.dnd.composite,org.jboss.tools.vpe.editor.dnd.context,org.
+ jboss.tools.vpe.editor.dnd.context.xpl,org.jboss.tools.vpe.editor.map
+ ping,org.jboss.tools.vpe.editor.menu,org.jboss.tools.vpe.editor.menu.
+ xpl,org.jboss.tools.vpe.editor.mozilla,org.jboss.tools.vpe.editor.pre
+ ferences,org.jboss.tools.vpe.editor.selection,org.jboss.tools.vpe.edi
+ tor.template,org.jboss.tools.vpe.editor.template.dnd,org.jboss.tools.
+ vpe.editor.template.expression,org.jboss.tools.vpe.editor.template.re
+ size,org.jboss.tools.vpe.editor.template.textformating,org.jboss.tool
+ s.vpe.editor.toolbar,org.jboss.tools.vpe.editor.toolbar.format,org.jb
+ oss.tools.vpe.editor.toolbar.format.css,org.jboss.tools.vpe.editor.to
+ olbar.format.handler,org.jboss.tools.vpe.editor.util,org.jboss.tools.
+ vpe.editor.xpl,org.jboss.tools.vpe.el,org.jboss.tools.vpe.el.messages
+ ,org.jboss.tools.vpe.messages,org.jboss.tools.vpe.resref,org.jboss.to
+ ols.vpe.selbar
+
+Name: vpe.jar
+SHA1-Digest: 5KRH9RAHKCriskXQ700/fhm/u/s=
+
+Name: ve/EditorOverride.css
+SHA1-Digest: lNmhD4Yx2Owu/fTOMMGJs5SZkrw=
+
+Name: plugin.properties
+SHA1-Digest: TXTA7Dcy/V6rsqw7u7hxfvUy7us=
+
+Name: about.ini
+SHA1-Digest: Ih1nY2nIS4imXgbGrH7e1DME0jw=
+
+Name: ve/unresolved_image.gif
+SHA1-Digest: zLUjvotGbB9zZPzLFN4kMZORg6Y=
+
+Name: ico_32_jbds.png
+SHA1-Digest: F4r3J3TIbqRsrz0o0c4/dRNnWT8=
+
+Name: templates/vpe-templates-auto.xml
+SHA1-Digest: gigR2dD0z3U96a+4SlOsuzEAjCc=
+
+Name: schema/templates.exsd
+SHA1-Digest: bMVwBP/qFB5DwD7/QsN2ccj7Se0=
+
+Name: ve/init.html
+SHA1-Digest: tij/Tdin6EmUmHv/qrXa9wVk788=
+
+Name: about.properties
+SHA1-Digest: ms9yZ4GNjUTapX9cnv8p5Qg586Y=
+
+Name: plugin.xml
+SHA1-Digest: 5O9VIbvkC06g93W+Jw+MOOWBPqU=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: templates/vpe-templates-list.xml
+SHA1-Digest: wA4CViRJAlDYUCSfWXvPIPd5kjM=
+
+Name: about.mappings
+SHA1-Digest: IlNsE++A/kY8Cd8SgW8yCFDq9iA=
+

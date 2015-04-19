@@ -1,0 +1,46 @@
+<extensions>
+<!--  
+	<tocOrder>
+		<toc id="/com.genuitec.myeclipse.doc/tocoverview.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocdemos.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocinstallation.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocwebsphere.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocjava.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocweb.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocjavaee.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/toc.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocappservers.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocpde.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocm4m.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocwebservices.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocdatabase.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocspringhibernate.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocuml.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocxml.xml" />
+		<toc id="/org.eclipse.platform.doc.isv/toc.xml" />
+		<toc id="/org.eclipse.jdt.doc.isv/toc.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocsupport.xml" />
+		<toc id="/com.genuitec.myeclipse.doc/tocmiscellaneous.xml" />
+	</tocOrder>
+ -->
+	<hidden>
+		<toc id="/org.eclipse.emf.doc/toc.xml" />
+		<toc id="/org.eclipse.emf.ecore.sdo.doc/toc.xml" />
+		<toc id="/org.eclipse.gef.doc.isv/toc.xml" />
+		<!--  
+        <toc id="/org.eclipse.pde.doc.user/toc.xml" />
+		<toc id="/org.eclipse.platform.doc.user/toc.xml" />
+		<toc id="/org.eclipse.jdt.doc.user/toc.xml" />
+        -->
+        <toc id="/org.eclipse.datatools.doc.user/toc.xml" />
+        <toc id="/org.eclipse.jst.jsf.doc.user/toc.xml" />
+        <toc id="/org.eclipse.wst.webtools.doc.user/webtools_toc.xml" />
+        <toc id="/org.eclipse.wst.doc.user/toc.xml" />
+        <toc id="/com.iw.plugins.spindle.docs/roottoc.xml" />
+	</hidden>
+	
+</extensions>
+
+
+
+

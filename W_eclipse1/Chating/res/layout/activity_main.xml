@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sdf.MainActivity$PlaceholderFragment"
+    >
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            	 <RelativeLayout 
+             		 android:layout_width="match_parent"
+            		 android:layout_height="50sp"
+            		 android:layout_marginTop="0dp"
+            		 android:background="@drawable/haha"
+             	 	 >
+            		 <TextView 
+            		     android:id="@+id/top_text1"
+            		     android:layout_centerInParent="true"
+                		 android:layout_width="wrap_content"
+                		 android:layout_height="wrap_content"
+                		 android:text="Chating"
+                		 android:textColor="#f00"
+                		 android:textSize="35sp"
+                	 />
+            		 <TextView 
+            		     android:id="@+id/top_text2"
+            		     android:layout_alignParentRight="true"
+            		     android:layout_centerVertical="true"
+            		     android:layout_width="50sp"
+            		     android:layout_height="wrap_content"
+						 android:text="设置"
+						 android:textSize="20sp"
+            		     />
+        		</RelativeLayout>	
+            
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+     			<TextView 
+     			    android:id="@+id/content1"
+     			    android:layout_width="match_parent"
+     			    android:layout_height="wrap_content"
+     			    android:text="消息"
+     			    />
+     			<ExpandableListView
+					android:id="@+id/ac_list"
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:childIndicator="@drawable/dd"
+				/>
+     			<TextView 
+     			    android:id="@+id/content3"
+     			    android:layout_width="match_parent"
+     			    android:layout_height="wrap_content"
+     			    android:text="动态"
+     			    />
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="60sp" 
+                android:showDividers="none"
+                android:background="@drawable/haha"
+                >
+            </TabWidget>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

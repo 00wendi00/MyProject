@@ -1,0 +1,14 @@
+##Binding file used to customize generated code based on UI selection
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	wsdlLocation="$wsdlLocation"
+	xmlns="http://java.sun.com/xml/ns/jaxws">    
+	<bindings node="wsdl:definitions">
+		#if ($disableWrapperStyle)
+			<enableWrapperStyle>false</enableWrapperStyle>
+		#end
+		#if ($enableAsyncMapping)
+			<enableAsyncMapping>true</enableAsyncMapping>
+		#end
+	</bindings>    
+</bindings>

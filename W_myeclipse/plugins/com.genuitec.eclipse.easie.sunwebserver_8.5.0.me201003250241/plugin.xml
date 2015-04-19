@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+   <extension
+         id="com.genuitec.eclipse.easie.sunwebserver.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.viper.preferencepage.appserver"
+            class="com.genuitec.eclipse.easie.sunwebserver.preference.SunWebserverFamilyPreferencePage"
+            id="com.genuitec.eclipse.easie.sunwebserver.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+	</extension>
+   <extension
+         id="com.genuitec.eclipse.easie.sunwebserver7.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%webserver7.menu.label"
+            category="com.genuitec.eclipse.easie.sunwebserver.preferencepage"
+            class="com.genuitec.eclipse.easie.sunwebserver7.preference.SunWebserver7LauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.sunwebserver7.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <!-- Since this server is launching based on service not based on launchconfiguration these extension points were commented
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.sunwebserver7.preferencepage"
+            class="com.genuitec.eclipse.easie.sunwebserver7.preference.SunWebserver7LauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.sunwebserver7.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.sunwebserver7.preferencepage"
+            class="com.genuitec.eclipse.easie.sunwebserver7.preference.SunWebserver7LauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.sunwebserver7.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.sunwebserver7.preferencepage"
+            class="com.genuitec.eclipse.easie.sunwebserver7.preference.SunWebserver7LauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.sunwebserver7.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page> -->
+   </extension>
+
+</plugin>

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.chain.presentation
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,fr
+ .obeo.acceleo.chain.edit,fr.obeo.acceleo.ecore.ui,fr.obeo.acceleo.gen
+ .ui,org.eclipse.emf.ecore.xmi,org.eclipse.emf.edit.ui,org.eclipse.ui.
+ ide,org.eclipse.pde.ui,fr.obeo.acceleo.chain,fr.obeo.acceleo.tools,fr
+ .obeo.acceleo.tools.ui,fr.obeo.acceleo.gen
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: runtime/fr.obeo.acceleo.chain.editor.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.chain.presentation.ChainEditorPlugin
+ $Implementation
+Bundle-SymbolicName: fr.obeo.acceleo.chain.editor; singleton:=true
+
+Name: runtime/fr.obeo.acceleo.chain.editorsrc.zip
+SHA1-Digest: +NK4MG164Fg29LPiMYoy9xwYzLs=
+
+Name: icons/full/obj16/ChainModelFile.gif
+SHA1-Digest: d4/caCyTtzpGuEeSr8UTWk3IzHo=
+
+Name: icons/full/wizban/NewChain.gif
+SHA1-Digest: +KG6M1/wJanlq1cJqdGRYJ2qPbU=
+
+Name: plugin.xml
+SHA1-Digest: cg1aMsyyKAfFsG4HGXSxoRnh24U=
+
+Name: plugin.properties
+SHA1-Digest: EHDRkcZSamwtMtPRpTE/BDiG0tE=
+
+Name: runtime/fr.obeo.acceleo.chain.editor.jar
+SHA1-Digest: 7oHKGeKUKAJd2rpQgocETtH97mk=
+

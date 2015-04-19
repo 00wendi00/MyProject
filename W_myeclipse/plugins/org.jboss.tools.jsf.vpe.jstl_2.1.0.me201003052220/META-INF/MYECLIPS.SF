@@ -1,0 +1,33 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: z4KcKK/YrCIo52VC4+yHvzG0jXI=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: BTT8JZiavIZ1gteqPzD3aaMpzOg=
+
+Name: templates/vpe-templates-jstl.xml
+SHA1-Digest: 9bPzaW28YOaV081wZKcTD+wqfwQ=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/JstlOutTemplate.class
+SHA1-Digest: 1WRRiiV8JYxJUkoqVDlyQAu1LgE=
+
+Name: plugin.xml
+SHA1-Digest: aUaUclOK8Z0fgI8wDzLiXbM/J64=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/AbstractOutputJstlTemplate
+ .class
+SHA1-Digest: ik66LBsvxK+56zkJ3PqonYK5jLo=
+
+Name: org/jboss/tools/jsf/vpe/jstl/ComponentUtil.class
+SHA1-Digest: U57YB/rK2nb3dBVn9bdcbno/GA4=
+
+Name: org/jboss/tools/jsf/vpe/jstl/JstlTemplatePlugin.class
+SHA1-Digest: ce/VB9yryY2XMQqageNmQYoBodQ=
+
+Name: plugin.properties
+SHA1-Digest: CHzXkbP5sDXrFxtk60zHikl8/UI=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/util/Jstl.class
+SHA1-Digest: fJiLNZvst9WRQX9ezd3IHsfAaZE=
+

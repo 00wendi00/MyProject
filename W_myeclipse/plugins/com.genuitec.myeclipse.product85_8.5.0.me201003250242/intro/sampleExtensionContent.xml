@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	Note to translators, the following need to be translated: 
+		label attributes on link tags 
+		the content of text tags
+-->
+<introContent>
+		
+	<!--  This is a temp hack for MER 6.0.1 as there is no additions area to append
+		  the reporting links. So remove the last link element and then readd it along with
+		  the MyEclipse Reporting links.
+		  
+		  TODO: refactor when the intro data org is revampted to support dynamic
+		  additions.
+	  -->
+	  <replacementContent  
+		style="css/myeclipse.css" 
+		alt-style="css/samples.properties" 
+  	  	path="samples/@org.eclipse.pde.workbench/workbench">
+  	  	
+  	  	<group label = "MyEclipse" style-id="content-group" id="meSamples">	  
+  	  		<text style-id="group-description">Resources that demonstrate how to use the many MyEclipse features.</text>
+  	  		<link label="Examples On-Demand" 
+		    	url="http://org.eclipse.ui.intro/runAction?pluginId=com.genuitec.eclipse.examples&amp;class=com.genuitec.eclipse.examples.actions.OpenExamplesAction&amp;id=com.genuitec.eclipse.examples.actions.OpenExamplesAction&amp;standby=true"
+       			id="meExamples" 
+       			style-id="content-link">
+          		<text> A free catalog of ready-to-run example applications that demonstrate how to quickly use 
+          			popular programming technologies and frameworks, such as Ajax frameworks, 
+          			JSP, JSF, Struts, Spring, Hibernate, JPA and EJB3.  Each of the example 
+          			applications is designed to run directly on the MyEclipse server-sandbox 
+          			with zero configuration and can be downloaded directly into 
+          			MyEclipse with a 1-click installation process from the Examples page</text>
+       		</link>
+       		
+       	</group>
+  	  	
+  	  </replacementContent>
+
+</introContent>
+
+<!-- 
+	<extensionContent 
+		id="org.eclipse.pde.workbench" 
+		name="MyEclipse" 
+		alt-style="css/tutorials.properties" 
+		style="css/myeclipse.css" 
+		path="samples/@org.eclipse.pde.workbench">
+		
+		<group label="MyEclipse" style-id="content-group" id="meSamples">	  
+  	  			
+  	  		<link label="Examples On-Demand" 
+		    	url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.eclipse.reporting.branding/html/quickstart/index.html" 
+       			id="meReportingWeb" 
+       			style-id="content-link">
+          		<text>dddLearn how to use MyEclipse report designer and deployment features to create reports for the web.</text>
+       		</link>
+       		
+       	</group>
+  	  	 	    
+  	</extensionContent>
+ -->  	

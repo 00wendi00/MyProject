@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+
+Name: feature.xml
+SHA1-Digest: 1u3SVL2+eZBC49BfBPQr2OCsAqM=
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="fr.obeo.acceleo.tools.ui.category"
+            name="Acceleo"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="fr.obeo.acceleo.tools.ui.category"
+            class="fr.obeo.acceleo.tools.ui.views.LogView"
+            icon="icons/logView.gif"
+            id="fr.obeo.acceleo.tools.ui.views.LogView"
+            name="Acceleo Log View">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="fr.obeo.acceleo.gen.ui.perspectives.AcceleoPerspectiveFactory">
+         <view
+               id="fr.obeo.acceleo.tools.ui.views.LogView"
+               relationship="stack"
+               relative="org.eclipse.ui.views.ProblemView">
+         </view>
+         <viewShortcut
+               id="fr.obeo.acceleo.tools.ui.views.LogView">
+         </viewShortcut>
+      </perspectiveExtension>
+   </extension>
+  
+</plugin>

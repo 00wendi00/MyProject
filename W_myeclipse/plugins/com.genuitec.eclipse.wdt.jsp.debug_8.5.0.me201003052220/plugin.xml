@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+
+<!-- ====================================================== -->
+<!-- Define Assign Validate action on .jsp file             -->
+<!-- ====================================================== -->
+<!-- Taken out to use WTP validator instead
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*.jsp,*.jspx"
+            id="com.genuitec.eclipse.wdt.jsp.valiate.action">
+         <action
+               label="Validate JSP"
+               class="com.genuitec.eclipse.wdt.jsp.validation.ValidateJSPActionDelegate"
+               enablesFor="1"
+               id="com.genuitec.eclipse.wdt.jsp.validation.ValidateJSPActionDelegate">
+         </action>
+      </objectContribution>
+   </extension>
+-->   
+   
+<!-- ====================================================== -->
+<!-- Register the JSP validator with the validation 		-->
+<!-- framework. 										    -->
+<!-- ====================================================== -->
+<!-- Remove to use WTP validator
+   <extension
+         id="com.genuitec.eclipse.wdt.jsp.validator"
+         name="JSP Validator"
+         point="org.eclipse.wst.validation.validator">
+      <validator>
+         <filter
+               objectClass="org.eclipse.core.resources.IFile"
+               caseSensitive="false"
+               nameFilter="*.jsp">
+         </filter>
+
+         <filter
+               objectClass="org.eclipse.core.resources.IFile"
+               caseSensitive="false"
+               nameFilter="*.jspx">
+         </filter>
+         <helper
+               class="com.genuitec.eclipse.wdt.jsp.validation.Helper">
+         </helper>
+         <run  enabled="true"
+               class="com.genuitec.eclipse.wdt.jsp.validation.Validator">
+         </run>
+      </validator>
+   </extension>
+-->   
+   
+<!-- ====================================================== -->
+<!-- The configs for attaching to local or external		    -->
+<!-- servers while using our source locators.   		    -->
+<!-- ====================================================== -->
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            name="%launchConfigurationType.remoteServer.name"
+            delegate="org.eclipse.jdt.internal.launching.JavaRemoteApplicationLaunchConfigurationDelegate"
+            modes="debug"
+            id="com.genuitec.eclipse.wdt.jsp.debug.remoteServer"
+            sourceLocatorId="com.genuitec.eclipse.wdt.jsp.debug.JSPSourceLocator"
+            sourcePathComputerId="com.genuitec.eclipse.wdt.jsp.debug.sourceLookup.javaJSPSourcePathComputer"/>            
+      <launchConfigurationType
+			id="com.genuitec.eclipse.wdt.jsp.debug.localServer"
+			name="%launchConfigurationType.localServer.name"
+			delegate="com.genuitec.eclipse.wdt.jsp.debug.MyEclipseLaunchConfigurationDelegate"
+			modes="run, debug"
+			sourceLocatorId="com.genuitec.eclipse.wdt.jsp.debug.JSPSourceLocator"
+			sourcePathComputerId="com.genuitec.eclipse.wdt.jsp.debug.sourceLookup.deployedProjectsPathComputer"/>
+   </extension> 
+   
+   <!-- source path computer for local servers is in ast.deploy.core -->
+   
+   <extension point="org.eclipse.debug.core.sourcePathComputers">
+   		<sourcePathComputer
+   			id="com.genuitec.eclipse.wdt.jsp.debug.sourceLookup.javaJSPSourcePathComputer"
+   			class="org.eclipse.jdt.launching.sourcelookup.containers.JavaSourcePathComputer">
+   		</sourcePathComputer>
+   </extension>
+   
+   <extension point="org.eclipse.debug.core.sourceLocators">
+   		<sourceLocator
+   			id="com.genuitec.eclipse.wdt.jsp.debug.JSPSourceLocator"
+   			class="com.genuitec.eclipse.wdt.jsp.debug.JSPSourceLookupDirector"
+   			name="%sourceLocator.JSPSourceLocator.name">
+   		</sourceLocator>
+   </extension>
+   
+   <extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+            icon="icons/osprc_obj.gif"
+            configTypeID="com.genuitec.eclipse.wdt.jsp.debug.remoteServer"
+            id="com.genuitec.eclipse.wdt.jsp.debug.launchConfigurationTypeImage.remoteServer">
+      </launchConfigurationTypeImage>
+      <launchConfigurationTypeImage
+            icon="icons/server.gif"
+            configTypeID="com.genuitec.eclipse.wdt.jsp.debug.localServer"
+            id="com.genuitec.eclipse.wdt.jsp.debug.launchConfigurationTypeImage.localServer">
+      </launchConfigurationTypeImage>
+   </extension>
+   
+   <extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            type="com.genuitec.eclipse.wdt.jsp.debug.remoteServer"
+            description="%launchConfigurationTabGroup.remoteServer.description"
+            helpContextId="org.eclipse.jdt.debug.ui.launchConfigHelpContext.remote_java_application"
+            class="org.eclipse.jdt.internal.debug.ui.launcher.RemoteJavaApplicationTabGroup"
+            id="com.genuitec.eclipse.wdt.jsp.debug.launchConfigurationTabGroup.remoteServer">
+      </launchConfigurationTabGroup>
+      <launchConfigurationTabGroup
+            description="%launchConfigurationTabGroup.localServer.description"
+		    id="com.genuitec.eclipse.wdt.jsp.debug.launchConfigurationTabGroup.localServer"
+		    type="com.genuitec.eclipse.wdt.jsp.debug.localServer"
+		    class="com.genuitec.eclipse.wdt.jsp.debug.MyEclipseLaunchConfigurationTabGroup">
+      </launchConfigurationTabGroup>
+   </extension>
+
+</plugin>

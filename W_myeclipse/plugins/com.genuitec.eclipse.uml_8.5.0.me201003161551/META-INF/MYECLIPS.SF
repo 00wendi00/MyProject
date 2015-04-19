@@ -1,0 +1,143 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: aHrefK48z7kQ+MpEah2KAmCREE4=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: Wk+F6vUzPFVmLzasGY3iLlsnleA=
+
+Name: myeclipse-uml.jar
+SHA1-Digest: X7QIA8PDZTYodthEvog9UZnlHGg=
+
+Name: icons/field_default_obj.gif
+SHA1-Digest: d/KgS9zvngI6CiBMvfPY+yrrz0w=
+
+Name: icons/methdef_obj.gif
+SHA1-Digest: LoMWp3SO2fwToNQ8U0kU0GS3Tmc=
+
+Name: icons/sample.gif
+SHA1-Digest: mURGpp/gEzPu434WkU1WXZbyKOY=
+
+Name: lib/xercesImpl-2.6.2.jar
+SHA1-Digest: uB8T7embjw/EuPGrSl/LtmjcxHo=
+
+Name: icons/addUMLWizban.gif
+SHA1-Digest: W7nmY20hS7b7ascXwCAQiGx/FgE=
+
+Name: icons/etool16/ClassDiagram.gif
+SHA1-Digest: Uc23RKue0Cqa6KFXufwR9NU3ylQ=
+
+Name: icons/methpri_obj.gif
+SHA1-Digest: Mws4hprBUeQIlfWrzQrvqf49i10=
+
+Name: lib/xml-apis-2.6.2.jar
+SHA1-Digest: HLkWDX0TV+zg+mByMDTA1S8yT4Q=
+
+Name: icons/wizban/java2UMLWizban.gif
+SHA1-Digest: a2WHmWIi9BNP58fcoFLt/V1M650=
+
+Name: icons/etool16/CollaborationDiagram.gif
+SHA1-Digest: yGOb6Y4zokS//a7qAVBbeaQcVS0=
+
+Name: icons/field_protected_obj.gif
+SHA1-Digest: E1NeboDw/awkXBscksEH5Pjt2dc=
+
+Name: lib/i18n-0.1.3.jar
+SHA1-Digest: V5mTNseZq9aRzJGGlreYkUvMQLs=
+
+Name: icons/int_default_obj.gif
+SHA1-Digest: 28bAhWdYDMKBkT4n9rmzoAagaHo=
+
+Name: icons/class_obj.gif
+SHA1-Digest: oXbm0Wwn9s1pCbAYvJgl/8ZfETs=
+
+Name: icons/etool16/UseCaseDiagram1.gif
+SHA1-Digest: DnpHqkj7ZfqjDqhc8iuMaa6zSB8=
+
+Name: icons/wizban/uml2JavaWizban.gif
+SHA1-Digest: dIog1g+T05EKtZ1VlWlISasLNhM=
+
+Name: icons/etool16/StateDiagram.gif
+SHA1-Digest: CQ/Psn9wuhPE2ySvVrvfi+rQCM0=
+
+Name: icons/etool16/UML.gif
+SHA1-Digest: Wpwzaa8yeyB28T3xxnwJe+9MyAY=
+
+Name: about.html
+SHA1-Digest: XqOO3kJezfVoRKJiIZfVxDFUbbU=
+
+Name: lib/commons-logging-1.0.2.jar
+SHA1-Digest: 7cunej+GjFD/lcxPpLIyoL/hcP0=
+
+Name: icons/etool16/DeploymentDiagram.gif
+SHA1-Digest: VKYiok+E09otaOXRVdnrOt8+pAI=
+
+Name: lib/relaxngDatatype.jar
+SHA1-Digest: errn3Y0Yl1zXr0yhs84EpUBMZCc=
+
+Name: icons/wizban/addUMLWizban.gif
+SHA1-Digest: tdQKyr0pFr243xK62FFGKekHvXg=
+
+Name: icons/etool16/ActivityDiagram.gif
+SHA1-Digest: BD9mCnieG9Gm0BuercwGr0qrUAs=
+
+Name: lib/nsuml-0.4.20_modified.jar
+SHA1-Digest: A5wxBm4uK0RFB1VTl5PZW0tMFfI=
+
+Name: icons/etool16/SequenceDiagram.gif
+SHA1-Digest: SITmYaPenSwaKLoQFBzi9gksuZY=
+
+Name: lib/ocl-argo-1.1.jar
+SHA1-Digest: p8oyA+gWQRHOV8b2r14DWBs7Z6M=
+
+Name: lib/xalan-2.6.0.jar
+SHA1-Digest: u/zHvoiwrXwMRxzqSQvccNmpanc=
+
+Name: icons/etool16/UseCaseDiagram.gif
+SHA1-Digest: TNPDNV5vz2+ijGerg38s/JQycKg=
+
+Name: lib/jmi-1.0.jar
+SHA1-Digest: G7Mq52SKkpFtf2jBNDcG0DVyCK4=
+
+Name: icons/int_obj.gif
+SHA1-Digest: LWU/8VquNg1g1uYYcCLgPN9Wj/U=
+
+Name: icons/field_private_obj.gif
+SHA1-Digest: 9Mk307wMXfIBoC0xEw0gOXgn+2I=
+
+Name: icons/xmi.png
+SHA1-Digest: rvz786OmZ7P0bERJacXYhIHB+Oc=
+
+Name: plugin.properties
+SHA1-Digest: pkD3qhhkysymHxFV+5Y7C7rh/D0=
+
+Name: icons/etool16/UML_wiz.gif
+SHA1-Digest: ftPvwUP3W4N1JfMkOi00vo7tRDg=
+
+Name: lib/antlrall-2.7.2.jar
+SHA1-Digest: ySeBsI9uMKQIvq883ywezbEkXXc=
+
+Name: lib/swidgets-0.1.1.jar
+SHA1-Digest: FzOk06AJIYzFEQ19LLUSOy1GTiM=
+
+Name: icons/field_public_obj.gif
+SHA1-Digest: VrJmHn0lWSA66KtgNFpZ09WKMOM=
+
+Name: icons/methpub_obj.gif
+SHA1-Digest: GFVmo50R5b7/wuk9jhSBoZraYnU=
+
+Name: icons/class_default_obj.gif
+SHA1-Digest: Ht8Qu+qoePsBHYISBrBJdHlVdlM=
+
+Name: plugin.xml
+SHA1-Digest: kin24EmTR/GGz/IIxXQiPfd/80A=
+
+Name: license.html
+SHA1-Digest: S+SqkwDohlc+7bEEdfhyjfv7If0=
+
+Name: icons/package_obj.gif
+SHA1-Digest: lTIYopFQMlotSUFJCAEj+yPAT4k=
+
+Name: icons/methpro_obj.gif
+SHA1-Digest: wLrHw+JIrpbWCRAcCVS4fACXH4c=
+
+Name: lib/log4j-1.2.6.jar
+SHA1-Digest: Im+pRftrX5fkBS9nRpGRlM4fw3Q=
+

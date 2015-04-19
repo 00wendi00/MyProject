@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="precondition" name="fr.obeo.acceleo.chain.precondition" schema="schema/precondition.exsd"/>
+   <extension-point id="custom" name="fr.obeo.acceleo.chain.custom" schema="schema/custom.exsd"/>
+   <extension-point id="postGeneration" name="fr.obeo.acceleo.chain.postGeneration" schema="schema/postGeneration.exsd"/>
+
+   <extension point="fr.obeo.acceleo.chain.postGeneration">
+      <post class="fr.obeo.acceleo.chain.tools.DefaultPostGeneration" priority="0"/>
+   </extension>
+   
+    <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http://www.obeo.fr/acceleo/chain" 
+       class = "fr.obeo.acceleo.chain.ChainPackage" />
+  </extension>
+    <extension
+          id="launch"
+          point="org.eclipse.core.runtime.applications">
+       <application>
+          <run class="fr.obeo.acceleo.chain.runner.ChainRunner"/>
+       </application>
+    </extension>
+    <extension
+          point="fr.obeo.acceleo.chain.custom">
+       <action
+             actionClass="fr.obeo.acceleo.chain.tools.ChainCustomJarAction"
+             customId="JAR (root folder, jar file)"
+             documentation="%jarCustomActionDescription"/>
+    </extension>
+    <extension
+          point="fr.obeo.acceleo.chain.custom">
+       <action
+             actionClass="fr.obeo.acceleo.chain.tools.ChainCustomInitAction"
+             customId="INIT (input folder, output folder)"
+             documentation="%initCustomActionDescription"/>
+    </extension>
+    <extension
+         point="fr.obeo.acceleo.chain.custom">
+      <action
+            actionClass="fr.obeo.acceleo.chain.tools.ChainCustomLauncherAction"
+            customId="LAUNCHER (launch configuration file)"
+            documentation="%launcherCustomActionDescription">
+      </action>
+    </extension>
+
+</plugin>
+

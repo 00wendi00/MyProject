@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.dltk
+
+Name: eclipse32.png
+SHA1-Digest: eCk/A3/COXL3S6qAVDOSrlsqmLw=
+
+Name: about.properties
+SHA1-Digest: 7wZXvVWX/x5FQdG6HmbTXKcKcGU=
+
+Name: about.html
+SHA1-Digest: PndfqQuMJtgYaE2hQgel92mMMZ4=
+
+Name: plugin.properties
+SHA1-Digest: OAPAawMpfutSvjQJS/CY4d5vNbA=
+
+Name: about.ini
+SHA1-Digest: xJ0penPtL/yuEmdcrm6a0bgFR/Y=
+
+Name: about.mappings
+SHA1-Digest: aPJ0ZsEUFshvHPY3EB14MRIdyBU=
+

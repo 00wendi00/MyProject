@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.easie.sunglassfishv3final,com.gen
+ uitec.eclipse.easie.sunglassfishv3final.preference
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiesunglassfishv3final.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.resources,org.eclipse.debug.core,org.
+ eclipse.swt,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launc
+ hing,org.eclipse.jdt.debug,org.eclipse.core.runtime,com.genuitec.ecli
+ pse.core,com.genuitec.eclipse.core.common,org.eclipse.debug.ui,org.ec
+ lipse.jdt.ui,org.eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core
+ ,com.genuitec.eclipse.wdt.jsp.debug,com.genuitec.eclipse.easie.sun,or
+ g.eclipse.core.runtime.compatibility,com.genuitec.eclipse.easie.sungl
+ assfish3
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.sunglassfishv3final.Glassfish
+ 3FinalLauncherPlugin
+Bundle-Version: 8.5.0.me201003121946
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.sunglassfishv3final;si
+ ngleton:=true
+
+Name: preferences.ini
+SHA1-Digest: rrfGr6kCoCndrjErMQTSY3HBc+Q=
+
+Name: easiesunglassfishv3final.jar
+SHA1-Digest: eAV9Ubcy/DbSQduvGvS8B4Cj7J0=
+
+Name: plugin.xml
+SHA1-Digest: bwUXyA+HkAtXeDXRST6DwdqEWCU=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: QKKfwpwV7JcAc6I4WOufCd2MLyE=
+
+Name: plugin.properties
+SHA1-Digest: VNMLxnqF16xuaqbqK6tsOE5BHCk=
+

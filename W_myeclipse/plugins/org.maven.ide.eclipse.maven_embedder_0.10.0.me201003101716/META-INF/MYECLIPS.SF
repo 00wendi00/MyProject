@@ -1,0 +1,92 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 34kedSctNELlHpkMpFtHksY6kiA=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: YFYvn2nsLcbsvLfhBsxRMRIX+20=
+
+Name: jars/maven-artifact-3.0-SNAPSHOT.jar
+SHA1-Digest: SyxU6VSm1bAP51ikwlcNTxwsaRQ=
+
+Name: jars/jetty-util-7.0.0.v20091005.jar
+SHA1-Digest: 3hZyFZA1AzIS5xW00TqRWJ5sctw=
+
+Name: jars/log4j-1.2.12.jar
+SHA1-Digest: R4XziaY4zO6iWhMysIcLfywyn8A=
+
+Name: jars/google-collections-1.0.jar
+SHA1-Digest: PMkiwnMSitQYM6ZdlhI02qgt8uI=
+
+Name: jars/maven-model-builder-3.0-SNAPSHOT.jar
+SHA1-Digest: AHdmVJybNgQQtWZRCFOuiTycK7o=
+
+Name: jars/plexus-sec-dispatcher-1.3.jar
+SHA1-Digest: PohSzJaYSuJV2466NOgAtzbijYo=
+
+Name: jars/maven-plugin-api-3.0-SNAPSHOT.jar
+SHA1-Digest: jn4kiwHsz4rVEUSdNjFJ9F7dZ4M=
+
+Name: jars/commons-logging-api-1.1.jar
+SHA1-Digest: Ws6c5TKZNvUjnq/fC5ZV+dzh60s=
+
+Name: jars/maven-embedder-3.0-SNAPSHOT.jar
+SHA1-Digest: bPEirlG/+Reell87m5j6YGAue58=
+
+Name: jars/plexus-build-api-0.0.6.jar
+SHA1-Digest: kKv4tZdI+fm46ztAX+mMilHRxrQ=
+
+Name: jars/commons-cli-1.2.jar
+SHA1-Digest: YtGYjpUGYXR6k3y70vpUDTWil/8=
+
+Name: jars/plexus-classworlds-2.2.2.jar
+SHA1-Digest: OX9SAUdujN3HfM4tYQKxTEyg6Bs=
+
+Name: jars/plexus-utils-2.0.1.jar
+SHA1-Digest: ZVZDUT+pvW1laW5g+5HB0nl1IKk=
+
+Name: jars/wagon-file-1.0-beta-6.jar
+SHA1-Digest: xGP0Z23aNpk5LojE4oREd4KEeA4=
+
+Name: jars/jetty-io-7.0.0.v20091005.jar
+SHA1-Digest: w8AE3bQ8p7tzpf6Ofca//3QmM4M=
+
+Name: jars/maven-core-3.0-SNAPSHOT.jar
+SHA1-Digest: Hmn8EomAtKxk9B/paiZXUiaNBYA=
+
+Name: jars/wagon-provider-api-1.0-beta-6.jar
+SHA1-Digest: x7IqENMPp14MjryIo2UWmLJ49zE=
+
+Name: jars/wagon-http-jetty-client-1.0-SNAPSHOT.jar
+SHA1-Digest: F9stySmrg1sm90Bw2K9XAKDl3mU=
+
+Name: jars/maven-compat-3.0-SNAPSHOT.jar
+SHA1-Digest: SnWZOIExMwK6OYRK0iZBY+jlJrI=
+
+Name: jars/plexus-container-default-1.5.3.jar
+SHA1-Digest: thGqCGiFr3g6EQX1ae3n1+kERww=
+
+Name: jars/jetty-http-7.0.0.v20091005.jar
+SHA1-Digest: VRSBM8vJdBMYY73G1NbMXSI5qsg=
+
+Name: META-INF/plexus/.keep
+SHA1-Digest: ZhmDv/x/RhyKpZlJ9IijtBB3f9w=
+
+Name: jars/jetty-client-7.0.0.v20091005.jar
+SHA1-Digest: /7s8Wws8eVkslGT/Uc9E8X8zzn4=
+
+Name: jars/maven-settings-3.0-SNAPSHOT.jar
+SHA1-Digest: A0kM1AtvEWIRczwjubWBe9Jw0Ec=
+
+Name: jars/maven-model-3.0-SNAPSHOT.jar
+SHA1-Digest: Krcq+ST05AThAVVou6RGUZiKPUs=
+
+Name: jars/plexus-interpolation-1.11.jar
+SHA1-Digest: PFXWjrdo0o8sNydmPJ1We9qtNMY=
+
+Name: jars/plexus-component-annotations-1.5.3.jar
+SHA1-Digest: hoxmnH7Ht6fbGRW1PlbjUIaYtNA=
+
+Name: jars/plexus-cipher-1.4.jar
+SHA1-Digest: YB+lmO+NIoZsWruKOYN+uFtDUjs=
+
+Name: jars/xbean-reflect-3.4.jar
+SHA1-Digest: L7mqY9D7UqCuCCEV7S4YqhP8GP4=
+

@@ -1,0 +1,109 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.genuitec.e
+ clipse.sqlexplorer,org.eclipse.ui.editors,org.eclipse.ui.workbench.te
+ xteditor,org.eclipse.jface.text,org.eclipse.ui.ide,com.genuitec.eclip
+ se.core,com.genuitec.eclipse.core.common,org.eclipse.core.filesystem,
+ org.eclipse.wst.sse.ui
+Bundle-Vendor: %bundleVendor
+Eclipse-AutoStart: true
+Bundle-ClassPath: dbexplorer-oracle.jar
+Bundle-Version: 8.5.0.me201003052220
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Bundle-Activator: com.genuitec.eclipse.sqlexplorer.oracle.OraclePlugin
+Bundle-SymbolicName: com.genuitec.eclipse.sqlexplorer.oracle; singleto
+ n=true
+
+Name: icons/explain.gif
+SHA1-Digest: pPc5kXgUujcSZph+x9HVCdJP3ZU=
+
+Name: icons/synch_synch.gif
+SHA1-Digest: k7leNnKzBupM8aOCEOhXRok0Eag=
+
+Name: icons/sample.gif
+SHA1-Digest: ra58H6nanR7T5mUrbsVyw7ZSDFY=
+
+Name: icons/packagefolder_obj.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: icons/test.gif
+SHA1-Digest: tDe0qpOncWXK4p0tgMCqDo/EdJc=
+
+Name: icons/xml_file.gif
+SHA1-Digest: nCTYn5SbpkC5/gEZ+Vq476DmJUU=
+
+Name: icons/package.gif
+SHA1-Digest: TAzEv4kYyock9dC9OENnoK2FF1Y=
+
+Name: icons/run.gif
+SHA1-Digest: 9nUFtkM1LiPz9RddB8tq+Zl7LlE=
+
+Name: icons/old/package_body.gif
+SHA1-Digest: k8RH6XiT+F9tPsKaAeUwc0KC7Dg=
+
+Name: icons/trigger.gif
+SHA1-Digest: 1ZFcpcwH/UrLlj1BBAUtHA+o0b0=
+
+Name: icons/view.gif
+SHA1-Digest: eCgF5q1YzSP3U0KH++DrZRNKRWk=
+
+Name: icons/stored_procedure.gif
+SHA1-Digest: qxaUBx4HOzVKiR4h6PXnQ2P3Rvk=
+
+Name: about.html
+SHA1-Digest: 0fp9PCxmwx2csyOwXOJL8r5yd+g=
+
+Name: icons/replace_persp.gif
+SHA1-Digest: fCLoxg7zg0hcef672QgMsqq4PIY=
+
+Name: dbexplorer-oracle.jar
+SHA1-Digest: k2fpO419jcLrBl2iKRPOoo5prYo=
+
+Name: icons/update.gif
+SHA1-Digest: jlMnpgTyTKpJXmsMpnxj3KX8J/Q=
+
+Name: icons/sequence.gif
+SHA1-Digest: fo/7N7b3A3aP95gnIqNfAvlOzlc=
+
+Name: icons/udf.gif
+SHA1-Digest: orJXcGGiOTvCgdC/5VJC6ld3b58=
+
+Name: icons/f.gif
+SHA1-Digest: FZi0WZT0ZipqI1ICOde/2ZdWIys=
+
+Name: icons/old/package.gif
+SHA1-Digest: xXBr4qa+yBMjlByWJFMBJuKZOnM=
+
+Name: icons/copy.gif
+SHA1-Digest: R7Gjk5TLf2VhB7kGAw8SFO6PuRE=
+
+Name: icons/error_log.gif
+SHA1-Digest: 8ZkrvM+xW6pNAnMMWmb0bY+zpMI=
+
+Name: icons/generate_ddl.gif
+SHA1-Digest: Pg1dt5ivlS/9aElyfoaHdAi4GF0=
+
+Name: icons/refresh.gif
+SHA1-Digest: VHUDPMiwiKJcwN0BG7ABhxxFfrA=
+
+Name: plugin.properties
+SHA1-Digest: Acj7HnYgRnppGn1MfB0mI0s5idc=
+
+Name: icons/run_wiz.gif
+SHA1-Digest: MgbWYjWwe6jglLje4EepGszB+/c=
+
+Name: icons/java_model_obj.gif
+SHA1-Digest: dqwdtyZ54C7LEVYmh/2TM98NJ0U=
+
+Name: icons/generate_code.gif
+SHA1-Digest: oYwWWBR7fOp5gtLfGBMFacmRXLU=
+
+Name: plugin.xml
+SHA1-Digest: uPXziDnEVZqEdM2pdVfYtyUabQs=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: icons/p.gif
+SHA1-Digest: Bm8IQ/xgV2OOKKLVuB9XVAkH7lE=
+

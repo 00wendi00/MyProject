@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	Note to translators, the following need to be translated: 
+		label attributes on link tags 
+		the content of text tags
+-->
+<introContent>
+  	<extensionContent id="com.genuitec.myeclipse.product.overviewEx1" style="css/myeclipse.css" alt-style="css/overview.properties" name="MyEclipse Overview" 
+  	  path="overview/@">
+		<group style-id="content-group" id="meOverview">
+       		<link label="MyEclipse User Interface Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/gettingstarted/intro/ui.html" 
+       		  id="meOverviewUI" style-id="content-link">
+          		<text>Investigate MyEclipse's rich set of tools for creating user interfaces on the server, in the browser, and on the desktop.</text>
+       		</link>
+       		<link label="MyEclipse Enterprise Framework and Services Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/gettingstarted/intro/business.html" 
+       		  id="meOverviewBusiness" style-id="content-link">
+          		<text>Learn about the tools MyEclipse provides to create enterprise business services and map business objects to persistence data services.</text>
+       		</link>
+       		<link label="MyEclipse Database and Application Server Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/gettingstarted/intro/enterprise.html" 
+       		  id="meOverviewEnterprise" style-id="content-link">
+          		<text>Get started with MyEclipse enterprise level tools which enable rapid database development and application server control.</text>
+       		</link>
+            <link label="Maven Build Tools For MyEclipse" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/gettingstarted/intro/maven.html" 
+              id="meOverviewMaven" style-id="content-link">
+                <text>Learn about using the Maven build system with MyEclipse.</text>
+            </link>            
+       		<link label="MyEclipse Common Tools" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.genuitec.myeclipse.doc/html/gettingstarted/intro/common.html" 
+       		  id="meOverviewCommon" style-id="content-link">
+          		<text>Find out what common tools and utilities MyEclipse provides to improve your productivity.</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

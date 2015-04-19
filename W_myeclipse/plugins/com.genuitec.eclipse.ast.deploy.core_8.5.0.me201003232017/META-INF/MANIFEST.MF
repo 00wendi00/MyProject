@@ -1,0 +1,112 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.ast.deploy.ant,com.genuitec.eclip
+ se.ast.deploy.core,com.genuitec.eclipse.ast.deploy.core.jobs,com.genu
+ itec.eclipse.ast.deploy.core.packaging,com.genuitec.eclipse.ast.deplo
+ y.core.ui,com.genuitec.eclipse.ast.deploy.core.ui.action,com.genuitec
+ .eclipse.ast.deploy.core.ui.debug,com.genuitec.eclipse.ast.deploy.cor
+ e.ui.dialog,com.genuitec.eclipse.ast.deploy.core.ui.wizard
+Require-Bundle: org.apache.ant,com.genuitec.eclipse.j2eedt.core,com.ge
+ nuitec.eclipse.core,com.genuitec.eclipse.core.common,com.genuitec.ecl
+ ipse.easie.core,org.eclipse.core.resources,org.eclipse.core.runtime,o
+ rg.eclipse.jdt.core,org.eclipse.jface,org.eclipse.swt,org.eclipse.ui,
+ org.eclipse.ui.workbench,org.eclipse.core.runtime.compatibility,org.e
+ clipse.ui.browser,com.genuitec.org.eclipse.webbrowser,com.genuitec.ec
+ lipse.jniwrapper,org.eclipse.debug.ui,org.eclipse.core.expressions,or
+ g.eclipse.core.filesystem,org.apache.commons.io;bundle-version="1.3.2
+ ",org.jdom;bundle-version="1.0.0",com.ibm.icu;bundle-version="3.8.1",
+ org.eclipse.ltk.ui.refactoring;bundle-version="3.4.100"
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: deploycore.jar
+Bundle-Version: 8.5.0.me201003232017
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.genuitec.eclipse.ast.deploy.core.DeploymentCore
+Bundle-SymbolicName: com.genuitec.eclipse.ast.deploy.core; singleton:=
+ true
+
+Name: icons/server_started.gif
+SHA1-Digest: SAXbvMeT6t4COzeddmFJ6zoKYvA=
+
+Name: icons/launch_publish.gif
+SHA1-Digest: 5p6iRGFT2vGOwuS1+HDgLiDXbvc=
+
+Name: icons/warning.gif
+SHA1-Digest: l+p5JhG3Qzkr07OwYwoWtu2uRz0=
+
+Name: icons/wizban/new_deployment.gif
+SHA1-Digest: sVGpTpIcfnXVW2tx95X2tdj5h+4=
+
+Name: icons/launch_debug.gif
+SHA1-Digest: 0N/r8ApsNuO/5kCiCb/8bvLBZzA=
+
+Name: icons/wizban/deployment_manager1.gif
+SHA1-Digest: Sql11PYZoC0J1qcrAkyQVoiX8EY=
+
+Name: icons/ok.gif
+SHA1-Digest: M3cOk1tovefM5Mf/jzbqtPmB/as=
+
+Name: deploycore.jar
+SHA1-Digest: zo/uFa5tMKhoPfPXbqbejc82er8=
+
+Name: about.html
+SHA1-Digest: idBiIkDn1wBUjWuTJBBTyTDZTNw=
+
+Name: icons/wizban/deployment_manager.gif
+SHA1-Digest: mQtZz+QARy3aIJb6611MOr+MFAU=
+
+Name: icons/internal_browser.gif
+SHA1-Digest: YoWFD+Ak8FMdjCtb0T4zvRAN56g=
+
+Name: icons/wizban/new_undeployment.gif
+SHA1-Digest: MV/lFrKI4TBxzGC4BJClTKDfZsg=
+
+Name: icons/deploy_icon.gif
+SHA1-Digest: eyJrkN1fWg7n2F/QQrGBMwfqbrs=
+
+Name: icons/servers_view.gif
+SHA1-Digest: vtMh3A6NQWGikkk/O5nYA6u5Mqs=
+
+Name: blank.html
+SHA1-Digest: pmResNkRme3VtPMVMxUyPq8Ulyc=
+
+Name: icons/deploy_icon_ghost.gif
+SHA1-Digest: jClZLTDbHLAQDOCOiUE4N1kMKQE=
+
+Name: plugin.properties
+SHA1-Digest: 2q/gvbdyv8mIdu27yZ53CW8SFiQ=
+
+Name: icons/run_on_server.gif
+SHA1-Digest: jJJ3H5glnYj7qVKr2GkOHrWUiCk=
+
+Name: icons/server_disconnected.gif
+SHA1-Digest: QRAl9m6Ikp0474bNarR1gLAG/jM=
+
+Name: icons/server_stopped.gif
+SHA1-Digest: QRAl9m6Ikp0474bNarR1gLAG/jM=
+
+Name: icons/launch_run.gif
+SHA1-Digest: 9nUFtkM1LiPz9RddB8tq+Zl7LlE=
+
+Name: icons/myeclipse_run_inactive1.gif
+SHA1-Digest: U4dSpc0dnsjmJ9oNfHf73WUTkic=
+
+Name: preferences.ini
+SHA1-Digest: sd8n3JMcPEAnANfphthEFbxjGeI=
+
+Name: icons/osprc_obj.gif
+SHA1-Digest: H239duZzN2RnbNR55FUScQtGW5E=
+
+Name: plugin.xml
+SHA1-Digest: Z5wAgi6qJiJOJj25H6nUEXEwXJ8=
+
+Name: license.html
+SHA1-Digest: Wp9i2VyTkvZcN6mWrP5KJ91ejU0=
+
+Name: icons/myeclipse_run_active1.gif
+SHA1-Digest: c8EQHZ5W8KNlHja4zF07c8bCVDM=
+
+Name: icons/error.gif
+SHA1-Digest: hSb9mQ27H4LV7rx6CKwEPLtEzmU=
+

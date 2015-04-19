@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.pulse.client.common.shortcut
+Bundle-Vendor: Genuitec, LLC
+Fragment-Host: com.genuitec.pulse.client.common.shortcut;bundle-versio
+ n="2.5.0"
+Bundle-ClassPath: shortcutwin32.jar,jshortcut/jshortcut.jar
+Bundle-Version: 3.0.2.v201003231800
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86))
+Bundle-Name: Windows Shortcut Support
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.genuitec.pulse.client.common.shortcut.win32;s
+ ingleton:=true
+
+Name: fragment.xml
+SHA1-Digest: WwRFn5Fn76ym60QMxtOiZjqrnHI=
+
+Name: jshortcut/LICENSE
+SHA1-Digest: 5gwueAiG+V35ye42mSuO2r7AC8w=
+
+Name: jshortcut/jshortcut.jar
+SHA1-Digest: CGXxRHpHcH/4isqDaVtng/XmRME=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: icons/process-remove.ico
+SHA1-Digest: MlieJ4/TisoYt4ZZufGtOmVuwWk=
+
+Name: jshortcut/jshortcut.dll
+SHA1-Digest: p+j3o2EbOxcWhzAU7SPGCne7fo4=
+
+Name: icons/pulse.ico
+SHA1-Digest: T9UkrmlLZ+5iZJ3o00krF0PJ6Cs=
+
+Name: shortcutwin32.jar
+SHA1-Digest: hnJiEn6Cwihp5UNOv7tRdIxX0L0=
+

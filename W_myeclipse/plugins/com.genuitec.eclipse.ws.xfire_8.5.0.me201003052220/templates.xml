@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateLibrary>
+	<template
+		context="BottomUpServiceGeneration"
+		script="templates/XFireServiceIF.vtl"
+		name="Service Interface"/>
+	<template
+		context="BottomUpServiceGeneration"
+		script="templates/XFireServiceImpl.vtl"
+		name="Service Implementation"/>
+	<template
+		context="XFireBeansConfig"
+		script="templates/services.xml.vtl"
+		name="Services Config File"/>		
+</templateLibrary>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/JAVA编程思想/src/第六章访问权限控制/Test8888888888.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="第六章访问权限控制.Test8888888888"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JAVA编程思想"/>
+</launchConfiguration>

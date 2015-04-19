@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jboss.tool
+ s.common,org.jboss.tools.vpe,org.eclipse.core.resources,org.jboss.too
+ ls.jst.jsp,org.mozilla.xpcom
+Export-Package: org.jboss.tools.jsf.vpe.facelets
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: vpefacelets.jar
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.vpe.facelets.FaceletsPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.facelets; singleton:=true
+
+Name: plugin.xml
+SHA1-Digest: jny5s8zml/7wcC0L1tQgdVeBWSU=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: p97LVhsw7WoZeCfZ1/4QuQRmI/o=
+
+Name: templates/vpe-templates-facelets.xml
+SHA1-Digest: C2qn5hz73uo7EspxL2nazYL1QWE=
+
+Name: vpefacelets.jar
+SHA1-Digest: 2MmBIiwAmjU9VoyE30rqvihvdeg=
+

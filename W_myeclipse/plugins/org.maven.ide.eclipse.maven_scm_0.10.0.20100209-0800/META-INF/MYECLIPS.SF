@@ -1,0 +1,70 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: FxYN/gVCyh8nsEb+3kd15CGQ1+g=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: tsXOJz+NRtgW837tL9ZFUpBw8Jo=
+
+Name: jars/maven-scm-provider-cvsjava-1.0.jar
+SHA1-Digest: GrDP1Ij9q1D9OIvxPsVwENBoMQg=
+
+Name: jars/cvsclient-20060125.jar
+SHA1-Digest: wHmBmMFtBEpvo5xz2wNOZCXpZbc=
+
+Name: jars/maven-scm-provider-cvsexe-1.0.jar
+SHA1-Digest: /glkepVW9SrN1wcQpAou+sMeDpI=
+
+Name: jars/regexp-1.3.jar
+SHA1-Digest: TN/krBabLipwl1lqACz7wP/GHvw=
+
+Name: jars/maven-scm-api-1.0.jar
+SHA1-Digest: Q7pU209oLvNd1LlQ0VLY8Ej6x38=
+
+Name: jars/maven-scm-provider-cvs-commons-1.0.jar
+SHA1-Digest: 5iYpDAVrpv48GNopRUrocjAfDRM=
+
+Name: jars/maven-scm-provider-synergy-1.0.jar
+SHA1-Digest: dmrk9hDeHF2AhZC/euZdJzIu9yE=
+
+Name: jars/maven-scm-provider-git-commons-1.1-SNAPSHOT.jar
+SHA1-Digest: DxdfXKM5BD5cSAYrLhHfEBddH7U=
+
+Name: jars/maven-scm-provider-starteam-1.0.jar
+SHA1-Digest: RTpa2DeSKL8xg8WYEDv6dxexhFE=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.maven
+ _scm/pom.xml
+SHA1-Digest: 7Qn0F3eWXD4O2jftUSjpC7Lg4To=
+
+Name: jars/maven-scm-provider-gitexe-1.1-SNAPSHOT.jar
+SHA1-Digest: o+o23H96Qd0c0Bh37wxTxuO+0VY=
+
+Name: jars/maven-scm-provider-bazaar-1.0.jar
+SHA1-Digest: elD55RTyAEBzmXSd/WZuP8Aj26Q=
+
+Name: jars/maven-scm-provider-accurev-1.0-SNAPSHOT.jar
+SHA1-Digest: 6QCzKasp7gMJ/A34h2ahCfbs0zE=
+
+Name: jars/maven-scm-provider-vss-1.0.jar
+SHA1-Digest: HOqF/ekcsOP1n4TeoBo55sd+12w=
+
+Name: jars/maven-scm-provider-perforce-1.0.jar
+SHA1-Digest: enaXNDtbQxV+L3LiMJiOQYBAB68=
+
+Name: jars/maven-scm-provider-clearcase-1.0.jar
+SHA1-Digest: TT2tPKHeaGJ3wRNptP6wyNEzEDY=
+
+Name: jars/maven-scm-provider-hg-1.0.jar
+SHA1-Digest: DBA8q3tPflvsYFwtngbuiT+wDCE=
+
+Name: jars/maven-scm-provider-svn-commons-1.0.jar
+SHA1-Digest: inDh6NAfM911Zrn2DMr+cgv4FoI=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.maven
+ _scm/pom.properties
+SHA1-Digest: K3JErDx/Z9CBzCy6AI1n/mOdffU=
+
+Name: jars/ganymed-ssh2-build210.jar
+SHA1-Digest: AWEP2SlOM4/8Sfz+c3K/oc8NILw=
+
+Name: jars/maven-scm-provider-svnexe-1.0.jar
+SHA1-Digest: 2j0XqhbvhZR9T7jsuQljQEC65ek=
+

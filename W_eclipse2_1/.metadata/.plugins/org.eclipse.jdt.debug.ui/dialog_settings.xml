@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="F:\重要文件" key="LAST_PATH_SETTING"/>
+	<item value="125" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<item value="2" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="241" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="91" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=打地鼠（游戏）/src&amp;lt;打地鼠1{Test.java[ClientView&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=打地鼠（游戏）/src&amp;lt;打地鼠2{Test.java[ClientView&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第七章复用类{A123465798.java[A123465798&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第七章复用类{A123456789.java[A123456789&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第七章复用类{Root123456.java[Root123456&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第八章{Cycle.java[Bicycle&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第八章{Rodent.java[Gerbil&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第八章{Ligth000.java[GoodLigth000&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=加减乘除/src&amp;lt;一百位{一百位0.java[一百位0&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JAVA编程思想/src&amp;lt;第十一章.持有对象{Rodent.java[Gerbil1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="95" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="149" key="DIALOG_X_ORIGIN"/>
+			<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+   <extension
+         id="com.genuitec.eclipse.easie.sun91.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.easie.sun.preferencepage"
+            class="com.genuitec.eclipse.easie.sun91.preference.Sun91LauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.sun91.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.sun91.preferencepage"
+            class="com.genuitec.eclipse.easie.sun91.preference.Sun91LauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.sun91.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.sun91.preferencepage"
+            class="com.genuitec.eclipse.easie.sun91.preference.Sun91LauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.sun91.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.sun91.preferencepage"
+            class="com.genuitec.eclipse.easie.sun91.preference.Sun91LauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.sun91.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+   </extension>
+
+</plugin>

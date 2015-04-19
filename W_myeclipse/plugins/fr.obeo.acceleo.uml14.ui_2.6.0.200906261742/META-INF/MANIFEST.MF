@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.uml14.ui,fr.obeo.acceleo.uml14.ui.popu
+ pMenus
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.ui.ide,org.eclipse.ant.core,org.eclipse.help
+ .appserver,fr.obeo.acceleo.tools.ui,fr.obeo.acceleo.tools,fr.obeo.acc
+ eleo.uml14.mof,fr.obeo.acceleo.bridge
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.uml14.ui.jar
+Bundle-Version: 2.6.0.200906261742
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.uml14.ui.AcceleoUml14UiPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.uml14.ui; singleton:=true
+
+Name: fr.obeo.acceleo.uml14.ui.jar
+SHA1-Digest: kXcJRK4DbyWC4NIFNMOIZuOh+g0=
+
+Name: plugin.xml
+SHA1-Digest: AGhOJfOlHJ6t63eS5WqrN7V5RPc=
+
+Name: plugin.properties
+SHA1-Digest: ue+w+p8H+OdttzQM1MzJgCmgRes=
+
+Name: icons/mof2emf.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: fr.obeo.acceleo.uml14.uisrc.zip
+SHA1-Digest: LfQf3WA6oYDq8JaVxy7siMxTp8Y=
+

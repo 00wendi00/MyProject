@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.crazyit.handler&apos; to &apos;org.crazyit.handlerProject3_5_2&apos;&#x0D;&#x0A;- Original project: &apos;Project3_5_2&apos;&#x0D;&#x0A;- Original element: &apos;Project3_5_2/src/org.crazyit.handler&apos;&#x0D;&#x0A;- Renamed element: &apos;Project3_5_2/src/org.crazyit.handlerProject3_5_2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;org.crazyit.handler&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;org.crazyit.handler" name="org.crazyit.handlerProject3_5_2" qualified="false" references="true" stamp="1427855025966" textual="false" version="1.0"/>
+</session>

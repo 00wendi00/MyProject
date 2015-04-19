@@ -1,0 +1,249 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.maven.scm,org.apache.maven.scm.command,org.
+ apache.maven.scm.command.add,org.apache.maven.scm.command.branch,org.
+ apache.maven.scm.command.changelog,org.apache.maven.scm.command.check
+ in,org.apache.maven.scm.command.checkout,org.apache.maven.scm.command
+ .diff,org.apache.maven.scm.command.edit,org.apache.maven.scm.command.
+ export,org.apache.maven.scm.command.fileinfo,org.apache.maven.scm.com
+ mand.list,org.apache.maven.scm.command.lock,org.apache.maven.scm.comm
+ and.login,org.apache.maven.scm.command.remove,org.apache.maven.scm.co
+ mmand.status,org.apache.maven.scm.command.tag,org.apache.maven.scm.co
+ mmand.unedit,org.apache.maven.scm.command.unlock,org.apache.maven.scm
+ .command.update,org.apache.maven.scm.log,org.apache.maven.scm.manager
+ ,org.apache.maven.scm.provider,org.apache.maven.scm.provider.accurev,
+ org.apache.maven.scm.provider.accurev.commands.add,org.apache.maven.s
+ cm.provider.accurev.commands.checkout,org.apache.maven.scm.provider.a
+ ccurev.commands.login,org.apache.maven.scm.provider.bazaar,org.apache
+ .maven.scm.provider.bazaar.command,org.apache.maven.scm.provider.baza
+ ar.command.add,org.apache.maven.scm.provider.bazaar.command.changelog
+ ,org.apache.maven.scm.provider.bazaar.command.checkin,org.apache.mave
+ n.scm.provider.bazaar.command.checkout,org.apache.maven.scm.provider.
+ bazaar.command.diff,org.apache.maven.scm.provider.bazaar.command.remo
+ ve,org.apache.maven.scm.provider.bazaar.command.status,org.apache.mav
+ en.scm.provider.bazaar.command.update,org.apache.maven.scm.provider.b
+ azaar.repository,org.apache.maven.scm.provider.clearcase,org.apache.m
+ aven.scm.provider.clearcase.command,org.apache.maven.scm.provider.cle
+ arcase.command.add,org.apache.maven.scm.provider.clearcase.command.ch
+ angelog,org.apache.maven.scm.provider.clearcase.command.checkin,org.a
+ pache.maven.scm.provider.clearcase.command.checkout,org.apache.maven.
+ scm.provider.clearcase.command.edit,org.apache.maven.scm.provider.cle
+ arcase.command.remove,org.apache.maven.scm.provider.clearcase.command
+ .status,org.apache.maven.scm.provider.clearcase.command.tag,org.apach
+ e.maven.scm.provider.clearcase.command.unedit,org.apache.maven.scm.pr
+ ovider.clearcase.command.update,org.apache.maven.scm.provider.clearca
+ se.repository,org.apache.maven.scm.provider.clearcase.util,org.apache
+ .maven.scm.provider.cvslib,org.apache.maven.scm.provider.cvslib.comma
+ nd,org.apache.maven.scm.provider.cvslib.command.add,org.apache.maven.
+ scm.provider.cvslib.command.branch,org.apache.maven.scm.provider.cvsl
+ ib.command.changelog,org.apache.maven.scm.provider.cvslib.command.che
+ ckin,org.apache.maven.scm.provider.cvslib.command.checkout,org.apache
+ .maven.scm.provider.cvslib.command.diff,org.apache.maven.scm.provider
+ .cvslib.command.export,org.apache.maven.scm.provider.cvslib.command.l
+ ist,org.apache.maven.scm.provider.cvslib.command.login,org.apache.mav
+ en.scm.provider.cvslib.command.remove,org.apache.maven.scm.provider.c
+ vslib.command.status,org.apache.maven.scm.provider.cvslib.command.tag
+ ,org.apache.maven.scm.provider.cvslib.command.update,org.apache.maven
+ .scm.provider.cvslib.cvsexe,org.apache.maven.scm.provider.cvslib.cvse
+ xe.command.add,org.apache.maven.scm.provider.cvslib.cvsexe.command.br
+ anch,org.apache.maven.scm.provider.cvslib.cvsexe.command.changelog,or
+ g.apache.maven.scm.provider.cvslib.cvsexe.command.checkin,org.apache.
+ maven.scm.provider.cvslib.cvsexe.command.checkout,org.apache.maven.sc
+ m.provider.cvslib.cvsexe.command.diff,org.apache.maven.scm.provider.c
+ vslib.cvsexe.command.export,org.apache.maven.scm.provider.cvslib.cvse
+ xe.command.list,org.apache.maven.scm.provider.cvslib.cvsexe.command.r
+ emove,org.apache.maven.scm.provider.cvslib.cvsexe.command.status,org.
+ apache.maven.scm.provider.cvslib.cvsexe.command.tag,org.apache.maven.
+ scm.provider.cvslib.cvsexe.command.update,org.apache.maven.scm.provid
+ er.cvslib.cvsjava,org.apache.maven.scm.provider.cvslib.cvsjava.comman
+ d.add,org.apache.maven.scm.provider.cvslib.cvsjava.command.changelog,
+ org.apache.maven.scm.provider.cvslib.cvsjava.command.checkin,org.apac
+ he.maven.scm.provider.cvslib.cvsjava.command.checkout,org.apache.mave
+ n.scm.provider.cvslib.cvsjava.command.diff,org.apache.maven.scm.provi
+ der.cvslib.cvsjava.command.export,org.apache.maven.scm.provider.cvsli
+ b.cvsjava.command.list,org.apache.maven.scm.provider.cvslib.cvsjava.c
+ ommand.login,org.apache.maven.scm.provider.cvslib.cvsjava.command.rem
+ ove,org.apache.maven.scm.provider.cvslib.cvsjava.command.status,org.a
+ pache.maven.scm.provider.cvslib.cvsjava.command.tag,org.apache.maven.
+ scm.provider.cvslib.cvsjava.command.update,org.apache.maven.scm.provi
+ der.cvslib.cvsjava.util,org.apache.maven.scm.provider.cvslib.reposito
+ ry,org.apache.maven.scm.provider.cvslib.util,org.apache.maven.scm.pro
+ vider.git,org.apache.maven.scm.provider.git.command,org.apache.maven.
+ scm.provider.git.command.diff,org.apache.maven.scm.provider.git.comma
+ nd.info,org.apache.maven.scm.provider.git.command.update,org.apache.m
+ aven.scm.provider.git.gitexe,org.apache.maven.scm.provider.git.gitexe
+ .command,org.apache.maven.scm.provider.git.gitexe.command.add,org.apa
+ che.maven.scm.provider.git.gitexe.command.branch,org.apache.maven.scm
+ .provider.git.gitexe.command.changelog,org.apache.maven.scm.provider.
+ git.gitexe.command.checkin,org.apache.maven.scm.provider.git.gitexe.c
+ ommand.checkout,org.apache.maven.scm.provider.git.gitexe.command.diff
+ ,org.apache.maven.scm.provider.git.gitexe.command.list,org.apache.mav
+ en.scm.provider.git.gitexe.command.remove,org.apache.maven.scm.provid
+ er.git.gitexe.command.status,org.apache.maven.scm.provider.git.gitexe
+ .command.tag,org.apache.maven.scm.provider.git.repository,org.apache.
+ maven.scm.provider.git.util,org.apache.maven.scm.provider.hg,org.apac
+ he.maven.scm.provider.hg.command,org.apache.maven.scm.provider.hg.com
+ mand.add,org.apache.maven.scm.provider.hg.command.changelog,org.apach
+ e.maven.scm.provider.hg.command.checkin,org.apache.maven.scm.provider
+ .hg.command.checkout,org.apache.maven.scm.provider.hg.command.diff,or
+ g.apache.maven.scm.provider.hg.command.inventory,org.apache.maven.scm
+ .provider.hg.command.remove,org.apache.maven.scm.provider.hg.command.
+ status,org.apache.maven.scm.provider.hg.command.tag,org.apache.maven.
+ scm.provider.hg.command.update,org.apache.maven.scm.provider.hg.repos
+ itory,org.apache.maven.scm.provider.perforce,org.apache.maven.scm.pro
+ vider.perforce.command,org.apache.maven.scm.provider.perforce.command
+ .add,org.apache.maven.scm.provider.perforce.command.changelog,org.apa
+ che.maven.scm.provider.perforce.command.checkin,org.apache.maven.scm.
+ provider.perforce.command.checkout,org.apache.maven.scm.provider.perf
+ orce.command.diff,org.apache.maven.scm.provider.perforce.command.edit
+ ,org.apache.maven.scm.provider.perforce.command.login,org.apache.mave
+ n.scm.provider.perforce.command.remove,org.apache.maven.scm.provider.
+ perforce.command.status,org.apache.maven.scm.provider.perforce.comman
+ d.tag,org.apache.maven.scm.provider.perforce.command.unedit,org.apach
+ e.maven.scm.provider.perforce.command.update,org.apache.maven.scm.pro
+ vider.perforce.repository,org.apache.maven.scm.provider.starteam,org.
+ apache.maven.scm.provider.starteam.command,org.apache.maven.scm.provi
+ der.starteam.command.add,org.apache.maven.scm.provider.starteam.comma
+ nd.changelog,org.apache.maven.scm.provider.starteam.command.checkin,o
+ rg.apache.maven.scm.provider.starteam.command.checkout,org.apache.mav
+ en.scm.provider.starteam.command.diff,org.apache.maven.scm.provider.s
+ tarteam.command.edit,org.apache.maven.scm.provider.starteam.command.r
+ emove,org.apache.maven.scm.provider.starteam.command.status,org.apach
+ e.maven.scm.provider.starteam.command.tag,org.apache.maven.scm.provid
+ er.starteam.command.unedit,org.apache.maven.scm.provider.starteam.com
+ mand.update,org.apache.maven.scm.provider.starteam.repository,org.apa
+ che.maven.scm.provider.starteam.util,org.apache.maven.scm.provider.sv
+ n,org.apache.maven.scm.provider.svn.command,org.apache.maven.scm.prov
+ ider.svn.command.diff,org.apache.maven.scm.provider.svn.command.info,
+ org.apache.maven.scm.provider.svn.command.update,org.apache.maven.scm
+ .provider.svn.repository,org.apache.maven.scm.provider.svn.svnexe,org
+ .apache.maven.scm.provider.svn.svnexe.command,org.apache.maven.scm.pr
+ ovider.svn.svnexe.command.add,org.apache.maven.scm.provider.svn.svnex
+ e.command.branch,org.apache.maven.scm.provider.svn.svnexe.command.cha
+ ngelog,org.apache.maven.scm.provider.svn.svnexe.command.checkin,org.a
+ pache.maven.scm.provider.svn.svnexe.command.checkout,org.apache.maven
+ .scm.provider.svn.svnexe.command.diff,org.apache.maven.scm.provider.s
+ vn.svnexe.command.export,org.apache.maven.scm.provider.svn.svnexe.com
+ mand.info,org.apache.maven.scm.provider.svn.svnexe.command.list,org.a
+ pache.maven.scm.provider.svn.svnexe.command.remove,org.apache.maven.s
+ cm.provider.svn.svnexe.command.status,org.apache.maven.scm.provider.s
+ vn.svnexe.command.tag,org.apache.maven.scm.provider.svn.svnexe.comman
+ d.update,org.apache.maven.scm.provider.svn.util,org.apache.maven.scm.
+ provider.synergy,org.apache.maven.scm.provider.synergy.command,org.ap
+ ache.maven.scm.provider.synergy.command.add,org.apache.maven.scm.prov
+ ider.synergy.command.changelog,org.apache.maven.scm.provider.synergy.
+ command.checkin,org.apache.maven.scm.provider.synergy.command.checkou
+ t,org.apache.maven.scm.provider.synergy.command.edit,org.apache.maven
+ .scm.provider.synergy.command.remove,org.apache.maven.scm.provider.sy
+ nergy.command.status,org.apache.maven.scm.provider.synergy.command.ta
+ g,org.apache.maven.scm.provider.synergy.command.unedit,org.apache.mav
+ en.scm.provider.synergy.command.update,org.apache.maven.scm.provider.
+ synergy.consumer,org.apache.maven.scm.provider.synergy.repository,org
+ .apache.maven.scm.provider.synergy.util,org.apache.maven.scm.provider
+ .vss,org.apache.maven.scm.provider.vss.commands,org.apache.maven.scm.
+ provider.vss.commands.add,org.apache.maven.scm.provider.vss.commands.
+ changelog,org.apache.maven.scm.provider.vss.commands.checkout,org.apa
+ che.maven.scm.provider.vss.commands.edit,org.apache.maven.scm.provide
+ r.vss.commands.status,org.apache.maven.scm.provider.vss.commands.upda
+ te,org.apache.maven.scm.provider.vss.repository,org.apache.maven.scm.
+ providers.clearcase.settings,org.apache.maven.scm.providers.clearcase
+ .settings.io.xpp3,org.apache.maven.scm.providers.cvslib.settings,org.
+ apache.maven.scm.providers.cvslib.settings.io.xpp3,org.apache.maven.s
+ cm.providers.gitlib.settings,org.apache.maven.scm.providers.gitlib.se
+ ttings.io.xpp3,org.apache.maven.scm.providers.starteam.settings,org.a
+ pache.maven.scm.providers.starteam.settings.io.xpp3,org.apache.maven.
+ scm.providers.svn.settings,org.apache.maven.scm.providers.svn.setting
+ s.io.xpp3,org.apache.maven.scm.providers.vss.settings,org.apache.mave
+ n.scm.providers.vss.settings.io.xpp3,org.apache.maven.scm.repository,
+ org.apache.maven.scm.util,META-INF.plexus
+Bundle-ClassPath: jars/maven-scm-api-1.0.jar,jars/maven-scm-provider-c
+ vsexe-1.0.jar,jars/maven-scm-provider-cvs-commons-1.0.jar,jars/maven-
+ scm-provider-cvsjava-1.0.jar,jars/cvsclient-20060125.jar,jars/ganymed
+ -ssh2-build210.jar,jars/maven-scm-provider-svnexe-1.0.jar,jars/maven-
+ scm-provider-svn-commons-1.0.jar,jars/regexp-1.3.jar,jars/maven-scm-p
+ rovider-perforce-1.0.jar,jars/maven-scm-provider-bazaar-1.0.jar,jars/
+ maven-scm-provider-clearcase-1.0.jar,jars/maven-scm-provider-hg-1.0.j
+ ar,jars/maven-scm-provider-starteam-1.0.jar,jars/maven-scm-provider-s
+ ynergy-1.0.jar,jars/maven-scm-provider-vss-1.0.jar,jars/maven-scm-pro
+ vider-gitexe-1.1-SNAPSHOT.jar,jars/maven-scm-provider-git-commons-1.1
+ -SNAPSHOT.jar,jars/maven-scm-provider-accurev-1.0-SNAPSHOT.jar
+Built-By: m2e
+Bundle-Name: Maven SCM Bundle
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,JavaSE-1.6
+Require-Bundle: org.maven.ide.eclipse.maven_embedder;bundle-version="[
+ 0.10.0,0.11.0)"
+Bundle-Vendor: Sonatype
+MavenArtifact-BaseVersion: 0.10.0
+Build-Jdk: 1.6.0_12
+Bundle-Version: 0.10.0.20100209-0800
+MavenArtifact-ArtifactId: org.maven.ide.eclipse.maven_scm
+MavenArtifact-GroupId: org.maven.ide.eclipse
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.maven.ide.eclipse.maven_scm;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: jars/maven-scm-provider-cvsjava-1.0.jar
+SHA1-Digest: MNoc04nIzI2sxVtcA5PMiFEIaNA=
+
+Name: jars/cvsclient-20060125.jar
+SHA1-Digest: zIC9AIXHm+ftMyy9wdt3SYv/H9o=
+
+Name: jars/maven-scm-provider-cvsexe-1.0.jar
+SHA1-Digest: sGPksP+v1ce9SnmGRkrKdl5+8Sc=
+
+Name: jars/regexp-1.3.jar
+SHA1-Digest: lz3yt4tnvNMUTD27uI2mkQZaP40=
+
+Name: jars/maven-scm-api-1.0.jar
+SHA1-Digest: vP01odFBPMrxOw3PpQ6tAvpUjYg=
+
+Name: jars/maven-scm-provider-cvs-commons-1.0.jar
+SHA1-Digest: 91baUM2wOWL1RqzUY1z7aSRavAI=
+
+Name: jars/maven-scm-provider-synergy-1.0.jar
+SHA1-Digest: bfMfl9/N5lyN/qf9UUneou4evQQ=
+
+Name: jars/maven-scm-provider-git-commons-1.1-SNAPSHOT.jar
+SHA1-Digest: 9YMAv+VasgSY2SIvsNLNfYLInTw=
+
+Name: jars/maven-scm-provider-starteam-1.0.jar
+SHA1-Digest: TNlAUpFU42OG3eq569Nl6v0TDH8=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.maven
+ _scm/pom.xml
+SHA1-Digest: GZHf1rrj01esS2ZhGpDXky/K6gc=
+
+Name: jars/maven-scm-provider-gitexe-1.1-SNAPSHOT.jar
+SHA1-Digest: yosLczfwY9mymJJidjvvACW++qQ=
+
+Name: jars/maven-scm-provider-bazaar-1.0.jar
+SHA1-Digest: OedqzseHmyX+23b0Kb3TibdpT44=
+
+Name: jars/maven-scm-provider-accurev-1.0-SNAPSHOT.jar
+SHA1-Digest: 04uhrDAFyXqjDoKtZn64HtyJXc0=
+
+Name: jars/maven-scm-provider-vss-1.0.jar
+SHA1-Digest: 1aIjS+cvpkG8pz+HGHBEV1N3ryo=
+
+Name: jars/maven-scm-provider-clearcase-1.0.jar
+SHA1-Digest: PyyKIZdDNuq15VYZPDxVLB6DJOc=
+
+Name: jars/maven-scm-provider-perforce-1.0.jar
+SHA1-Digest: jU5jHxFoihAu1pBeCOZqU2/3/tw=
+
+Name: jars/maven-scm-provider-svn-commons-1.0.jar
+SHA1-Digest: +hlw2TZIqSgcOCo6h29yhxChNdg=
+
+Name: jars/maven-scm-provider-hg-1.0.jar
+SHA1-Digest: Zb40ex5ZXoVpu2nnYrU+tc+XLPA=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.maven
+ _scm/pom.properties
+SHA1-Digest: oylJU8zwKa/oaZnKZnYgtf8kxJk=
+
+Name: jars/maven-scm-provider-svnexe-1.0.jar
+SHA1-Digest: PqmHuyQXc0VKz0xXOOUlB1fi3No=
+
+Name: jars/ganymed-ssh2-build210.jar
+SHA1-Digest: svgchaeiobQ3J9JYJxCvhcl5BQs=
+

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.ecore,fr.obeo.acceleo.ecore.factories,
+ fr.obeo.acceleo.ecore.tools
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.emf.ecore,org.eclipse.emf.ecore.xmi,fr.obeo.acceleo.tools,o
+ rg.eclipse.emf.codegen.ecore,org.eclipse.jdt.core
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.ecore.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.ecore.AcceleoEcorePlugin
+Bundle-SymbolicName: fr.obeo.acceleo.ecore;singleton:=true
+
+Name: fr.obeo.acceleo.ecore.jar
+SHA1-Digest: WnKnvisJu0aEFV/pfEFFi/DpqtU=
+
+Name: plugin.xml
+SHA1-Digest: OUauYj3h95U0sf0Qv71SYV7SXIY=
+
+Name: fr.obeo.acceleo.ecoresrc.zip
+SHA1-Digest: o0oXF9/RwUTV/GgY0v9xCx/HnGU=
+
+Name: plugin.properties
+SHA1-Digest: LOYqA3DWPkM0aQgBXJUDmgivpYM=
+

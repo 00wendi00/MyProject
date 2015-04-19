@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+        <startup></startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.easie.websphere.family.preferencepage"
+            class="com.genuitec.eclipse.easie.websphere.wasce.preference.WebsphereLauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.wasce.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.websphere.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.wasce.preferencepage"
+            class="com.genuitec.eclipse.easie.websphere.wasce.preference.WebsphereLauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.wasce.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.websphere.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.wasce.preferencepage"
+            class="com.genuitec.eclipse.easie.websphere.wasce.preference.WebsphereLauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.wasce.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.websphere.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.wasce.preferencepage"
+            class="com.genuitec.eclipse.easie.websphere.wasce.preference.WebsphereLauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.wasce.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.websphere.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+   </extension>
+
+</plugin>

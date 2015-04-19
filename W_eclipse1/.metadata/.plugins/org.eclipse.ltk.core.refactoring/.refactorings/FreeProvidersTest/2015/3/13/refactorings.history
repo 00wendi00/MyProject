@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.crazyit.gps&apos; to &apos;org.crazyit.gps1&apos;&#x0D;&#x0A;- Original project: &apos;FreeProvidersTest&apos;&#x0D;&#x0A;- Original element: &apos;FreeProvidersTest/src/org.crazyit.gps&apos;&#x0D;&#x0A;- Renamed element: &apos;FreeProvidersTest/src/org.crazyit.gps1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;org.crazyit.gps&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;org.crazyit.gps" name="org.crazyit.gps1" qualified="false" references="true" stamp="1427121544500" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,122 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 5zC6uFUwsId3tgHp2MypjXHtGEU=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: Xw0/lC0+1Y1j/FUJ05KMrXi53ck=
+
+Name: fr.obeo.acceleo.tools.uisrc.zip
+SHA1-Digest: urM/NbCXPq3i1lT206ST0OX6QFA=
+
+Name: icons/log/elcl16/refresh.gif
+SHA1-Digest: XE3l53xQgqYigO285O9QOMJrQNg=
+
+Name: icons/log/eview16/event_next.gif
+SHA1-Digest: +UFX5wGTgOTHPhPblrPvubi9/Ow=
+
+Name: icons/log/dlcl16/import_log.gif
+SHA1-Digest: n+7WqZv9ufDKKsyNqqFiZb5reEs=
+
+Name: icons/log/eview16/error_log.gif
+SHA1-Digest: f8Hl5jPBvH1m91wLsuR7ZyNjzTc=
+
+Name: icons/log/elcl16/clear.gif
+SHA1-Digest: aLBQiPdZt6n9Go/25Gi5/3D3IMI=
+
+Name: icons/log/dlcl16/filter_ps.gif
+SHA1-Digest: cjApx9A8ymMKKYFrzbVq6PaVpXM=
+
+Name: icons/log/obj16/error_st_obj.gif
+SHA1-Digest: xp1eHuXPkXmU8CzoE9ROlS9A63I=
+
+Name: icons/log/elcl16/export_log.gif
+SHA1-Digest: wq4UelegGWG7ooRIzHNCEeG5/yc=
+
+Name: icons/log/dlcl16/clear.gif
+SHA1-Digest: amjWhuo7Haa6X5Mp+83EUJziMKI=
+
+Name: fr.obeo.acceleo.tools.ui.jar
+SHA1-Digest: nM5LGK7ichakIAqzFXp+FtvDE6s=
+
+Name: icons/plugins/registry.gif
+SHA1-Digest: kVGwraQtHwyGbbr4EnaEBpydd0I=
+
+Name: icons/log/elcl16/remove.gif
+SHA1-Digest: XIYPQeMprkkeVBZ7Lhl8zUtO5bU=
+
+Name: icons/log/elcl16/collapseall.gif
+SHA1-Digest: i4Qw6cCsohnufjpaiPw4Gh2wytA=
+
+Name: icons/log/obj16/warning_st_obj.gif
+SHA1-Digest: Rs/aOI1vbf1rAyUnAuREtwJwkPg=
+
+Name: icons/log/obj16/hierarchical.gif
+SHA1-Digest: 438VOnxqlFQz31BFmNYF+usuMVw=
+
+Name: icons/log/dlcl16/collapseall.gif
+SHA1-Digest: WC9+JyhFbEGlCXlCpDn5DeRyDDY=
+
+Name: icons/log/elcl16/import_log.gif
+SHA1-Digest: jaX1aYuBtidGwtZGEjnaL2BD0eo=
+
+Name: icons/log/dlcl16/find_obj.gif
+SHA1-Digest: f9ZJJs7a0WfuGU1zHfD5CRxjveY=
+
+Name: icons/log/obj16/ok_st_obj.gif
+SHA1-Digest: KTwjwlfKqdDbiLkRDIi5+rFRIUk=
+
+Name: icons/logView.gif
+SHA1-Digest: jbt0yez72thM6d5oIBv8lLkACOE=
+
+Name: icons/log/elcl16/properties.gif
+SHA1-Digest: 7eH6jjl87DuB5QUotErxsnmKpeA=
+
+Name: icons/log/obj16/error_stack.gif
+SHA1-Digest: 6xbfBGP3UkzJNe0HYON2VD2g+54=
+
+Name: icons/log/elcl16/open_log.gif
+SHA1-Digest: DIXueLo6XoW542Epvj+igCLGCGg=
+
+Name: plugin.properties
+SHA1-Digest: cj6HFt+JkUv5Oh5VySTbyFS0rKA=
+
+Name: icons/log/dlcl16/remove.gif
+SHA1-Digest: XbEwm1qgTmHh/vJvihPVXRVIyYc=
+
+Name: icons/log/dlcl16/open_log.gif
+SHA1-Digest: q9vBUB4wyR5qtyoNPeqyQlUBZKY=
+
+Name: icons/log/dlcl16/properties.gif
+SHA1-Digest: I+m1XEekcDo9v2TxQJ+M9uupLBQ=
+
+Name: icons/log/dlcl16/restore_log.gif
+SHA1-Digest: jAP/GEg6cpCqIJtlNKCky3ZHBvo=
+
+Name: icons/log/elcl16/restore_log.gif
+SHA1-Digest: g8RYco2owB2W3xT3+8suDJqrx8M=
+
+Name: icons/log/elcl16/find_obj.gif
+SHA1-Digest: qa5qi3MUA6wSyrZaen22Yu1wOkQ=
+
+Name: icons/log/dlcl16/refresh.gif
+SHA1-Digest: JXl8AZO+RPdRLyi9zFtJyU0QHYM=
+
+Name: icons/log/obj16/info_st_obj.gif
+SHA1-Digest: Y4/GdsjdPrgMZGmeYiJNJ9bP7ZM=
+
+Name: icons/plugins/bundle.gif
+SHA1-Digest: jzh1tnJVZyMmyqMx2PlMpWdyPgc=
+
+Name: plugin.xml
+SHA1-Digest: PTShs/tjHskIFrZzNt1cEV/k+Ik=
+
+Name: icons/log/eview16/event_prev.gif
+SHA1-Digest: DbvZWv0CZsYpQZ/9LWTMTlSG0xE=
+
+Name: icons/log/dlcl16/export_log.gif
+SHA1-Digest: 3Ljo0bT/E/IhlJ1YjBdMqHnEFBs=
+
+Name: icons/log/elcl16/filter_ps.gif
+SHA1-Digest: gNAnBILxp1e7crHF08fnCGnRWWM=
+
+Name: icons/plugins/file.gif
+SHA1-Digest: +F0bVleU7vXLOVIZT5ielrgH6cM=
+

@@ -1,0 +1,21 @@
+/**
+ *文件名:BitsTip.java
+ *项目-包:数据结构与算法分析,Project1
+ *作者:张文迪
+ *时间:2015年4月17日
+ */
+package Project1;
+
+/**
+ * @author 张文迪
+ * 类名:BitsTip
+ * 类说明:
+ */
+public class BitsTip {
+    public static void main(String args[]) {
+        float f = Float.parseFloat(args[0]);
+        int bits = Float.floatToIntBits(f);
+        System.out.println("bits: " + bits);
+        System.out.println("back to float: " + Float.intBitsToFloat(bits));
+    }
+}

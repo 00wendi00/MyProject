@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HelloJni/jni/hello-jni.c&apos; to &apos;nima-jni.c&apos;" description="Rename resource &apos;hello-jni.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="jni/hello-jni.c" name="nima-jni.c" stamp="1428328298671" updateReferences="true"/>
+</session>

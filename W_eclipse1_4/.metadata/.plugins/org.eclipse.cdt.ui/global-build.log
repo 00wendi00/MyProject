@@ -1,0 +1,6 @@
+20:27:53 **** Clean-only build of configuration Release for project HelloCpp ****
+python E:/cocos2d-x-3.3 - 副本/templates/cpp-template-default/proj.android/build_native.py -b release clean 
+E:\python2.7\python.exe: can't find '__main__' module in 'E:/cocos2d-x-3.3'
+20:27:57 **** Build of configuration Release for project HelloCpp ****
+python E:/cocos2d-x-3.3 - 副本/templates/cpp-template-default/proj.android/build_native.py -b release all 
+E:\python2.7\python.exe: can't find '__main__' module in 'E:/cocos2d-x-3.3'

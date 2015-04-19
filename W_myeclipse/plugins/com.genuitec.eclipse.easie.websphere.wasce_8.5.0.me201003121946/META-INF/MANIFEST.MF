@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,org.eclipse.core.runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.websphere.wasce.WebsphereLaun
+ cherPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: wasce.jar
+Bundle-Version: 8.5.0.me201003121946
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.websphere.wasce;single
+ ton:=true
+
+Name: icons/stop.gif
+SHA1-Digest: p7vH2XOt5EGARpAYURbkUhybzLY=
+
+Name: preferences.ini
+SHA1-Digest: mK2Ax2is7sSTABr8jB9JY8Ov1Vk=
+
+Name: plugin.xml
+SHA1-Digest: VjXYFIbv2zowIDgKr87llXT9elE=
+
+Name: icons/websphere_logo.gif
+SHA1-Digest: mjWoUTZvCnu/3hVJjjPD63663kU=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: nZ5n61N2Yn3iyOz7WBaCjjDqOJI=
+
+Name: plugin.properties
+SHA1-Digest: wb1cE+P/NWQtVHTnswRD4k2suEs=
+
+Name: wasce.jar
+SHA1-Digest: vF5UbRwEJIL5vFf1xApzx8qxECI=
+
+Name: icons/start.gif
+SHA1-Digest: 5pPUS+LFBM2//sB8S2NOlVn1nTM=
+

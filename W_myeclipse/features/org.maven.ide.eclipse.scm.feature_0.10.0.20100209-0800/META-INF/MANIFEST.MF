@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_12
+Built-By: m2e
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+
+Name: feature.xml
+SHA1-Digest: 6xWtTQsUBMBy8iVGTVA4ItXdzJY=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.scm.f
+ eature/pom.xml
+SHA1-Digest: 4Z4OPB4nLnlcC3OnwA1m1AnfUI8=
+
+Name: META-INF/maven/org.maven.ide.eclipse/org.maven.ide.eclipse.scm.f
+ eature/pom.properties
+SHA1-Digest: m0Zyyf7hmQa2la0uH9KMcyuY+Ho=
+

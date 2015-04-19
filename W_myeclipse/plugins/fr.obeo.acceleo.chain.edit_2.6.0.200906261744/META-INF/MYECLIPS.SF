@@ -1,0 +1,131 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: jqYdgQ5kMFp51goBEz4uQHG+CYg=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: CYa54OVCpk0vQdkaX4F8ZPkoDD8=
+
+Name: icons/full/ctool16/CreateActionSet_actions_CustomAction.gif
+SHA1-Digest: 8ZnOosj9uTwCL3NwmKJrNQ0znS8=
+
+Name: icons/full/ctool16/CreateRepository_members_Repository.gif
+SHA1-Digest: lwtbDKjw7MP+wc6kDwf3HwONQ+M=
+
+Name: icons/full/obj16/Generator.gif
+SHA1-Digest: CDLquZnntUOztad2kvUFllykvws=
+
+Name: icons/full/obj16/CustomFile.gif
+SHA1-Digest: NhrxzhKoiJCLfmxYic4HH3OUPEc=
+
+Name: icons/full/obj16/Model.gif
+SHA1-Digest: 3NlxYbojb/7Fn3AAIjlz5ubf19E=
+
+Name: icons/full/ctool16/CreateActionSet_actions_ConvertXmi.gif
+SHA1-Digest: k/E29xWz1rF9O3726XuKDg0qI2A=
+
+Name: icons/full/ctool16/CreateRepository_files_Folder.gif
+SHA1-Digest: VCFtDxTpyGHOFsABwDS349zvpqg=
+
+Name: icons/full/obj16/ConvertXmi.gif
+SHA1-Digest: diV3ONtAEsnsuUAdxpxZxjpQdYE=
+
+Name: icons/full/obj16/ModelSet.gif
+SHA1-Digest: Vigm2nDDW6Jk0CZB50ui5uBtHOk=
+
+Name: icons/full/obj16/Repository.gif
+SHA1-Digest: xif9UfB5pmpiSjbmTbti8HJH/C4=
+
+Name: icons/full/ctool16/CreateRepository_files_ModelSet.gif
+SHA1-Digest: 9J7VijEUFGc+nLgG+QW5ZkILC9I=
+
+Name: icons/full/ctool16/CreateRepository_files_Model.gif
+SHA1-Digest: svDnRL0QRtOY2VT8tlL3u9xvo98=
+
+Name: icons/full/obj16/Generate.gif
+SHA1-Digest: +WQZYbl/Wvp86UgdTiSSOB0SfAo=
+
+Name: icons/full/ctool16/CreateRepository_files_CustomFile.gif
+SHA1-Digest: h2JcmU14BOittzr67F1K3HCUiyQ=
+
+Name: runtime/fr.obeo.acceleo.chain.edit.jar
+SHA1-Digest: Bok1lEWxmDW7FiPy2cpTkywO2Q0=
+
+Name: icons/full/ctool16/CreateActionSet_actions_ChainCall.gif
+SHA1-Digest: 7KO0Cd704RSfKc1AAEepc+/j2RU=
+
+Name: icons/full/obj16/ChainCall.gif
+SHA1-Digest: /fmZ81BMbIyeZekPDh1hGB+KZ7E=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Remove.gif
+SHA1-Digest: jr6AWHccuXx3e0TNqCjzNJRkptI=
+
+Name: icons/full/obj16/File.gif
+SHA1-Digest: P6tKfj++PApK+WlF+JEBx+0DBF0=
+
+Name: icons/full/obj16/Clear.gif
+SHA1-Digest: 21pqHA5Oz4bGy8RnN2Linm1kyng=
+
+Name: icons/full/obj16/Remove.gif
+SHA1-Digest: mp2RWnB979fslTh4XlQRoHguUXk=
+
+Name: icons/full/ctool16/CreateChain_repository_Repository.gif
+SHA1-Digest: R2Y4Aux+aCElz02P/0fnvEUF9Ic=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Backup.gif
+SHA1-Digest: IpHqpBUmr8YFm5qLrzPnUq1sRm4=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Clear.gif
+SHA1-Digest: dv6A3M2guMO2sJurCNZuslmVduA=
+
+Name: icons/full/obj16/Action.gif
+SHA1-Digest: e7V6hkoG+azashMDLBxBVAZNKJU=
+
+Name: icons/full/obj16/Metamodel.gif
+SHA1-Digest: w0efl4WLk0y/bTCY41zUEW4K/kU=
+
+Name: plugin.properties
+SHA1-Digest: NEc7NpDwlQU5dOO5rSxYr5uIAdE=
+
+Name: icons/full/obj16/Chain.gif
+SHA1-Digest: N87EszLapg0gzlJaICq+IE/VYLI=
+
+Name: icons/full/obj16/Backup.gif
+SHA1-Digest: MnnvUyGpJGDC2vF63Vxbc3Ix4q0=
+
+Name: icons/full/ctool16/CreateActionSet_actions_Generate.gif
+SHA1-Digest: s/KHbDIhxBBRXvszGblwuOQN+io=
+
+Name: icons/full/obj16/Folder.gif
+SHA1-Digest: jaHwPbkucYXaV90ucr0n0kgubM0=
+
+Name: icons/full/obj16/CustomAction.gif
+SHA1-Digest: hPrSrmtfpk0jisBXZq/kwn2HVik=
+
+Name: icons/full/obj16/ActionSet.gif
+SHA1-Digest: +qAr/GK3WyU3POQJw8ZSYJFugAE=
+
+Name: icons/full/obj16/EmfMetamodel.gif
+SHA1-Digest: CIJDO6W2WPokMvbM+Kz60PU2VIM=
+
+Name: icons/full/ctool16/CreateChain_actions_ActionSet.gif
+SHA1-Digest: KmXgFKWmz2mVKFimaxAdr+vCRJk=
+
+Name: runtime/fr.obeo.acceleo.chain.editsrc.zip
+SHA1-Digest: so4K6vdEvc6cT+6NgZ/81RXKWgs=
+
+Name: icons/full/obj16/Data.gif
+SHA1-Digest: lqEpUuv1xLLRRWlKItpUOhaO4Ac=
+
+Name: icons/full/obj16/Log.gif
+SHA1-Digest: zKTBHepeCATdrQ+ChsSTZskKQdc=
+
+Name: plugin.xml
+SHA1-Digest: GUlWTIp9MyEVb/eY7xRXajyeBXc=
+
+Name: icons/full/ctool16/CreateRepository_files_Generator.gif
+SHA1-Digest: Uy/XbO5xwsS9w8t+Fv+k5Io/HcM=
+
+Name: icons/full/ctool16/CreateRepository_files_EmfMetamodel.gif
+SHA1-Digest: KJlOV9CI+R1C72H8buO2Ybb2YFY=
+
+Name: icons/full/ctool16/CreateRepository_files_Log.gif
+SHA1-Digest: b/TTPH5kKbHt7us8EZzC8qBjWso=
+

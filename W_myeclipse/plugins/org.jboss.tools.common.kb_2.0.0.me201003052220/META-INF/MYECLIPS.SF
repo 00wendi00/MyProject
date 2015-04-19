@@ -1,0 +1,125 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: NZVR5Tsccd/1vmMsqSrg8gukZJs=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 9+BWhaVMec6yXxdQiYORnix+98U=
+
+Name: schemas/tld/Vcp.xml
+SHA1-Digest: f2rZQhzI2vTORlHqw6VuEzYy2fI=
+
+Name: schemas/tld/JstlXml1_0.xml
+SHA1-Digest: V9ETa+0Bn1w1aVlyvIAw2Wy5UAg=
+
+Name: schema/tldResource.exsd
+SHA1-Digest: 6lWdwY7CU6TO/PEkvAbsnQIiS6s=
+
+Name: schemas/tld/MyFacesSandbox.xml
+SHA1-Digest: HpqwzK/Yr/Ffh0C4l8V2b5ZNsvo=
+
+Name: schemas/tld/Richfaces3_2.xml
+SHA1-Digest: Gtg/Rr1p+NWK/NlV/Re/SgwV23Q=
+
+Name: schemas/tld/JstlFmt1_0.xml
+SHA1-Digest: HUrL0vTl5mDFeFE5kH5cJ4EkqeY=
+
+Name: schemas/tld/Ajax4jsf3_3.xml
+SHA1-Digest: 7BAx5xkOGf7U5EEF+et8LCvlhQ0=
+
+Name: schemas/tld/JBossSeam2_0.xml
+SHA1-Digest: yLsvMaOMdz8cTf5QKPAiU7HQRrw=
+
+Name: docs/loose.dtd
+SHA1-Digest: /zoHIVSTaoJwMBH/L5WyCZs6OE8=
+
+Name: schemas/tld/Ajax4jsf3_1.xml
+SHA1-Digest: FTY/m4RdTJA6Y9ZMapqmC+KxXec=
+
+Name: docs/web-jsptaglibrary_1_2.dtd
+SHA1-Digest: 0RwgnQTE/3GCUrathdaBM7eUzSk=
+
+Name: schemas/tld/JstlCore1_0.xml
+SHA1-Digest: X3/U1oP48PsNX0Ln3RP0VnwCo6c=
+
+Name: schemas/tld/Richfaces3_3.xml
+SHA1-Digest: luCqlQtcbaiNygRBQSvw0aweJis=
+
+Name: schemas/tld/JsfHtmlBasic1_2.xml
+SHA1-Digest: VWP2AoqOS4XOZTXeXmNTBiErjoo=
+
+Name: schemas/tld/Ajax4jsf3_2.xml
+SHA1-Digest: 4BdoHls7p5Dx80a1I+XRnYrrdis=
+
+Name: schemas/tld/Facelets.xml
+SHA1-Digest: bVm4VadG6nLpeRS8hzpTLbBjGdY=
+
+Name: kb.jar
+SHA1-Digest: t/hsaNXVWiIHU3YdKzk91wFmWf4=
+
+Name: schemas/tld/JsfHtmlBasic1_1.xml
+SHA1-Digest: IQWzU8Sgrtg1spPbSQEQcRFojzU=
+
+Name: schemas/tld/MyFacesTomahawk.xml
+SHA1-Digest: gb2ikdHT7ccGnqOf8ImK07m0r9I=
+
+Name: schemas/tld/JsfCore1_2.xml
+SHA1-Digest: AAiBqsSPtIlwyHA0XHPyTGt3mb0=
+
+Name: schemas/tld/VcpAjax.xml
+SHA1-Digest: lqCs3IRGZ2LuoraDwq7QI8mEBXQ=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: schemas/tld/ADFFacesCore.xml
+SHA1-Digest: yz0odZzgl66NMnj+om/k4tScuno=
+
+Name: schemas/tld/ADFFacesHtml.xml
+SHA1-Digest: CYXIWeDleW2qLjZqEsZG4FnrrEY=
+
+Name: lib/dtdparser121.jar
+SHA1-Digest: YMi/WENoNQYxPMJCNyHCZGElk08=
+
+Name: schemas/tld/JstlSql1_0.xml
+SHA1-Digest: IC+F7ZaJfXXG1k3MOet9GrQa6i4=
+
+Name: schemas/tld/StrutsTiles.xml
+SHA1-Digest: KAjoBvhaA/PcDQqC6SPsp2ucsOk=
+
+Name: plugin.properties
+SHA1-Digest: 0dgixraIkR/XSaZnbdqkfOQEHXE=
+
+Name: schemas/tld/MyFacesExt.xml
+SHA1-Digest: lkbZUxzYEEnDocXIGKdMu8yyZUc=
+
+Name: schemas/html/htmlschema.xml
+SHA1-Digest: bHjdavuGEvrL2Qksy8iJyusg5j8=
+
+Name: images/ca/icons_Enumeration.gif
+SHA1-Digest: pJ1qd2UyUs5m1FXP5PoZ9U17G24=
+
+Name: schemas/tld/StrutsBean.xml
+SHA1-Digest: 6ayXOkejm8P4JYcdPzKiVuX5ZNc=
+
+Name: schemas/tld/FaceletsHtml.xml
+SHA1-Digest: QNnx/0+KdUAM2kbKXxa0xWomTAg=
+
+Name: schemas/tld/Jsp.xml
+SHA1-Digest: LoFfOgwxo424la8ECXxUiwFz8G0=
+
+Name: schemas/tld/StrutsHtml.xml
+SHA1-Digest: ZszbE0zcSHtWk1Q5d3kpMmqmJj0=
+
+Name: schemas/tld/Richfaces3_1.xml
+SHA1-Digest: hnrX4I4/40xQL9yFu2WPBODaWUE=
+
+Name: plugin.xml
+SHA1-Digest: USp6TOmCFTFxpwFmv8hIj9ryK4o=
+
+Name: schemas/tld/ajax4jsf.xml
+SHA1-Digest: xdvrK6icZhyy9LSZqqUlKdd5pN4=
+
+Name: schemas/tld/JBossSeam1_2.xml
+SHA1-Digest: +bRZmY2GMYkB9WuHUZy4nZeKspw=
+
+Name: schemas/tld/StrutsTiles11.xml
+SHA1-Digest: U1pD1wbrfTcVzq9MsNb01GnztzI=
+

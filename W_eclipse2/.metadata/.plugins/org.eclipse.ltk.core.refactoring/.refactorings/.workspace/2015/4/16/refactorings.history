@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;net.mindview&apos;" deleteContents="true" description="Delete resource &apos;net.mindview&apos;" element1="/net.mindview" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1429192473856"/>&#x0A;<refactoring comment="Delete resource &apos;源代码&apos;" deleteContents="false" description="Delete resource &apos;源代码&apos;" element1="/源代码" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1429193414182"/>
+</session>

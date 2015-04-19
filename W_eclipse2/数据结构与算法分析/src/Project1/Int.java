@@ -1,0 +1,23 @@
+/**
+ *文件名:Int.java
+ *项目-包:数据结构与算法分析,Project1
+ *作者:张文迪
+ *时间:2015年4月17日
+ */
+package Project1;
+
+/**
+ * @author 张文迪
+ * 类名:Int
+ * 类说明:	int的上限~~  不过太慢了!!!
+ */
+public class Int {
+	public static void main(String args[]){
+		for(int i = 0;i<32769;i++){
+			System.out.print(i+" ");
+			if(i%100==0){
+				System.out.println();
+			}
+		}
+	}
+}

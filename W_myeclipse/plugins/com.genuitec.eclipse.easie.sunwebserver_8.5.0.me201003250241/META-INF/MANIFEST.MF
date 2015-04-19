@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.easie.sunwebserver,com.genuitec.e
+ clipse.easie.sunwebserver.preference
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiesunwebserver.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,org.eclipse.core.runtime.compatibility,com.genuit
+ ec.eclipse.easie.sun,org.eclipse.ui.console
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.sunwebserver.SunWebserverLaun
+ cherPlugin
+Bundle-Version: 8.5.0.me201003250241
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.sunwebserver; singleto
+ n:=true
+
+Name: preferences.ini
+SHA1-Digest: RhEsxd+js3dXRMyU4OhNooWWiZY=
+
+Name: plugin.xml
+SHA1-Digest: oR0fLUaySDcGppZQXuuLB0ahUu0=
+
+Name: license.html
+SHA1-Digest: nt+l9/4YUgZboYK/q+ek7fT2R8g=
+
+Name: about.html
+SHA1-Digest: kn1JkQTQdxTsbo737gYPtARcuG8=
+
+Name: plugin.properties
+SHA1-Digest: YhxjarUeHaKEnv+thySf2opN7/g=
+
+Name: easiesunwebserver.jar
+SHA1-Digest: HLRsaUMiPVImqK9vsW4/iczZ2go=
+

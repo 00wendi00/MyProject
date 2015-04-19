@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+   <extension
+         id="com.genuitec.eclipse.easie.glassfish3.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.easie.glassfish.preferencepage"
+            class="com.genuitec.eclipse.easie.sunglassfish3.preference.Glassfish3LauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.sunglassfish3.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.glassfish.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.sunglassfish3.preferencepage"
+            class="com.genuitec.eclipse.easie.sunglassfish3.preference.Glassfish3LauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.sunglassfish3.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.glassfish.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.sunglassfish3.preferencepage"
+            class="com.genuitec.eclipse.easie.sunglassfish3.preference.Glassfish3LauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.sunglassfish3.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.glassfish.keyword"/>            
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.sunglassfish3.preferencepage"
+            class="com.genuitec.eclipse.easie.sunglassfish3.preference.Glassfish3LauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.sunglassfish3.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.sun.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.glassfish.keyword"/>            
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+   </extension>
+
+</plugin>

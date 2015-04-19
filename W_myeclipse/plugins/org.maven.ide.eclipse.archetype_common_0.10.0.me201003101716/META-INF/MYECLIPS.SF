@@ -1,0 +1,38 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 31VYys5vpc/A8y6uIV6FNtNfR9c=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: LKV9/6dTrsxp6tZ/BNa8Ibn70HM=
+
+Name: jars/jdom-1.0.jar
+SHA1-Digest: cZstPkLn3H9fogycaWbEu/EvIdc=
+
+Name: jars/dom4j-1.6.1.jar
+SHA1-Digest: ORKwFEvNDzPEiumL6zUwCmjB2J0=
+
+Name: jars/oro-2.0.8.jar
+SHA1-Digest: PK4xfuJmPaGHNpNE3mYSFOJOLkU=
+
+Name: jars/velocity-1.5.jar
+SHA1-Digest: nSvDAbaSc9tRzkqk22JSMaetW98=
+
+Name: jars/commons-collections-3.2.jar
+SHA1-Digest: LD7ASneDMzWHyRVSdj92QCw5Rlg=
+
+Name: jars/jchardet-1.0.jar
+SHA1-Digest: pWUsnVWnC5ibUvLOun3CJUmreAI=
+
+Name: jars/commons-lang-2.1.jar
+SHA1-Digest: DD/1whtORxogWXbp7m0NWiy8M0U=
+
+Name: jars/archetype-common-2.0-alpha-4.jar
+SHA1-Digest: SFZoBjmUHgcdEANtC52Wu2rRvuU=
+
+Name: META-INF/plexus/.keep
+SHA1-Digest: ZhmDv/x/RhyKpZlJ9IijtBB3f9w=
+
+Name: jars/commons-io-1.3.1.jar
+SHA1-Digest: gfVDjNWCVRSsDkhSFiSIqBCf1Uk=
+
+Name: jars/plexus-velocity-1.1.3.jar
+SHA1-Digest: eKQYC5lNIh9jSCJIhFMYDD0yP+I=
+

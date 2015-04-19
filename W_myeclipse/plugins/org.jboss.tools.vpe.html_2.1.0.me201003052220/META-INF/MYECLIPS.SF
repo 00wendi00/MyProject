@@ -1,0 +1,35 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: ekp9ymaMJohcNoYd5Bp32H3vW8Q=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: LNEgZcOYQEtPgQpbw03MWl4qYfY=
+
+Name: org/jboss/tools/vpe/html/template/HtmlCommentTemplate.class
+SHA1-Digest: jSyWKi+RrTG0ZG/gJ0TIhLJJ4mg=
+
+Name: org/jboss/tools/vpe/html/template/HtmlTextareaTemplate.class
+SHA1-Digest: uIMxmF7TjQrJ8cWCCU8ycUiVNWk=
+
+Name: plugin.xml
+SHA1-Digest: XvFTFmI1t1vv69lO15tzhIe6th4=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: plugin.properties
+SHA1-Digest: ygTEGOtefOBel2GUDUl7+zxQ4wE=
+
+Name: templates/vpe-templates-html.xml
+SHA1-Digest: 0ZWC91GQ9UwupjoPnIgWElCXv4w=
+
+Name: org/jboss/tools/vpe/html/template/HtmlTextTemplate.class
+SHA1-Digest: 37uOZNfR5zEX4o3K+gNKwHnzM6o=
+
+Name: org/jboss/tools/vpe/html/HtmlTemplatePlugin.class
+SHA1-Digest: VfVGwFcvDiGDacV+gsr6A7g6Z/4=
+
+Name: org/jboss/tools/vpe/html/template/HtmlImgTemplate.class
+SHA1-Digest: gTAFUXGvkmuZzoEb1yZ0AO4B1nc=
+
+Name: org/jboss/tools/vpe/html/template/HtmlBodyTemplate.class
+SHA1-Digest: ey5oIwov4ZQqH+SvsBPTmHUm/5g=
+

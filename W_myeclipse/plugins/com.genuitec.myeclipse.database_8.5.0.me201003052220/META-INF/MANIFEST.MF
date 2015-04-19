@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %bundleVendor
+Bundle-Version: 8.5.0.me201003052220
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.genuitec.myeclipse.database;singleton:=true
+
+Name: about.properties
+SHA1-Digest: 6PIXAQaSJzSyvlLLFJSSs7662F8=
+
+Name: myeclipse-db.png
+SHA1-Digest: TnuCfgOOSJaWAmx2k4QcjQ25JWQ=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: ito3I8R2exd471WihHd/Pcj1NEU=
+
+Name: plugin.properties
+SHA1-Digest: MrFu936L8jC9aUy8MDr+R/RRWPo=
+
+Name: build.xml
+SHA1-Digest: WdjGhsejmAsiG0+q+IlylWZJsR8=
+
+Name: about.ini
+SHA1-Digest: p9jMkUWLVHfnOe16aUAwUTw6a7c=
+
+Name: about.mappings
+SHA1-Digest: zowDCrpWVZzhkoT9ObjZOPEcskk=
+

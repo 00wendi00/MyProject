@@ -1,0 +1,507 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: VROh5Lv53rbKO/3mdgXMv6XZJi8=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: Ecbm5ALFIR1D0VxKuUrc1dpXN+s=
+
+Name: myeclipse-data/3.1/lib/jgroups-2.2.8.jar
+SHA1-Digest: nbKmgXzYaxia5MXMD0kLAI+1jaA=
+
+Name: myeclipse-data/3.1/lib/licenses/apache.license.txt
+SHA1-Digest: LoEqQYmCkFnVdWZgJxHVF5k/t4U=
+
+Name: lib/annotations/hibernate-search.jar
+SHA1-Digest: cST4KqPQRPpJU6gICfop9KKR6s8=
+
+Name: lib/annotations/hibernate-entitymanager.jar
+SHA1-Digest: 112nGCuJ1KfzHvvt2TnHiRINZa4=
+
+Name: myeclipse-data/3.0/lib/xerces-2.6.2.jar
+SHA1-Digest: QQQhqihnZ8vE2/E7OjUCkzLDCx0=
+
+Name: myeclipse-data/3.2/lib/licenses/lgpl.txt
+SHA1-Digest: SGwjq35L6BVTV7NF19ilKFvo+xU=
+
+Name: hibernate-log4j.properties
+SHA1-Digest: +j5qYCOMG4jD8OD7PBMCuRDn7gE=
+
+Name: myeclipse-data/3.2/lib/hibernate3.jar
+SHA1-Digest: nf/JG7AuPsgDdnXZ0JPJ15z3hC8=
+
+Name: myeclipse-data/3.3/lib/optional/c3p0/c3p0-0.9.1.jar
+SHA1-Digest: mEPAavkr8m2zU4oXzuaDswqIh54=
+
+Name: org.hibernate.eclipse.jar
+SHA1-Digest: WBtzzyfs8XgoK6q4LAyHP6bvENE=
+
+Name: myeclipse-data/3.1/lib/licenses/connector.licence.txt
+SHA1-Digest: AOHpMxgdf94M6xCEs4pZcKHqHnU=
+
+Name: myeclipse-data/3.2/lib/c3p0-0.9.1.jar
+SHA1-Digest: Fj9OH3eWi/lATknj4amWbVNBpNI=
+
+Name: myeclipse-data/3.0/lib/jta.jar
+SHA1-Digest: s/USuFFjR7bXohTu4ytDIGDaL2k=
+
+Name: myeclipse-data/3.0/lib/concurrent-1.3.2.jar
+SHA1-Digest: Te64bVMIcorwomEqP2sTuPDVWQw=
+
+Name: myeclipse-data/3.2/lib/entitymanager/jboss-archive-browsing.jar
+SHA1-Digest: Uu/sX9mvTF4VwdAcMVJWtSYXAso=
+
+Name: myeclipse-data/3.0/lib/commons-logging-1.0.4.jar
+SHA1-Digest: MF5iKb017TT5omgsMYF8usTyazc=
+
+Name: myeclipse-data/3.2/lib/licenses/c3p0.license.txt
+SHA1-Digest: 3fpCJ6Pp1o6Aah8MPAP2fthFGkI=
+
+Name: lib/springhibernate/commons-pool.jar
+SHA1-Digest: JtQ0as1kp0renAlpDa6eMIYybH8=
+
+Name: myeclipse-data/3.0/lib/commons-collections-2.1.1.jar
+SHA1-Digest: TTjWFMFS/9tGO+oOgj518WNfdXA=
+
+Name: myeclipse-data/3.3/lib/bytecode/javassist/javassist-3.9.0.GA.jar
+SHA1-Digest: BYKWpXzBVTveTrj1uUUNoBfyssM=
+
+Name: myeclipse-data/3.3/lib/entitymanager/dom4j.jar
+SHA1-Digest: AgKtSnKjSa4KRzg/WcHGtiMMaVI=
+
+Name: myeclipse-data/2.1/lib/_README.txt
+SHA1-Digest: eAHuoTwISTpvo90e3DTqy2jMoSg=
+
+Name: myeclipse-data/2.1/lib/dom4j-1.4.jar
+SHA1-Digest: 1ONuTtTWd/b93HoqZ+9n29uS4v8=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-system.jar
+SHA1-Digest: JBWDNuh8Vuga29/F98Jycnea9lY=
+
+Name: myeclipse-data/3.0/lib/log4j-1.2.9.jar
+SHA1-Digest: bYC4XLCwnmS6jBfkqERniL1iS3g=
+
+Name: myeclipse-data/3.0/lib/licenses/apache.license.txt
+SHA1-Digest: DxJlFHuj/tQ702TIpJv2Z7zPe20=
+
+Name: myeclipse-data/3.2/lib/licenses/apache.license.txt
+SHA1-Digest: TRBb+3sggm9fdlTJ7q0DqmBlC2g=
+
+Name: myeclipse-data/3.1/lib/licenses/c3p0.license.txt
+SHA1-Digest: PIEnlLdCJxEeBh4UVf/VAIDg8x0=
+
+Name: myeclipse-data/3.2/lib/readme.txt
+SHA1-Digest: fMJlg0+GHsTedUAIEzalvPIqJBo=
+
+Name: myeclipse-data/2.1/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: fVUuGt+Njqi9uQoD6Sb/kQuNnLo=
+
+Name: myeclipse-data/2.1/lib/xerces-2.4.0.jar
+SHA1-Digest: 13YWGEkpLCYMFXZABbQ1o0aZ5kQ=
+
+Name: myeclipse-data/2.1/lib/proxool-0.8.3.jar
+SHA1-Digest: Kikm31EfLkUq7mowUm7rZgTd244=
+
+Name: myeclipse-data/2.1/lib/jgroups-2.2.7.jar
+SHA1-Digest: gzFFisI54pao2J1ocxV0LOUXTKg=
+
+Name: myeclipse-data/3.0/lib/antlr-2.7.5H3.jar
+SHA1-Digest: L8akb+AqM0rfIxxOX0onvnUt5DQ=
+
+Name: lib/hibernate/hibernate3.jar
+SHA1-Digest: y0QAinoScSou20o/MNqrOPpnctM=
+
+Name: myeclipse-data/2.1/lib/licenses/c3p0.license.txt
+SHA1-Digest: 7MBZNMowoTF/tEiRPdddsaO94oU=
+
+Name: myeclipse-data/3.0/lib/jaas.licence.txt
+SHA1-Digest: iRmcNNKi9XYNRuOpNXtu2n9J+fw=
+
+Name: myeclipse-data/3.1/lib/jaxen-1.1-beta-7.jar
+SHA1-Digest: nr1AtoEqmZ4Ysj3cfMBiN/5a8kU=
+
+Name: myeclipse-data/3.1/lib/licenses/jta.licence.txt
+SHA1-Digest: 5ghMs/imIho8IWByUryZN8IfXCE=
+
+Name: myeclipse-data/3.2/lib/entitymanager/readme.txt
+SHA1-Digest: sPzO51QI0Nm/qBX7G6j9sdso48I=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-entitymanager.jar
+SHA1-Digest: UOiySyO98jYKUWYtHYpqChbAiA8=
+
+Name: myeclipse-data/3.3/lib/_README.txt
+SHA1-Digest: 7PnXqxR32C1BuN9GurgJK1uUGZ0=
+
+Name: about.html
+SHA1-Digest: yP3YvYg7uy6XBqHY80TTWYXaO04=
+
+Name: myeclipse-data/2.1/lib/xml-apis.jar
+SHA1-Digest: UVvXsHRRyW0uO+5A4kll2i6qQIM=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-jmx.jar
+SHA1-Digest: FFDSRTdcyWkE6sBE16hsvNLGLYw=
+
+Name: lib/annotations/hibernate-commons-annotations.jar
+SHA1-Digest: c+ZGwpZGyPRUwhc4T7nmCEusllo=
+
+Name: myeclipse-data/2.1/lib/licenses/jaas.licence.txt
+SHA1-Digest: XmkVVBkx7K+tquPG7dohuC1qTLA=
+
+Name: myeclipse-data/2.1/lib/oscache-2.0.jar
+SHA1-Digest: 9jjxYg18oOTjQQBceYnNxPFqcDg=
+
+Name: myeclipse-data/2.1/lib/jta.jar
+SHA1-Digest: fuOvkzHoOMjx45sHXskNK+DbccY=
+
+Name: lib/annotations/hibernate-annotations.jar
+SHA1-Digest: UGNpB8ScrdEd3Bk0xFQyMPNmsuw=
+
+Name: lib/annotations/lucene-core-2.2.0.jar
+SHA1-Digest: NBCKeZSST+WmnEIgbTs7RwEiWE4=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-system.jar
+SHA1-Digest: ghJsBVnQjh7FQr9hDJFkH13xB0U=
+
+Name: myeclipse-data/3.3/lib/hibernate-validator.jar
+SHA1-Digest: mA+bmE0IIMY2hZsHsW+e8u/Ly0Q=
+
+Name: myeclipse-data/2.1/lib/swarmcache-1.0rc2.jar
+SHA1-Digest: HfYJwIEW4xxqlySsAwl8POAiWuc=
+
+Name: myeclipse-data/2.1/lib/licenses/apache.license.txt
+SHA1-Digest: P5z8PXU84rSZf1t2jgZWt0psXxg=
+
+Name: lib/tools/jtidy-r8-20060801.jar
+SHA1-Digest: K6dCpyPxpqYStvjohxSOTYygH/s=
+
+Name: myeclipse-data/3.0/lib/cleanimports.jar
+SHA1-Digest: iCMKiilaE8+cWIcPMTVxYuujLrQ=
+
+Name: myeclipse-data/3.0/lib/jdbc2_0-stdext.jar
+SHA1-Digest: M4wGsp35i7Z1KFi56Zbsydz6SL0=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-annotations.jar
+SHA1-Digest: a3wBVMOy/o7TS6cNaDva5IcRx4w=
+
+Name: myeclipse-data/3.3/lib/bytecode/cglib/cglib-2.2.jar
+SHA1-Digest: eJe1mP76qxQ/wL9jRjQEd5qRp1M=
+
+Name: myeclipse-data/3.0/lib/connector.jar
+SHA1-Digest: GCOu5CLZZEo3ExBsrYY7FyoAZs0=
+
+Name: myeclipse-data/3.0/lib/dom4j-1.6.jar
+SHA1-Digest: p3kabo6zxbxulxFyAJztWH4VjOU=
+
+Name: myeclipse-data/3.0/lib/jaas.jar
+SHA1-Digest: KpCRcdmsjBUThat01RXiA2rPOwE=
+
+Name: myeclipse-data/3.3/lib/entitymanager/ejb3-persistence.jar
+SHA1-Digest: MWPVC9k5SO46E7fjLBLsxmcumZI=
+
+Name: myeclipse-data/2.1/lib/commons-dbcp-1.2.1.jar
+SHA1-Digest: hRnHH2U1io6zguFf7QFVi2FlTOU=
+
+Name: myeclipse-data/2.1/lib/licenses/jta.licence.txt
+SHA1-Digest: fwH+Ihdi9NYmfGwH9ilVLHJWe7Y=
+
+Name: myeclipse-data/3.1/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: /2MqHHyViQcrJAeOMwlH7JL6WaU=
+
+Name: myeclipse-data/2.1/lib/jcs-1.0-dev.jar
+SHA1-Digest: LcXFI7GMNAqNWTSIVRu1N6eyIEE=
+
+Name: lib/tools/hibernate-tools.jar
+SHA1-Digest: 2J7V/6Sqr6Mh0sfbLY+K3PMfqD4=
+
+Name: myeclipse-data/3.0/lib/optional/version.properties
+SHA1-Digest: cMxgGBdqkBvOJutMYc3K329KBlU=
+
+Name: about.properties
+SHA1-Digest: xGj6eI+qcIazTEPjFb22tohQVJw=
+
+Name: myeclipse-data/3.0/lib/licenses/antlr.license.txt
+SHA1-Digest: RmkCsehIgEBE7cXanl95DoOyd6g=
+
+Name: plugin.xml
+SHA1-Digest: AOS/8k7StknO+PdRJ+L+P742hxY=
+
+Name: myeclipse-data/3.0/lib/licenses/jdbc2_0-stdext.licence.txt
+SHA1-Digest: mn0cvKQCSY1Fch4fZUCmYqbTO3M=
+
+Name: myeclipse-data/3.3/lib/optional/proxool/proxool-0.8.3.jar
+SHA1-Digest: UCn/coP1yXAJQBnDTZtkWqEvNRo=
+
+Name: schema/configurationrepository.exsd
+SHA1-Digest: SiV2KMX8fqlHzJfqw2Dg1k4JpSk=
+
+Name: myeclipse-data/3.1/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: BuDu8MZXvdE+6F0NFmNAuo/Vk1I=
+
+Name: myeclipse-data/3.3/lib/required/jta-1.1.jar
+SHA1-Digest: yLH876Vhg6TV8BsGllwzllCDADc=
+
+Name: myeclipse-data/3.2/lib/version.properties
+SHA1-Digest: nvw6p8+NeIUcnKZhAd3rkWsa/bk=
+
+Name: lib/hibernate/log4j-1.2.15.jar
+SHA1-Digest: kY6W22rCsedGPBcjVAZ/kgXItDs=
+
+Name: myeclipse-data/3.1/lib/licenses/jaas.licence.txt
+SHA1-Digest: gBRbtS01XKWzI9zO7MHOFHL08Mw=
+
+Name: myeclipse-data/2.1/lib/licenses/connector.licence.txt
+SHA1-Digest: lZx2NQtNN0ApG/TYSFOSbS4xY4g=
+
+Name: lib/hibernate/connector.jar
+SHA1-Digest: bDkF404ClgC9194b92T/y9AsC6Y=
+
+Name: myeclipse-data/2.1/lib/connector.jar
+SHA1-Digest: AXe8QFdEtLQ7aFCwaTtHpa4HWWU=
+
+Name: hibernate_icon.gif
+SHA1-Digest: GkH/6r5krQdc97KPvH0Wv1JDpcc=
+
+Name: myeclipse-data/2.1/lib/jaas.jar
+SHA1-Digest: NZRBJpV4uypGcjQkLdKdNeMfkN8=
+
+Name: myeclipse-data/2.1/lib/commons-lang-1.0.1.jar
+SHA1-Digest: 0EnxqiurlBgq/nEmExh1E5dHyoU=
+
+Name: myeclipse-data/3.3/lib/entitymanager/hibernate-commons-annotatio
+ ns.jar
+SHA1-Digest: 8ti3QdMVZR0j8lGDoz4dlqmf/l4=
+
+Name: lib/tools/velocity-1.4.jar
+SHA1-Digest: /NIUHWIUyrYmyiloWclnGSDOrxI=
+
+Name: myeclipse-data/3.3/lib/required/commons-collections-3.1.jar
+SHA1-Digest: Vsiq5VrFZ8gmZ65YuMFyi6lGETE=
+
+Name: myeclipse-data/3.0/lib/asm.jar
+SHA1-Digest: Qrsrw8mmwvZoiGiZCl6/Y16EktU=
+
+Name: lib/tools/freemarker.jar
+SHA1-Digest: rtKhiCTRY+hsSdGVSHxSySn5SMA=
+
+Name: myeclipse-data/2.1/lib/ehcache-0.9.jar
+SHA1-Digest: 5IBYRtz5Bcwxr3UfNQP7CtXsU2Q=
+
+Name: myeclipse-data/2.1/lib/odmg-3.0.jar
+SHA1-Digest: 1+RfBhT07rZElNv1ZUzRUFdgCiM=
+
+Name: myeclipse-data/3.0/lib/cglib-2.1.jar
+SHA1-Digest: s3udzZ7y5FvdKNDzq7OhknIjMY8=
+
+Name: lib/bsh-core-2.0b4.jar
+SHA1-Digest: Z6JNtsTIx0ireqsW5Verb0PzTd0=
+
+Name: myeclipse-data/3.1/lib/_README.txt
+SHA1-Digest: 8ALH1yVEYMECWl9ACITj51KrKp4=
+
+Name: plugin.properties
+SHA1-Digest: aIyZ9ArJfUaBOLGSbitNxtPhaZc=
+
+Name: myeclipse-data/3.3/lib/required/slf4j-log4j12-1.5.8.jar
+SHA1-Digest: UGdXRJN3IHBcj4uHmDZ2pfAZBIM=
+
+Name: myeclipse-data/3.0/lib/_README.txt
+SHA1-Digest: 0fsYvCEmFKJ4y4wS5vN4eJFVt50=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-annotations.jar
+SHA1-Digest: ZB2Iq//zJl5gaNQOHKWVAG70uHM=
+
+Name: myeclipse-data/3.0/lib/hibernate3.jar
+SHA1-Digest: YJL/V6mM8NbmcOOyu0XyejIfkIc=
+
+Name: lib/springhibernate/jotm.jar
+SHA1-Digest: tnsu8YdXZ91cy1B88gAqpqEnViU=
+
+Name: about.ini
+SHA1-Digest: ES9PCxvfpdvy92U0aOyJArq9tKk=
+
+Name: myeclipse-data/3.2/lib/ehcache-1.2.3.jar
+SHA1-Digest: rWIYuS3u0wzOE1wiVx2zqJdgvLY=
+
+Name: myeclipse-data/2.1/lib/concurrent-1.3.3.jar
+SHA1-Digest: osH61memNSablc4FLQjHcQusXFI=
+
+Name: myeclipse-data/3.1/lib/cglib-2.1.3.jar
+SHA1-Digest: FVRerDYuAZuZMSxVURYrO2buMwQ=
+
+Name: myeclipse-data/3.2/lib/javassist.jar
+SHA1-Digest: jRVT9rnSe6VnZI/Vlzm8cFp/EGU=
+
+Name: myeclipse-data/3.0/lib/oscache-2.1.jar
+SHA1-Digest: G1dTSCf9YdAowuO/FJjwge5l8Ew=
+
+Name: myeclipse-data/2.1/lib/log4j-1.2.8.jar
+SHA1-Digest: P/yNDc/oJ/iMB0TXc+++Ekre4SA=
+
+Name: myeclipse-data/3.0/lib/c3p0-0.8.5.2.jar
+SHA1-Digest: Fg0nCk04JE69A7n8BhWSwMy2+qs=
+
+Name: myeclipse-data/3.3/lib/hibernate3.jar
+SHA1-Digest: P8dI3wOuU50Ie9tSLoeNDOgl5d4=
+
+Name: myeclipse-data/3.2/lib/jboss-cache.jar
+SHA1-Digest: 6JyRQFoIor3hi5970aJ0kdv/JP0=
+
+Name: myeclipse-data/3.0/lib/licenses/c3p0.license.txt
+SHA1-Digest: i08v4MM7lvYA+692k/yq3+fRYVc=
+
+Name: lib/springhibernate/commons-dbcp.jar
+SHA1-Digest: c0xyHka41ieIiwUGt5sfT31N0nw=
+
+Name: myeclipse-data/3.0/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: bX6lgJYIkzJfasWlPKLOk7ti2Mc=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-entitymanager.jar
+SHA1-Digest: 2AEFC76JmIkg257zwnt1ReQg940=
+
+Name: myeclipse-data/3.0/lib/xml-apis.jar
+SHA1-Digest: j6Rw6r1j53AHI5FYJKcwNbDX9DE=
+
+Name: myeclipse-data/3.1/lib/antlr-2.7.6rc1.jar
+SHA1-Digest: w6fUgzmcXjxGp82HBSxdudIjcM0=
+
+Name: myeclipse-data/3.3/lib/optional/swarmcache/swarmcache-1.0RC2.jar
+SHA1-Digest: oq20upgEzy7zVOp4HCzDcJPCvsY=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-cache.jar
+SHA1-Digest: x/ZGGmoL+tWLF1okWbmI+Y0LodI=
+
+Name: myeclipse-data/3.0/lib/jacc-1_0-fr.jar
+SHA1-Digest: 8+gmqpf+3kEbhZ/iT83Wob+gEL0=
+
+Name: myeclipse-data/3.1/lib/log4j-1.2.11.jar
+SHA1-Digest: KlOBq8Ti4YIXg3IxHNamUfbCImM=
+
+Name: myeclipse-data/3.1/lib/dom4j-1.6.1.jar
+SHA1-Digest: TQDcu7e2WARMckRXxBI7y+pP4vc=
+
+Name: myeclipse-data/3.2/lib/antlr-2.7.6.jar
+SHA1-Digest: f3OkHzmI2EM0U9RKMJwh6RNxPm8=
+
+Name: myeclipse-data/3.3/lib/required/slf4j-api-1.5.8.jar
+SHA1-Digest: d0qZJM0thkufoRR1mInDMqolMU4=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-common.jar
+SHA1-Digest: KKtKKFmox6shkXIpKx1tLbiu9ec=
+
+Name: myeclipse-data/3.3/lib/optional/oscache/oscache-2.1.jar
+SHA1-Digest: iwRBthjNXsJB+IxqsXpLHMFZXpI=
+
+Name: myeclipse-data/2.1/lib/commons-pool-1.2.jar
+SHA1-Digest: P8ThRs4RhpAxAxROm27J6wneiOQ=
+
+Name: myeclipse-data/3.3/lib/optional/ehcache/ehcache-1.2.3.jar
+SHA1-Digest: +VURMOpgRcGvRxewFiX2BvJYzQI=
+
+Name: myeclipse-data/2.1/lib/optional/jboss-common.jar
+SHA1-Digest: 2tsSaXytMdI3W7Fj7OcvIOmVOkY=
+
+Name: myeclipse-data/3.3/lib/optional/jbosscache/jboss-cache-1.4.1.GA.
+ jar
+SHA1-Digest: 2shtQG1PPbO3BrD+DXkgV7XR+sA=
+
+Name: lib/tools/velocity-tools-generic-1.1.jar
+SHA1-Digest: ilsNlr5Xv/OJvgAlFm+A/syW6lU=
+
+Name: myeclipse-data/3.1/lib/licenses/antlr.license.txt
+SHA1-Digest: ++w9lDsDTWr7oLVE4f4UkgzPcuo=
+
+Name: myeclipse-data/2.1/lib/cglib-full-2.0.2.jar
+SHA1-Digest: Owo0aNM/Y7nnE2fj7lJ2z+zC0BY=
+
+Name: myeclipse-data/3.2/lib/entitymanager/ejb3-persistence.jar
+SHA1-Digest: IAOSyoE3dP6UPuEbkfPcGSom/oU=
+
+Name: myeclipse-data/3.2/lib/changelog.txt
+SHA1-Digest: PhsLM0G/x6NvkeeWJQVj0IbqD8E=
+
+Name: myeclipse-data/3.1/lib/hibernate3.jar
+SHA1-Digest: NPjeVqn3hXjaN0bJR28dv9NRStc=
+
+Name: myeclipse-data/3.2/lib/licenses/apache.license-2.0.txt
+SHA1-Digest: yZBKc5B5vLw8erbGNkposF+u8/4=
+
+Name: myeclipse-data/3.1/lib/c3p0-0.9.0.jar
+SHA1-Digest: A8Ig+EKAK57dG2PRrpBsC+csc0I=
+
+Name: myeclipse-data/2.1/lib/jdbc2_0-stdext.jar
+SHA1-Digest: DFWkG/80fgkTrcfT8IxjWGZFDfY=
+
+Name: myeclipse-data/3.0/lib/licenses/connector.licence.txt
+SHA1-Digest: B1B3/ei6F8x5qm8sGybN+/oGCcQ=
+
+Name: myeclipse-data/3.2/lib/_README.txt
+SHA1-Digest: Vikxt86pGdlGj5yO1mt/NruxOIo=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-validator.jar
+SHA1-Digest: vD98Y9ujzwt/MDtaI6mDLV4DYGg=
+
+Name: myeclipse-data/3.0/lib/ehcache-1.1.jar
+SHA1-Digest: ld5CIo2UxyslSuN6gcjRD7dvvSI=
+
+Name: about.mappings
+SHA1-Digest: KygS+EIeOe/1YMVJLut9+wSapII=
+
+Name: myeclipse-data/2.1/lib/commons-collections-2.1.1.jar
+SHA1-Digest: SLgo2tVujqZRPra/qTEeBDMEGMc=
+
+Name: myeclipse-data/3.3/lib/optional/jbosscache2/jbosscache-core-3.1.
+ 0.GA.jar
+SHA1-Digest: qc4cmAA3+UCkYuQnyVG8tRiMC2Q=
+
+Name: myeclipse-data/3.0/lib/proxool-0.8.3.jar
+SHA1-Digest: d35YYsn2UULpW4JNO8Rz3QeOaaM=
+
+Name: myeclipse-data/3.0/lib/swarmcache-1.0rc2.jar
+SHA1-Digest: MOyUIuSIUfyJHlILl9xQqMNBStw=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-jmx.jar
+SHA1-Digest: mj23TbrXeBPk8YyRC6UPZtB2ahA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: HNV4kj6djm1nVGsjpfE9c78L3/s=
+
+Name: myeclipse-data/2.1/lib/xalan-2.4.0.jar
+SHA1-Digest: GPqSuy/KZcD+B679hZ5WNOAUyPI=
+
+Name: myeclipse-data/3.3/lib/required/log4j-1.2.14.jar
+SHA1-Digest: Hfj4lH1ZyARO1cV9eOBqdm9u1V4=
+
+Name: myeclipse-data/3.2/lib/licenses/antlr.license.txt
+SHA1-Digest: Npm6aZgLO8CutpPQ7tdmlfWZszw=
+
+Name: myeclipse-data/2.1/lib/hibernate2.jar
+SHA1-Digest: KBDJrAhmmElPb/f89tKsyYHv9BY=
+
+Name: myeclipse-data/3.0/lib/jaxen-1.1-beta-4.jar
+SHA1-Digest: mWRN/xAQaMnz2G7oP++MFFcShJc=
+
+Name: myeclipse-data/3.0/lib/jgroups-2.2.7.jar
+SHA1-Digest: fmOIsYNNQ0lBSJ+gLDsYGDkzAH8=
+
+Name: myeclipse-data/2.1/lib/commons-logging-1.0.4.jar
+SHA1-Digest: K99ysox+YQl5OHAtHH2IXbBWgaI=
+
+Name: myeclipse-data/3.0/lib/licenses/jta.licence.txt
+SHA1-Digest: /iyFo2q8GeNaFIW1V2Buz9tTgQs=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-commons-annotatio
+ ns.jar
+SHA1-Digest: +57klAbtClpufgLXOw87cFB2EIU=
+
+Name: myeclipse-data/3.1/lib/version.properties
+SHA1-Digest: jyBDNkMn84AASTMfcHfG4nB2VZM=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-cache.jar
+SHA1-Digest: +IA/YcWFD0Bp4X+HCR/WlE/v8Nk=
+
+Name: lib/springhibernate/spring.jar
+SHA1-Digest: W24kA7O1uu0K8KI761nyJ00jUZY=
+
+Name: myeclipse-data/2.1/lib/c3p0-0.8.4.5.jar
+SHA1-Digest: K7sI8TRFUvf/SKv3VlQ0yHPCWXg=
+
+Name: myeclipse-data/3.0/lib/asm-attrs.jar
+SHA1-Digest: BTia+6jXfvAbAOd47lMrirAOkuk=
+

@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.chain,fr.obeo.acceleo.chain.impl,fr.ob
+ eo.acceleo.chain.impl.spec,fr.obeo.acceleo.chain.runner,fr.obeo.accel
+ eo.chain.tools,fr.obeo.acceleo.chain.util
+Require-Bundle: org.eclipse.ant.core,org.eclipse.core.runtime,org.ecli
+ pse.core.resources,org.eclipse.emf.ecore,fr.obeo.acceleo.ecore,fr.obe
+ o.acceleo.gen,fr.obeo.acceleo.tools.ui,org.eclipse.emf.ecore.xmi,org.
+ eclipse.debug.core,fr.obeo.acceleo.ecore.ui
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: runtime/fr.obeo.acceleo.chain.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: fr.obeo.acceleo.chain; singleton:=true
+
+Name: schema/precondition.exsd
+SHA1-Digest: WokvdNJfHGrm8p0Adv1TzZcj5/g=
+
+Name: schema/custom.exsd
+SHA1-Digest: P/GV4ATSTDlk7uX5ABLVjkOBxDE=
+
+Name: runtime/fr.obeo.acceleo.chain.jar
+SHA1-Digest: /nioxOnx/U1jUUHyisKcxGS97HE=
+
+Name: schema/postGeneration.exsd
+SHA1-Digest: r6jx/LGZynoDV46mLHc1sMd+Tm0=
+
+Name: plugin.xml
+SHA1-Digest: aXgWi1Na0oPkoaVbgTh6P3y4Y8g=
+
+Name: plugin.properties
+SHA1-Digest: QSwQE79gR3cGFGvAPCqP1Kl7/vU=
+
+Name: model/chain.genmodel
+SHA1-Digest: vCZG0DpzSDyYNRFlYzeeHp/FQd4=
+
+Name: model/chain.ecore
+SHA1-Digest: VrrS+As9RVc7DyYRNYPXJkR1gR8=
+
+Name: runtime/fr.obeo.acceleo.chainsrc.zip
+SHA1-Digest: zxBTh7j/sOnmqaQW5ojAv4G2lbo=
+

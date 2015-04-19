@@ -1,0 +1,104 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.apache.jasper.compiler,com.genuitec.eclip
+ se.easie.core,com.genuitec.eclipse.easie.core.ui.action,com.genuitec.
+ eclipse.easie.core.ui.preference
+Bundle-ClassPath: easiecore.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Require-Bundle: com.genuitec.eclipse.core;visibility:=reexport,com.gen
+ uitec.eclipse.core.common;visibility:=reexport,org.eclipse.core.runti
+ me.compatibility,org.eclipse.debug.ui;bundle-version="3.4.1",com.ibm.
+ icu;bundle-version="3.8.1"
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.core.EASIEPlugin
+Eclipse-LazyStart: true
+Bundle-Version: 8.5.0.me201003232017
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.core; singleton:=true
+
+Name: icons/servers.gif
+SHA1-Digest: vtMh3A6NQWGikkk/O5nYA6u5Mqs=
+
+Name: icons/myeclipse2.gif
+SHA1-Digest: Is4DVIAY9RqtDM/sx33utu/AoSU=
+
+Name: icons/launch_debug.gif
+SHA1-Digest: 0N/r8ApsNuO/5kCiCb/8bvLBZzA=
+
+Name: icons/stop.gif
+SHA1-Digest: p7vH2XOt5EGARpAYURbkUhybzLY=
+
+Name: icons/disconnect_co.gif
+SHA1-Digest: 47UWEsUMkBMePm5Wn3YRFTMsvIY=
+
+Name: icons/custom_server.gif
+SHA1-Digest: 8E5iCrMjG7Gq4trF5ED+weYHn6w=
+
+Name: about.html
+SHA1-Digest: CuyMQioV4iJXaChEFPvy4Aa87Uk=
+
+Name: icons/wiz_new_server.gif
+SHA1-Digest: TL8cm/G7rY+Em/GHZXGFibAugcY=
+
+Name: icons/configuration.gif
+SHA1-Digest: u00OQMgpkEVocu1yADmpR+jEi7M=
+
+Name: icons/lrun_obj1.gif
+SHA1-Digest: kQNxVRL1sHwjtKuTgxWobbJbpDY=
+
+Name: icons/info_icon-2.gif
+SHA1-Digest: n2OwJjb3fG3Yetsu12swsmi8YQg=
+
+Name: icons/terminatedlaunch_obj.gif
+SHA1-Digest: nKNivw9ZVDHG9SU5U2vI+26IXCQ=
+
+Name: icons/launch_restart.gif
+SHA1-Digest: V6RzWMGIVbjXKC8ZHbbwenu9ehE=
+
+Name: easiecore.jar
+SHA1-Digest: EVmkRZsKedr1xSktCQ2EpozCy88=
+
+Name: icons/osprct_obj.gif
+SHA1-Digest: t9iEe5aAl+e0qtk1IbbPIBnUYgg=
+
+Name: icons/lrun_obj1_bak.gif
+SHA1-Digest: flSKk73S4HWHMx+FF15K36q60Z8=
+
+Name: icons/myeclipse1.gif
+SHA1-Digest: 4ic5/XEnaKWh1FwJTkqlXbjo7Cs=
+
+Name: plugin.properties
+SHA1-Digest: IUs29PSxA/47gUzdHZkKBUM7jCE=
+
+Name: icons/start.gif
+SHA1-Digest: 5pPUS+LFBM2//sB8S2NOlVn1nTM=
+
+Name: icons/new_wiz.gif
+SHA1-Digest: b9QHfbt9Sm1uxZsobECGttak4As=
+
+Name: icons/debug_exc.gif
+SHA1-Digest: PEAY/f9NPoXU2krBzfa0tJqT5oY=
+
+Name: icons/run_exc.gif
+SHA1-Digest: 9nUFtkM1LiPz9RddB8tq+Zl7LlE=
+
+Name: icons/osprc_obj.gif
+SHA1-Digest: 8E5iCrMjG7Gq4trF5ED+weYHn6w=
+
+Name: plugin.xml
+SHA1-Digest: /p6tBh7BTjL2JQQzm2TWB6tMxv8=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: icons/drun_exc.gif
+SHA1-Digest: lZjWHgBedmNTBaJCLr3g1YsHsXU=
+
+Name: icons/drun_exc1.gif
+SHA1-Digest: EiBBVkt1tTVBogMT61vZM+8dnKg=
+
+Name: icons/external_server.gif
+SHA1-Digest: 8E5iCrMjG7Gq4trF5ED+weYHn6w=
+

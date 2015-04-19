@@ -1,0 +1,239 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: c/Oyg3/KAX+iktWfpoJlSeRtAbY=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: UTkfzMza2NMBcHk5PROTV2+Ke58=
+
+Name: templates/web-facesconfig_1_0.xml
+SHA1-Digest: 3MhHgCGZZq0jGjhrMFZtq8yD3Yk=
+
+Name: images/xstudio/struts_co.gif
+SHA1-Digest: /W+25DWHbjvrju+rEkUQ9CCEwL8=
+
+Name: images/xstudio/actions/adopt_project.gif
+SHA1-Digest: 18QHs1JVeXMwSzTSJw/9oJ8UIoQ=
+
+Name: images/xstudio/actions/add_struts_nature.gif
+SHA1-Digest: 3wYXa7hBdzSFklpev4fXb9/rqpU=
+
+Name: images/xstudio/actions/tomcat/tomcat_properties.gif
+SHA1-Digest: c7WJ8DGY3wZJcV8VRo0hZdCSquY=
+
+Name: templates/web-facesconfig_1_2.xml
+SHA1-Digest: fFsvc53BS9pJ5gO4hUf5liAf+Qo=
+
+Name: images/xstudio/actions/tomcat/tomcat_debug.gif
+SHA1-Digest: OsaAsGsH/28FSsaXv/kTCAwh+Ng=
+
+Name: images/xstudio/wizards/new_struts.gif
+SHA1-Digest: dudSlXJpRiJVMBqUw9E20C5vB40=
+
+Name: images/xstudio/actions/tomcat/tomcat_reload.gif
+SHA1-Digest: 2kkVGeEtnuTrASofoPAUxsARNSE=
+
+Name: images/xstudio/wizards/EclipseCreateNewProject.png
+SHA1-Digest: ashvLnlk04fxnUcml7mR1cBOmwc=
+
+Name: images/xstudio/palette/visibility.gif
+SHA1-Digest: iVnmJt5YTHRF57YpirCqGXj0FBo=
+
+Name: images/xstudio/actions/import_project.gif
+SHA1-Digest: gjCHLJ8zsabcMaFs6lhFEanToWI=
+
+Name: images/xstudio/form_banner.gif
+SHA1-Digest: GRakuQb47+5Qvgld5rXHdErX7Z0=
+
+Name: images/xstudio/perspective.gif
+SHA1-Digest: cr/yZ3iVgFpV7G2xM45CkaIMrUQ=
+
+Name: images/xstudio/views/palette.gif
+SHA1-Digest: 9KqNt2z2j6iyYOAZKjS6IvfdK5c=
+
+Name: images/xstudio/editors/xml_file.gif
+SHA1-Digest: DrxcU3mw+LN3Ain58uZpqR8CJto=
+
+Name: images/xstudio/palette/taglibs_file.gif
+SHA1-Digest: uM3Y5XfxgJSyyjXVWG2kxYPamEw=
+
+Name: images/xstudio/wizards/new_webapp_file.gif
+SHA1-Digest: ZWcB4cT4no+YpxNbNxQBVUiaJTo=
+
+Name: templates/web-facesconfig_1_2.properties
+SHA1-Digest: tihDiNncdlcJC1NHUzlAdw6dAaA=
+
+Name: images/_readme.txt
+SHA1-Digest: 7pIEwIPlxsWtSFu8NT0NisL7ulU=
+
+Name: plugin.properties
+SHA1-Digest: LUWmlCkinfy9QueGX/j/kmBJC6E=
+
+Name: images/xstudio/actions/tomcat/tomcat.gif
+SHA1-Digest: Zllog7QZYhPY+Y9rf8EfdH7cXoc=
+
+Name: images/xstudio/actions/print/print_preview.gif
+SHA1-Digest: y+8sRG++DvDLz2Y78AL3PEsU2JU=
+
+Name: images/xstudio/editors/unknow_file.gif
+SHA1-Digest: tJo2mlVE92qeZRhmcfkLV6VnjyU=
+
+Name: images/xstudio/warning_co.gif
+SHA1-Digest: aiT12IPhW27niy1xX5fZus0wvO0=
+
+Name: images/xstudio/editors/properties.gif
+SHA1-Digest: 7eeXadhVIG31J5mYm78sqFxgoRA=
+
+Name: images/xstudio/java/interface.gif
+SHA1-Digest: coB1RD5UgjV7ykqcZf9Mk5NQX+8=
+
+Name: templates/default-templates.properties
+SHA1-Digest: cAc32AnTNLZwYm4HnGaZtYAj8dY=
+
+Name: images/xstudio/editors/xml.gif
+SHA1-Digest: MEOb0DssxKustUgouZYxMxw5scU=
+
+Name: templates/meta-templates.xml
+SHA1-Digest: 9iqegW6CbBbyDS0Wv6erC8XpFwc=
+
+Name: images/xstudio/actions/tomcat/tomcat_stop.gif
+SHA1-Digest: 9H5ZPk0TcY5+RTlENjRA1fo/qmI=
+
+Name: images/xstudio/warning.gif
+SHA1-Digest: 2L801pj6qE6//NG3XuuwC1wGPMs=
+
+Name: templates/web-facesconfig_1_1.properties
+SHA1-Digest: u4j2rUXISNfU1hcUBwHmXMdvf50=
+
+Name: images/xstudio/wizards/new_properties_file.gif
+SHA1-Digest: 9fzolOL+SkqnhewK7U4/dl0imDQ=
+
+Name: images/xstudio/editors/validator_file.gif
+SHA1-Digest: YAkDKAEeR56XNoFsoXskP6MGH0Q=
+
+Name: images/xstudio/wizards/EclipseImport.png
+SHA1-Digest: HlMbXTxrJ71n5rzfApfhQaxeWy0=
+
+Name: images/xstudio/error_co.gif
+SHA1-Digest: CtHnGiJImo+YabRYr4jPuwPDfz4=
+
+Name: images/xstudio/wizards/import_project.gif
+SHA1-Digest: NEPaVf4F73Y8ps6xvlP3iG0YxAs=
+
+Name: templates/web-facesconfig_1_0.properties
+SHA1-Digest: eX6g1nrnoFCxmYk2cue3xn6QBtU=
+
+Name: images/xstudio/wizards/new_validator_file.gif
+SHA1-Digest: c47ILUjqwm88ib1W+bIVgT8D/OU=
+
+Name: images/xstudio/wizards/new_tiles_file.gif
+SHA1-Digest: 3joV4/qqhUa6cXWynpkL3OYou0I=
+
+Name: images/xstudio/actions/run_project.gif
+SHA1-Digest: SJ2kdOSoLmaq/qhHbQqSBPo84fQ=
+
+Name: images/xstudio/actions/tomcat/jrun.gif
+SHA1-Digest: Im2VTy8kbXQHhPn+CrI/xsYrxYs=
+
+Name: images/xstudio/wizards/new_server.gif
+SHA1-Digest: r0xK0wa2/71E78ioBoCou0b/XGg=
+
+Name: images/xstudio/wizards/EclipseModulesConfiguration.gif
+SHA1-Digest: ragKtk1SMr5Cc5JYhwBPwzQ+nAE=
+
+Name: images/xstudio/actions/tomcat/j2ee.gif
+SHA1-Digest: Pd8Edpg245bNmGYmZWcsPDsIQQ0=
+
+Name: images/xstudio/wizards/new_project.gif
+SHA1-Digest: l6vROGlz2HhmhxUzGQ1VCLJJMD8=
+
+Name: images/xstudio/views/navigation.gif
+SHA1-Digest: J7dZWdGYjbaadmRmJy6JfAU62UU=
+
+Name: images/xstudio/empty_co.gif
+SHA1-Digest: M5TzMYzL5XMK3nSBxWYKc7b3bXE=
+
+Name: images/xstudio/actions/print/print.gif
+SHA1-Digest: +yIWJAgYejWDNUMX+TikRz6/nIg=
+
+Name: images/xstudio/editors/taglibs_file.gif
+SHA1-Digest: Bo4tXLOdTYmmXmvvz7toYCi+Bew=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: images/xstudio/actions/tomcat/tomcat_start.gif
+SHA1-Digest: HvhrJGn9PF89IfG4PmbaxxilY34=
+
+Name: model_ui.jar
+SHA1-Digest: nvKPxuwm4K2mPfMDCXn/M/K3MdA=
+
+Name: images/xstudio/palette/palette_editor.gif
+SHA1-Digest: d5uuq+m1MB8ZoKX97Z0kKWL5SEk=
+
+Name: images/xstudio/editors/struts.gif
+SHA1-Digest: T44cztEs1/Zgek2ZN0IrUorrsKc=
+
+Name: images/xstudio/wizards/EclipseDefault.png
+SHA1-Digest: kF/QN5Tw3t9tiBugROLg9QuIkPw=
+
+Name: images/xstudio/form_banner.jpg
+SHA1-Digest: gq9yDhss+YFTiq23SgN3Ws7JPGQ=
+
+Name: images/xstudio/editors/tiles_definition.gif
+SHA1-Digest: qXokp9sbKjpeLsrIjuYyK90fn1g=
+
+Name: templates/default-templates.xml
+SHA1-Digest: hhmR1lqM396dIen5ASPt/2f1hDg=
+
+Name: images/xstudio/java/class.gif
+SHA1-Digest: LANHWQ2jebOvDBGFemVTagcuJTk=
+
+Name: images/xstudio/actions/tomcat/tomcat_webxml.gif
+SHA1-Digest: jfBW3a8YPD2v74JDQtkZ/rXmH7Y=
+
+Name: templates/web-facesconfig_1_1.xml
+SHA1-Digest: xsm+yySXDBdS3GYd6n8iomxed2o=
+
+Name: images/xstudio/actions/tomcat/jboss.gif
+SHA1-Digest: wuZTvReEM1bNw1p4DxsMNE4HL70=
+
+Name: images/xstudio/wizards/new_html_file.gif
+SHA1-Digest: TJIsfEdJdPVKGT9W7Y7ZooEIUNU=
+
+Name: images/xstudio/editors/jsp.gif
+SHA1-Digest: 4B7k3M3cVeEdjmytqE726Z6yZHQ=
+
+Name: images/xstudio/palette/show-hide.gif
+SHA1-Digest: 9D1vz7wLS//h/OdMwVkmpxBRmiM=
+
+Name: images/xstudio/wizards/new_jsp_file.gif
+SHA1-Digest: RCc7FASoGoPoH8ELNTqQYIhUeys=
+
+Name: images/xstudio/wizards/adopt_project.gif
+SHA1-Digest: FQgmB2o39uXHqXUPdifjYHQ3R7s=
+
+Name: images/xstudio/views/quick.gif
+SHA1-Digest: AtD2aamDTEsn3+4aHKpx1c1YAJQ=
+
+Name: images/xstudio/actions/print/print_edit.gif
+SHA1-Digest: oZEViXSHmNj3tnDICrAGLquCINE=
+
+Name: images/xstudio/palette/tld_import.gif
+SHA1-Digest: BogSeT6UQrDO9087Rmz4erdr0IQ=
+
+Name: images/xstudio/actions/save_model.gif
+SHA1-Digest: K4YfKGK3gA7i4xzuVj4Oa1VKoZQ=
+
+Name: images/xstudio/actions/new_project.gif
+SHA1-Digest: CDjiHngORLO+HOT900fCrRTI27c=
+
+Name: plugin.xml
+SHA1-Digest: Q2BsHWE6kz4Hk7CISdfHHWQTq+U=
+
+Name: images/xstudio/java/wizard.gif
+SHA1-Digest: vQRsw98WRWE5BZlZYVbApxQbmTY=
+
+Name: images/xstudio/java/package.gif
+SHA1-Digest: spK/z/2avmsB0NBuaaNCTsEhpoQ=
+
+Name: images/xstudio/wizards/new_xml_file.gif
+SHA1-Digest: 51ExNINfwg/2FJ48ibhDndrxxP0=
+

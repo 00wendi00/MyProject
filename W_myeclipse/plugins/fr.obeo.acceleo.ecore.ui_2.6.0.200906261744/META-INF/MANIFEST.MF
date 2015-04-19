@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.ecore.ui,fr.obeo.acceleo.ecore.ui.popu
+ pMenus,fr.obeo.acceleo.ecore.ui.resources,fr.obeo.acceleo.ecore.ui.wi
+ zards
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.ui.ide,org.eclipse.emf.ecore,org.eclipse.emf
+ .ecore.xmi,org.eclipse.emf.ecore.editor,org.eclipse.emf.edit,org.ecli
+ pse.emf.codegen.ecore,org.eclipse.jdt.core;resolution:=optional,fr.ob
+ eo.acceleo.ecore,fr.obeo.acceleo.tools,fr.obeo.acceleo.tools.ui
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.ecore.ui.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.ecore.ui.AcceleoEcoreUiPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.ecore.ui; singleton:=true
+
+Name: icons/jar.gif
+SHA1-Digest: gaxhmXCc42P8IH7O+DrlGM4E29Q=
+
+Name: plugin.xml
+SHA1-Digest: 12VBTnull5Aaf1TJLPTwyokU9us=
+
+Name: icons/template_editor.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: plugin.properties
+SHA1-Digest: RCfPRxfcGCFFAytYwUTVZfnWkFI=
+
+Name: fr.obeo.acceleo.ecore.ui.jar
+SHA1-Digest: r8krLuAU/XeBdqTjfmr1M7JJnU0=
+
+Name: icons/metamodel_project_ecore.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: fr.obeo.acceleo.ecore.uisrc.zip
+SHA1-Digest: rbxdjTGVGbeSgLbcexuo605o0B0=
+

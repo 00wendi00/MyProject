@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from 项目“一百位数的加减乘除”&#x0D;&#x0A;－ 原始项目：“一百位数的加减乘除”&#x0D;&#x0A;－ 原始元素：“一百位.L000000.java”" description="删除元素" element1="/src&lt;一百位{L000000.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1409450002067" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete element from 项目“一百位数的加减乘除”&#x0D;&#x0A;－ 原始项目：“一百位数的加减乘除”&#x0D;&#x0A;－ 原始元素：“一百位.BigDecimalTest.java”" description="删除元素" element1="/src&lt;一百位{BigDecimalTest.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1409454689739" subPackages="false" version="1.0"/>
+</session>

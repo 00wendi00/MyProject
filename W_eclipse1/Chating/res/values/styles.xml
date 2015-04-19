@@ -1,0 +1,84 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+	      <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ThemeActivity">  
+       <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+       <item name="android:windowNoTitle">true</item>
+       <item name="android:windowFullscreen">true</item>
+   </style>
+   <style name="ThemeActivity2" parent="AppTheme">
+       <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+   </style>
+   
+  
+   <style name="AnimationActivity" parent="@android:style/Animation.Activity">  
+       <item name="android:activityOpenEnterAnimation">@anim/push_in</item>  
+       <item name="android:activityOpenExitAnimation">@anim/push_out</item>  
+       <item name="android:activityCloseEnterAnimation">@anim/zoom_enter</item>  
+       <item name="android:activityCloseExitAnimation">@anim/zoom_exit</item>  
+   </style> 
+   <style name="LoginImageAlpha">
+       
+   </style>
+   
+   <style name="navigation_bottom_radio">  
+        <!-- 内部组件的排列 -->  
+  
+        <item name="android:gravity">center_horizontal</item>  
+  
+        <!-- 背景样式 -->  
+  
+        <!--  <item name="android:background">@drawable/style_navigation_radio</item>-->  
+  
+        <!-- 宽度 -->  
+  
+        <item name="android:layout_width">wrap_content</item>  
+  
+        <!-- 高度 -->  
+  
+        <item name="android:layout_height">wrap_content</item>  
+  
+        <!-- 设置RadioButton的原来图片为空 -->  
+  
+        <item name="android:button">@null</item>
+  
+        <!-- 与其他组件宽度占相同比重 -->  
+  
+        <item name="android:layout_weight">1.0</item>  
+  
+        <!-- 底部的空隙 -->  
+  
+        <item name="android:paddingBottom">2.0dip</item>  
+  
+        <!-- 顶部的空隙 -->  
+  
+        <item name="android:paddingTop">2.0dip</item>  
+  
+        <!-- 文字的大小 -->  
+  
+        <item name="android:textSize">11dip</item>  
+  
+        <!-- 文字的颜色 -->  
+        
+        <item name="android:textColor">#f00</item>
+    </style>  
+
+</resources>

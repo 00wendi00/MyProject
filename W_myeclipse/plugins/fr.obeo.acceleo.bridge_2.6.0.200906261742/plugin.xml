@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension-point id="xmiloader" name="fr.obeo.acceleo.bridge.xmiloader" schema="schema/xmiloader.exsd"/>
+   
+   <extension point="fr.obeo.acceleo.bridge.xmiloader">
+      <loader xmiloader="fr.obeo.acceleo.bridge.DefaultUml13XmiLoader" priority="1"/>
+   </extension>
+   
+   <extension point="fr.obeo.acceleo.bridge.xmiloader">
+      <loader xmiloader="fr.obeo.acceleo.bridge.DefaultUml14XmiLoader" priority="2"/>
+   </extension>
+   <extension
+         point="fr.obeo.acceleo.bridge.xmiloader">
+      <loader
+            priority="3"
+            xmiloader="fr.obeo.acceleo.bridge.spec.uml20EA.DefaultUml20EAXmiLoader">
+      </loader>
+   </extension>
+    
+</plugin>

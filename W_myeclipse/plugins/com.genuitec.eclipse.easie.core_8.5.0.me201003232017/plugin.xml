@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+   <!-- Filter keywords for application server preferences -->
+   <extension
+         id="com.genuitec.eclipse.easie.core.keyword.server.keywords"
+         point="org.eclipse.ui.keywords">
+         
+         <keyword id="com.genuitec.eclipse.easie.core.geronimo.keyword" label="%keyword.gernimo.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.glassfish.keyword" label="%keyword.glassfish.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.jboss.keyword" label="%keyword.jboss.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.jetty.keyword" label="%keyword.jetty.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.jonas.keyword" label="%keyword.jonas.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.jrun.keyword" label="%keyword.jrun.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.oracle.keyword" label="%keyword.oracle.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.orion.keyword" label="%keyword.orion.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.resin.keyword" label="%keyword.resin.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.sun.keyword" label="%keyword.sun.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.tomcat.keyword" label="%keyword.tomcat.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.weblogic.keyword" label="%keyword.weblogic.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.websphere.keyword" label="%keyword.websphere.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.tcserver.keyword" label="%keyword.springsource.label"/>
+         
+         <keyword id="com.genuitec.eclipse.easie.core.server.keyword" label="%keyword.server.label"/>
+         <keyword id="com.genuitec.eclipse.easie.core.applicationserver.keyword" label="%keyword.applicationserver.label"/>
+         <keyword
+               id="com.genuitec.eclipse.easie.core.web_sphere.keyword"
+               label="%keyword.web_sphere.label">
+         </keyword>
+         <keyword
+               id="com.genuitec.eclipse.easie.core.was.keyword"
+               label="%keyword.was.label">
+         </keyword>
+   </extension>
+   
+   <extension point="com.genuitec.eclipse.core.common.appServerInfoProvider" id="xxx">
+		<appServerInfoProvider class="com.genuitec.eclipse.easie.core.AppServerInfoProvider"/>
+   </extension>
+   
+   <!-- Invisible menu. Fix for bug #7545  -->
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.genuitec.myeclipse.actions.servers"
+            label="%actionSet.servers.label"
+            visible="false">
+         <menu
+               id="menuServers"
+               label="%menu.menuServers.label">
+         </menu>
+      </actionSet>
+   </extension>
+   
+   
+  <extension-point id="server" name="Server Definition" schema="schema/server.exsd"/>
+
+  <extension point="com.genuitec.eclipse.easie.core.server"
+  		id="system_servers">
+  		<server
+  			id="CustomDeploymentServer"
+  			class="com.genuitec.eclipse.easie.core.CustomDeploymentServer"/>
+ 	   <server
+  			id="SuffixedCustomDeploymentServer"
+  			class="com.genuitec.eclipse.easie.core.CustomDeploymentServerSuffixed"/>
+	  	<server
+  			id="ExternalDeploymentServer"
+  			class="com.genuitec.eclipse.easie.core.ExternallyLaunchedServer"/>
+ 	</extension>
+  <extension
+        point="org.eclipse.ui.preferenceTransfer">
+     <transfer
+           icon="$nl$/icons/servers.gif"
+           id="com.genuitec.eclipse.easie.core.preference.transfer"
+           name="%preference.transfer.name">
+        <mapping
+              scope="instance">
+           <entry node = "com.genuitec.eclipse.easie.core"/>
+           <entry node = "com.genuitec.eclipse.easie.geronimo1"/>
+           <entry node = "com.genuitec.eclipse.easie.geronimo2"/>
+           <entry node = "com.genuitec.eclipse.easie.jboss"/>
+           <entry node = "com.genuitec.eclipse.easie.jboss2"/>
+           <entry node = "com.genuitec.eclipse.easie.jboss3"/>
+           <entry node = "com.genuitec.eclipse.easie.jboss4"/>
+           <entry node = "com.genuitec.eclipse.easie.jboss5"/>
+           <entry node = "com.genuitec.eclipse.easie.jetty"/>
+           <entry node = "com.genuitec.eclipse.easie.jetty4"/>
+           <entry node = "com.genuitec.eclipse.easie.jetty5"/>
+           <entry node = "com.genuitec.eclipse.easie.jetty6"/>
+           <entry node = "com.genuitec.eclipse.easie.jetty7"/>
+           <entry node = "com.genuitec.eclipse.easie.jonas"/>
+           <entry node = "com.genuitec.eclipse.easie.jonas3"/>
+           <entry node = "com.genuitec.eclipse.easie.jonas4"/>
+           <entry node = "com.genuitec.eclipse.easie.jrun"/>
+           <entry node = "com.genuitec.eclipse.easie.jrun4"/>
+           <entry node = "com.genuitec.eclipse.easie.oracle"/>
+           <entry node = "com.genuitec.eclipse.easie.oracle10"/>
+           <entry node = "com.genuitec.eclipse.easie.oracle9"/>
+           <entry node = "com.genuitec.eclipse.easie.orion1"/>
+           <entry node = "com.genuitec.eclipse.easie.orion2"/>
+           <entry node = "com.genuitec.eclipse.easie.resin"/>
+           <entry node = "com.genuitec.eclipse.easie.resin2"/>
+           <entry node = "com.genuitec.eclipse.easie.resin3"/>
+           <entry node = "com.genuitec.eclipse.easie.sun"/>
+           <entry node = "com.genuitec.eclipse.easie.sun8"/>
+           <entry node = "com.genuitec.eclipse.easie.sun81"/>
+           <entry node = "com.genuitec.eclipse.easie.sun9"/>
+           <entry node = "com.genuitec.eclipse.easie.sun91"/>
+           <entry node = "com.genuitec.eclipse.easie.sunglassfish"/>
+           <entry node = "com.genuitec.eclipse.easie.sunglassfish2"/>
+           <entry node = "com.genuitec.eclipse.easie.tomcat"/>
+           <entry node = "com.genuitec.eclipse.easie.tomcat.myeclipse"/>
+           <entry node = "com.genuitec.eclipse.easie.tomcat4"/>
+           <entry node = "com.genuitec.eclipse.easie.tomcat5"/>
+           <entry node = "com.genuitec.eclipse.easie.tomcat6"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic10"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic6"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic7"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic8"/>
+           <entry node = "com.genuitec.eclipse.easie.weblogic9"/>
+           <entry node = "com.genuitec.eclipse.easie.websphere"/>
+           <entry node = "com.genuitec.eclipse.easie.websphere.wasce"/>
+           <entry node = "com.genuitec.eclipse.easie.websphere5"/>
+           <entry node = "com.genuitec.eclipse.easie.websphere6"/>
+           <entry node = "com.genuitec.eclipse.easie.websphere61"/>
+           
+           <!-- Blue Preference nodes -->
+           <entry node = "com.genuitec.eclipse.blue.was6portal"/>
+           <entry node = "com.genuitec.eclipse.blue.websphere"/>
+           <entry node = "com.genuitec.eclipse.blue.websphere5"/>
+           <entry node = "com.genuitec.eclipse.blue.websphere6"/>
+           <entry node = "com.genuitec.eclipse.blue.websphere61"/>
+           <entry node = "com.genuitec.eclipse.blue.websphere7"/>
+           
+        </mapping>
+        <description>
+           %preference.transfer.description
+        </description>
+     </transfer>
+  </extension>
+ 	
+   
+</plugin>

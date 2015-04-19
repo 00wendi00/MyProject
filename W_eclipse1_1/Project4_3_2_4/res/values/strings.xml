@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Project4_3_2_4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="second">第二个Activity</string>
+</resources>

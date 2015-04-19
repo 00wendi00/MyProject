@@ -1,0 +1,14 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 7g9Nqc62Nmtb+4G3FLESv7BVF+w=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: xm6a8p7fLPB8QXne6ntq8LpNJE4=
+
+Name: jars/lucene-core-2.3.2.jar
+SHA1-Digest: ufl/3hqAboYEdvwpNjANk/rdR2Q=
+
+Name: jars/nexus-indexer-2.0.5-SNAPSHOT.jar
+SHA1-Digest: 85yNj8NHPObb6BI9SsXfl9ls3oE=
+
+Name: META-INF/plexus/.keep
+SHA1-Digest: ZhmDv/x/RhyKpZlJ9IijtBB3f9w=
+

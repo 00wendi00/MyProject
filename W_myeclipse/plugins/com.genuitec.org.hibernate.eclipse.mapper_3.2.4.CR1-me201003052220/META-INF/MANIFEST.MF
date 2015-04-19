@@ -1,0 +1,120 @@
+Manifest-Version: 1.0
+Export-Package: org.hibernate.eclipse.mapper,org.hibernate.eclipse.map
+ per.editors,org.hibernate.eclipse.mapper.editors.reveng,org.hibernate
+ .eclipse.mapper.editors.reveng.xpl,org.hibernate.eclipse.mapper.edito
+ rs.xpl,org.hibernate.eclipse.mapper.extractor,org.hibernate.eclipse.m
+ apper.factory,org.hibernate.eclipse.mapper.model,org.hibernate.eclips
+ e.mapper.modelhandler,org.hibernate.eclipse.mapper.registry,org.hiber
+ nate.eclipse.mapper.views.contentoutline
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .editors,org.eclipse.jface.text,org.eclipse.jdt.ui,org.eclipse.jdt.co
+ re,org.eclipse.core.resources,org.eclipse.ui.ide,org.eclipse.wst.xml.
+ core,org.eclipse.wst.sse.core,org.eclipse.wst.xml.ui,org.eclipse.wst.
+ sse.ui,org.eclipse.ui.views,com.genuitec.org.hibernate.eclipse,org.ec
+ lipse.ui.forms,org.eclipse.ui.workbench.texteditor,com.genuitec.org.h
+ ibernate.eclipse.console,org.eclipse.wst.dtd.core,org.eclipse.wst.com
+ mon.ui,org.eclipse.pde.core
+Bundle-Vendor: %bundleVendor
+Eclipse-LazyStart: true
+Bundle-ClassPath: org.hibernate.eclipse.mapper.jar
+Bundle-Version: 3.2.4.CR1-me201003052220
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.hibernate.eclipse.mapper.MapperPlugin
+Bundle-SymbolicName: com.genuitec.org.hibernate.eclipse.mapper;singlet
+ on:=true
+
+Name: icons/images/hicon.jpg
+SHA1-Digest: eRdAW2fiw4gkzBN8YuQjF7wLPd8=
+
+Name: icons/images/close_disabled.gif
+SHA1-Digest: LwzVKPB1wudX9CH1ue0BCWmQmrk=
+
+Name: icons/images/execute.gif
+SHA1-Digest: aipXGaHA6b75VVLs6DvBO+2018E=
+
+Name: icons/images/1to1property.gif
+SHA1-Digest: Sx2dmZyyEFAsH23Fw0qwdG8sHnM=
+
+Name: icons/images/hibernate_small_icon.jpg
+SHA1-Digest: CRMHNV1+fTLSbLYya/Zavgs4Oa4=
+
+Name: icons/images/mtonproperty.gif
+SHA1-Digest: leMmsFGUBJwjILFagYh8gw3rgI0=
+
+Name: icons/images/versionproperty.gif
+SHA1-Digest: tm1UMUm/H94GZeaz1qAmxXR2Lzw=
+
+Name: icons/images/componentproperty.gif
+SHA1-Digest: 6fmRVA5mWAGrCJy7o+gwYTRdPP4=
+
+Name: icons/images/clear.gif
+SHA1-Digest: gqBfzK3yQMkQ6YcrKpuKRfvhXT0=
+
+Name: icons/images/mapped_class.gif
+SHA1-Digest: yj7yWcEVXmJC4fHlp+/ZSYfDvhY=
+
+Name: icons/images/unknowntypeproperty.gif
+SHA1-Digest: LvHZ37ABvL/bQx2R+VuHC9bpwEs=
+
+Name: icons/hibernate_small_icon.gif
+SHA1-Digest: 3m+T/OWUl6fQhZ8h3bYeCLsLG9Q=
+
+Name: about.html
+SHA1-Digest: jId5qKbyttRjGo5Rm59l7Qj44FE=
+
+Name: icons/images/anyproperty.gif
+SHA1-Digest: DcBJOLCHloYiUdfPoN4K4MyP4IM=
+
+Name: org.hibernate.eclipse.mapper.jar
+SHA1-Digest: ECvISqQ25KJ/pdPyBy487AK38U0=
+
+Name: icons/images/pindown.jpg
+SHA1-Digest: Hhb1S3a9G9j3BvpOd6LfSVE0x6o=
+
+Name: icons/images/close.gif
+SHA1-Digest: k25t+q22w924HO/y4HM6zQbYK2U=
+
+Name: icons/images/property.gif
+SHA1-Digest: x4KcODHFq0V1N32Op9X/F+CCCQc=
+
+Name: plugin.properties
+SHA1-Digest: dnhnoq5KUt9CiGGHd05ljZjwznw=
+
+Name: icons/images/hibernate_overlay.gif
+SHA1-Digest: b15NTn6q98YgVc9hStWpYa3axDA=
+
+Name: icons/images/hibernate_config.gif
+SHA1-Digest: Q94SZCi9TkOPTj2I6MoHqkj60HE=
+
+Name: icons/images/1tonproperty.gif
+SHA1-Digest: tNl4ZNZJNXkkQHwJROTJJq5Y9tA=
+
+Name: icons/images/unmapped_class.gif
+SHA1-Digest: kvY4bqvTF7IHLgW6CeWnjdWv9do=
+
+Name: icons/images/hibernate_mapping.gif
+SHA1-Digest: Ael0FE2mc9rCX203kKj7ilpjnDA=
+
+Name: plugin.xml
+SHA1-Digest: 4BWLLMO3oYEPnmwd1ZtbklktepI=
+
+Name: icons/images/mto1property.gif
+SHA1-Digest: hLg9CKFWvBw7zAIrfJMCMPykHYU=
+
+Name: icons/images/types.gif
+SHA1-Digest: n8hots6atQifc7EjFT7fyZeV1Bs=
+
+Name: icons/images/pinup.jpg
+SHA1-Digest: VP/zrGsmBkAI1KrSErtTzbycepc=
+
+Name: icons/images/hibernate_icon.jpg
+SHA1-Digest: eRdAW2fiw4gkzBN8YuQjF7wLPd8=
+
+Name: icons/images/idproperty.gif
+SHA1-Digest: T6eam8LzT6iBzSd3q+Bj/1JdiRY=
+
+Name: icons/images/mtoaproperty.gif
+SHA1-Digest: /jRI5CrG9SrCRYXhy72GWiI15FY=
+

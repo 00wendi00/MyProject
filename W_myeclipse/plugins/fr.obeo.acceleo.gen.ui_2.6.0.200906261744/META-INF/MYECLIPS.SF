@@ -1,0 +1,146 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: FLGF1/bcyCP1HVju8GhYpLkCezI=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: LWl0PXogSKKWphmKLvX8GKfNY1A=
+
+Name: icons/wizard/product.gif
+SHA1-Digest: K7Rs0dO95pL7lbgEXlYQV7grzBA=
+
+Name: icons/sample.gif
+SHA1-Digest: 94hXgOsvC+qOEx+G1Ou4rNZIUwc=
+
+Name: images/newTemplate.png
+SHA1-Digest: GOzuCrpZMUr1185oDCz7gBxsHT0=
+
+Name: icons/actions/sortedTemplate.gif
+SHA1-Digest: vdoORjNEer6GJQBQffm2nMLiEAc=
+
+Name: fr.obeo.acceleo.gen.ui.jar
+SHA1-Digest: 3//jHHKZ36fEd4+7Q15ZGVJGZqI=
+
+Name: icons/proposals/model_operation.gif
+SHA1-Digest: 2sI6pwgTwi8xzGDwTEk1393GMdo=
+
+Name: icons/proposals/statement.gif
+SHA1-Digest: Js6daoyY4tJN6uyfY1KrkTl0ZO4=
+
+Name: icons/reflective_editor.gif
+SHA1-Digest: S/rctBfglRbsFr+5MNdVKoGQtfM=
+
+Name: icons/reflective/generate.gif
+SHA1-Digest: OYJ6yehxZ9f6iN2Ie0wKoSWBcek=
+
+Name: icons/deleteMarker.gif
+SHA1-Digest: lGZO2TX/qTQFlsYLbQUQgmmUxcU=
+
+Name: icons/acceleoLogo.gif
+SHA1-Digest: ApMnJgdEj13qL1dwOALgD/OsQSc=
+
+Name: icons/actions/refresh.gif
+SHA1-Digest: DlhwAxkwc9oAA/OpdoXEfRdnA68=
+
+Name: icons/proposals/model_reference.gif
+SHA1-Digest: K8BUAmpPPOBxDjdiSIoJEJrNfJw=
+
+Name: schema/requestloader.exsd
+SHA1-Digest: y3irPeQtgUn7QrwabDZzOpVIGAw=
+
+Name: icons/openModel.gif
+SHA1-Digest: LDJp4Z9gjxbwxwYPlZkpen3Q1P0=
+
+Name: icons/reflective/error.gif
+SHA1-Digest: oIYTvZwbZV+MfZaJ6cptkDRCH7E=
+
+Name: icons/template_editor.gif
+SHA1-Digest: WZaKJ/rpa+UEMMXSoAixU3a8x/E=
+
+Name: about.html
+SHA1-Digest: wAz/mT0RuEVlijowgN4c0LFxSY4=
+
+Name: icons/actions/unsorted.gif
+SHA1-Digest: /ClpEegWD1h+SlEcaUBRHBm2ve8=
+
+Name: icons/proposals/url.gif
+SHA1-Digest: XITXrniESzKWzcryYnRZuB6hqug=
+
+Name: icons/proposals/condition.gif
+SHA1-Digest: yiGnDb/s28z1GG/gAj5WltxPKJ4=
+
+Name: icons/problemMarker.gif
+SHA1-Digest: WYJFWxnh9naSxSQdJ3ELA3CUa9Q=
+
+Name: icons/wizard/export.gif
+SHA1-Digest: pGPpZutB489RCGDiUPpUM5zvBcs=
+
+Name: icons/proposals/model_class.gif
+SHA1-Digest: 3cJBpefQ7u0Qs6ckW5es8k4CzUQ=
+
+Name: icons/actions/delete.gif
+SHA1-Digest: 5+YRctWXc7E7Nb1oK57S9SPLRTE=
+
+Name: icons/proposals/service.gif
+SHA1-Digest: PjKzaOeUs0UyZodL1o7yrAIxu3k=
+
+Name: icons/actions/generate_hierarchy.gif
+SHA1-Digest: Vi0UIvLfnmI6y0PplEWLkq4yl4A=
+
+Name: images/newGeneratorProject.png
+SHA1-Digest: numsZ2zuE0EfJM15D+kE031qXlQ=
+
+Name: icons/proposals/EcoreModelFile.gif
+SHA1-Digest: QGmcA04PzYpVfUXC00Ea8KxtyBE=
+
+Name: icons/proposals/eobject.gif
+SHA1-Digest: B85P2WRqlNpAPnFR+cMCBoSbG/g=
+
+Name: plugin.properties
+SHA1-Digest: A4ck4NfxErps09PRabaG0+P2Vbw=
+
+Name: icons/proposals/feature.gif
+SHA1-Digest: CMvoMZw5tp/O/n9aiJ5PBmBDyQY=
+
+Name: icons/wizard/import.gif
+SHA1-Digest: H2Eyv2TcpFo1N21RsZYRze2l8o0=
+
+Name: icons/actions/open_default_editor.gif
+SHA1-Digest: iZXfCjRebmHLkkpDdBWLRAVHpBo=
+
+Name: fr.obeo.acceleo.gen.uisrc.zip
+SHA1-Digest: 36BOhLFq+wX4yi+WrhmiJgpyarI=
+
+Name: about.ini
+SHA1-Digest: qJe8s7oxcDlOESio8/IEUInMMoM=
+
+Name: icons/proposals/model_attribute.gif
+SHA1-Digest: eQnUhh6tdrRXsaAKd8MGigq803Q=
+
+Name: icons/actions/sortedEClass.gif
+SHA1-Digest: /V/AdbvDaAiChw2L/eYxi8hf5zQ=
+
+Name: icons/acceleoGenNature.gif
+SHA1-Digest: Tp/7wSsYOJRyc0jtWARQgu4+EJc=
+
+Name: icons/proposals/predefined.gif
+SHA1-Digest: v0jJZWy/aaOksomojwAXgKKXkkM=
+
+Name: about.properties
+SHA1-Digest: K1M0QtVwnvSCCIkfhhDzTihO/zM=
+
+Name: plugin.xml
+SHA1-Digest: dPtbIkjqKVUZFASR8qBrQpU2pvM=
+
+Name: icons/proposals/deprecatedService.gif
+SHA1-Digest: zunWk1GscZGGvgmAR3rbsUJoVbg=
+
+Name: icons/proposals/template.gif
+SHA1-Digest: QwGgRejcsz6aJEv3V8V2w0nJEdg=
+
+Name: icons/actions/open_link.gif
+SHA1-Digest: oybLpFn+9pqRgNNtml9+Xz1j+9E=
+
+Name: icons/actions/show_types.gif
+SHA1-Digest: t8w5Jy0Y81RQDcd3HGijIIy/nTw=
+
+Name: icons/acceleoPerspective.gif
+SHA1-Digest: jCZZCCC0m7lzUpF/d1nSlpblCZg=
+

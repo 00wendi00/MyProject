@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+     <extension point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*.chain"
+            id="fr.obeo.acceleo.chain.ui.popupMenus.contribution.chain">
+         <action
+               class="fr.obeo.acceleo.chain.ui.popupMenus.AcceleoChainLaunchAction"
+               enablesFor="1"
+               id="fr.obeo.acceleo.chain.ui.popupMenus.AcceleoChainLaunchAction"
+               icon = "icons/chain.gif"
+               label="%chainLaunchActionLabel"
+               menubarPath="Generate">
+         </action>
+      </objectContribution> 
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewEmptyChainWizard"
+            icon="icons/chain.gif"
+            id="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewEmptyChainWizard"
+            name="%emptyChainWizardName">
+         <description>
+            %emptyChainWizardDescription
+         </description>
+      </wizard>
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewChainWizard"
+            icon="icons/chain.gif"
+            id="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewChainWizard"
+            name="%chainWizardName">
+         <description>
+            %chainWizardDescription
+         </description>
+      </wizard>
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewModuleLauncherWizard"
+            icon="icons/launcher.gif"
+            id="fr.obeo.acceleo.chain.ui.wizards.AcceleoNewModuleLauncherWizard"
+            name="%moduleLauncherWizardName">
+         <description>
+            %moduleWizardDescription
+         </description>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            sourceLocatorId="fr.obeo.acceleo.chain.ui.debug.sourceLookupDirector"
+            name="%chainLaunchConfigurationName"
+            sourcePathComputerId="fr.obeo.acceleo.chain.ui.debug.sourcePathComputer"
+            delegate="fr.obeo.acceleo.chain.ui.debug.AcceleoLaunchDelegate"
+            modes="run, debug"
+            id="fr.obeo.acceleo.chain.ui.debug.launchConfigurationType">
+      </launchConfigurationType>
+   </extension>
+
+   <extension point="org.eclipse.debug.core.sourceLocators">
+      <sourceLocator
+            name="%chainSourceLocatorName"
+            class="fr.obeo.acceleo.chain.ui.debug.AcceleoSourceLookupDirector"
+            id="fr.obeo.acceleo.chain.ui.debug.sourceLookupDirector">
+      </sourceLocator>
+   </extension>
+
+   <extension point="org.eclipse.debug.core.sourcePathComputers">
+      <sourcePathComputer
+            class="fr.obeo.acceleo.chain.ui.debug.AcceleoSourcePathComputerDelegate"
+            id="fr.obeo.acceleo.chain.ui.debug.sourcePathComputer">
+      </sourcePathComputer>
+   </extension>
+   
+   <extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+            icon="icons/launchAll.gif"
+            configTypeID="fr.obeo.acceleo.chain.ui.debug.launchConfigurationType"
+            id="fr.obeo.acceleo.chain.ui.debug.launchConfigurationTypeImage">
+      </launchConfigurationTypeImage>
+   </extension>
+
+   <extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            type="fr.obeo.acceleo.chain.ui.debug.launchConfigurationType"
+            description="%chainLaunchConfigurationGroupName"
+            class="fr.obeo.acceleo.chain.ui.debug.AcceleoTabGroup"
+            id="fr.obeo.acceleo.chain.ui.debug.launchConfigurationTabGroup">
+      </launchConfigurationTabGroup>
+   </extension>
+
+   <extension
+         point="org.eclipse.debug.ui.launchShortcuts">
+      <shortcut
+            label="%chainShortcutLaunchLabel"
+            icon="icons/chain.gif"
+            class="fr.obeo.acceleo.chain.ui.debug.AcceleoLaunchShortcut"
+            modes="run, debug"
+            id="fr.obeo.acceleo.chain.ui.debug.AcceleoLaunchShortcut">
+         <contextualLaunch>
+            <enablement>
+               <with variable="selection">
+                  <count value="1"/>
+                  <iterate>
+                     <instanceof value="org.eclipse.core.resources.IFile"/>
+                     <test
+                           value="*.chain"
+                           property="org.eclipse.debug.ui.matchesPattern"/>
+                  </iterate>
+               </with>
+            </enablement>
+         </contextualLaunch>
+      </shortcut>
+   </extension>
+   
+</plugin>

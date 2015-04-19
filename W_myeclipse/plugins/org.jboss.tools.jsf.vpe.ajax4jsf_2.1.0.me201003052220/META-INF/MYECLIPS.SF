@@ -1,0 +1,47 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 5wqvguwnjFe8kIswOhEMprKCVLc=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: SfTRYoFS17z+5bXa5iGgZ9+sh54=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFReapeatTemplat
+ e.class
+SHA1-Digest: 7zyFP/VA+WW1j7FuzTJtafr57yo=
+
+Name: templates/vpe-templates-ajax4jsf.xml
+SHA1-Digest: vsLLiX/7s6ttcgvcZYjnqutIGhE=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFStatusTemplate
+ $Creator.class
+SHA1-Digest: CUuza/FbCvpWpvYe4WvAZ51P4eo=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSF.class
+SHA1-Digest: tt7jffYjbidRW1z6cI+UEyrdiVs=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFMediaOutput.cl
+ ass
+SHA1-Digest: TuLSL98kh7i0r3KtGIP6Q0TBz7k=
+
+Name: plugin.xml
+SHA1-Digest: SOUUlbMO6nKioN5N5geOOalt7uA=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/Activator.class
+SHA1-Digest: s81aF3wfImn2Xq4Z4CtKp22/LJY=
+
+Name: plugin.properties
+SHA1-Digest: WOzuAi9WPF47CA9nUDBwbQkkb7I=
+
+Name: resources/mediaOutput/mediaOutput.jpg
+SHA1-Digest: ZzcHQLug8aF37P77d75Yr8q/pXY=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFLogTemplate.cl
+ ass
+SHA1-Digest: 7ilDJ7qswkW7TXOr4XS2ggRLSkE=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFPageTemplate.c
+ lass
+SHA1-Digest: Xa3QGVG9DEMcLUqVNtTA7swmIBI=
+
+Name: org/jboss/tools/jsf/vpe/ajax4jsf/template/Ajax4JSFStatusTemplate
+ .class
+SHA1-Digest: LdwdP/t17jE/x10i7pCjZaL/f6w=
+

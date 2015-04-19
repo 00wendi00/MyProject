@@ -1,0 +1,474 @@
+Manifest-Version: 1.0
+Export-Package: org.hibernate.eclipse.builder,org.hibernate.eclipse.co
+ nsole,org.hibernate.eclipse.console.actions,org.hibernate.eclipse.con
+ sole.model,org.hibernate.eclipse.console.model.impl,org.hibernate.ecl
+ ipse.console.preferences,org.hibernate.eclipse.console.properties,org
+ .hibernate.eclipse.console.utils,org.hibernate.eclipse.console.utils.
+ xpl,org.hibernate.eclipse.console.viewers.xpl,org.hibernate.eclipse.c
+ onsole.views,org.hibernate.eclipse.console.views.navigator,org.hibern
+ ate.eclipse.console.views.properties,org.hibernate.eclipse.console.wi
+ zards,org.hibernate.eclipse.console.workbench,org.hibernate.eclipse.c
+ onsole.workbench.xpl,org.hibernate.eclipse.criteriaeditor,org.hiberna
+ te.eclipse.facet,org.hibernate.eclipse.graph,org.hibernate.eclipse.gr
+ aph.actions,org.hibernate.eclipse.graph.anchor,org.hibernate.eclipse.
+ graph.command,org.hibernate.eclipse.graph.figures,org.hibernate.eclip
+ se.graph.layout,org.hibernate.eclipse.graph.layout.xpl,org.hibernate.
+ eclipse.graph.model,org.hibernate.eclipse.graph.parts,org.hibernate.e
+ clipse.graph.policy,org.hibernate.eclipse.hqleditor,org.hibernate.ecl
+ ipse.hqleditor.preferences,org.hibernate.eclipse.launch,org.hibernate
+ .eclipse.launch.core.refactoring,org.hibernate.eclipse.nature,org.hib
+ ernate.eclipse.util.xpl
+Require-Bundle: com.genuitec.org.hibernate.eclipse,org.eclipse.jdt.ui,
+ org.eclipse.core.resources,org.eclipse.jdt.core,org.eclipse.core.runt
+ ime,org.eclipse.jface,org.eclipse.ui,org.eclipse.ui.editors,org.eclip
+ se.ui.views,org.eclipse.ui.workbench,org.eclipse.ui.workbench.textedi
+ tor,org.eclipse.jface.text,org.eclipse.ui.ide,org.eclipse.help,org.ec
+ lipse.ui.console,org.eclipse.gef,org.eclipse.debug.core,org.eclipse.d
+ ebug.ui,org.eclipse.ui.forms,org.eclipse.wst.common.project.facet.cor
+ e,org.eclipse.wst.common.project.facet.ui,org.eclipse.ui.navigator,or
+ g.eclipse.jdt.launching,org.eclipse.jdt.debug.ui,org.eclipse.core.fil
+ esystem,org.eclipse.datatools.connectivity.ui,org.eclipse.datatools.c
+ onnectivity,org.eclipse.ltk.core.refactoring,org.eclipse.jdt.launchin
+ g,org.eclipse.jdt.debug.ui,org.eclipse.core.filesystem,org.eclipse.co
+ re.variables,org.eclipse.datatools.connectivity.ui,org.eclipse.datato
+ ols.connectivity
+Bundle-Vendor: %bundleVendor
+Eclipse-LazyStart: true
+Bundle-ClassPath: org.hibernate.eclipse.console.jar
+Bundle-Version: 3.2.4.CR1-me201003052220
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.hibernate.eclipse.console.HibernateConsolePlugin
+Bundle-SymbolicName: com.genuitec.org.hibernate.eclipse.console; singl
+ eton:=true
+
+Name: icons/images/hicon.jpg
+SHA1-Digest: eRdAW2fiw4gkzBN8YuQjF7wLPd8=
+
+Name: doc/newandnoteworthy/wizard-reveng.png
+SHA1-Digest: B1vkXpDDaJB3fDp38M51UJ0NKTI=
+
+Name: doc/newandnoteworthy/hbmxml-namecompletion.png
+SHA1-Digest: Pf+tEhzSr+WTI+Le3C5tY2Hf20A=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.beta5.html
+SHA1-Digest: ZgS6byXEes18pA6tl5kOXYMpf2c=
+
+Name: icons/images/hibernate_launch.png
+SHA1-Digest: hUS+GV7DReRkUIiEnQmucLayYGI=
+
+Name: icons/images/versionproperty.gif
+SHA1-Digest: tm1UMUm/H94GZeaz1qAmxXR2Lzw=
+
+Name: icons/images/xpl/complete_tsk.gif
+SHA1-Digest: Ka6cTIH6PVjzjBFO5FbyHku+EDU=
+
+Name: doc/newandnoteworthy/hbmxml-tablecompletion.png
+SHA1-Digest: 8phGF7WEvHaSBeUy2erX44GXeCo=
+
+Name: icons/images/clear.gif
+SHA1-Digest: gqBfzK3yQMkQ6YcrKpuKRfvhXT0=
+
+Name: icons/images/unknowntypeproperty.gif
+SHA1-Digest: LvHZ37ABvL/bQx2R+VuHC9bpwEs=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta10.html
+SHA1-Digest: cRKR/w1uFsXUr4pf+ubOY8DkmKw=
+
+Name: doc/newandnoteworthy/completeinsidejava.png
+SHA1-Digest: Zm9ipq2Rdhup6GejSkCT4kDRlPc=
+
+Name: icons/images/columns.gif
+SHA1-Digest: n9TREcLGYUjGue/uJsGgQmqD08o=
+
+Name: org.hibernate.eclipse.console.jar
+SHA1-Digest: 2RNHzCmv8XbjrCcYZsPylR13nK0=
+
+Name: icons/images/hql_editor.gif
+SHA1-Digest: 4dv02jgTMMMsHo6TT0a3eafqkoI=
+
+Name: doc/newandnoteworthy/artifactgeneration.png
+SHA1-Digest: 6y50j0RGTeHBZWO4Y0VbQwoHEJY=
+
+Name: icons/images/ignoreparameter.gif
+SHA1-Digest: WE/JyHS+VAIvBjikZMdYKLbsK2A=
+
+Name: doc/newandnoteworthy/entitymodel_zoomin.png
+SHA1-Digest: 1QIE/F/beGq1Pve3zJC5Tq7J4qc=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.alpha5.html
+SHA1-Digest: uMIHoDn0fN7mJND3sYc7jvHlc6k=
+
+Name: doc/newandnoteworthy/revengxml_tablescolumn.png
+SHA1-Digest: KZM8pa+FURDUJc6B/6QjMFvSuSE=
+
+Name: doc/newandnoteworthy/enableannotationvalidation.png
+SHA1-Digest: G0tv7Q2+qHbSc4smQy8exWkeI/w=
+
+Name: icons/images/hibernate.gif
+SHA1-Digest: 9O4BhDDRRxEt7MBlnyIlOLkFFVc=
+
+Name: icons/images/treeminus.gif
+SHA1-Digest: hEYBXcYaH5mt0+VBGUpP7yIHgXw=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.0.0.alpha4.html
+SHA1-Digest: sJ9zBfa0ZZ/VfaHi3H5f0xoeybE=
+
+Name: doc/newandnoteworthy/alwaysactiveopenquery.png
+SHA1-Digest: rt4JHaxSz0e69ki4j/3en0k26xk=
+
+Name: icons/images/hibernate_config.gif
+SHA1-Digest: Q94SZCi9TkOPTj2I6MoHqkj60HE=
+
+Name: icons/images/unmapped_class.gif
+SHA1-Digest: kvY4bqvTF7IHLgW6CeWnjdWv9do=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.beta1.html
+SHA1-Digest: Dm/GOseQT+LDXGH7MOUl0Lr95VQ=
+
+Name: doc/newandnoteworthy/cfgxml-propertycomplete.png
+SHA1-Digest: adKwCCOu8DnaPyClyCuFkfZDBYo=
+
+Name: icons/images/xpl/incomplete_tsk.gif
+SHA1-Digest: VTkpSjZcroZuvSbxIu8jegoPCj8=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.beta4.html
+SHA1-Digest: cZcFWLxNpx9SsyjgSs+sKNThGuY=
+
+Name: doc/newandnoteworthy/freemarkereditor.png
+SHA1-Digest: AFmUTwPdv64Mq8cnQNyqrR59Rzs=
+
+Name: icons/images/new_param.gif
+SHA1-Digest: r1U+HzLClQZT4m6cV3Z05OrdX2Y=
+
+Name: doc/newandnoteworthy/newmappingfilewizard.png
+SHA1-Digest: aHSyKaUWUZ3FOl+8murcLaL16Lk=
+
+Name: doc/newandnoteworthy/revengxml_overview.png
+SHA1-Digest: j9sxNM4XPw9BXEVgMLaYdc3WhlQ=
+
+Name: doc/newandnoteworthy/newoutline.png
+SHA1-Digest: leBySVDA/trUj0qcQYERUZY+P7c=
+
+Name: icons/images/close_disabled.gif
+SHA1-Digest: LwzVKPB1wudX9CH1ue0BCWmQmrk=
+
+Name: icons/images/catalog.gif
+SHA1-Digest: N8FFZ19a4iwEQcwfyXpZd1jNr7Y=
+
+Name: doc/newandnoteworthy/dynamicquerytranslation.png
+SHA1-Digest: albqWz75JCtZ/Ttpel5dH7B1h5U=
+
+Name: doc/newandnoteworthy/configurationswithnewnodes.png
+SHA1-Digest: plP+2+WG1yBcAUaRb7s0TG+dJ/s=
+
+Name: doc/newandnoteworthy/xmlcatalog.png
+SHA1-Digest: LmVmimQgqsoXz/rqxPwXnqizguk=
+
+Name: doc/newandnoteworthy/entitymodel_zoomout.png
+SHA1-Digest: 86q9FlbKvKHvTtmSBvpaZoS+8sg=
+
+Name: doc/newandnoteworthy/queryparameters.png
+SHA1-Digest: TW6AEwqCoauE4fLf1JvAvBfKOoI=
+
+Name: icons/images/mapped_class.gif
+SHA1-Digest: yj7yWcEVXmJC4fHlp+/ZSYfDvhY=
+
+Name: icons/hibernate_small_icon.gif
+SHA1-Digest: 3m+T/OWUl6fQhZ8h3bYeCLsLG9Q=
+
+Name: icons/images/newhibernate_wiz.gif
+SHA1-Digest: TCpIvIeJWuAYXGiQm6F53FpyLQQ=
+
+Name: doc/newandnoteworthy/entitymappingdiagram.png
+SHA1-Digest: PesK4FdelUPODRyK4zUHNy8Ntms=
+
+Name: about.html
+SHA1-Digest: jId5qKbyttRjGo5Rm59l7Qj44FE=
+
+Name: doc/newandnoteworthy/newmappingfilewizard_result.png
+SHA1-Digest: 7CEKDP5SYIswq4X276GxIlxH0Ec=
+
+Name: doc/newandnoteworthy/hbmxml-usertypecompletion.png
+SHA1-Digest: lbp2/vVNimJ7WDxt337F9309EEY=
+
+Name: icons/images/refresh.gif
+SHA1-Digest: VHUDPMiwiKJcwN0BG7ABhxxFfrA=
+
+Name: doc/newandnoteworthy/hbm2docwithgraph.jpg
+SHA1-Digest: HwSP845V39ciOB5WkEId+sMBLws=
+
+Name: icons/images/pindown.jpg
+SHA1-Digest: Hhb1S3a9G9j3BvpOd6LfSVE0x6o=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.beta3.html
+SHA1-Digest: QiNYGIARsM53HWig495LDodjblY=
+
+Name: icons/images/hibernate_overlay.gif
+SHA1-Digest: b15NTn6q98YgVc9hStWpYa3axDA=
+
+Name: icons/images/1tonproperty.gif
+SHA1-Digest: tNl4ZNZJNXkkQHwJROTJJq5Y9tA=
+
+Name: doc/newandnoteworthy/embeddedruninqueryeditor.png
+SHA1-Digest: r9R3SfdfS/egVjIVJbAic97XiXQ=
+
+Name: doc/newandnoteworthy/hibernate3setting.png
+SHA1-Digest: pRo4cjBELHkceK6KAuo5zmHe0hE=
+
+Name: doc/hbmxmlcompletion.jpg
+SHA1-Digest: 2m1Z3TEQA9Y8kKZYlbp6Ivu1JX8=
+
+Name: icons/images/table.gif
+SHA1-Digest: isFD4fljeccPdl3UO8sVIOQLero=
+
+Name: icons/images/schema.gif
+SHA1-Digest: kfAXAVaoG1DigLJMWcPQz1K8u/c=
+
+Name: doc/newandnoteworthy/hbmxml-typecompletion.png
+SHA1-Digest: jdxS9B2D0hO9aKE8AZm/VK1R9p8=
+
+Name: plugin.xml
+SHA1-Digest: m3/BLVDFpY5ak7DF9qByeIC+x1c=
+
+Name: icons/images/types.gif
+SHA1-Digest: n8hots6atQifc7EjFT7fyZeV1Bs=
+
+Name: icons/images/pinup.jpg
+SHA1-Digest: VP/zrGsmBkAI1KrSErtTzbycepc=
+
+Name: icons/images/layout_disabled.gif
+SHA1-Digest: LS0o0umeEyRxke/6TBry9p3Wz1k=
+
+Name: doc/newandnoteworthy/wizard-cfgxml-newoptions.png
+SHA1-Digest: vz1m6LXHN0tbDA4XuzSwsiZ8MSY=
+
+Name: doc/newandnoteworthy/inlinequeryvalidation.png
+SHA1-Digest: WoQKmGWiWB+1bbGo8oSV9+qaR6w=
+
+Name: icons/images/error.gif
+SHA1-Digest: 7c4SMyFfRgj3nNsHHVln+4874ns=
+
+Name: icons/images/idproperty.gif
+SHA1-Digest: T6eam8LzT6iBzSd3q+Bj/1JdiRY=
+
+Name: doc/newandnoteworthy/consolelog.png
+SHA1-Digest: /sRUl6NSXbGse5KI5PqxpXNGMwI=
+
+Name: icons/images/refresh_run.gif
+SHA1-Digest: q18GA/yOw/0tzCGP5qMz+TE4oSM=
+
+Name: doc/newandnoteworthy/codegenlaunchseamexporter.png
+SHA1-Digest: deraN8KtWiYgioufsH4gvmTemGQ=
+
+Name: icons/images/function.gif
+SHA1-Digest: 2r8df69aaWMSgvJEkhv2B/RGAFY=
+
+Name: doc/newandnoteworthy/crowdedartififactgen.png
+SHA1-Digest: cU8oChzzUreN7n4wP1NssftowZY=
+
+Name: doc/newandnoteworthy/revengxml_tablefilters.png
+SHA1-Digest: TzPQzkh+0MwmfDBAgMHuC+ppG+0=
+
+Name: icons/images/treeplus.gif
+SHA1-Digest: plsLIk6psRtcIHFcHBSTwtFHDrc=
+
+Name: icons/images/jboss.gif
+SHA1-Digest: AIkFuTsrlZN9camvAVzVV2Tj1ZU=
+
+Name: icons/images/connected.gif
+SHA1-Digest: sbvo8TV8TSY8ZdFu5IUHo6Qf9rE=
+
+Name: doc/newandnoteworthy/properties.png
+SHA1-Digest: kZJ+l3HOPp2dJ0p3nyqqLcboHg4=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.1.0.beta2.html
+SHA1-Digest: ZYYUywONi5Ftk+qWUZQLOQH2M6s=
+
+Name: doc/codegenwizard.jpg
+SHA1-Digest: NsoujM/WhJJn23Bp47cKyMafoNY=
+
+Name: doc/newandnoteworthy/codegenlaunchtab.png
+SHA1-Digest: e5juD4H9vuVckY1Is9yWc/kx1lk=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta9.html
+SHA1-Digest: TJndH3kUyTRZUFTehZb1680lHX8=
+
+Name: doc/newandnoteworthy/prettyentitymodel.gif
+SHA1-Digest: eM4sX3zZ+CdrivVXhjWp/zL2sgg=
+
+Name: icons/images/mapping.gif
+SHA1-Digest: MSLNW9Axi3AG1sfEt4nfOPYH3aM=
+
+Name: icons/images/layout.gif
+SHA1-Digest: faBX5dVasm28gyubC0lON7PQRIc=
+
+Name: icons/images/java.gif
+SHA1-Digest: n/yAiDP5WdqL4bbQEqBfvcc4y2U=
+
+Name: doc/newandnoteworthy/hqleditorsetmaxresults.png
+SHA1-Digest: vyJ4TzF9fc2ssVZcPXPYPLt/F3A=
+
+Name: doc/newandnoteworthy/criteriaeditor.png
+SHA1-Digest: CdanA0fT1VXdoIba3Uh1Rh1a5VI=
+
+Name: icons/images/anyproperty.gif
+SHA1-Digest: DcBJOLCHloYiUdfPoN4K4MyP4IM=
+
+Name: doc/index.html
+SHA1-Digest: kY30mYkwm78sSXMNkGrAn06OZVU=
+
+Name: doc/newandnoteworthy/revengstrategyinui.png
+SHA1-Digest: iOrdMQpvhtokCdg1NgrFWmIidHE=
+
+Name: icons/images/plus.png
+SHA1-Digest: 0Eu5adq1TPb5uLWtHUQXudl+a3o=
+
+Name: doc/newandnoteworthy/columncompletion.png
+SHA1-Digest: iEX/wqYCifrxySTZMpt8LkD8L1M=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta6.html
+SHA1-Digest: X0WOBHHJfOVCfIzuIxKI5EHkYAE=
+
+Name: doc/newandnoteworthy/hqlcriteriaquicknavigation.png
+SHA1-Digest: 2RlAJ2psIZAIO6H+D4gybs1CQO0=
+
+Name: doc/newandnoteworthy/overlaycontenttypes.png
+SHA1-Digest: e+Ycf4j9voOOdKpYXBJh55tB44w=
+
+Name: icons/images/criteria_editor.gif
+SHA1-Digest: mXMEGwtmuKFRXV45P66a6CBpYEI=
+
+Name: icons/images/xpl/removeall_disabled.gif
+SHA1-Digest: Lzga6O7BecvsbN4K4oCi9U+di1k=
+
+Name: icons/images/xpl/removeall.gif
+SHA1-Digest: /GoPVhCpQ+0VtZ7rmiudbpEXoyg=
+
+Name: doc/newandnoteworthy/wikisearch.png
+SHA1-Digest: HqNHjUvcb3C3veyYuwoWpsbdg+c=
+
+Name: plugin.properties
+SHA1-Digest: QD/ngvvMLZmv1CqjbfEiFM88UM4=
+
+Name: doc/newandnoteworthy/codegenlauncher.png
+SHA1-Digest: ejP375rk2GXcsXRna4sy12JDIOg=
+
+Name: doc/newandnoteworthy/persistencexmlcompletion.png
+SHA1-Digest: MoNeLVoq0GI/ZlAaXXY0eBDVV1Y=
+
+Name: icons/images/hicon.gif
+SHA1-Digest: Ajd1IOV9qzlFaxOVjxoqeVBoXFg=
+
+Name: doc/newandnoteworthy/entitymodel.png
+SHA1-Digest: MrkD62i3t/c3p3HwOnOaPWll9Cw=
+
+Name: icons/images/hql_editor_connect.gif
+SHA1-Digest: IPZZq4F/ebezQY8CkwDu40iNY00=
+
+Name: icons/images/format.gif
+SHA1-Digest: fzP1836Z0sa/slwGPCRZtfLCIy4=
+
+Name: doc/newandnoteworthy/nullinparameters.png
+SHA1-Digest: dra4+owbRrpKAGLackVm7uULAHM=
+
+Name: icons/images/execute.gif
+SHA1-Digest: zPBwCWJnMNCi/lTg+PpuMydhqFk=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta7.html
+SHA1-Digest: hq6ESlo2BDcQTPQ2W/LPcHVLSvo=
+
+Name: icons/images/1to1property.gif
+SHA1-Digest: Sx2dmZyyEFAsH23Fw0qwdG8sHnM=
+
+Name: icons/images/database.gif
+SHA1-Digest: 7jOWSk6JawO/fAbC1IPxp5EzvmM=
+
+Name: icons/images/hibernate_small_icon.jpg
+SHA1-Digest: CRMHNV1+fTLSbLYya/Zavgs4Oa4=
+
+Name: icons/images/parameter.gif
+SHA1-Digest: VpCdiK2rotL4FNFVGCw5dl/Pk90=
+
+Name: icons/images/mtonproperty.gif
+SHA1-Digest: leMmsFGUBJwjILFagYh8gw3rgI0=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta11.html
+SHA1-Digest: cRRtnn73AeApYmCY6DpRvRW1xsw=
+
+Name: doc/newandnoteworthy/manytomanyoptlock_ui.png
+SHA1-Digest: eCPPvHmBQuFT1vTGj9oNPeN8cAI=
+
+Name: icons/images/componentproperty.gif
+SHA1-Digest: 6fmRVA5mWAGrCJy7o+gwYTRdPP4=
+
+Name: doc/newandnoteworthy/easysetup.png
+SHA1-Digest: 2KMjVgE88rguPEY/yFe2KJxkb9A=
+
+Name: doc/newandnoteworthy/pluginhelp.png
+SHA1-Digest: Rbi66PKB3rQKzUacy74A5WZH7FA=
+
+Name: doc/consolecfgwizard.jpg
+SHA1-Digest: tfpSoth43FelTR+uQZcxjcvMl4Y=
+
+Name: doc/newandnoteworthy/default_.css
+SHA1-Digest: 2dFh4YLaT8HVcw1y3DkqPLFTIck=
+
+Name: doc/newandnoteworthy/codegenexporters.gif
+SHA1-Digest: 5nz4vIjkokHGLtyCjFJIGf1pfLo=
+
+Name: doc/queryconsole.jpg
+SHA1-Digest: js5AO3VSxwR4JBb/VNjMUaUGSEg=
+
+Name: doc/newandnoteworthy/annotationsupport.png
+SHA1-Digest: l6Qj+yspag/v4pljXpwAUAP0GrY=
+
+Name: doc/newandnoteworthy/hqlpropertycodecompletion.png
+SHA1-Digest: Ik6tNTC5uutIYIBmkoGUvn7Efc8=
+
+Name: icons/images/close.gif
+SHA1-Digest: k25t+q22w924HO/y4HM6zQbYK2U=
+
+Name: icons/images/property.gif
+SHA1-Digest: x4KcODHFq0V1N32Op9X/F+CCCQc=
+
+Name: icons/images/criteria_editor_connect.gif
+SHA1-Digest: +AVGGn/FSODJWgKoYi3a8QBkPMw=
+
+Name: doc/newandnoteworthy/wizard-artifactnewopt.png
+SHA1-Digest: +a3wPGAZzz+LuWZl1pZ6eBF779o=
+
+Name: icons/images/reload.gif
+SHA1-Digest: MIPbwlsSSHllRyCXRz4zIn9Rs1E=
+
+Name: doc/newandnoteworthy/hql-completion.png
+SHA1-Digest: 7XhgVb3HfIbL+EoeGhRwXTB6X+M=
+
+Name: icons/images/hibernate_mapping.gif
+SHA1-Digest: Ael0FE2mc9rCX203kKj7ilpjnDA=
+
+Name: doc/newandnoteworthy/revengxml_typemappings.png
+SHA1-Digest: +uPflsXoCNYJMzUEyoghObXyUUw=
+
+Name: icons/images/mto1property.gif
+SHA1-Digest: hLg9CKFWvBw7zAIrfJMCMPykHYU=
+
+Name: doc/newandnoteworthy/multiexporter.png
+SHA1-Digest: qzARD6iLiIWQKU3Ki5WScmNcjb0=
+
+Name: doc/newandnoteworthy/classvisualization.png
+SHA1-Digest: MrkD62i3t/c3p3HwOnOaPWll9Cw=
+
+Name: icons/images/hibernate_icon.jpg
+SHA1-Digest: eRdAW2fiw4gkzBN8YuQjF7wLPd8=
+
+Name: icons/images/mtoaproperty.gif
+SHA1-Digest: /jRI5CrG9SrCRYXhy72GWiI15FY=
+
+Name: doc/newandnoteworthy/hibernate-eclipse-news-3.2.0.beta8.html
+SHA1-Digest: piUKI3Mt28hSmVl5Enuea4r1K3w=
+
+Name: doc/hibernatecfgwizard.jpg
+SHA1-Digest: MvTdwh6kW9j8bZMnHhtaTX32x+k=
+

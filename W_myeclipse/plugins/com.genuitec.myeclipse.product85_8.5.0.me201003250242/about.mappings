@@ -1,0 +1,10 @@
+# This file is only called about.mappings
+# so the settings in it will be picked up
+# in the global search/replace to update the
+# build settings.  It has nothing to do with
+# the file of the same name that is used in features.
+# It's used like a properties
+# file for the main MyEclipse preferences screen.
+
+1=8.5
+0=8.5-20100319

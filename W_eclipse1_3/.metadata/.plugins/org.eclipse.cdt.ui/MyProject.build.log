@@ -1,0 +1,6 @@
+18:41:03 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+
+18:41:03 Build Finished (took 85ms)
+

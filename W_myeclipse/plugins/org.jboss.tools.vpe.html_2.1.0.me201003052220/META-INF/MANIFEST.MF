@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jboss.tool
+ s.vpe,org.mozilla.xpcom,org.jboss.tools.jst.jsp,org.jboss.tools.commo
+ n
+Export-Package: org.jboss.tools.vpe.html.template
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.jboss.tools.vpe.html.HtmlTemplatePlugin
+Bundle-SymbolicName: org.jboss.tools.vpe.html;singleton:=true
+
+Name: org/jboss/tools/vpe/html/template/HtmlCommentTemplate.class
+SHA1-Digest: Iy4dfv55IavPuE+C9fkXfW1/Wxw=
+
+Name: org/jboss/tools/vpe/html/template/HtmlTextareaTemplate.class
+SHA1-Digest: IR747e1FBWpEI+zpz/pWbBT8KWc=
+
+Name: plugin.xml
+SHA1-Digest: TFVLdpR1vt6YV9rICK1cG/mFiWQ=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: M5i2xoD66+D/ltClYdBuEH7S4os=
+
+Name: templates/vpe-templates-html.xml
+SHA1-Digest: 1fIhX7LJ4r/jYZ1dR33ubF7Eeh0=
+
+Name: org/jboss/tools/vpe/html/template/HtmlTextTemplate.class
+SHA1-Digest: zJO6AE0cwJFRJhjxjhykl5pg45w=
+
+Name: org/jboss/tools/vpe/html/HtmlTemplatePlugin.class
+SHA1-Digest: TRkL+fxjtBAkwfm3iGmLzjuu0Qc=
+
+Name: org/jboss/tools/vpe/html/template/HtmlImgTemplate.class
+SHA1-Digest: N5mMmW3W041q/kt6C3hzAQmy+u0=
+
+Name: org/jboss/tools/vpe/html/template/HtmlBodyTemplate.class
+SHA1-Digest: XNLxI5GXPpIMPmVcx2A5AT8rjNk=
+

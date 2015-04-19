@@ -1,0 +1,137 @@
+
+/* what's new images */
+
+#meWhatsNewAndNoteworthy img {
+	background-image: url(graphics/MyEclipse_Logo-48-matt.gif);
+}
+	
+#meWhatsNewUpdates img { 
+	background-image : url(graphics/updates_obj.gif); 
+}
+	
+#meWhatsNewUpdates:hover img { 
+	background-image : url(graphics/updateshov_obj.gif); 
+}
+
+#meWhatsNewCommunity img { 
+	background-image : url(graphics/community_obj.gif); 
+}
+
+#meWhatsNewCommunity:hover img { 
+	background-image : url(graphics/communityhov_obj.gif); 
+}
+
+/* overview images */
+	
+#meOverviewUI img {
+	background-image: url(graphics/UI_Tools.gif);
+}
+
+#meOverviewBusiness img {
+	background-image: url(graphics/Business_Tools-matt.gif);
+}
+
+#meOverviewCommon img {
+	background-image: url(graphics/Common_Tools-matt.gif);
+}
+
+#meOverviewEnterprise img {
+	background-image: url(graphics/Enterprise_Tools-matt.gif);
+}
+
+#meOverviewMaven img {
+    background-image: url(graphics/Maven4MyEclipse.gif);
+}
+
+/* tutorial images */
+
+/* fallback image */
+
+#meTutorials img {
+	background-image: url(graphics/Tutorial-generic.gif);
+}
+
+#meTutorialsJPA img {
+	background-image: url(graphics/Tutorial-JPA.gif);
+}
+
+#meTutorialsFacelets img {
+	background-image: url(graphics/Tutorial-JSF.gif);
+}
+
+#meTutorialsWeb20 img {
+	background-image: url(graphics/Tutorial-ajax-web20.gif);
+}
+
+#meTutorialsAppServer img {
+	background-image: url(graphics/Tutorial-apserver.gif);
+}
+
+#meTutorialsBugzilla img {
+	background-image: url(graphics/Tutorial-bugzilla.gif);
+}
+
+#meTutorialsDatabase img {
+	background-image: url(graphics/Tutorial-database.gif);
+}
+
+#meTutorialsEJB img {
+	background-image: url(graphics/Tutorial-EJB.gif);
+}
+
+#meTutorialsERD img {
+	background-image: url(graphics/Tutorial-ERD.gif);
+}
+
+#meTutorialsHibernate img {
+	background-image: url(graphics/Tutorial-hibernate.gif);
+}
+
+#meTutorialsJAXWS img {
+    background-image: url(graphics/Tutorial-webservices.gif);
+}
+
+#meTutorialsJSF img {
+	background-image: url(graphics/Tutorial-JSF.gif);
+}
+
+#meTutorialsMatisse img {
+	background-image: url(graphics/Tutorial-matisse.gif);
+}
+
+#meTutorialsMaven img {
+    background-image: url(graphics/Tutorial-maven4myeclipse.gif);
+}
+
+#meTutorialsPortlets img {
+    background-image: url(graphics/portlet_wizban.gif);
+}
+
+#meTutorialsStruts img {
+	background-image: url(graphics/Tutorial-Struts.gif);
+}
+
+#meTutorialsUML img {
+	background-image: url(graphics/Tutorial-UML.gif);
+}
+
+#meTutorialsWebdesigner img {
+	background-image: url(graphics/Tutorial-Webdesigner.gif);
+}
+
+#meTutorialsWebService img {
+	background-image: url(graphics/Tutorial-webservices.gif);
+}
+
+/* samples images */
+
+#meExamples img {
+    background-image: url(graphics/ME-eod-2.gif);
+}
+
+
+
+
+
+
+

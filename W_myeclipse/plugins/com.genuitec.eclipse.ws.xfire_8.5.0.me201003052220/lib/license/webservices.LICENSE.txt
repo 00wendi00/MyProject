@@ -1,0 +1,7 @@
+The following METRO 1.1 libraries are distributed under the CDDL license:
+
+webservices-api.jar
+webservices-extra.jar
+webservices-extra-api.jar
+webservices-rt.jar
+webservices-tools.jar

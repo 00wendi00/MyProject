@@ -1,0 +1,54 @@
+package com.example.mydrawable1;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.DisplayMetrics;
+import android.view.WindowManager;
+import android.widget.GridLayout;
+
+public class MyDrawable1 extends Activity {
+	GridLayout gridLayout;
+	int width,height;
+	
+	@SuppressLint("HandlerLeak")
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_my_drawable1);
+		gridLayout = (GridLayout)findViewById(R.id.haode);
+		
+		WindowManager manager = this.getWindowManager();  
+		DisplayMetrics outMetrics = new DisplayMetrics();  
+		manager.getDefaultDisplay().getMetrics(outMetrics);  
+		width = outMetrics.widthPixels;  
+		height = outMetrics.heightPixels;
+		
+		GridLayout.Spec rowSpec = GridLayout.spec(2);
+		GridLayout.Spec columnSpec  = GridLayout.spec(2);
+		GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+		gridLayout.addView(new MyView(this),params);		
+		
+		final Handler handler = new Handler(){
+			public void handleMessage(Message msg){
+				super.handleMessage(msg);
+				if(msg.what == 0x123){
+					
+				}
+			}
+		};
+		
+		new Timer().schedule(new TimerTask() {		
+			@Override
+			public void run() {
+				handler.sendEmptyMessage(0x123);
+			}
+		}, 0,80);
+		
+	}
+}

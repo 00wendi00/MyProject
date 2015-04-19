@@ -1,0 +1,29 @@
+/**
+ * 文件名：Ex1.java
+ * 项目-包：JAVA编程思想 - 第十六章数组
+ * 作者：张文迪
+ * 创建日期：2014-10-25
+ */
+package 第十六章数组;
+
+/**
+ * @author 张文迪
+ * 类名：Ex1
+ * 类说明：
+ */
+class A {}
+public class Ex1
+{
+	public static void main(String arg[])
+	{
+		A[] a;	
+		A[] b = new A[5];
+		//System.out.println(a);
+		System.out.println(b);
+		
+	}
+	void hide(Class A[])
+	{
+		
+	}
+}

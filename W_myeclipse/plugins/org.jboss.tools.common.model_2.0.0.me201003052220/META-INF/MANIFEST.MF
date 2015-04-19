@@ -1,0 +1,1175 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common;visibility:=reexport,org.eclips
+ e.ui.ide,org.eclipse.ui.views,org.eclipse.jface.text,org.eclipse.ui.w
+ orkbench.texteditor,org.eclipse.ui.editors,org.eclipse.jdt.core;visib
+ ility:=reexport,org.eclipse.swt;visibility:=reexport,org.eclipse.ui,o
+ rg.eclipse.jdt.ui,org.eclipse.debug.core,org.eclipse.debug.ui,org.ecl
+ ipse.help,org.eclipse.ant.ui,org.eclipse.ant.core,org.eclipse.ltk.cor
+ e.refactoring,org.eclipse.ltk.ui.refactoring,org.eclipse.wst.common.u
+ riresolver,org.eclipse.wst.common.modulecore,org.eclipse.core.resourc
+ es;visibility:=reexport,org.eclipse.core.runtime;visibility:=reexport
+ ,org.eclipse.wst.common.emfworkbench.integration;bundle-version="1.1.
+ 300"
+Bundle-Vendor: %providerName
+Plugin-Class: org.jboss.tools.common.model.plugin.ModelPlugin
+Eclipse-LazyStart: true
+Bundle-ClassPath: model.jar,lib/j2ee.jar,lib/Bundles.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.common.model.plugin.ModelPlugin
+Bundle-SymbolicName: org.jboss.tools.common.model; singleton:=true
+Provide-Package: org.jboss.tools.common.ant.model,org.jboss.tools.comm
+ on.ant.model.handlers,org.jboss.tools.common.ant.parser,org.jboss.too
+ ls.common.java.jsp.model,org.jboss.tools.common.java.model.handler,or
+ g.jboss.tools.common.meta,org.jboss.tools.common.meta.action,org.jbos
+ s.tools.common.meta.constraint,org.jboss.tools.common.meta.help,org.j
+ boss.tools.common.meta.key,org.jboss.tools.common.model,org.jboss.too
+ ls.common.model.adapter,org.jboss.tools.common.model.event,org.jboss.
+ tools.common.model.exception,org.jboss.tools.common.model.filesystems
+ ,org.jboss.tools.common.model.icons,org.jboss.tools.common.model.impl
+ ,org.jboss.tools.common.model.impl.bundle,org.jboss.tools.common.mode
+ l.impl.trees,org.jboss.tools.common.model.markers,org.jboss.tools.com
+ mon.model.options,org.jboss.tools.common.model.options.impl,org.jboss
+ .tools.common.model.plugin,org.jboss.tools.common.model.project,org.j
+ boss.tools.common.model.undo,org.jboss.tools.common.model.util,org.jb
+ oss.tools.common.model.util.extension,org.jboss.tools.common.model.wi
+ zard,org.jboss.tools.common.util.lcspack,org.jboss.tools.common.model
+ .project,org.jboss.tools.common.model.handlers,org.jboss.tools.common
+ .model.java.handlers,org.jboss.tools.common.model.markers,org.jboss.t
+ ools.common.java.generation,org.jboss.tools.common.java.model.helpers
+ ,org.jboss.tools.common.meta.action.impl,org.jboss.tools.common.meta.
+ action.impl.handlers,org.jboss.tools.common.meta.constraint.impl,org.
+ jboss.tools.common.meta.impl,org.jboss.tools.common.meta.impl.adapter
+ s,org.jboss.tools.common.meta.impl.documentation,org.jboss.tools.comm
+ on.model.engines.impl,org.jboss.tools.common.model.files.handlers,org
+ .jboss.tools.common.model.filesystems.impl,org.jboss.tools.common.mod
+ el.filesystems.impl.example,org.jboss.tools.common.model.filesystems.
+ impl.handlers,org.jboss.tools.common.model.icons.impl,org.jboss.tools
+ .common.model.loaders,org.jboss.tools.common.model.loaders.impl,org.j
+ boss.tools.common.model.ref.impl,org.jboss.tools.common.model.search,
+ org.jboss.tools.common.model.search.impl,org.jboss.tools.jst.web.tld,
+ images,org.jboss.tools.common.model.refactoring
+
+Name: images/struts/pro/tiles_bean.gif
+SHA1-Digest: /LHPAZ+Aqvr7FdX0DFvpdi8YKUM=
+
+Name: images/actions/edit.gif
+SHA1-Digest: NxJ/NSYSg/iuwGm3aG9rdMRANKk=
+
+Name: images/file/new_js_file.gif
+SHA1-Digest: l5cnSgslmbgKf1KI+CJuP7Q8xbI=
+
+Name: images/struts/pro/new_validator_constant.gif
+SHA1-Digest: 7vwVsuZQSMVmb4uL14brXA3FkD0=
+
+Name: images/webxml/run_as.gif
+SHA1-Digest: zrTX+LBVwNcCcav9fDzQiDBbcXs=
+
+Name: images/actions/cancel.gif
+SHA1-Digest: W9eWAW4IulARFwCrOClbypdtOoU=
+
+Name: images/actions/find.gif
+SHA1-Digest: Wa4GHxdxyJpCwjLhl4Z4Ue5G7sE=
+
+Name: images/meta/mappingitem.gif
+SHA1-Digest: fZmWU8qwaazi+Y7jlIICsAXwVa8=
+
+Name: images/new/m_wiz2.gif
+SHA1-Digest: 4tLiuhDC6WCKkpa3NaCau7oKWnw=
+
+Name: images/webxml/security_role.gif
+SHA1-Digest: xftGVidYQvC3LFaMGbf7/xhRkog=
+
+Name: images/webxml/filter_map_new.gif
+SHA1-Digest: ySbq63Lo83LaoTNR6+K13Sw0A5U=
+
+Name: images/webxml/auth_constraint.gif
+SHA1-Digest: Q/LpzmHhRtt6nw4GIxYTs44NJHA=
+
+Name: images/struts/pro/new_validator_form.gif
+SHA1-Digest: TxtKFq1aU7ff14+0txaiErL0EGI=
+
+Name: images/struts/action_mappings.gif
+SHA1-Digest: qf+eBhLmabV652Dz9OomA83SXlM=
+
+Name: schema/keys.exsd
+SHA1-Digest: K12IVJ8lC2p3oHViV382q0bpe3E=
+
+Name: images/orm2/discriminator.gif
+SHA1-Digest: hHJwIPROLoX2nfwaROYKsCrur+o=
+
+Name: images/map/map_rule_source.gif
+SHA1-Digest: Ru1xYscvvkub1h7LuFZMamytcq0=
+
+Name: images/orm2/property.gif
+SHA1-Digest: vM9w5Nhmif13oS1lDr7ChH2v+b0=
+
+Name: images/webxml/servlet_map_new.gif
+SHA1-Digest: v1etzwbupFU79wlUgU+bow/8Y5c=
+
+Name: images/struts/pro/new_webapp_welcome.gif
+SHA1-Digest: pZjLRePW/vaOpV5I7tPpVgDcnjA=
+
+Name: images/struts/pro/validator_formset.gif
+SHA1-Digest: 0zTAdtaqJqmrrhOytL6uqCzyEZg=
+
+Name: images/struts/pro/new_webapp_file.gif
+SHA1-Digest: KwMBQZb9pBnutrEx4RYe12a8t3M=
+
+Name: images/actions/empty.gif
+SHA1-Digest: NHL738bAtMYXOm1t0T0JUWFond8=
+
+Name: images/orm2/version.gif
+SHA1-Digest: BCo4ic3RkF1WqiBg7AoDOLJNWEU=
+
+Name: images/struts/struts.gif
+SHA1-Digest: WjDXd7NtPt1GMQgZ12o1uLySfkY=
+
+Name: images/struts/new_global_forward.gif
+SHA1-Digest: jQoMr3y2sv0hrY7L1LLg6aBTlOQ=
+
+Name: images/java/property.gif
+SHA1-Digest: 5vc1ZyrYGMXbAkrIR3apAFA6SJ4=
+
+Name: images/project/import_project.gif
+SHA1-Digest: SRryEArYzOyC9f3oA88Sj8pQnf0=
+
+Name: model.jar
+SHA1-Digest: eSV6O7Fv/lyuD0u/YqLivd/lVz4=
+
+Name: images/struts/new_template16.gif
+SHA1-Digest: 4qQFM85edLY+cAUI8+GJCjQblg0=
+
+Name: images/struts/module_root.gif
+SHA1-Digest: PzAjH518rJ+kOB3sRlnru64T1VY=
+
+Name: images/_readme.txt
+SHA1-Digest: /EQnTGrrstqd9+bD/6TLQexczPA=
+
+Name: images/meta/dependencies.gif
+SHA1-Digest: xMSI3P7gju58QyMoJrCH3q2wVeM=
+
+Name: images/struts/pro/validator_arg2.gif
+SHA1-Digest: YnLl0q56BsXiHnuIWWqQz+DqYtQ=
+
+Name: images/jsf/convertor.gif
+SHA1-Digest: IHp86UHxxhC7CmiFGOhxy9Xk+FM=
+
+Name: images/common/halfcheck.gif
+SHA1-Digest: rLlp1KlYNKyIujYmpKSaOteciYk=
+
+Name: images/webxml/ejb.gif
+SHA1-Digest: 1PsBcMWqZ1D7pQb7mvMVM5o3xDw=
+
+Name: images/actions/savemodel.gif
+SHA1-Digest: NAgBptULSQKtGb9D0CvPmyC+8qg=
+
+Name: images/orm2/class.gif
+SHA1-Digest: Wo58yI2852ixxqT5Di2A2qRg89A=
+
+Name: images/common/empty.gif
+SHA1-Digest: NHL738bAtMYXOm1t0T0JUWFond8=
+
+Name: images/struts/pro/new_validator_message.gif
+SHA1-Digest: EfYkQAEN2Jf9ZnB0V3WPgvb0Trk=
+
+Name: images/struts/pro/webapp_file.gif
+SHA1-Digest: pWFUdaGM6adZxzGoBiv0Coj0tO0=
+
+Name: images/struts/data_source.gif
+SHA1-Digest: A7e4WsXKFJyPbdNR+/xTyAyKb+w=
+
+Name: images/struts/pro/new_webapp_init_param.gif
+SHA1-Digest: NQmLbgd4bCyYC6MlQRxZscpae4A=
+
+Name: images/navigationtree/java.gif
+SHA1-Digest: cpZYN6ol3SfI+DLomAqRHbFfVvE=
+
+Name: images/struts/form_bean.gif
+SHA1-Digest: RIE0xk7e+ntyqQBqo40bVO6qnUE=
+
+Name: images/struts/pro/new_macro_icons.gif
+SHA1-Digest: 5aCFAlo9mqcSlQabcKK0g1DTS6I=
+
+Name: images/file/system_folder.gif
+SHA1-Digest: 7IibqK/fnXO0mm5yRi9PFOqGKng=
+
+Name: images/jsf/variable-resolver.gif
+SHA1-Digest: 3MXEh3gzdmXkpCC+ZdsQ2BzlqxA=
+
+Name: images/struts/pro/taglibs_attribute.gif
+SHA1-Digest: 2OlD4hpf06Ehwt7DOkJH5oOENfo=
+
+Name: images/struts/pro/new_taglibs_attribute.gif
+SHA1-Digest: vssV49tkrbkRRWhFhkuR0qgKSNQ=
+
+Name: images/common/uncheck.gif
+SHA1-Digest: ZtDmpkGkPMY5WJPNNF1iOnK9GTA=
+
+Name: images/orm2/file.gif
+SHA1-Digest: aS0oEVlUFHg7zVrXKRh54GszeoE=
+
+Name: images/webxml/filter.gif
+SHA1-Digest: YfOn6tlstxJhT6jaw7xHXHQ6DXY=
+
+Name: images/orm2/bean_rdbmapping_obj.gif
+SHA1-Digest: bIgmC2T1Mam0loByN0CAX+jYHIk=
+
+Name: images/actions/generatecode.gif
+SHA1-Digest: RcDGgW8xLB7kscmiaFY8uDc4keA=
+
+Name: images/struts/pro/new_validator_arg1.gif
+SHA1-Digest: FZYnyXw2vBY1f3Ev7gPXxoWE0uE=
+
+Name: images/palette/any-tag.gif
+SHA1-Digest: ApUkdFyBU4CJv5sEco0iu+F8OQg=
+
+Name: images/meta/new_action.gif
+SHA1-Digest: JtIq7FuUkJoQUQ4acDjDAGyokdk=
+
+Name: images/common/new_search_item.gif
+SHA1-Digest: MN7KusK64dy9GtwrJxO1x9rDSOE=
+
+Name: images/file/computer.gif
+SHA1-Digest: aKsYwQVm0HJovfDC5KI0Cg4M/gQ=
+
+Name: images/meta/attributeeditor.gif
+SHA1-Digest: JfIWes2eCoIRE8f4xrk/pWK+zq8=
+
+Name: images/jsf/facet.gif
+SHA1-Digest: 0N/Up0MsbXZwS48GMzxzbtXWcNs=
+
+Name: images/seam/variables_folder.gif
+SHA1-Digest: XOdA56XQMQyM4sfFMsAJX7WG3ik=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: images/webxml/init_param.gif
+SHA1-Digest: ZXbKghY3kb8ivphvP3zH6Wo6Be0=
+
+Name: images/struts/pro/validator_global.gif
+SHA1-Digest: 3Vt+fWexx8Z32fOYus4aq+234l0=
+
+Name: images/struts/plug_in_folder.gif
+SHA1-Digest: 4ufuqjlfLPkW86zTypiYsb8eWtA=
+
+Name: images/struts/pro/new_validator_field.gif
+SHA1-Digest: lYlhNeBsBEULQN8JWRSkh/Oji6s=
+
+Name: images/struts/pro/new_tiles_item.gif
+SHA1-Digest: xMrNHYZSPG/qScJSLctu0n4fkr4=
+
+Name: images/jdo/db_fields_folder.gif
+SHA1-Digest: POWiuO3Nwg2KDrH4JsPsdxybv8Q=
+
+Name: images/file/ant_file.gif
+SHA1-Digest: jVg62POg/IJwDkK0Hc6z+Xmy6jw=
+
+Name: images/webxml/servlet.gif
+SHA1-Digest: PoEMAM2fEFmwbHsyVNMh2ONHtqg=
+
+Name: images/java/error.gif
+SHA1-Digest: KqZQHxoRPniwyfmRKs/TfNlrXM4=
+
+Name: images/meta/entity_extension.gif
+SHA1-Digest: f+nR2TgaYj7MZTPmULPt5++Z2Ik=
+
+Name: images/navigationtree/options_folder16.gif
+SHA1-Digest: zQ+hWREn+D1GklhUFcrkJirzP8s=
+
+Name: images/orm2/composite_id.gif
+SHA1-Digest: zdsZbl7ikAYbAE8m6iuvpmZ/ZwE=
+
+Name: images/meta/new_actionlist.gif
+SHA1-Digest: hsiZ9zhUS9cr4X0PcozHfBVENds=
+
+Name: images/struts/pro/validator_message.gif
+SHA1-Digest: pt2Y8rORPJQhQEv8VlE0ROLgtQc=
+
+Name: images/struts/pro/new_validator_arg2.gif
+SHA1-Digest: ut1g9y3IValmWX1HYSEI5SJIkOQ=
+
+Name: images/webxml/ejb_local_new.gif
+SHA1-Digest: Yj6jdKFy0dzgvWXmKd9lh+boZjM=
+
+Name: images/struts/global_forward.gif
+SHA1-Digest: GZgJ2BTfwFeRy8UJ+EqVMTACu7o=
+
+Name: images/actions/stop.gif
+SHA1-Digest: oNBIyGsUEt4qREMch7u+uQgXwk4=
+
+Name: images/struts/page.gif
+SHA1-Digest: sYVem0nDX8iKwI1ZhogqWHxfeo8=
+
+Name: images/actions/retry.gif
+SHA1-Digest: EC8a8Ci3K00qpfR/1zbwTTMPuQ4=
+
+Name: images/struts/action.gif
+SHA1-Digest: ccN7FFJxTN2oSb9YWa0En51e5XY=
+
+Name: images/actions/compilecode.gif
+SHA1-Digest: YGO7M3OWYYic50R3G2YB9+angXc=
+
+Name: images/navigationtree/options_item16.gif
+SHA1-Digest: qlgbpdmZflUlmDcuA7umfVHi+co=
+
+Name: images/jsf/attribute.gif
+SHA1-Digest: IVIKuo2XwB8Afdl6p07x1U8YgIk=
+
+Name: images/java/packages.gif
+SHA1-Digest: /yWb0brGYSgKraTp+k4E9P/FooE=
+
+Name: images/actions/paste.gif
+SHA1-Digest: MrAFKt6WfgQURwNyEg6RMXEEnBI=
+
+Name: images/java/newattribute.gif
+SHA1-Digest: SH9+XjW0GsED6QSNrIn3+Dgx/Fo=
+
+Name: images/jsf/new-jsf-config.gif
+SHA1-Digest: 5ulnod2wvfMV7yC89y42NyBb0RU=
+
+Name: images/jsf/jsf-config.gif
+SHA1-Digest: 5ulnod2wvfMV7yC89y42NyBb0RU=
+
+Name: images/file/clay-config.gif
+SHA1-Digest: UkSTtvbQiykFEwmZpvDvvxOEDV4=
+
+Name: images/struts/pro/taglibs_tag.gif
+SHA1-Digest: 0H1bswlQYvlp9MmH8CeRGO0k54o=
+
+Name: images/struts/pro/tiles_item.gif
+SHA1-Digest: KEpgluj3lv2GoTBb5RITuj4OOTQ=
+
+Name: images/icons/warning.gif
+SHA1-Digest: x/+dD0Jz7XsRTJObREZVc+it+yw=
+
+Name: images/file/jar_file.gif
+SHA1-Digest: tX+9YEjjvvsWhnbYEp10UplEqbQ=
+
+Name: images/navigationtree/icons_group16.gif
+SHA1-Digest: FSZRyJnkiLijtjsFFyNWDZP4km0=
+
+Name: images/meta/attributedata.gif
+SHA1-Digest: IJR/cMyotv5jCThssbupWBrsikg=
+
+Name: images/meta/mapping.gif
+SHA1-Digest: 2HWE/9WJt7w1onuXhRte1SEoN+o=
+
+Name: images/meta/new_icon.gif
+SHA1-Digest: YLlM0cw4djrVTO13QGtgcw576mM=
+
+Name: images/struts/pro/webapp_servlet.gif
+SHA1-Digest: WYyK6W+GfSLRm7sfK50ijIBTgbw=
+
+Name: images/actions/cut.gif
+SHA1-Digest: od3Y5E2AkM0nRLzmuvFnIWcxnzY=
+
+Name: images/struts/struts_root.gif
+SHA1-Digest: togQt8vQa3zYgT8hzvsx7EyEGL4=
+
+Name: images/tabicons/new_macro_icons.gif
+SHA1-Digest: lpengmuq98EI9kyJEtYeDuLzW0o=
+
+Name: images/java/attr.gif
+SHA1-Digest: 30Q7cQqrTc8LOrJZX5ehQMKRrig=
+
+Name: images/struts/message_resources_folder.gif
+SHA1-Digest: +1sw/rUQkzAIKop40ZHROQh0lNQ=
+
+Name: schema/paletteAdopt.exsd
+SHA1-Digest: ipTEoU9jYCdEkEMOakoa5Vqx8iE=
+
+Name: images/struts/pro/new_validator_formset.gif
+SHA1-Digest: GsNVjBQubsOyKiUXBvuzWG7u9rE=
+
+Name: images/navigationtree/icons_folder16.gif
+SHA1-Digest: TxqG77ahJYarLxaVd8X3zlBRcX8=
+
+Name: images/webxml/auth_constraint_new.gif
+SHA1-Digest: bizVES3jcJsZ/2XP5kp2hz22OPs=
+
+Name: images/struts/pro/tiles_put.gif
+SHA1-Digest: jgFqtgpYxC/BKcyuJYfAAilTEKU=
+
+Name: images/jsf/el-resolver.gif
+SHA1-Digest: LQj5J6aXilHKAHYaLbsnHu7LrKE=
+
+Name: images/orm2/timestamp.gif
+SHA1-Digest: uvdiPzY2zk+oHNu9nHjSt7Lmiwo=
+
+Name: schema/resourceMapping.exsd
+SHA1-Digest: yT7fO8VZ8gp9ni99dPR2zQhup+U=
+
+Name: images/tabicons/new_tab_icons.gif
+SHA1-Digest: CoS1nMTFg0Wma1rBDE1cilCOmHI=
+
+Name: images/meta/renderer.gif
+SHA1-Digest: lfU1ClS4z9iloYMsqmOQ59oFrQ4=
+
+Name: images/struts/pro/filter.gif
+SHA1-Digest: YfOn6tlstxJhT6jaw7xHXHQ6DXY=
+
+Name: images/meta/new_attribute.gif
+SHA1-Digest: CTmO5H4p7znD6vW7ebikaLVCW9E=
+
+Name: images/jsf/locale_config.gif
+SHA1-Digest: WB9qBV9YxZ4Uf8DvoP63+TjuAlY=
+
+Name: images/struts/form_beans.gif
+SHA1-Digest: bxq6HCG+TDG9gl7kTfMRNq8NhXY=
+
+Name: images/jsf/lang.gif
+SHA1-Digest: IHRoZZIBABCWK+ibT2giJip4M4E=
+
+Name: images/orm2/key-property.gif
+SHA1-Digest: CIG9/cswLHmrVwpxvUkS8o3Nmqk=
+
+Name: images/project/new_project.gif
+SHA1-Digest: TIi1HlqdrgFzWQEPIi8Bh2W+pA0=
+
+Name: images/navigationtree/property.gif
+SHA1-Digest: 5vc1ZyrYGMXbAkrIR3apAFA6SJ4=
+
+Name: images/orm2/onetomany.gif
+SHA1-Digest: XDOMlsJdPbSiuI5dLYspImhwd6I=
+
+Name: images/jsf/navrule.gif
+SHA1-Digest: NyIrwAMDUxc2hcsUJ/GadMFAsVY=
+
+Name: schema/meta.exsd
+SHA1-Digest: 5Glx7L/1mf1uyLmIlt8J5xTyTJs=
+
+Name: images/struts/forwards.gif
+SHA1-Digest: dFF7VzFWnnvSPg1aK/urcggt3Fc=
+
+Name: images/navigationtree/properties.gif
+SHA1-Digest: HpKSIvH3ekxZIxkbgXsxkf4hlNM=
+
+Name: plugin.properties
+SHA1-Digest: XfLvPPAP3f5+JrWTt6h1oncxx44=
+
+Name: images/webxml/login.gif
+SHA1-Digest: hODzEiNhFdGRjfPLJEmQRGRWzzs=
+
+Name: images/struts/pro/new_validator_global.gif
+SHA1-Digest: demIajIcRLxK4zCkJi1w2v27TDw=
+
+Name: images/struts/pro/new_tiles_put.gif
+SHA1-Digest: EHbK/hYzPz/juCj7/VQnKN/sJho=
+
+Name: images/navigationtree/project.gif
+SHA1-Digest: JuvaN9z1A7PpPlNWiBKESbwAZCg=
+
+Name: images/webxml/welcome_file_list_new.gif
+SHA1-Digest: QpEwh/v9tjUYAiMi1ysfIzicmTY=
+
+Name: images/webxml/session_config_new.gif
+SHA1-Digest: 94qNz+YV50udxrhMD3UCUHmOtpw=
+
+Name: images/file/new_jar_file.gif
+SHA1-Digest: uOzQvYSH6l7IzGBXLgiyDJG+x6k=
+
+Name: images/file/java_file.gif
+SHA1-Digest: Kma8sOqIQrRJLrrrGVgiDjwWt0Y=
+
+Name: images/struts/pro/validator_file.gif
+SHA1-Digest: mdc0PWEfkG+TWXp/4T4miwhdKIA=
+
+Name: images/struts/pro/validator_arg0.gif
+SHA1-Digest: z9/Li9WuooRJHTmQCR02kFP0Pys=
+
+Name: images/orm2/manytoone.gif
+SHA1-Digest: Jp7Yk/BB+nsECLnghtvExkfHk5M=
+
+Name: images/struts/tile.gif
+SHA1-Digest: F675G8XMrAb3LJo25KF7jZFilDA=
+
+Name: images/jsf/managed_bean.gif
+SHA1-Digest: x7zNgS+kmGFgyGBe4xFnxDPMcUk=
+
+Name: images/actions/undo.gif
+SHA1-Digest: 4b+uh1Um0qXTpZPfHHNA/KLWV7c=
+
+Name: images/struts/pro/tiles_putlist.gif
+SHA1-Digest: m0Er8fWkyFPnQijtPzcj2MZPZoI=
+
+Name: images/struts/pro/webapp_error.gif
+SHA1-Digest: KqZQHxoRPniwyfmRKs/TfNlrXM4=
+
+Name: images/orm2/dynacomponent.gif
+SHA1-Digest: TT27fgMMjU+rVEsI6jBrKBVfXBI=
+
+Name: images/file/new_jsp_file.gif
+SHA1-Digest: vl6fGUXpiQ2i/PGkmuNvGr3qYts=
+
+Name: images/meta/child.gif
+SHA1-Digest: 0MDZL+IeubHmk/aqdZ1oWv/GNrE=
+
+Name: images/navigationtree/state_template_folder16.gif
+SHA1-Digest: VPsMhIX8IRCFEe/VPIjhwRjGEHc=
+
+Name: images/jsf/component.gif
+SHA1-Digest: +/aorEKX+/PtAl+CBGIHcbPNehc=
+
+Name: images/webxml/security_role_new.gif
+SHA1-Digest: ZOqlNFlcIEgwXe/K9jX+qlkvlrc=
+
+Name: images/struts/pro/new_filter.gif
+SHA1-Digest: vWFLkZJ4vrJIraXVkL1r5bWkyjM=
+
+Name: images/struts/pro/validator_arg1.gif
+SHA1-Digest: CjLAw44VUAL91FgUSV7bt/8tGPI=
+
+Name: images/webxml/listener.gif
+SHA1-Digest: cFo1XsxAr8Ld5FF/lEap192jrcY=
+
+Name: images/tabicons/macro_icons.gif
+SHA1-Digest: 0H1bswlQYvlp9MmH8CeRGO0k54o=
+
+Name: images/webxml/session_config.gif
+SHA1-Digest: OkWXzOPkRYTVQUBN4D2O4h/P4Vo=
+
+Name: images/file/xsl_file.gif
+SHA1-Digest: LBX0WxvjF8mbTjP1wmk2tdpWxE0=
+
+Name: images/file/new_xsl_file.gif
+SHA1-Digest: Dm0AkrNqHCmioo+zTNQX+M8u5NI=
+
+Name: images/struts/pro/validator.gif
+SHA1-Digest: xETRfmShyjWcClzSlmmwu7ISp9I=
+
+Name: images/struts/plug_in.gif
+SHA1-Digest: lukupWOMnxv8UGSYdUAQ2hnsG4k=
+
+Name: images/actions/model_history.gif
+SHA1-Digest: fCmh1ipo5PpCFt60kpzO7o/1WPE=
+
+Name: images/file/floppy.gif
+SHA1-Digest: NAgBptULSQKtGb9D0CvPmyC+8qg=
+
+Name: images/jsf/renderer_kit.gif
+SHA1-Digest: EoBNzByQMlxzw2wND43N50r4pqg=
+
+Name: images/meta/new_icontype.gif
+SHA1-Digest: aPbUCKuATXT8/ZYyrDNU5Q0XvnQ=
+
+Name: images/file/new_unknow_file.gif
+SHA1-Digest: SHNswrrFgmTU/mpv1i81AOyGGug=
+
+Name: images/file/new_java_file.gif
+SHA1-Digest: h1fz2/VZ3byZLVeE4ezo8qSb76k=
+
+Name: images/file/new_xml_file.gif
+SHA1-Digest: SP2w6bXntB7yQSIJAfTyzY6PuF4=
+
+Name: images/meta/new_constraintitem.gif
+SHA1-Digest: ZdUWRpMUA1+XOfJsZHY7YwblbGM=
+
+Name: schema/jspAdopt.exsd
+SHA1-Digest: EjMfCkmwtAipdCzLqhqB9I2fNsI=
+
+Name: images/webxml/error_page.gif
+SHA1-Digest: sOneEx81JS1+goX5P618YJbzYUo=
+
+Name: images/webxml/login_new.gif
+SHA1-Digest: kFp4hz8D9mFFn55ws984rQuodbI=
+
+Name: images/struts/pro/tiles_add.gif
+SHA1-Digest: sPF5dXihKWDXA85VgfsMOVSqsf8=
+
+Name: images/meta/new_entity_extension.gif
+SHA1-Digest: XiYH1iU4UCxVA+nbyj7ZnaPom8c=
+
+Name: images/orm2/table.gif
+SHA1-Digest: LqThgXXUKpdPs8Xv4g1wuGyP1NQ=
+
+Name: images/meta/icontype.gif
+SHA1-Digest: wcWCn+fkKPd7rBQQsEEwTBrRrdE=
+
+Name: images/actions/saveallmodel.gif
+SHA1-Digest: +eztL/Lz1+IAafXMy+n+CqErYGQ=
+
+Name: images/struts/pro/webapp_init_param.gif
+SHA1-Digest: 2YggVUIe7es2jI8vnbME+/UpDxw=
+
+Name: images/struts/pro/new_tiles_add.gif
+SHA1-Digest: 0FW2QxwQSe9XWgiPjmRfN0dgxEw=
+
+Name: schema/classes.exsd
+SHA1-Digest: aE1ijVUtdGuwRtDt8V/2Wg+KdvM=
+
+Name: images/webxml/user_data_new.gif
+SHA1-Digest: Uq72d/T07+1PrJybQMLwhNVgypw=
+
+Name: images/orm2/filter.gif
+SHA1-Digest: yw+nKUChxcddCFJu1o1/FSryqhg=
+
+Name: images/webxml/message.gif
+SHA1-Digest: sjVA0dWbRTLvukqIUA5OYcYdmVk=
+
+Name: images/webxml/error_page_new.gif
+SHA1-Digest: QKecdaSu+j3apaQE2aTsRd3IlEc=
+
+Name: images/struts/global_forward_small.gif
+SHA1-Digest: nioa3YCtSg7wmqWC7Q89Zz79J1k=
+
+Name: images/navigationtree/macros16.gif
+SHA1-Digest: VWu59tZ9Cd1tiOWWLoVsFwxIkQM=
+
+Name: images/struts/form_property.gif
+SHA1-Digest: yDm25JWXlMokZwe+15BpllOnlt4=
+
+Name: images/default.gif
+SHA1-Digest: XtL8VYkfyJNruEHA73PamcCnW0Y=
+
+Name: images/orm2/filled.gif
+SHA1-Digest: aQjOgcqrT9fg0nIkw48Sp58O3+I=
+
+Name: images/struts/pro/validator_arg3.gif
+SHA1-Digest: wimcAs/jxA2Dk0HubL0Od3m1HmQ=
+
+Name: images/webxml/filter_map.gif
+SHA1-Digest: xHWhFrj9Pc0r94lmJ14sjvvtz/Q=
+
+Name: images/actions/copy.gif
+SHA1-Digest: hpNXv+hkBEHAAcMFsQZWixq9t7c=
+
+Name: images/orm2/key-manytoone.gif
+SHA1-Digest: 9+6jsB2OfvwN8xIcJMU6BzBo/3Y=
+
+Name: images/file/closed_folder.gif
+SHA1-Digest: rXoWF9wr5bVTrSHvMuQ4JGRCoF4=
+
+Name: images/webxml/taglib_new.gif
+SHA1-Digest: HK6EPOU1fdAslnUSwgy8L7qKGN4=
+
+Name: images/struts/pro/new_validator_arg0.gif
+SHA1-Digest: CYiZO0Be6ShJUZgo7lwIIl26GmE=
+
+Name: images/webxml/security_constraint.gif
+SHA1-Digest: uoNknzKs6l6JAT5SFqIg3TfE1yM=
+
+Name: images/struts/data_sources.gif
+SHA1-Digest: OX2jpOTweKKswWOaplqtLS5QKAM=
+
+Name: images/orm2/field_key.gif
+SHA1-Digest: NTxIeM0I1H4z6Xx5NJeTdZ1zKfg=
+
+Name: images/struts/pro/webapp_welcome_list.gif
+SHA1-Digest: ClpsSP2c1l+qBVFTqFLROHKl57U=
+
+Name: images/orm2/component.gif
+SHA1-Digest: rZYS03RMTkTokLb3udJwyh0EJE0=
+
+Name: images/common/fire_changes.gif
+SHA1-Digest: pBI5J+CadHTgc+pnkj/uEERYSyw=
+
+Name: images/struts/new_form_bean.gif
+SHA1-Digest: oLYG40k3yOkkYP928cTe16tl4Fs=
+
+Name: images/java/method.gif
+SHA1-Digest: m6Z7XrRkrOkBMj6ScCqzYUH6854=
+
+Name: images/meta/entitydata.gif
+SHA1-Digest: Xlz9AfG5ULdlrNKJzq0mQK6vyiE=
+
+Name: images/common/check.gif
+SHA1-Digest: GH1x78triE2l3WLssvQ5CCReyO4=
+
+Name: images/struts/pro/new_tiles_bean.gif
+SHA1-Digest: Yj6jdKFy0dzgvWXmKd9lh+boZjM=
+
+Name: images/common/search_item.gif
+SHA1-Digest: caWucUmZw6sLga1MrSk2SSb17C8=
+
+Name: images/meta/actionlist_global.gif
+SHA1-Digest: r9xdM6qWDF9dFWYFEi1Gl81PIM8=
+
+Name: images/orm2/manytoany.gif
+SHA1-Digest: soa81GrQc3gzy+TtC7TY8TICHPo=
+
+Name: images/struts/pro/tiles_file.gif
+SHA1-Digest: cBSYXXnLQ8WRyMgcBqEB6q158T8=
+
+Name: images/struts/new_message_resources.gif
+SHA1-Digest: G5ItWvzU10gv22E01PV6HykTh5M=
+
+Name: images/actions/ok.gif
+SHA1-Digest: /ERT+WL/+43TG/6VeN1WDzklNyI=
+
+Name: images/java/newpackages.gif
+SHA1-Digest: coBWIf7MvHT/6f7pkBpz80xgb9o=
+
+Name: images/tabicons/new_group_icons.gif
+SHA1-Digest: xLIW4a6ZvI/puR3dqu78LRrT8s8=
+
+Name: images/meta/children.gif
+SHA1-Digest: BPw2RwxTLjjPDYB2TXUtiO7Fdhg=
+
+Name: images/file/new_css_file.gif
+SHA1-Digest: 08mSNB3vfn8Oj18AkqHoAyLQSr8=
+
+Name: images/meta/iconsgroup.gif
+SHA1-Digest: tdMAg4WUMXGK6ZWzTX//eJnWiHY=
+
+Name: images/meta/attribute.gif
+SHA1-Digest: lFsUJm/MN5rLMFhAJ1on4pEIIkQ=
+
+Name: images/meta/entity.gif
+SHA1-Digest: hn1oQZ6UvIGYuOojSB48VhtpqIc=
+
+Name: images/webxml/run_as_new.gif
+SHA1-Digest: Da6nXrB48I5mn+cx0NGO3WHsL18=
+
+Name: images/orm2/manytomany.gif
+SHA1-Digest: Gnkgj34+JopCNOQ5mp0cheLYcrA=
+
+Name: images/navigationtree/options_tree.gif
+SHA1-Digest: pCge2X2dojbEpPzYnWvr/AEwEHI=
+
+Name: images/webxml/mime_map.gif
+SHA1-Digest: MYwQ18dTcEBYKyy+Cck3SUQGW6k=
+
+Name: images/meta/new_entity.gif
+SHA1-Digest: mGFIVXoYtmyYHBxkRgxsj5J6Zd4=
+
+Name: images/orm2/collection_small.gif
+SHA1-Digest: DSj82GZhgxbMQgqM5hJkdHR3ZYE=
+
+Name: images/webxml/web_resource_collection.gif
+SHA1-Digest: OcMhNvFKE539Yk7fhsaOWZ3twsU=
+
+Name: images/struts/struts_project.gif
+SHA1-Digest: uMRxXlsa5M2v2P64FQi1hId1/KU=
+
+Name: images/file/redhat_folder.gif
+SHA1-Digest: Yw31P/jjc1ENeMunJevE4g+G6FQ=
+
+Name: images/struts/pro/webapp_welcome.gif
+SHA1-Digest: Rp1A7RmEeE5l/Hed9fZKJqExXag=
+
+Name: images/file/dialog-config.gif
+SHA1-Digest: PfEUo2Qlh0bzYbsTJyNr6OO7qZg=
+
+Name: images/struts/pro/new_webapp_error.gif
+SHA1-Digest: rVbtJSnYtE+dSgNjJ/98zpoEv8U=
+
+Name: images/file/to_top_folder.gif
+SHA1-Digest: i4joZpTH5wszYdv0axIFCYbCVAs=
+
+Name: images/jsf/property-resolver.gif
+SHA1-Digest: xPwmC/NCPqo+D16NEt1y3R3YRuI=
+
+Name: images/jsf/referenced_bean.gif
+SHA1-Digest: p8UCMpw//KIqy9yMELAlOV5txQM=
+
+Name: images/webxml/new_service.gif
+SHA1-Digest: S04RyX/2ItAF2ePta16O57wOrlU=
+
+Name: images/file/jsp_file.gif
+SHA1-Digest: 3ahHnBCmB/+n5oM+rrmQwpebPTo=
+
+Name: images/actions/delete.gif
+SHA1-Digest: pX/gmZAGH4WU6h64uHtvxsIVAhI=
+
+Name: images/struts/pro/webapp_servlet_map.gif
+SHA1-Digest: bV0eoYlXOUVGlUKg7ToU2KIyDgs=
+
+Name: schema/modelObjectAdapter.exsd
+SHA1-Digest: gmVCBX+IAUlxYHUvuXygyS+Zbgc=
+
+Name: images/actions/refresh.gif
+SHA1-Digest: MIPbwlsSSHllRyCXRz4zIn9Rs1E=
+
+Name: images/struts/pro/new_webapp_session_config.gif
+SHA1-Digest: 94qNz+YV50udxrhMD3UCUHmOtpw=
+
+Name: images/webxml/filter_new.gif
+SHA1-Digest: vWFLkZJ4vrJIraXVkL1r5bWkyjM=
+
+Name: images/orm2/parameter.gif
+SHA1-Digest: ivae6nRXlgml0zywJcg/tU0KIBA=
+
+Name: images/struts/pro/new_webapp_welcome_list.gif
+SHA1-Digest: qQ0D7xpWb0MINl27RoscC6ttNSY=
+
+Name: images/file/new_taglibs_file.gif
+SHA1-Digest: n6TIq09DrAjICOOWojy+4PQ/EoM=
+
+Name: images/struts/new_plug_in.gif
+SHA1-Digest: kYeP5G/z3OyHSJFS4tSThGxm4L4=
+
+Name: images/meta/attributeconstraint.gif
+SHA1-Digest: joVdSs8514jKEpDi5WTzAoXDl1I=
+
+Name: images/struts/pro/new_tiles_definition.gif
+SHA1-Digest: DU2aijXAiPflaPHmYCCyT65ImhA=
+
+Name: images/struts/exceptions.gif
+SHA1-Digest: sIkR4WEaawRN2s8XEwgCIcy9EJs=
+
+Name: images/webxml/attr_filter_new.gif
+SHA1-Digest: 6t/MUtvDOsRMjTlGmRC/AdQ1CPU=
+
+Name: images/struts/web_root.gif
+SHA1-Digest: J/3G8DETyDY4I0FX4mWMApgNcrs=
+
+Name: images/navigationtree/new_property.gif
+SHA1-Digest: isVayi5VLte51PiYKRbclWpca2U=
+
+Name: images/orm2/index.gif
+SHA1-Digest: FkoU7zyb3qKlKRdAA1Pd82ao07A=
+
+Name: images/struts/pro/new_webapp_servlet.gif
+SHA1-Digest: 2BKONGnxqPdFOtdAMjRAJkp0FrU=
+
+Name: images/orm2/index-manytoany.gif
+SHA1-Digest: OjAF3uELrggbw61Bj/EAVkyZeeI=
+
+Name: images/struts/new_struts.gif
+SHA1-Digest: 00Cjw/i2RrxifFsTBUSIWuQ/GnQ=
+
+Name: images/struts/pro/tiles_definition.gif
+SHA1-Digest: J/PLa38Fr0FUmtZXkQQQT2Ljh1M=
+
+Name: images/jsf/renderer_kits.gif
+SHA1-Digest: QUxrc9tvkERX/cf9nD7EEod7cBc=
+
+Name: images/meta/action.gif
+SHA1-Digest: xOyWhjeER835thbWU0Lxtu2IT7U=
+
+Name: schema/specialwizard.exsd
+SHA1-Digest: AmkUeZUVh9z82miEkoYcHuNG+yU=
+
+Name: images/file/new_folder.gif
+SHA1-Digest: iZE14QZZSsYPBexCScwEsZCrqrc=
+
+Name: images/struts/pro/validator_constant.gif
+SHA1-Digest: 30Q7cQqrTc8LOrJZX5ehQMKRrig=
+
+Name: images/struts/new_exception.gif
+SHA1-Digest: rVbtJSnYtE+dSgNjJ/98zpoEv8U=
+
+Name: images/webxml/reference_new.gif
+SHA1-Digest: v7wYDx4MmwBcJIM7WSCYNiHtYnI=
+
+Name: images/struts/pro/new_tiles_putlist.gif
+SHA1-Digest: djTOuHexXzwETt2LuHCTiaOfTAU=
+
+Name: images/file/redhat_file.gif
+SHA1-Digest: ek2xCGaZsZ1/1He1LJVefgPwg50=
+
+Name: images/webxml/ejb_local.gif
+SHA1-Digest: /LHPAZ+Aqvr7FdX0DFvpdi8YKUM=
+
+Name: images/struts/properties.gif
+SHA1-Digest: NxqrRlkSeYHt8ij0BvxkjXVuLgo=
+
+Name: images/struts/pro/new_tiles_file.gif
+SHA1-Digest: /1JS5PFMVTN5noYc1X3wMENalWQ=
+
+Name: images/webxml/role_new.gif
+SHA1-Digest: NtFwUiaA0UKDJTYFHtJc2ZBAL00=
+
+Name: images/tabicons/group_icons.gif
+SHA1-Digest: qx+hGr+ggv+5dGeXzGEI5gMIyRU=
+
+Name: images/webxml/user_data.gif
+SHA1-Digest: uwpo3J6xaNDbdDX3IFjtDR4JPXw=
+
+Name: images/orm2/comment.gif
+SHA1-Digest: E0r/grQ5PGqlWhufGjmAqRi9yvw=
+
+Name: images/struts/pro/new_validator.gif
+SHA1-Digest: L8EF6Gzg801m8AOaxEpQUcLtIDU=
+
+Name: images/meta/new_mappingitem.gif
+SHA1-Digest: nTwyqou0z/MuA2N5ucNRVuUk+rQ=
+
+Name: images/orm2/empty.gif
+SHA1-Digest: u5Jr2UI6FK9Kcact+X4Uud33hrw=
+
+Name: images/file/css_file.gif
+SHA1-Digest: 2L/DZ+YHZDArcj1VaW8KifPSnr8=
+
+Name: images/struts/pro/webapp_security_role.gif
+SHA1-Digest: BKJqZI0vluJBwxociIaAm//ERd8=
+
+Name: images/meta/icon.gif
+SHA1-Digest: gK7baQON7jHUrVdVBoHdPWZoXeU=
+
+Name: images/jsf/navcase.gif
+SHA1-Digest: pyFr1GXO49/N2iNf+JJfNiBgc6c=
+
+Name: images/meta/attributes.gif
+SHA1-Digest: UsYpA71/VfvM3D2kyr4gvkkCl9M=
+
+Name: images/navigationtree/new_project.gif
+SHA1-Digest: HHAyJJOCPOraaNiZ4E/yJS6/adY=
+
+Name: images/file/gif_file.gif
+SHA1-Digest: gK7baQON7jHUrVdVBoHdPWZoXeU=
+
+Name: images/jsf/jsf_project.gif
+SHA1-Digest: HPpxSY+lr5UlaicNkB1rvBVjWmk=
+
+Name: images/file/new_ant_file.gif
+SHA1-Digest: qS6kusJ9hh+ITI09lgn9NMW2gdE=
+
+Name: images/webxml/web_resource_collection_new.gif
+SHA1-Digest: i3GvPKo/hI+5K02bnO0CiPtci0g=
+
+Name: images/webxml/welcome_file_list.gif
+SHA1-Digest: 6AEtBAnm76XMebwN59wtI+rs0Is=
+
+Name: images/webxml/new_message.gif
+SHA1-Digest: 3NjP9VhFgA2fwB/PEUThhxY2NAY=
+
+Name: images/webxml/servlet_new.gif
+SHA1-Digest: ktAGJOzjw0bXhRMhSniizCWYT7M=
+
+Name: images/struts/pro/validator_form.gif
+SHA1-Digest: 3k9ttiZVnlMl2XcO3X9Y2Ws3+W4=
+
+Name: plugin.xml
+SHA1-Digest: AHMLwIzfBTFsBprflNU5Me1iVik=
+
+Name: images/webxml/init_param_new.gif
+SHA1-Digest: v1BkhVDaDtvCMmusyVXDwKAkRyo=
+
+Name: images/struts/pro/validator_field.gif
+SHA1-Digest: AmFQmJdlA2f2WN9MEIeuPq0tCtY=
+
+Name: images/webxml/attr_filter.gif
+SHA1-Digest: 7s6YBtLOgWOuyYns8BHDRGGGWoA=
+
+Name: images/meta/new_attributedata.gif
+SHA1-Digest: 8h5rSyZJTkn+9MnuebC8ZA5a+RY=
+
+Name: images/common/qmark.gif
+SHA1-Digest: W9eWAW4IulARFwCrOClbypdtOoU=
+
+Name: images/struts/pro/taglibs_file.gif
+SHA1-Digest: /UWlkGz8/1ynIQolSMSkmG7cUzw=
+
+Name: images/jdo/relation/super_table.gif
+SHA1-Digest: neSBum4L6yJOiE4/vmta+Qq63W4=
+
+Name: images/struts/pro/new_validator_arg3.gif
+SHA1-Digest: V1N5UR8x2MuIxCOv6OEVzKNqhms=
+
+Name: images/file/new_properties_file.gif
+SHA1-Digest: nTddLGNf+E+3e6vNTgPp8InNtLg=
+
+Name: images/webxml/taglib.gif
+SHA1-Digest: SqjBELjMaFB/IiiRi2DOKUoT21o=
+
+Name: images/jsf/renderer.gif
+SHA1-Digest: gK7baQON7jHUrVdVBoHdPWZoXeU=
+
+Name: images/jsf/transition.gif
+SHA1-Digest: pXF2xtQ24IvMntSGkMn1acDqXR8=
+
+Name: images/webxml/security_constraint_new.gif
+SHA1-Digest: QcdUIU6f2Jt/Z/EjkQrRiuWgYyY=
+
+Name: images/jsf/lifecycle.gif
+SHA1-Digest: urRaD7QBmfyDt4owpMAODkU9US8=
+
+Name: images/webxml/role.gif
+SHA1-Digest: btOAKW/4yyriEP9aqU/0LbE9lQM=
+
+Name: images/actions/redo.gif
+SHA1-Digest: Sb1h2iwCO9wnPbwdkCa8zjC8T9s=
+
+Name: images/meta/constraintitem.gif
+SHA1-Digest: 1gNzlFiZc2kW4GAx97qnzFS1/JM=
+
+Name: images/navigationtree/macros_group.gif
+SHA1-Digest: i5+/OzVtOihJrzHThIAvWnTRBt4=
+
+Name: images/struts/exception.gif
+SHA1-Digest: KqZQHxoRPniwyfmRKs/TfNlrXM4=
+
+Name: images/file/js_file.gif
+SHA1-Digest: oCeyzT8SxmzOEcKWFNJFzemw6oc=
+
+Name: images/webxml/listener_new.gif
+SHA1-Digest: cYwnsZF9tWF12rEvpK3p1sv5dw4=
+
+Name: images/orm2/id.gif
+SHA1-Digest: kNDayFqu/gxhFGeifSGCCvQgdd4=
+
+Name: images/meta/meta_file.gif
+SHA1-Digest: Lg8Pt/WXl/QN/rByoV4Z+cZasoo=
+
+Name: images/orm2/index-manytomany.gif
+SHA1-Digest: 4fv49buF1MltTHig3/1n/hjO8Vc=
+
+Name: images/seam/variable.gif
+SHA1-Digest: tZzGzde9ARvHJMZw9MR+j8ivOlQ=
+
+Name: images/webxml/env_entry.gif
+SHA1-Digest: RecDxR6f5UTKaKSbLSvPz1B/pCM=
+
+Name: images/struts/pro/new_validator_file.gif
+SHA1-Digest: Y9cbaH3p6tYmfJNrhsG3YSxHMgM=
+
+Name: images/actions/select.gif
+SHA1-Digest: blZxSskLXeicYxxxSqv8L8+khl4=
+
+Name: images/struts/message_resources.gif
+SHA1-Digest: xQLj+FDxKb7BEKQlpu/NBJUv9UM=
+
+Name: images/file/html_file.gif
+SHA1-Digest: 6QfA13VcNKW+M+nU3T0TTuoNrfA=
+
+Name: images/jsf/validate.gif
+SHA1-Digest: uBZFmRlR+RhCY8DpL82Iszf/SyE=
+
+Name: images/webxml/servlet_map.gif
+SHA1-Digest: 1HU6xn9JjEZKjIljEkBdemPLb8s=
+
+Name: images/file/openned_folder.gif
+SHA1-Digest: rXoWF9wr5bVTrSHvMuQ4JGRCoF4=
+
+Name: images/struts/new_form_property.gif
+SHA1-Digest: 4EKSMSPYzVpZJXTCa+SSqoO9i1o=
+
+Name: images/webxml/service.gif
+SHA1-Digest: PF8Lmc6mkEtXprI44hJzx/s0B8E=
+
+Name: images/struts/pro/webapp_session_config.gif
+SHA1-Digest: uvdiPzY2zk+oHNu9nHjSt7Lmiwo=
+
+Name: images/meta/new_iconsgroup.gif
+SHA1-Digest: 861Al+/NUXgxb+shuP7W0/9v8Sg=
+
+Name: images/struts/new_data_source.gif
+SHA1-Digest: N+h2AhMbEgJNqdjcXxhml2mvSW4=
+
+Name: images/struts/new_action.gif
+SHA1-Digest: LbBo/chaVUjr0R2OkSoe7sVVRtM=
+
+Name: images/struts/controller.gif
+SHA1-Digest: gIGmN8SCx54sM0gmcLUmCZQVmC0=
+
+Name: images/webxml/ejb_new.gif
+SHA1-Digest: IEJ4GRULuV3mQyxh82li+R1Hqvk=
+
+Name: images/orm2/column.gif
+SHA1-Digest: drfjhu0IRvEyIxJ7c6liorzRt1w=
+
+Name: images/struts/pro/new_taglibs_tag.gif
+SHA1-Digest: lpengmuq98EI9kyJEtYeDuLzW0o=
+
+Name: images/meta/actionlist.gif
+SHA1-Digest: R5365t6KSiL31VveusQQqEJzCmE=
+
+Name: images/webxml/mime_map_new.gif
+SHA1-Digest: g4tbE4f2FlqJ8M9bM45Rf2yXEvs=
+
+Name: images/navigationtree/state_template16.gif
+SHA1-Digest: Ttd4NOqM+46Z4df3U+DbOcelMFM=
+
+Name: schema/meta.dtd
+SHA1-Digest: dsimAWSb0JHhSU1zzlMo3tzROx0=
+
+Name: images/jsf/convertors.gif
+SHA1-Digest: T/Bq187mWeDbS4B+5XneD3+kRm8=
+
+Name: images/orm2/collection.gif
+SHA1-Digest: M+Srz0DDa5ofAy203o5gYSZ185Y=
+
+Name: images/struts/folder_ico.jpg
+SHA1-Digest: SfFqTGtcIT1QofpGGW3w679HVRU=
+
+Name: images/file/unknow_file.gif
+SHA1-Digest: 3hnf8GgaRB1vP+vm3dNM7GURVUU=
+
+Name: images/jsf/factory.gif
+SHA1-Digest: 681C4qjplxR6ycVEzrRSJ2Aokeg=
+
+Name: images/java/systemclass.gif
+SHA1-Digest: sdyLqWaBcfdj1XAawRgcomsbATw=
+
+Name: images/mapeditor/auto.gif
+SHA1-Digest: 8QrFmgHNUSN8dNox0/E4ehsttTU=
+
+Name: images/struts/pro/new_taglibs_file.gif
+SHA1-Digest: jhsftAoo26L8rBCV+d+ZP/CImNE=
+
+Name: images/struts/pro/new_webapp_servlet_map.gif
+SHA1-Digest: AlujXW0iKLZm9SiIP5YXJjGANIw=
+
+Name: images/orm2/connection.gif
+SHA1-Digest: HkQv9Lc2q2WFMmPc8qF0zy0I5t8=
+
+Name: images/struts/new_properties.gif
+SHA1-Digest: GzbiYTyGfIaHsygALj/hyXEyNMg=
+
+Name: images/actions/start.gif
+SHA1-Digest: /g88QTDImurC/q7jkF5Lu338oxM=
+
+Name: images/orm2/onetoone.gif
+SHA1-Digest: C8wvrowiLkwnOd6zY1V+yJzr3Qw=
+
+Name: images/file/xml_file.gif
+SHA1-Digest: aS0oEVlUFHg7zVrXKRh54GszeoE=
+
+Name: images/java/package.gif
+SHA1-Digest: UvipIRjkZffc9p89uaNTJKOfWrU=
+
+Name: images/file/new_html_file.gif
+SHA1-Digest: LyHtiSb6sVn32tFfaIvg4cXDIXc=
+
+Name: images/struts/link.gif
+SHA1-Digest: J1LdNkDlaKV71JJyH0x4qKqpH+I=
+
+Name: images/actions/new.gif
+SHA1-Digest: TYhTdCxD+B1KZnR2e08dXL/uEsw=
+
+Name: images/meta/new_mapping.gif
+SHA1-Digest: qjzazCxa0QiNygS2GR4M9w4NwPw=
+
+Name: images/navigationtree/palette_tree.gif
+SHA1-Digest: 2WNJmA11eq+E+hIbymAXWU8O3HQ=
+
+Name: images/struts/pro/new_webapp_security_role.gif
+SHA1-Digest: Uq72d/T07+1PrJybQMLwhNVgypw=
+
+Name: images/jsf/new_project.gif
+SHA1-Digest: aHN7FjJMSbiPLBv0T1pnWnGUSEY=
+
+Name: images/jsf/property.gif
+SHA1-Digest: V4cWwC1TbcuAuYUBOgknPlpdeCU=
+
+Name: images/orm2/field.gif
+SHA1-Digest: vBx8ZLv3VAT+l3/yTKhvGWxZKg8=
+
+Name: images/tabicons/tab_icons.gif
+SHA1-Digest: WAoYERuug0PG1GycfHZx4MmuukE=
+
+Name: images/palette/any-tag-large.gif
+SHA1-Digest: ApUkdFyBU4CJv5sEco0iu+F8OQg=
+
+Name: images/jsf/properties.gif
+SHA1-Digest: vM9w5Nhmif13oS1lDr7ChH2v+b0=
+
+Name: images/jsf/web_application.gif
+SHA1-Digest: +p4RLAN/KGCZh+j7ggkb2ReANlE=
+
+Name: images/webxml/env_entry_new.gif
+SHA1-Digest: NQmLbgd4bCyYC6MlQRxZscpae4A=
+
+Name: images/struts/page_w_tile.gif
+SHA1-Digest: o8iPWDvUD+zwKL8lYQufpwi5vdY=
+
+Name: images/jsf/import_project.gif
+SHA1-Digest: DfNfRLF9xDonTtRSV6RP2bHnej8=
+
+Name: images/webxml/reference.gif
+SHA1-Digest: xiWsQJ64SZEvDS2thwGIzFsbCJg=
+

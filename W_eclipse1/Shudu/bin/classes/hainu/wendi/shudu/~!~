@@ -1,0 +1,91 @@
+package hainu.wendi.shudu;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.Gravity;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.GridLayout;
+
+public class Shudu extends Activity {
+	GridLayout gridLayout1,gridLayout2;
+	String[] s = new String[81];
+	//获取屏幕尺寸大小，是程序能在不同大小的手机上有更好的兼容性
+	  WindowManager wm=(WindowManager)getBaseContext().getSystemService(Context.WINDOW_SERVICE);
+	  @SuppressWarnings("deprecation")
+	  long wwidth=wm.getDefaultDisplay().getWidth();//手机屏幕的宽度
+	  long hheight=wm.getDefaultDisplay().getHeight();//手机屏幕的高度
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_shudu);
+		gridLayout1 = (GridLayout)findViewById(R.id.gridL1);
+		gridLayout2 = (GridLayout)findViewById(R.id.gridL2);
+		for(int i = 0 ;i< 81;i++){
+			Button bn = new Button(this);
+			bn.setText("3");
+			GridLayout.Spec rowSpec = GridLayout.spec(i/9);
+			GridLayout.Spec columnSpec = GridLayout.spec(i%9);
+			GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec, columnSpec);
+			params.setGravity(Gravity.FILL);
+			gridLayout1.addView(bn,params);
+		}
+		for(int i = 0;i<10;i++){
+			Button bn = new Button(this);
+			bn.setText("6");
+			GridLayout.Spec rowSpec = GridLayout.spec(i/5);
+			GridLayout.Spec columnSpec = GridLayout.spec(i%5);
+			GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+			params.setGravity(Gravity.FILL);
+			gridLayout2.addView(bn,params);
+		}
+	}
+}
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shudu" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rl1"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    
+    <GridLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridL1"
+        android:rowCount="9"
+        android:columnCount="9"
+        android:layout_below="@id/rl1"
+        >
+    </GridLayout>
+    <GridLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridL2"
+        android:rowCount="2"
+        android:columnCount="5"
+        android:layout_below="@id/gridL1"
+        ></GridLayout>
+
+</RelativeLayout>

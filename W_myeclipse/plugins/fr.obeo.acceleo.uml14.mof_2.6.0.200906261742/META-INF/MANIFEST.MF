@@ -1,0 +1,119 @@
+Manifest-Version: 1.0
+Export-Package: .,fr.obeo.acceleo.uml14.mof,javax.jmi.corbaidltypes,ja
+ vax.jmi.model,javax.jmi.model.resources,javax.jmi.primitivetypes,java
+ x.jmi.reflect,javax.jmi.xmi,org.andromda.core,org.andromda.core.cartr
+ idge,org.andromda.core.cartridge.template,org.andromda.core.common,or
+ g.andromda.core.configuration,org.andromda.core.engine,org.andromda.c
+ ore.mapping,org.andromda.core.metafacade,org.andromda.core.namespace,
+ org.andromda.core.profile,org.andromda.core.repository,org.andromda.c
+ ore.server,org.andromda.core.templateengine,org.andromda.core.transfo
+ rmation,org.andromda.core.translation,org.andromda.core.translation.l
+ ibrary,org.andromda.metafacades.uml,org.andromda.metafacades.uml14,or
+ g.andromda.repositories.mdr,org.apache.commons.collections,org.apache
+ .commons.collections.bag,org.apache.commons.collections.bidimap,org.a
+ pache.commons.collections.buffer,org.apache.commons.collections.colle
+ ction,org.apache.commons.collections.comparators,org.apache.commons.c
+ ollections.functors,org.apache.commons.collections.iterators,org.apac
+ he.commons.collections.keyvalue,org.apache.commons.collections.list,o
+ rg.apache.commons.collections.map,org.apache.commons.collections.set,
+ org.apache.commons.lang,org.apache.commons.lang.builder,org.apache.co
+ mmons.lang.enum,org.apache.commons.lang.exception,org.apache.commons.
+ lang.math,org.apache.commons.lang.time,org.apache.log4j,org.apache.lo
+ g4j.chainsaw,org.apache.log4j.config,org.apache.log4j.helpers,org.apa
+ che.log4j.jdbc,org.apache.log4j.jmx,org.apache.log4j.lf5,org.apache.l
+ og4j.lf5.config,org.apache.log4j.lf5.util,org.apache.log4j.lf5.viewer
+ ,org.apache.log4j.lf5.viewer.categoryexplorer,org.apache.log4j.lf5.vi
+ ewer.configure,org.apache.log4j.lf5.viewer.images,org.apache.log4j.ne
+ t,org.apache.log4j.nt,org.apache.log4j.or,org.apache.log4j.or.jms,org
+ .apache.log4j.or.sax,org.apache.log4j.spi,org.apache.log4j.varia,org.
+ apache.log4j.xml,org.netbeans.api.mdr,org.netbeans.api.mdr.events,org
+ .netbeans.api.xmi,org.netbeans.api.xmi.sax,org.netbeans.jmiimpl.mof.m
+ odel,org.netbeans.lib.jmi.mapping,org.netbeans.lib.jmi.query,org.netb
+ eans.lib.jmi.query.mof,org.netbeans.lib.jmi.util,org.netbeans.lib.jmi
+ .xmi,org.netbeans.lib.jmi.xmi.resources,org.netbeans.mdr,org.netbeans
+ .mdr.handlers,org.netbeans.mdr.handlers.gen,org.netbeans.mdr.persiste
+ nce,org.netbeans.mdr.persistence.btreeimpl.btreeindex,org.netbeans.md
+ r.persistence.btreeimpl.btreestorage,org.netbeans.mdr.persistence.mem
+ oryimpl,org.netbeans.mdr.storagemodel,org.netbeans.mdr.storagemodel.t
+ ransientimpl,org.netbeans.mdr.util,org.netbeans.modules.openide.util,
+ org.omg.uml,org.omg.uml.behavioralelements.activitygraphs,org.omg.uml
+ .behavioralelements.collaborations,org.omg.uml.behavioralelements.com
+ monbehavior,org.omg.uml.behavioralelements.statemachines,org.omg.uml.
+ behavioralelements.usecases,org.omg.uml.diagraminterchange,org.omg.um
+ l.foundation.core,org.omg.uml.foundation.datatypes,org.omg.uml.modelm
+ anagement,org.openide,org.openide.resources,org.openide.util,org.open
+ ide.util.actions,org.openide.util.datatransfer,org.openide.util.io,or
+ g.openide.util.lookup,org.openide.xml
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore,org.ecl
+ ipse.emf.ecore.xmi,fr.obeo.acceleo.uml14,fr.obeo.acceleo.ecore,fr.obe
+ o.acceleo.tools
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.uml14.mof.jar,lib/jmi/jmi-20030918.j
+ ar,lib/mdr/jmiutils-20050630.jar,lib/andromda-core-3.1.jar,lib/androm
+ da-metafacades-uml14-3.1.jar,lib/andromda-metafacades-uml-3.1.jar,lib
+ /andromda-repository-mdr-3.1.jar,lib/commons-collections-3.1.jar,lib/
+ commons-lang-2.0.jar,lib/log4j-1.2.8.jar,lib/jmi/jmiuml-1.4di.jar,lib
+ /jmi/mof-20030918.jar,lib/mdr/mdrapi-20050630.jar,lib/mdr/nbmdr-20050
+ 630.jar,lib/mdr/openide-util-20050630.jar
+Bundle-Version: 2.6.0.200906261742
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.uml14.mof.AcceleoUml14MofPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.uml14.mof;singleton:=true
+
+Name: lib/andromda-repository-mdr-3.1.jar
+SHA1-Digest: AWSDqkU5N8VdIW0YOnv4dSiP5Lc=
+
+Name: lib/mdr/mdrapi-20050630.jar
+SHA1-Digest: MbbWLlwocD80L3TQUlZq/RH/brE=
+
+Name: lib/mdr/openide-util-20050630.jar
+SHA1-Digest: olBPrz12qrY0Wy11O/z93GWltio=
+
+Name: lib/andromda-core-3.1.jar
+SHA1-Digest: SbkPH5aWv+d9Ozp6LHcLYgASGQk=
+
+Name: lib/commons-collections-3.1.jar
+SHA1-Digest: QPsEgJfK6s2xHbsztXVYVNie/es=
+
+Name: lib/mdr/jmiutils-20050630.jar
+SHA1-Digest: mn9Jvt3dyiUxKihka4O8wtxmaL0=
+
+Name: plugin.properties
+SHA1-Digest: 24HGj3SR+YhXqW07WnI2JFg/1Qk=
+
+Name: lib/jmi/jmiuml-1.4di.jar
+SHA1-Digest: YxM48UP+10YGVH7JocShMVdJ9sI=
+
+Name: lib/log4j-1.2.8.jar
+SHA1-Digest: NkDdcQadeYbJoU0zNRkhb0ylwJQ=
+
+Name: lib/andromda-metafacades-uml14-3.1.jar
+SHA1-Digest: IIfbnlCZQytPr5I2t4IKTSexCRk=
+
+Name: lib/andromda-metafacades-uml-3.1.jar
+SHA1-Digest: Dwoxy8tF5LhJytmkOTBONsjSdUU=
+
+Name: fr.obeo.acceleo.uml14.mof.jar
+SHA1-Digest: dflvilynSwldlewDolk4bw5Zz00=
+
+Name: fr.obeo.acceleo.uml14.mofsrc.zip
+SHA1-Digest: VXxD5ZZNH2p0q9FEjU8F2JbyU5Q=
+
+Name: plugin.xml
+SHA1-Digest: CeOMkoZHJ7klvfyE+PJmIcgDJxk=
+
+Name: lib/jmi/jmi-20030918.jar
+SHA1-Digest: l8ecyjYfN1ITlkcuMP2PIUXyxrc=
+
+Name: lib/commons-lang-2.0.jar
+SHA1-Digest: spIbeGLnsmtDqiOcLCDMFkMaj/0=
+
+Name: lib/mdr/nbmdr-20050630.jar
+SHA1-Digest: u62oTYPWEOHBq86cGigB9469qJE=
+
+Name: lib/jmi/mof-20030918.jar
+SHA1-Digest: sasq1rVvrbtrfmPjiB/NuXdfVu0=
+

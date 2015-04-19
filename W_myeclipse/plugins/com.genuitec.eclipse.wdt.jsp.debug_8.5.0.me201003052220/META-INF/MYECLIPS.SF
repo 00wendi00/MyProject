@@ -1,0 +1,41 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: cEWNZJaQKgDdDVdSYYAvvmbLI3Y=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: LIBdRZkhUrrBElBeJsqHDYIU7bg=
+
+Name: icons/osprc_obj.gif
+SHA1-Digest: 2tlb5o/v7VCid0C1KpaWqvV0J38=
+
+Name: lib/commons-logging-api.jar
+SHA1-Digest: w80v0s/VgomDV4QgH1qZuRPCIvE=
+
+Name: lib/jasper-runtime.jar
+SHA1-Digest: Y5EwxQVaVH+Ytb7zSLu+sxN3EPY=
+
+Name: lib/servlet-api.jar
+SHA1-Digest: 6iWA11IItjJHeiTHUwPRiOSSGtg=
+
+Name: plugin.xml
+SHA1-Digest: nOy6T3xX81rYFHM7kxpkCE+7A6U=
+
+Name: about.html
+SHA1-Digest: m7/V5vnPZk6sBi7+UUCz10p3tzU=
+
+Name: icons/server.gif
+SHA1-Digest: RdRPSs2qDTBzuvjja3q2nDPZKMw=
+
+Name: license.html
+SHA1-Digest: S+SqkwDohlc+7bEEdfhyjfv7If0=
+
+Name: plugin.properties
+SHA1-Digest: ZVs7XvNLXZTDvOjYBIbgB1afOHc=
+
+Name: lib/commons-el.jar
+SHA1-Digest: ZG8sOPdu04LhJBcgyKzvwzAWWbI=
+
+Name: debug.jar
+SHA1-Digest: T1mZIOdmFHFNpjTzueiU32PlMHE=
+
+Name: lib/jsp-api.jar
+SHA1-Digest: Dw6+tuYeRjncZ5Nklk+HbsDFG6w=
+

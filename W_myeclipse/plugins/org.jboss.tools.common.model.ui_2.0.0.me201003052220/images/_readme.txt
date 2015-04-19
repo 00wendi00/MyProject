@@ -1,0 +1,1 @@
+Copy these folders to org.jboss.tools.common.model.ui/images replacing original images.

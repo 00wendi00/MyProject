@@ -1,0 +1,60 @@
+/**
+ * 文件名：Sequence3.java
+ * 项目-包：JAVA编程思想 - 第十五章泛型
+ * 作者：张文迪
+ * 创建日期：2014-10-20
+ */
+package 第十五章泛型;
+
+
+/**
+ * @author 张文迪
+ * 类名：Sequence3
+ * 类说明：
+ */
+public class Sequence3 
+{
+	private Object[] items;
+	private int next = 0;
+	// to test SequenceSelector sequence4() in main():
+	public void test() { System.out.println("Sequence4.test()"); }
+	public Sequence3(int size) { items = new Object[size]; }
+	public void add(Object x) 
+	{
+		if(next < items.length)
+			items[next++] = x;
+	}
+	private class SequenceSelector implements Selector 
+	{
+		private int i = 0;
+		public boolean end() { return i == items.length; }
+		public Object current() { return items[i]; }
+		public void next() { if(i < items.length) i++; } 
+		// method to produce outer class reference:
+		public Sequence3 sequence4() { return Sequence3.this; }
+	}
+	public Selector selector() 
+	{
+		return new SequenceSelector();
+	}
+	public static void main(String[] args) 
+	{
+		Sequence3 sequence = new Sequence3(10);
+		for(int i = 0; i < 10; i++)
+			sequence.add(Integer.toString(i));
+		Selector selector = sequence.selector();
+		while(!selector.end()) 
+		{
+			System.out.print(selector.current() + " ");
+			selector.next();
+		}
+		// cast and test:
+		((SequenceSelector)selector).sequence4().test();	
+	}
+}
+interface Selector 
+{
+	boolean end();
+	Object current();
+	void next();
+}

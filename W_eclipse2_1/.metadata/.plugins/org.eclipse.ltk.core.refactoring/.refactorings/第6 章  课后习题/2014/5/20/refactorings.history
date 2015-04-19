@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Test.java&apos; to &apos;第6章 GUI/src/课后习题&apos;&#x0D;&#x0A;－ 原始项目：“第6 章  课后习题”&#x0D;&#x0A;－ 目标元素：“第6章 GUI/src/课后习题”&#x0D;&#x0A;－ 原始元素：“好的.Test.java”&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动编译单元" destination="=第6章 GUI/src&lt;课后习题" element1="/src&lt;好的{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1399768970347" units="1" version="1.0"/>
+</session>

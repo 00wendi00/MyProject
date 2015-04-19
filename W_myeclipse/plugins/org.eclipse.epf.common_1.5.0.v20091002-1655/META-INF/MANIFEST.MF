@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.epf.common,org.eclipse.epf.common.preferen
+ ces,org.eclipse.epf.common.serviceability,org.eclipse.epf.common.util
+ s,org.eclipse.epf.common.xml
+Bundle-ClassPath: common.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: com.ibm.icu;visibility:=reexport,org.eclipse.core.reso
+ urces;visibility:=reexport,org.eclipse.core.runtime;visibility:=reexp
+ ort,org.apache.ant;visibility:=reexport
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 1.5.0.v20091002-1655
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.epf.common.CommonPlugin
+Bundle-SymbolicName: org.eclipse.epf.common;singleton:=true
+
+Name: plugin.xml
+SHA1-Digest: 6yNOSgx5RqvauJB9pqSBWPuYiZA=
+
+Name: about.html
+SHA1-Digest: wBxq15e+3i8ihRK2cFX6ZhCK3R0=
+
+Name: plugin.properties
+SHA1-Digest: I/QZgUHXD5FLVU0gRzK1Mu1oWuM=
+
+Name: common.jar
+SHA1-Digest: 83wxNYiymg6MX652Q6G8HjK0IB4=
+

@@ -1,0 +1,500 @@
+13:49:38 **** Build of configuration Default for project HelloWorld ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;$NDK_ROOT:$PATH;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:56:22 **** Build of configuration Default for project MyProject ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;$NDK_ROOT:$PATH;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+19:01:27 **** Build of configuration Default for project MyProject ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;$NDK_ROOT:$PATH;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+20:29:46 **** Clean-only build of configuration Default for project Myproject ****
+bash "E:\\ndk\\ndk-build" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;$NDK_ROOT:$PATH;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+20:50:15 **** Clean-only build of configuration Default for project Myproject ****
+bash "E:\\ndk\\ndk-build" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;$NDK_ROOT:$PATH;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+20:50:16 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+20:58:16 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+20:59:35 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:03:34 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:05:17 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:06:22 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:08:12 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:09:22 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:12:14 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:22:59 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:26:14 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+21:26:14 **** Build of configuration Default for project appcompat_v7 ****
+ndk-build V=1 
+Cannot run program "ndk-build": Launching failed
+21:26:19 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+21:26:19 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+21:35:37 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+22:38:53 **** Incremental Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+13:12:08 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+10:37:32 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+11:49:02 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+16:35:14 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+16:39:05 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+16:42:04 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+17:51:57 **** Clean-only build of configuration Default for project Haha ****
+bash "E:\\ndk\\ndk-build" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:01:14 **** Build of configuration Default for project Haha ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:01:14 **** Incremental Build of configuration Default for project appcompat_v7 ****
+ndk-build V=1 
+Cannot run program "ndk-build": Launching failed
+18:01:14 **** Incremental Build of configuration Default for project Haha ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:01:15 **** Build of configuration Default for project Myproject ****
+"E:\\ndk-build" V=1 
+Cannot run program "E:\ndk-build": Launching failed
+18:03:25 **** Incremental Build of configuration Default for project Haha ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:12:35 **** Clean-only build of configuration Default for project Haha ****
+bash "E:\\ndk\\ndk-build" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:12:35 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+18:12:35 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+18:37:31 **** Build of configuration Default for project Nima ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:40:07 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+18:40:07 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+18:40:07 **** Clean-only build of configuration Default for project Nima ****
+bash "E:\\ndk\\ndk-build.cmd" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+18:40:08 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+18:41:02 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+18:41:03 **** Clean-only build of configuration Default for project Myproject ****
+"E:\\ndk-build" clean 
+Cannot run program "E:\ndk-build": Launching failed
+18:41:03 **** Clean-only build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+18:41:03 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+18:41:32 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+make.exe: *** No rule to make target `jni/AndroidNDK.cpp', needed by `obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o'.  Stop.
+18:42:16 **** Incremental Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+18:43:56 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : Haha <= com_example_haha_JNITest.c
+[armeabi] SharedLibrary  : libHaha.so
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+18:47:24 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+18:47:24 **** Clean-only build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+18:47:25 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+19:08:43 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : Haha <= com_example_haha_JNITest.c
+[armeabi] SharedLibrary  : libHaha.so
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+19:09:36 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:11:17 **** Incremental Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:13:38 **** Incremental Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:14:34 **** Incremental Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:23:43 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:23:43 **** Clean-only build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:23:44 **** Clean-only build of configuration Default for project Nina ****
+bash "E:\\ndk\\ndk-build" clean 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+19:23:44 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+19:28:43 **** Clean-only build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:31:04 **** Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:38:48 **** Clean-only build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:39:08 **** Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:43:45 **** Build of configuration Default for project Nnnn ****
+bash "E:\\ndk\\ndk-build" V=1 
+Cannot run program "bash": Launching failed
+
+Error: Program "bash" not found in PATH
+PATH=[E:\ndk;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+19:46:14 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:48:48 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:49:01 **** Build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+make.exe: *** No rule to make target `jni/AndroidNDK.cpp', needed by `obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o'.  Stop.
+19:49:51 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:49:59 **** Build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:51:12 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:53:31 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : Haha <= com_example_haha_JNITest.c
+[armeabi] SharedLibrary  : libHaha.so
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+19:54:04 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:54:21 **** Incremental Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+19:55:12 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:55:12 **** Clean-only build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:55:13 **** Clean-only build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:55:13 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+19:55:13 **** Clean-only build of configuration Default for project appcompat_v7 ****
+ndk-build clean 
+Cannot run program "ndk-build": Launching failed
+20:00:01 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+20:01:45 **** Clean-only build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : Haha [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+20:01:45 **** Clean-only build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+20:01:46 **** Clean-only build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+20:01:46 **** Clean-only build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" clean 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+20:02:10 **** Build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+15:43:40 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : Haha <= com_example_haha_JNITest.c
+[armeabi] SharedLibrary  : libHaha.so
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+15:43:43 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+15:43:44 **** Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : AndroidNDK <= AndroidNDK.c
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc -MMD -MP -MF ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o.d -fpic -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -g -DNDEBUG -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -Ijni -DANDROID  -Wa,--noexecstack -Wformat -Werror=format-security    -IE:/ndk/platforms/android-21/arch-arm/usr/include -c  jni/AndroidNDK.c -o ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o 
+[armeabi] SharedLibrary  : libAndroidNDK.so
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++ -Wl,-soname,libAndroidNDK.so -shared --sysroot=E:/ndk/platforms/android-21/arch-arm ./obj/local/armeabi/objs/AndroidNDK/AndroidNDK.o -lgcc -no-canonical-prefixes  -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -mthumb   -lc -lm -o ./obj/local/armeabi/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+15:43:46 **** Build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+15:44:00 **** Running scanner discovery: CDT GCC Built-in Compiler Settings MinGW ****
+gcc -E -P -v -dD E:/workplace/W_eclipse1_3/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ndk;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+15:44:00 **** Running scanner discovery: CDT GCC Built-in Compiler Settings MinGW ****
+g++ -E -P -v -dD E:/workplace/W_eclipse1_3/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.C 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;D:/jdk8/bin/../jre/bin/server;D:/jdk8/bin/../jre/bin;D:/jdk8/bin/../jre/lib/amd64;E:\ndk;E:\ant\bin;E:\python2.7;D:\jdk8\bin;C:\ProgramData\Oracle\Java\javapath;D:\ARM Developer Suite\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;E:\cocos2d-x-3.3\templates;E:\cocos2d-x-3.3\tools\cocos2d-console\bin;D:\eclipse\eclipse1]
+16:48:38 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+16:48:39 **** Build of configuration Default for project Nima ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+16:48:42 **** Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+16:48:43 **** Build of configuration Default for project Nnnn ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so

@@ -1,0 +1,8 @@
+<application>
+	<preferences>
+		<properties
+			application.isMDI = 'true'
+			useFileChooser = 'false'
+		/>
+	</preferences>
+</application>

@@ -1,0 +1,36 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: jbWkNkHa+2YUicAneOMb1VwEEG0=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 6umWANaHSNWtw4LwlRRznRil4/E=
+
+Name: xmleditor.jar
+SHA1-Digest: /1O1Z2/ZeHMZoMdj+t6o6NQPFfc=
+
+Name: icons/full/obj16/xpl/searchm_obj.gif
+SHA1-Digest: OGyoc1JEihzMmDQEDb7+Q11uRHQ=
+
+Name: resources/icons/xpl/mark_occurrences_on.gif
+SHA1-Digest: J48jMIKwC4Z4JxhQodmXKmEnjCA=
+
+Name: plugin.xml
+SHA1-Digest: naGRriJSVm9KTeAEJ2EImLzrRcc=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: plugin.properties
+SHA1-Digest: V48SlpAEeHVyz/SGvW9AhUSekE4=
+
+Name: resources/org/jboss/tools/common/text/xml/internal/ui/preferenci
+ es/preview.xml
+SHA1-Digest: Hq7Q56BnDNV+Vw/LLhQN9acolQM=
+
+Name: resources/icons/xpl/mark_occurrences_off.gif
+SHA1-Digest: PBPAL5AgQ0NfzwS+lObuj62APOU=
+
+Name: schema/occurrenceStructureProviders.exsd
+SHA1-Digest: C7Llbi8C2hjKM/S0j/nh7/gJP2o=
+
+Name: schema/contentAssistProcessor.exsd
+SHA1-Digest: K4wmfAKMHapm1L/XNHyjkpbD+4Y=
+

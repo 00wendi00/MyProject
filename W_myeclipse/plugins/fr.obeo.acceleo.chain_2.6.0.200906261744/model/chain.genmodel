@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fr.obeo.acceleo.chain/src"
+    editDirectory="/fr.obeo.acceleo.chain.edit/src" editorDirectory="/fr.obeo.acceleo.chain.editor/src"
+    modelPluginID="fr.obeo.acceleo.chain" modelName="Chain" editPluginClass="fr.obeo.acceleo.chain.provider.ChainEditPlugin"
+    editorPluginClass="fr.obeo.acceleo.chain.presentation.ChainEditorPlugin" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore">
+  <foreignModel>chain.ecore</foreignModel>
+  <genPackages prefix="Fr" disposableProviderFactory="true" ecorePackage="chain.ecore#/">
+    <nestedGenPackages prefix="Obeo" basePackage="fr" disposableProviderFactory="true"
+        ecorePackage="chain.ecore#//obeo">
+      <nestedGenPackages prefix="Acceleo" basePackage="fr.obeo" disposableProviderFactory="true"
+          ecorePackage="chain.ecore#//obeo/acceleo">
+        <nestedGenPackages prefix="Chain" basePackage="fr.obeo.acceleo" disposableProviderFactory="true"
+            ecorePackage="chain.ecore#//obeo/acceleo/chain">
+          <genEnums ecoreEnum="chain.ecore#//obeo/acceleo/chain/CustomActionIDs"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Chain">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/Chain/documentation"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Chain/repository"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Chain/actions"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/Chain/parametersPatterns"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Chain/parametersFiles"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/Chain/keepModelInMemory"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Repository">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/Repository/documentation"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Repository/members"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Repository/files"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/ActionSet">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/ActionSet/documentation"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/ActionSet/actions"/>
+          </genClasses>
+          <genClasses image="false" ecoreClass="chain.ecore#//obeo/acceleo/chain/Action">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/Action/documentation"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Action/log"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Generate">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Generate/model"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Generate/metamodel"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Generate/generator"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Generate/folder"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/ConvertXmi">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/ConvertXmi/mof"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/ConvertXmi/emf"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Backup">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Backup/folder"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Backup/backup"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Clear">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Clear/resources"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Remove">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/Remove/resources"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/ChainCall">
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/ChainCall/chain"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/ChainCall/chainPath"/>
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/ChainCall/argumentsPatterns"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/ChainCall/argumentsFiles"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/CustomAction">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/CustomAction/ID"/>
+            <genFeatures notify="false" createChild="false" propertySortChoices="true"
+                ecoreFeature="ecore:EReference chain.ecore#//obeo/acceleo/chain/CustomAction/resources"/>
+          </genClasses>
+          <genClasses image="false" ecoreClass="chain.ecore#//obeo/acceleo/chain/Data"/>
+          <genClasses image="false" ecoreClass="chain.ecore#//obeo/acceleo/chain/File">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/File/path"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Model"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/ModelSet">
+            <genFeatures createChild="false" ecoreFeature="ecore:EAttribute chain.ecore#//obeo/acceleo/chain/ModelSet/extensions"/>
+          </genClasses>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Folder"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Log"/>
+          <genClasses image="false" ecoreClass="chain.ecore#//obeo/acceleo/chain/Metamodel"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/EmfMetamodel"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/Generator"/>
+          <genClasses ecoreClass="chain.ecore#//obeo/acceleo/chain/CustomFile"/>
+        </nestedGenPackages>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,33 @@
+package com.example.mydrawable1;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.widget.GridLayout;
+
+public class MyDrawable1 extends Activity {
+	GridLayout gridLayout;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_my_drawable1);
+		gridLayout = (GridLayout)findViewById(R.id.haode);
+		
+		GridLayout.Spec rowSpec = GridLayout.spec(2);
+		GridLayout.Spec columnSpec  = GridLayout.spec(2);
+		GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,columnSpec);
+		gridLayout.addView(new MyView(this),params);		
+		
+		Handler handler = new Handler(){
+			public void handleMessage(Message msg){
+				super.handleMessage(msg);
+				if(msg.what = 0x123){
+					
+				}
+			}
+		};
+		
+		
+	}
+}

@@ -1,0 +1,59 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: CnJIzk13NEQ0/oSnamtbiKI5Vvw=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: b595E4MRHC38zkm/hS5NpAfn+qw=
+
+Name: lib/andromda-repository-mdr-3.1.jar
+SHA1-Digest: qKLoavbQhuNHqDaeC2GBoCD2e/o=
+
+Name: lib/mdr/mdrapi-20050630.jar
+SHA1-Digest: AfzIZOh8Yx54O2+T6rwK195svFQ=
+
+Name: lib/mdr/openide-util-20050630.jar
+SHA1-Digest: +xpaRyvFAE+Kg7z+aA4hZ6sVNPk=
+
+Name: lib/andromda-core-3.1.jar
+SHA1-Digest: foOPsMfQy3rPRzKsMq0oOVl7LEk=
+
+Name: lib/commons-collections-3.1.jar
+SHA1-Digest: dPcyZ/94hdI7hjk1R5bSRxmvaUM=
+
+Name: lib/mdr/jmiutils-20050630.jar
+SHA1-Digest: zeSX3jvtULhPU2YQCrP5FjOXRSc=
+
+Name: plugin.properties
+SHA1-Digest: qTPyWJUFhYuIDYCEHWAk36zitQg=
+
+Name: lib/jmi/jmiuml-1.4di.jar
+SHA1-Digest: KTe87l3R8/7NEweQWBMVTttnqvQ=
+
+Name: lib/log4j-1.2.8.jar
+SHA1-Digest: Lzwy9vG5Y33PiNGQ1nxGVIMN1nQ=
+
+Name: lib/andromda-metafacades-uml14-3.1.jar
+SHA1-Digest: Lyb6HmRsbSbN9lTyZd4HemUDZ/M=
+
+Name: lib/andromda-metafacades-uml-3.1.jar
+SHA1-Digest: u8YH+vrDn0l7vqvykENMm39WoFc=
+
+Name: fr.obeo.acceleo.uml14.mof.jar
+SHA1-Digest: mwv07dCdk1rCF6txTKXm6VEzh7o=
+
+Name: fr.obeo.acceleo.uml14.mofsrc.zip
+SHA1-Digest: FwAhncu10sHrl7jU83gUZz+K0kw=
+
+Name: plugin.xml
+SHA1-Digest: 6cxD56qjNcOXbeDnsSBDsOn0Rrw=
+
+Name: lib/jmi/jmi-20030918.jar
+SHA1-Digest: I3KSjDr4caa2CbDd1OvZAzOmms8=
+
+Name: lib/commons-lang-2.0.jar
+SHA1-Digest: 1kIlfNe7Sb4VEVRUlCi5bP9DOTM=
+
+Name: lib/jmi/mof-20030918.jar
+SHA1-Digest: KrALlWxPGEwk8H9S4GKGOWTvQ9k=
+
+Name: lib/mdr/nbmdr-20050630.jar
+SHA1-Digest: re1VCthElU4qgG8MvD27aJaCwUU=
+

@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.ui,org.eclipse.text,org.eclipse.jface.text,org.eclipse.ui.workbench
+ ,org.eclipse.jdt.core,org.eclipse.wst.sse.core,org.eclipse.wst.xml.co
+ re,org.eclipse.jst.jsp.core,org.eclipse.jst.j2ee.web,org.eclipse.core
+ .resources,org.jboss.tools.common,org.jboss.tools.common.model,org.jb
+ oss.tools.common.text.ext,org.jboss.tools.jst.web,org.jboss.tools.jsf
+Export-Package: org.jboss.tools.jsf.text.ext,org.jboss.tools.jsf.text.
+ ext.hyperlink
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: jsfextensions.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.text.ext.JSFExtensionsPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jboss.tools.jsf.text.ext; singleton:=true
+
+Name: jsfextensions.jar
+SHA1-Digest: YAZxzL7tEonXANeEq0XAd/4ax+8=
+
+Name: plugin.xml
+SHA1-Digest: cSLEkaTwpYBq3h8D086/f7OoHLE=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: uYETK3OslAPV9LvlxhBV5diQMsk=
+
+Name: build.xml
+SHA1-Digest: 1nCNJuShA/nPZkfnzlMBwHrUNyY=
+

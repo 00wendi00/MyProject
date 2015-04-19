@@ -1,0 +1,7 @@
+16:48:38 **** Build of configuration Default for project Haha ****
+"E:\\ndk\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHaha.so => libs/armeabi/libHaha.so
+
+16:48:38 Build Finished (took 624ms)
+

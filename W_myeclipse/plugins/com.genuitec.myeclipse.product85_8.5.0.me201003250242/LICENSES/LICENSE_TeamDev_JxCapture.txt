@@ -1,0 +1,59 @@
+JxCapture License Agreement 
+This is a legal agreement (“Agreement”) between You (either an individual or an entity) (“Licensee”), and TeamDev Ltd. (“TeamDev”).
+
+IMPORTANT [PLEASE READ CAREFULLY]: BY INSTALLING, USING OR COPYING THE SOFTWARE OR ANY RELATED DOCUMENTATION (“SOFTWARE”) YOU AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, YOU ARE NOT AUTHORIZED TO INSTALL OR USE THE SOFTWARE.
+
+1.Definitions
+a)“Runtime” means the files that are included into the Software and required for distribution of the programs that the Licensee creates using the Software. Runtime files are identified in the accompanying or on-line documentation (“Documentation”). You should refer to the documentation, including any “readme” or “runtime” files provided with the product, for additional information regarding redistributable files.
+
+b)“Evaluation License Key” means a file that allows using the Software for evaluation purposes for a limited period of time which shall commence on the day of registration, and terminate pursuant to the provisions defined by the Evaluation License Grants section of this Agreement.
+
+c)“Development License Key” means a file that allows the Licensee to integrate the Software into their own larger works.
+
+d)“Runtime License Key” means a file that is required for distribution of the Licensee’s works that enclose the Software.
+
+e)“Personal License” means the Licensee is the individual specified in the Development and Runtime License Keys. For the avoidance of any doubt, Licensee is not a corporation, company, partnership or association or other entity or organization.
+
+2.Ownership and License
+The Software is owned by TeamDev, copyrighted and protected by copyright laws and international treaty provisions. The Software is licensed, not sold. By installing or using the Software you will not acquire any rights to the Software except as expressly set forth in this Agreement. All rights not expressly granted herein are reserved by TeamDev.
+
+3.Evaluation License Grants
+Subject to the terms and conditions of this Agreement, TeamDev hereby grants to you a non-exclusive, non-transferable right to use one copy of the specified version of the Software and the Documentation for the sole purposes of evaluation during the period of 30 (thirty) calendar days, and create a copy of the Software for backup purposes.
+
+4.Development and Runtime License Grants 
+Subject to the payment of the applicable license fees, and to the terms and conditions of this Agreement, TeamDev hereby grants to you a non-exclusive, non-transferable right to use the specified version of the Software and Documentation on the number of workstations that corresponds to the number of licenses purchased; to reproduce and distribute, in executable form only, the programs that you create using the Software with Runtime without additional license or fees, subject to all the conditions defined herein.
+
+5.License Restrictions
+You may NOT: a) modify, adapt, alter, translate, decompile, reverse engineer, or disassemble the Software; b) remove any proprietary notices or labels on the Software; c) make more copies of the Software than the number of the obtained licenses (excluding a copy for backup purposes); d) rent, lease, or otherwise transfer rights to the Software.
+
+5.1.Evaluation License Restrictions In addition to the general restrictions denoted in the License Restrictions section, as the holder of the Evaluation License you may NOT: a) use the Software for commercial purposes; b) use the Software after expiration of the evaluation period.
+
+5.2.Development and Runtime License Restrictions In addition to the general restrictions denoted in the License Restrictions section, as the holder of the Development and Runtime License you may NOT: a) use the software on the number of computers, exceeding the number of the licenses purchased; b) use Development License Key for redistributing your applications; c) use Runtime License Key for development purposes.
+
+5.3.Personal License Restrictions In addition to the restrictions denoted in the License Restrictions section and in Development and Runtime License Restrictions section, as the holder of the Personal License you may NOT: a)use the software on computers not exclusively used by the Licesee; b)permit other individuals or entities to use the Software.
+
+6. Marketing
+You agree to be identified as a customer of TeamDev and You agree that TeamDev may refer to You by name, trade name and trademark, if applicable, and may briefly describe Your business in TeamDev’s marketing materials and web sites. You hereby grant TeamDev a license to use Your name and any of Your trade names and trademarks solely in connection with the rights granted to TeamDev pursuant to this marketing section.
+
+7.Support Services
+TeamDev may provide Licensee with support services related to the Software. Use of any such support services is governed by the policies described on TeamDev’s web site (www.teamdev.com).
+
+Any supplemental software code or related materials that TeamDev provides to Licensee as part of the support services, in periodic updates to the Software or otherwise, is to be considered part of the Software and is subject to the terms and conditions of this Agreement.
+
+With respect to any technical information that Licensee provides to TeamDev as part of the support services, TeamDev may use such information for its business purposes without restriction, including for product support and development. TeamDev will not use such technical information in a form that personally identifies Licensee.
+
+8. Patent And Copyright Indemnity
+a)Licensor will defend and indemnify Licensee for all costs (including reasonable attorneys fees) arising from a claim that Software furnished and used within the scope of this Agreement infringes a U.S. or Canadian copyright or patent provided that: (i) Licensee notify Licensor in writing within 30 days of the claim; (ii) Licensor has sole control of the defense and all related settlement negotiations, and (iii) Licensee provide Licensor with the assistance, information, and authority necessary to perform the above.
+
+b)Licensor will have no liability for any claim of infringement based on (i) code contained within the Software which was not created by Licensor; (ii) use of a superseded or altered release of the Software, except for such alteration(s) or modification(s) which have been made by Licensor or under Licensor’s direction, if such infringement would have been avoided by the use of a current, unaltered release of the Software that Licensor provides to Licensee, or (iii) the combination, operation, or use of any Software furnished under this Agreement with programs or data not furnished by Licensor if such infringement would have been avoided by the use of the Software without such programs or data.
+
+c)In the event the Software is held or believed by Licensor to infringe, or Licensee’s use of the Software is enjoined, Licensor will have the option, at its expense, to (i) modify the Software to cause it to become non-infringing; (ii) obtain for Licensee a license to continue using the Software; (iii) substitute the Software with other Software reasonably suitable to Licensee, or (iv) if none of the foregoing remedies are commercially feasible, terminate the license for the infringing Software and refund any license fees paid for the Software, prorated over a three-year term from the effective date of the Agreement.
+
+9.Disclaimer of Warranty
+THE SOFTWARE AND ANY RELATED DOCUMENTATION ARE PROVIDED ON A STRICTLY “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE REMAINS WITH YOU.
+
+10.Limitation of Liability
+IN NO EVENT SHALL TEAMDEV OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THIS TEAMDEV PRODUCT, EVEN IF TEAMDEV HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11.Termination
+Licensee may terminate this Agreement at any time by destroying all copies of the Software. This Agreement will terminate immediately without notice from TeamDev if it is discovered that the Licensee fails to comply with any provision of this Agreement. Upon such termination, the Licensee must destroy all copies of the Software. Sections 9.Disclaimer of Warranty and 10.Limitation of Liability shall remain effective after the termination of this Agreement.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vsv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#fff"
+	>
+<TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="选择购买本书的具体时间"
+	/>
+<!-- 定义一个DatePicker组件 -->
+<DatePicker android:id="@+id/datePicker"
+	android:layout_width="wrap_content" 
+	android:layout_height="500dp"
+	android:layout_gravity="center_horizontal"
+	android:startYear="2000"
+	android:endYear="2012"
+	android:calendarViewShown="true"
+	android:spinnersShown="true"
+	/>
+<!-- 定义一个TimePicker组件 -->
+<TimePicker android:id="@+id/timePicker"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	/>
+<!-- 显示用户输入日期、时间的控件 -->
+<EditText android:id="@+id/show"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false"
+	/>	
+</LinearLayout>
+</ScrollView>

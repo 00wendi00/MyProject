@@ -1,0 +1,341 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.ui
+ .intro,org.eclipse.ui.intro.universal,org.eclipse.ui.forms,com.genuit
+ ec.eclipse.core.common,com.genuitec.eclipse.core
+Bundle-Vendor: %Bundle-Vendor
+Eclipse-LazyStart: true
+Bundle-ClassPath: myeclipse-product.jar
+Bundle-Version: 8.5.0.me201003250242
+Bundle-Name: %Bundle-Name
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.genuitec.myeclipse.product.ProductPlugin
+Bundle-SymbolicName: com.genuitec.myeclipse.product85;singleton:=true
+
+Name: intro/css/graphics/Tutorial-maven4myeclipse.gif
+SHA1-Digest: AdDRrX/69360A+W9sDTMKUiIbMs=
+
+Name: LICENSES/LICENSE-mrjToolkitStubs.txt
+SHA1-Digest: CEOIUVSuNQJ37798nrMZ2PX/QCQ=
+
+Name: LICENSES/LICENSE-AppleJavaExtension.txt
+SHA1-Digest: tJ9HhuCVoOHgxS8bhQAeCm620YQ=
+
+Name: intro/css/graphics/Tutorial-ajax-web20.gif
+SHA1-Digest: VBa2lhSPRSl/zH2bGz02q+vmAiY=
+
+Name: LICENSES/LICENSE_BSD_dojo.txt
+SHA1-Digest: JcmHqMSAff6Y5xphfeQU9dm/Pxk=
+
+Name: intro/css/graphics/Tutorial-Struts.gif
+SHA1-Digest: tWsH4seaNU2Z7EXuS9QmsWNVro0=
+
+Name: LICENSES/LICENSE-j2ssh.txt
+SHA1-Digest: 6apu2fDOokWrTsb/aHUwLiK0Vb4=
+
+Name: help/images/banner_01.jpg
+SHA1-Digest: RVBUInt1+epUkktchcMABI8I6Sw=
+
+Name: LICENSES/LICENSE_APL_2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: LICENSES/LICENSE_asm.txt
+SHA1-Digest: EEB6m+vwARztrmTqgQLiz1wBzac=
+
+Name: LICENSES/LICENSE_GENUITEC.txt
+SHA1-Digest: viXmrInmhwF3syKt1q9fejHXbzw=
+
+Name: LICENSES/LICENSE_BSD.txt
+SHA1-Digest: /9Ta+D1zD+VWQliKdhHGmUn1SUk=
+
+Name: LICENSES/LICENSE_CL_1.1.txt
+SHA1-Digest: jEpW0QvxWhhlQEYWOlH25JkJT1Q=
+
+Name: LICENSES/LICENSE_Krysalis_jchart.txt
+SHA1-Digest: /Iy+Glqr3dG4PG+S3Kikmgb7BSs=
+
+Name: intro/css/graphics/Tutorial-database.gif
+SHA1-Digest: yxJPdSMe9Hbh6lpPOq2zeOzwrBc=
+
+Name: LICENSES/LICENSE_jdom.txt
+SHA1-Digest: dubn/DR+zXm8Mu76JCPObzMTCnE=
+
+Name: LICENSES/LICENSE-jslint.txt
+SHA1-Digest: Ts7zQaT/inNMO4/in6mkXszYQyA=
+
+Name: intro/css/graphics/Tutorial-ERD.gif
+SHA1-Digest: 7aT7goTiB/UdHcjbap0TwZiLed0=
+
+Name: intro/css/graphics/Common_Tools-matt.gif
+SHA1-Digest: QVgTf1FCqjXJuwgdYk5nyb0r5ew=
+
+Name: LICENSES/LICENSE_bouncycastle.txt
+SHA1-Digest: +vXcc/F0ErmctERin6Y1/qKfPY8=
+
+Name: LICENSES/LICENSE-dom4j.txt
+SHA1-Digest: dGDiYD2tyjyImuySskoymZvt+nM=
+
+Name: intro/css/graphics/MyEclipse_Logo-48-matt.gif
+SHA1-Digest: j+PwCktBSx3CDGchyxQ0T4kgAx4=
+
+Name: LICENSES/LICENSE_freemarker.txt
+SHA1-Digest: sIexWeCtqN5ioFpZLcCNBxawSis=
+
+Name: intro/css/graphics/Tutorial-bugzilla.gif
+SHA1-Digest: ZXDb8K5dYqzSV/RtUjc2QMCU9fI=
+
+Name: images/myeclipse-title-icon-48x48.png
+SHA1-Digest: +TdDmm3YuCOcplTe/k26+DHCeyA=
+
+Name: LICENSES/LICENSE_W3C.txt
+SHA1-Digest: iv6FVhJqliq6rU6okzp5E3RTlOk=
+
+Name: intro/sampleExtensionContent.xml
+SHA1-Digest: hSMTZyr7K3rQQW4NWvoygFBtyio=
+
+Name: LICENSES/LICENSE_APL_1.1.txt
+SHA1-Digest: eQWshMjGBhRUgcLraogPRg/dZI4=
+
+Name: help/images/banner_04.jpg
+SHA1-Digest: khhsqRiQK7y91cCD5nxTsiekTxU=
+
+Name: LICENSES/LICENSE_CCPD.txt
+SHA1-Digest: wRfw+SAzApAfNVJnBfX/Ep+4AZ0=
+
+Name: intro/css/graphics/Tutorial-matisse.gif
+SHA1-Digest: 15pKj0QrT/9HrbrkwOHG5lg7hNc=
+
+Name: LICENSES/LICENSE_aston_wizards.txt
+SHA1-Digest: JOGZVrqZI4qQRhyn8heMJpe9w54=
+
+Name: LICENSES/LICENSE_Yworks.txt
+SHA1-Digest: qNN3Ta0GrBbMoWu9oIy5lTYk+xw=
+
+Name: LICENSES/LICENSE_jtom.txt
+SHA1-Digest: twxRZtgYfZLHSd/d+NrGWyIGBqI=
+
+Name: LICENSES/LICENSE_groovy.txt
+SHA1-Digest: oacWpiTWXikmOaOXoI84L+a3jH4=
+
+Name: intro/css/whatsnew.properties
+SHA1-Digest: NimTIXPV9PBKM5y84HyQkGy/8cU=
+
+Name: intro/css/graphics/updates_obj.gif
+SHA1-Digest: uS1DODhCWN0rMELoTrRWu3mrd/8=
+
+Name: LICENSES/LICENSE_CDDL.txt
+SHA1-Digest: IpRgABQG+aeUMtap1K7ygKgkPQU=
+
+Name: intro/css/graphics/Enterprise_Tools-matt.gif
+SHA1-Digest: v1Q6a81dTxc+y5iERUi0hcJkmqY=
+
+Name: plugin.xml
+SHA1-Digest: +y7T6dV/7eC/cvcw1AIbvswNmhw=
+
+Name: help/images/banner_02.jpg
+SHA1-Digest: fpY/uMRPa6te93sUBJcyocrggts=
+
+Name: images/myeclipse-title-icon-32x32.png
+SHA1-Digest: yfQG8uGO/9e1xT2zkX1eEcWygtg=
+
+Name: intro/css/graphics/ME-eod-2.gif
+SHA1-Digest: 9hPRXj4WtJ6Qzg51E+0hPkGr3cw=
+
+Name: intro/css/graphics/Tutorial-JSF.gif
+SHA1-Digest: iwHVENo+APY0IgDLJDPowG0ch1g=
+
+Name: intro/css/graphics/Tutorial-webservices.gif
+SHA1-Digest: dY6hzGNN88RM6ZYnK603SN1tl6c=
+
+Name: splash.bmp
+SHA1-Digest: 1MbrEYiqfp5neW82kUD6sbfv8J0=
+
+Name: images/myeclipse-title-icon-128x128.png
+SHA1-Digest: 0zkYFvShDBG6XG+sUJUpJ6+ggSk=
+
+Name: LICENSES/LICENSE_IUELSL_1.1.1.txt
+SHA1-Digest: yrOgav8zBIfu+P1IZuzUy/JuKC0=
+
+Name: intro/overviewEx1.xml
+SHA1-Digest: t9eOsxASQg04WP8GJHb4pnVsIis=
+
+Name: intro/css/graphics/communityhov_obj.gif
+SHA1-Digest: 8yh5Lmi48mPaNew/XFA7YsUrDeo=
+
+Name: intro/css/graphics/portlet_wizban.gif
+SHA1-Digest: bJJfBdnrP8TJd2GK0YhTYVzM7rE=
+
+Name: intro/css/graphics/sample_hov.gif
+SHA1-Digest: pT1cuGZHIE/eawlmJy8IJeyn/48=
+
+Name: images/myeclipse_splash.gif
+SHA1-Digest: 8MgVNHSnE3IApyKOsbNTjhUBCVo=
+
+Name: LICENSES/LICENCE_i18n-0.1.3.txt
+SHA1-Digest: 5HG+xxLJHOQot9UtgXmuHCWmaUc=
+
+Name: LICENSES/LICENSE_SunPL.txt
+SHA1-Digest: HbIIbLRVgxIB62R45tLycR5kt4U=
+
+Name: help/images/banner_03.jpg
+SHA1-Digest: fpY/uMRPa6te93sUBJcyocrggts=
+
+Name: plugin_customization.ini
+SHA1-Digest: mmGqpUQg89+22cOOT1+S/HWHbeg=
+
+Name: LICENSES/LICENSE_CPL_1.0.txt
+SHA1-Digest: s3Xnq7ZKBpip/3TUoTodmtNeN20=
+
+Name: LICENSES/LICENSE_EPL_1.0.txt
+SHA1-Digest: ITb6VcwT8pNAoFLzbIiq6upvOvs=
+
+Name: intro/css/samples.properties
+SHA1-Digest: zpbFtTYe/+OHSP5C0hv/aj8IJRE=
+
+Name: images/about.png
+SHA1-Digest: 6t1gD8HTjmGVXREozTX8EfNg7O4=
+
+Name: LICENSES/LICENSE_jtidy.txt
+SHA1-Digest: OONRSx6XGfnLrUQTrcNck2TBZyE=
+
+Name: images/myeclipse-title-icon-64x64.png
+SHA1-Digest: 00LQ8lP7x3I17K7k7fwty9shNEc=
+
+Name: LICENSES/LICENSE_IBMPL.txt
+SHA1-Digest: 50HP1F0ScLmjIduRxmPGfolC5j8=
+
+Name: LICENSES/LICENSE_TeamDev_JNIWrapper.txt
+SHA1-Digest: aDtmdoYTxX3IIpjuNJHEXHQy3Q4=
+
+Name: intro/css/tutorials.properties
+SHA1-Digest: 5Qx5gOyN+PofrijtfN3SqTytR8k=
+
+Name: intro/css/graphics/Business_Tools-matt.gif
+SHA1-Digest: J3qlGes0j0lE1rHE7f+7Z1Iw9i8=
+
+Name: intro/css/graphics/community_obj.gif
+SHA1-Digest: fQcVPFXOK53E2gPK29sUuCVi9U8=
+
+Name: plugin.properties
+SHA1-Digest: 1fYCIaOfMkZkCUJjk2PdJ+buhcE=
+
+Name: LICENSES/LICENSE-MPL1_1.txt
+SHA1-Digest: B/tjzkZ5K1eAp19cjmWlItz7WvY=
+
+Name: images/MyEclipse-logo.png
+SHA1-Digest: q1XcVTuMUz1ODBvrZEBgoJhhAP8=
+
+Name: myeclipse-product.jar
+SHA1-Digest: +fn4PWlQdlpSX/MEvOJhLtFhMa8=
+
+Name: intro/css/graphics/Tutorial-hibernate.gif
+SHA1-Digest: Nv/WcaO/rpJa6jcxcdVoVvK+ciw=
+
+Name: intro/css/myeclipse.css
+SHA1-Digest: QifDftILRsh0PHocy4Y08ir6Q8A=
+
+Name: LICENSES/LICENSE_nanoxml.txt
+SHA1-Digest: sMeohH4SFrrs+PhCPS+4WtR7XEQ=
+
+Name: LICENSES/MyEclipsePluginLicenseMap_7.1.0.html
+SHA1-Digest: 3vjHKnkWA7E8XDWTTW3HMFTDsXM=
+
+Name: LICENSES/LICENSE_UnisysOSS.txt
+SHA1-Digest: 6083tbUPPj1SGLLZf5ISBakIP2k=
+
+Name: help/banner.html
+SHA1-Digest: 7dF4gfcNrZsCsalaNCkYz5SzCAQ=
+
+Name: LICENSES/LICENSE_GPL+CE.txt
+SHA1-Digest: cxA5824zufFFXvx/Y8AUiBmc23M=
+
+Name: LICENSES/LICENSE_jamon.txt
+SHA1-Digest: mmUyXKkeVPaNF/+68DnoU07gzyE=
+
+Name: intro/whatsnewEx1.xml
+SHA1-Digest: pJLmx9xx8ZxRkw0k8wcaQv0+u50=
+
+Name: intro/tutorialEx1.xml
+SHA1-Digest: 8tU6cP/TW+ufhtz9E2nz5qQIU/A=
+
+Name: LICENSES/LICENSE_EnvoiSolutions.txt
+SHA1-Digest: xfUdCYcDQXM3Tx4TOYmQhWhIR5c=
+
+Name: intro/css/graphics/Maven4MyEclipse.gif
+SHA1-Digest: zCugnQnRWWe8u+4LEVt8ti7XBho=
+
+Name: LICENSES/LICENSE_LGPL_2.1.txt
+SHA1-Digest: fuirSAMwE/QXvuKBrWyaR0nJ+I4=
+
+Name: intro/css/graphics/Tutorial-Webdesigner.gif
+SHA1-Digest: 5saPzg5KNJiShk1oYgfpMY4wXYY=
+
+Name: intro/css/graphics/Tutorial-apserver.gif
+SHA1-Digest: yAyVl92DfRpUr4+fSOYLPQvBs/o=
+
+Name: LICENSES/LICENSE_ECL.txt
+SHA1-Digest: WckaFJBq22ZEL3PBBIrGF3GLAlw=
+
+Name: helpData.xml
+SHA1-Digest: YAb1929nBhPT3fb4qbbB95rhK00=
+
+Name: intro/css/overview.properties
+SHA1-Digest: 3bBy04dnDSK4P98izW9NbK+yLPg=
+
+Name: introData.xml
+SHA1-Digest: WG3q7tREfZEbyPNMLr0YJK3QdvI=
+
+Name: intro/css/graphics/sample.gif
+SHA1-Digest: OsOwwGCPqpKtMzE67kFfiFQyPvQ=
+
+Name: about.mappings
+SHA1-Digest: Vi1lgv5xYPih8Q0iKROCK0laSeA=
+
+Name: LICENSES/LICENSE-SunBinaryLicenseWithJimiSDKLicense.txt
+SHA1-Digest: BHAM0xGWsAcVYpg6krI69NQhYIo=
+
+Name: intro/css/graphics/Tutorial-EJB.gif
+SHA1-Digest: fpZ4JCa5JMJgiNk8y4ORFfo/UW8=
+
+Name: LICENSES/LICENSE_TeamDev_WinPack.txt
+SHA1-Digest: ZnD0ih82dA2Xs9Cohkw9rUjEKZ0=
+
+Name: LICENSES/LICENSE-ognl.txt
+SHA1-Digest: 7jITGOMv+mLSFK+UeceF3/nffl4=
+
+Name: images/myeclipse-title-icon-16x16.png
+SHA1-Digest: tNJcFiasuCTrfIbTIIGZhuLj1IE=
+
+Name: LICENSES/LICENSE_jaxen-1.1.txt
+SHA1-Digest: 9qRyUYfmroYe3nXty3SRDjBvsKo=
+
+Name: LICENSES/LICENSE_XDoclet.txt
+SHA1-Digest: jSN7pWj8npob5+t3nZSJDARvpHk=
+
+Name: LICENSES/LICENSE_TeamDev_JxCapture.txt
+SHA1-Digest: Fqz8P6qnsK+w3N1S6KDE06/sZRg=
+
+Name: intro/css/graphics/Tutorial-JPA.gif
+SHA1-Digest: XmCsPxXen08ETuTHpvpFH1uJGu4=
+
+Name: intro/css/graphics/UI_Tools.gif
+SHA1-Digest: x/RIRh6CRCzcmvtYhHBiMPUkemU=
+
+Name: LICENSES/LICENSE_ICU.txt
+SHA1-Digest: UUPvZce1DeERQNRJmzHAjTulfgA=
+
+Name: intro/css/graphics/updateshov_obj.gif
+SHA1-Digest: IJzNczMIYtMhc3wgnH+7eKTKsNE=
+
+Name: images/myeclipse_splash_small.gif
+SHA1-Digest: b5Bczkk/0TyiAstRy+cCE7+DnsI=
+
+Name: intro/css/graphics/Tutorial-generic.gif
+SHA1-Digest: FDBSejgogGGNRNJsz+FuZXUnXBE=
+
+Name: intro/css/graphics/Tutorial-UML.gif
+SHA1-Digest: G9ujTnQOupRsJp98JLRtzAdspBE=
+
+Name: LICENSES/LICENSE_SUN_JAVAEE.txt
+SHA1-Digest: KznelniOy34YSGE6LD8K32wSSUo=
+

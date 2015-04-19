@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.maven.shared.dependency.tree,org.apache.mav
+ en.shared.dependency.tree.filter,org.apache.maven.shared.dependency.t
+ ree.traversal,META-INF.plexus
+Bundle-ClassPath: jars/maven-dependency-tree-1.2-SNAPSHOT.jar
+Bundle-Name: Maven Dependency Tree Bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,JavaSE-1.6
+Require-Bundle: org.maven.ide.eclipse.maven_embedder;bundle-version="[
+ 0.10.0,0.11.0)"
+Bundle-Vendor: Sonatype
+MavenArtifact-BaseVersion: 1.2.1.20090519-1900
+Bundle-Version: 0.10.0.me201003101716
+MavenArtifact-GroupId: org.maven.ide.eclipse
+MavenArtifact-ArtifactId: org.maven.ide.eclipse.dependency_tree
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.maven.ide.eclipse.dependency_tree;singleton:=
+ true
+
+Name: jars/maven-dependency-tree-1.2-SNAPSHOT.jar
+SHA1-Digest: jogAR08Tj10S0oYFMEFNiTRJNt4=
+
+Name: META-INF/plexus/.keep
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+

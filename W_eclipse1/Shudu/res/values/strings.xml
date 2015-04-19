@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数独</string>
+    <string name="time">时间</string>
+	<string name="pause">暂停</string>
+</resources>

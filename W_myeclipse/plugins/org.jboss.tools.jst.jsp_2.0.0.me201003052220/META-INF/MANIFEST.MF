@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common,org.jboss.tools.common.kb,org.j
+ boss.tools.common.model,org.jboss.tools.common.el.core,org.jboss.tool
+ s.common.text.xml,org.jboss.tools.common.model.ui,org.jboss.tools.jst
+ .web,org.eclipse.jface,org.eclipse.jface.text,org.eclipse.swt,org.ecl
+ ipse.ui.editors,org.eclipse.ui,org.eclipse.ui.workbench.texteditor,or
+ g.eclipse.ui.ide,org.eclipse.jdt.ui,org.eclipse.jdt.core,org.eclipse.
+ wst.common.ui,org.eclipse.wst.sse.ui,org.eclipse.wst.sse.core,org.ecl
+ ipse.wst.xml.core,org.eclipse.wst.html.core,org.eclipse.wst.html.ui,o
+ rg.eclipse.wst.xml.ui,org.eclipse.jst.jsp.core,org.eclipse.jst.jsp.ui
+ ,org.eclipse.wst.css.core,org.eclipse.wst.css.ui,org.eclipse.help,org
+ .eclipse.help.ui,org.eclipse.help.appserver,org.eclipse.help.base,org
+ .eclipse.help.webapp,org.eclipse.jem,org.eclipse.wst.common.snippets,
+ org.eclipse.wst.common.uriresolver,org.eclipse.core.resources,org.ecl
+ ipse.core.runtime,org.eclipse.ui.views,org.eclipse.atf.mozilla.ide.co
+ re;bundle-version="0.2.2"
+Export-Package: org.jboss.tools.jst.jsp.outline.cssdialog.common,org.j
+ boss.tools.jst.jsp.outline.cssdialog.events,org.jboss.tools.jst.jsp.o
+ utline.cssdialog.parsers
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: jspeditor.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jst.jsp.JspEditorPlugin
+Bundle-SymbolicName: org.jboss.tools.jst.jsp; singleton:=true
+Provide-Package: org.jboss.tools.jst.jsp,org.jboss.tools.jst.jsp.conte
+ ntassist,org.jboss.tools.jst.jsp.contentassist.xpl,org.jboss.tools.js
+ t.jsp.drop.treeviewer.model,org.jboss.tools.jst.jsp.drop.treeviewer.u
+ i,org.jboss.tools.jst.jsp.editor,org.jboss.tools.jst.jsp.jspeditor,or
+ g.jboss.tools.jst.jsp.outline,org.jboss.tools.jst.jsp.outline.cssdial
+ og,org.jboss.tools.jst.jsp.outline.common,org.jboss.tools.jst.jsp.pre
+ ferences,org.jboss.tools.jst.jsp.support.kb,org.jboss.tools.jst.jsp.t
+ ext,org.jboss.tools.jst.jsp.ui.action
+
+Name: images/cssdialog/font.gif
+SHA1-Digest: nFnf5AMpVIbnmTkCSC7g/EA/4t4=
+
+Name: images/cssdialog/right.gif
+SHA1-Digest: lmLlDPE2WjVohevt+GNU13MFL5w=
+
+Name: images/ca/icons_JSF_Actions.gif
+SHA1-Digest: qJ/q+ZCswbyB9P6iRhaS7uqCe6w=
+
+Name: images/cssdialog/font_large.gif
+SHA1-Digest: jQqFA7yAh/F+aKbj92pgeQVCkms=
+
+Name: images/xstudio/editors/jsp.gif
+SHA1-Digest: 3ahHnBCmB/+n5oM+rrmQwpebPTo=
+
+Name: images/ca/icons_JSF_EL.gif
+SHA1-Digest: Y393Pr5NqGXK2FGUcKHLvs95MN0=
+
+Name: plugin.properties
+SHA1-Digest: vR3oIkoI3Xy9xlp6f0atuIOicmw=
+
+Name: images/cssdialog/folder_large.gif
+SHA1-Digest: 6GWEAcK4T7b9Hi4eIY4SpWnY+/g=
+
+Name: images/ca/icons_Message_Bundles.gif
+SHA1-Digest: i3Gy5G1o3gRcj+uY071PYJr5pGE=
+
+Name: images/xstudio/editors/html_file.gif
+SHA1-Digest: 6QfA13VcNKW+M+nU3T0TTuoNrfA=
+
+Name: images/ca/icons_Resource_path.gif
+SHA1-Digest: 4aBbzX9JCfMKpYcETCJ+Y0leJc4=
+
+Name: images/cssdialog/color_large.gif
+SHA1-Digest: p8NCgR8Pfp7rkHb/QrJMcZJSKAI=
+
+Name: images/cssdialog/left.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: images/cssdialog/folder.gif
+SHA1-Digest: gUry8z/u6jcnroL3fw2CVl2P7BU=
+
+Name: images/cssdialog/color.gif
+SHA1-Digest: 8EkkJyR4ZakWq8lMDEercc3c59U=
+
+Name: plugin.xml
+SHA1-Digest: QPFNCnaWjmLGi2EnAAixyhcszsk=
+
+Name: templates/facelets-templates.properties
+SHA1-Digest: XkUmTDL6Zr4IuVkszfYGCjIV06Y=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: images/cssdialog/sample.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: jspeditor.jar
+SHA1-Digest: DvHIQSvQbDer79UxqZalkWxiWTg=
+
+Name: templates/facelets-templates.xml
+SHA1-Digest: eqS32hrlTO2797s9cnnNw+s3EZ0=
+

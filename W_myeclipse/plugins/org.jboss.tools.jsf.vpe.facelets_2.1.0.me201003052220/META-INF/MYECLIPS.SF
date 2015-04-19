@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: NKiWw/v6GNmJ2ia0NxatCKEiRtg=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 5kWOv8WlLybeuPz6pu7uW9eQq50=
+
+Name: plugin.xml
+SHA1-Digest: PBJV/hOZrQ++hqUKv3wIamAg1zE=
+
+Name: about.html
+SHA1-Digest: HTfEv9capKXYPJi5h5U5pJadGdk=
+
+Name: plugin.properties
+SHA1-Digest: mNDDdRoKEGo1t0AdcnzEPVV7dCc=
+
+Name: templates/vpe-templates-facelets.xml
+SHA1-Digest: M5MldV02Duh0Quko9nD48Y9G5uQ=
+
+Name: vpefacelets.jar
+SHA1-Digest: EGn2tgRS6PXNwcE505fTlZ2LFgc=
+

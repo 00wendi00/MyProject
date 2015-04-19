@@ -1,0 +1,158 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: L2MDqPL2x8aWiLuZhSMKiCYqkig=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: iaRPUY9kbanlc3D4WQE+5Cpjyac=
+
+Name: tomcat/bin/startup.bat
+SHA1-Digest: AW9TYys/2NP2Gv7gdhG0M+Bb9Uk=
+
+Name: tomcat/lib/tomcat-dbcp.jar
+SHA1-Digest: GFMR6hGD6Ew8KuuwC9Dkc2+i85E=
+
+Name: tomcat/bin/shutdown.bat
+SHA1-Digest: ojvoJZuR2qdeXwBly4PykzqKmHw=
+
+Name: tomcat/LICENSE
+SHA1-Digest: dEze5ZKPb8vY/Vx1sufy1vQI9c4=
+
+Name: tomcat/bin/cpappend.bat
+SHA1-Digest: MXsVcsgVWt0UKfs8H/cHlXPLsR0=
+
+Name: tomcat/bin/tomcat6w.exe
+SHA1-Digest: Np3okrQGyLFJpd4T6DmqvPu1MpM=
+
+Name: tomcat/RELEASE-NOTES
+SHA1-Digest: k39nkdf7tQCUcky+zQJu6ppbCxM=
+
+Name: tomcat/lib/catalina.jar
+SHA1-Digest: nY2FMl8jYxOjaTPlO5o6shdjVVg=
+
+Name: tomcat/lib/tomcat-i18n-fr.jar
+SHA1-Digest: z3IGN03l7QcDdoGxxMXVt+gWUIw=
+
+Name: plugin.properties
+SHA1-Digest: QnUcrxosXT790E9HbT6qe8Bqqow=
+
+Name: tomcat/lib/jasper-el.jar
+SHA1-Digest: pSwyObKApiz/mv6EG5Tr+UpmCeo=
+
+Name: tomcat/lib/jasper-jdt.jar
+SHA1-Digest: lWaHI/McZV+rIFODJCmUk3QPOyk=
+
+Name: tomcat/bin/tomcat-juli.jar
+SHA1-Digest: Ne/0SxMJsvIYpcjgMYfpa6WR7fo=
+
+Name: tomcat/bin/catalina-tasks.xml
+SHA1-Digest: AZeZgfbTYDBZ4PYr0UDxJd1DG6M=
+
+Name: tomcat/bin/digest.sh
+SHA1-Digest: DRjCK3tafgy+1REXKnkFvcLya2M=
+
+Name: tomcat/lib/tomcat-coyote.jar
+SHA1-Digest: Fss0bcmU433e2mTloqAnYfRvGO4=
+
+Name: tomcat/bin/catalina.bat
+SHA1-Digest: ENe3eUf92VMNaW2eLM2azsRRL+E=
+
+Name: license.html
+SHA1-Digest: ySfYpTpSRCY+E5Pu2CkbRaVdgtg=
+
+Name: tomcat/lib/jasper.jar
+SHA1-Digest: WrOL3k9qN8LonVdihTAz1VXwDTI=
+
+Name: tomcat/RUNNING.txt
+SHA1-Digest: vHQ1XllIl1VMYHCLbAQRPcwBxXs=
+
+Name: tomcat/bin/catalina.sh
+SHA1-Digest: dXnrrWtRJpv5uSRLnpkhgaeD0LA=
+
+Name: tomcat/lib/annotations-api.jar
+SHA1-Digest: JGrh5iIHsoPVJC1qbrivF9HuyjU=
+
+Name: tomcat/lib/catalina-tribes.jar
+SHA1-Digest: HGEd9q2+M1x7RRM2gJqtOvxVFqs=
+
+Name: tomcat/lib/catalina-ant.jar
+SHA1-Digest: H/i4Xh8jwbWJNq56CPByy1F5oEA=
+
+Name: tomcat/bin/tool-wrapper.sh
+SHA1-Digest: 32JktpP9b2prq9w0nh9FN5blzzM=
+
+Name: tomcat/bin/tomcat6.exe
+SHA1-Digest: SmlDWvHXcg1lmCECXrGA0oeNzcY=
+
+Name: tomcat/bin/tool-wrapper.bat
+SHA1-Digest: h3ghTwIgWWrN1p2WvPoYROHH8dg=
+
+Name: tomcat/lib/jsp-api.jar
+SHA1-Digest: F51m+cc1KGq+yl26Q4XS+sOhP2I=
+
+Name: tomcat/tomcat-base.zip
+SHA1-Digest: AJPjApJm+oTp1zv8aNWGHSyTWXI=
+
+Name: about.html
+SHA1-Digest: 4cfjbRumMj/uD6YD7jkxgrkpgTE=
+
+Name: tomcat/lib/el-api.jar
+SHA1-Digest: ADoytme/9zm3p3zvL02GyKybgFU=
+
+Name: tomcat/bin/startup.sh
+SHA1-Digest: 336CjBfwY6xoSMLTCpoZ3sV1uqQ=
+
+Name: tomcat/bin/bootstrap.jar
+SHA1-Digest: pxib+pUZdi7coFOVt7Oy/K23eXY=
+
+Name: tomcat/bin/version.sh
+SHA1-Digest: Sh6HfLxhSM/xA26KWvu/G13RxWA=
+
+Name: tomcat/bin/jsvc.tar.gz
+SHA1-Digest: Lf3hdJPo5r1bRKup9WgLz/kRHC8=
+
+Name: tomcat/bin/digest.bat
+SHA1-Digest: 54yLde18ijbbuux2iAsuqjIKUyA=
+
+Name: tomcat/lib/servlet-api.jar
+SHA1-Digest: AVBYQ3QMU4fnGyp6vbEq1V5LVrM=
+
+Name: tomcat/lib/tomcat-i18n-ja.jar
+SHA1-Digest: 9fpksOGY9FL8J/TpAFoOES7y5zw=
+
+Name: tomcat/bin/version.bat
+SHA1-Digest: /0dEh3s1HWPC/G3nn/uYjTPjSNc=
+
+Name: tomcat/bin/commons-daemon.jar
+SHA1-Digest: ZgLfAGc5yHVkqieGj511wojajts=
+
+Name: tomcat/bin/tomcat-native.tar.gz
+SHA1-Digest: blNOWT5SYMlAGhTDRMoYArY1UMg=
+
+Name: tomcat-myeclipse.jar
+SHA1-Digest: suP4tKJdvMtm6rXOqrZQm0Ua120=
+
+Name: tomcat/bin/setclasspath.bat
+SHA1-Digest: S7+AiZKG1sEEITNp1RHcNoQmTtI=
+
+Name: tomcat/NOTICE
+SHA1-Digest: REII7IpLNB+H0vcgqDzRoQUV0Uw=
+
+Name: tomcat/bin/service.bat
+SHA1-Digest: N1kRUccVdOHJmk+qxl7p6uqAqVE=
+
+Name: tomcat/lib/catalina-ha.jar
+SHA1-Digest: Flk3j+rbEoGB2LKTfwFBmY7pWGI=
+
+Name: preferences.ini
+SHA1-Digest: Yr/WadlIyLKby75JhVUDLhFYu30=
+
+Name: tomcat/bin/setclasspath.sh
+SHA1-Digest: TV0yBJNV4CdwOwgYwz3im+g0/u4=
+
+Name: plugin.xml
+SHA1-Digest: wN+wzJ7nkKJ2e8HoxyrhHUo4dZA=
+
+Name: tomcat/lib/tomcat-i18n-es.jar
+SHA1-Digest: hpE62a5u2o8dndud3Somg/KtpMs=
+
+Name: tomcat/bin/shutdown.sh
+SHA1-Digest: vok57HHhKYN0l/97DSAmnTSLlLM=
+

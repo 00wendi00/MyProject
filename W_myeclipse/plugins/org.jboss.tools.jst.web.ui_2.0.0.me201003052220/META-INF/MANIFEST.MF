@@ -1,0 +1,144 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common,org.eclipse.ui.ide,org.eclipse.
+ ui.views,org.eclipse.jface.text,org.eclipse.ui.workbench.texteditor,o
+ rg.eclipse.ui.editors,org.jboss.tools.common.model,org.jboss.tools.co
+ mmon.model.ui,org.jboss.tools.common.kb,org.jboss.tools.jst.web,org.e
+ clipse.jface,org.eclipse.ui,org.eclipse.ui.navigator,org.eclipse.ui.n
+ avigator.resources,org.eclipse.jst.j2ee.navigator.ui,org.eclipse.help
+ ,org.eclipse.jdt.launching,org.eclipse.jdt.ui,org.eclipse.debug.core,
+ org.eclipse.jdt.core,org.eclipse.swt,org.eclipse.emf.ecore,org.eclips
+ e.jst.jsp.ui,org.eclipse.wst.common.frameworks,org.eclipse.wst.server
+ .core,org.eclipse.wst.server.ui,org.eclipse.wst.sse.ui,org.eclipse.ws
+ t.sse.core,org.eclipse.jst.j2ee.web,org.eclipse.wst.web,org.eclipse.j
+ st.j2ee,org.eclipse.wst.common.emfworkbench.integration,org.eclipse.j
+ em,org.eclipse.jem.util,org.eclipse.wst.common.frameworks,org.eclipse
+ .jst.common.frameworks,org.eclipse.jst.j2ee.core,org.eclipse.ui.brows
+ er,org.eclipse.jst.server.core,org.eclipse.jst.server.generic.core,or
+ g.eclipse.jst.server.generic.ui,org.eclipse.jst.server.tomcat.core,or
+ g.eclipse.jst.server.tomcat.ui,org.eclipse.jst.server.ui,org.eclipse.
+ jst.server.websphere.core,org.eclipse.jst.j2ee.ejb,org.eclipse.wst.we
+ b.ui,org.eclipse.jst.ejb.ui,org.eclipse.wst.common.project.facet.core
+ ,org.eclipse.jst.servlet.ui,org.eclipse.wst.common.project.facet.ui,o
+ rg.eclipse.core.resources,org.eclipse.core.runtime,org.eclipse.debug.
+ ui,org.jboss.tools.jsf.vpe.jsf,org.jboss.tools.jst.jsp;bundle-version
+ ="2.0.0"
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: webui.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jst.web.ui.WebUiPlugin
+Bundle-SymbolicName: org.jboss.tools.jst.web.ui;singleton:=true
+Provide-Package: org.jboss.tools.common.model.ui.texteditors.preferenc
+ es,org.jboss.tools.jst.jsp.jspeditor.jsppreview,org.jboss.tools.jst.w
+ eb.ui,org.jboss.tools.jst.web.ui.action,org.jboss.tools.jst.web.ui.ac
+ tion.adf,org.jboss.tools.jst.web.ui.action.server,org.jboss.tools.jst
+ .web.ui.attribute.adapter,org.jboss.tools.jst.web.ui.editors,org.jbos
+ s.tools.jst.web.ui.editors.forms,org.jboss.tools.jst.web.ui.editors.w
+ ebapp.form,org.jboss.tools.jst.web.ui.internal.preferences,org.jboss.
+ tools.jst.web.ui.messages,org.jboss.tools.jst.web.ui.navigator,org.jb
+ oss.tools.jst.web.ui.navigator.decorator,org.jboss.tools.jst.web.ui.o
+ peration,org.jboss.tools.jst.web.ui.registration,org.jboss.tools.jst.
+ web.ui.wizards.appregister,org.jboss.tools.jst.web.ui.wizards.links,o
+ rg.jboss.tools.jst.web.ui.wizards.newfile,org.jboss.tools.jst.web.ui.
+ wizards.palette,org.jboss.tools.jst.web.ui.wizards.process,org.jboss.
+ tools.jst.web.ui.wizards.project,org.jboss.tools.jst.web.ui.wizards.t
+ omcatvm,org.jboss.tools.vpe
+
+Name: images/xstudio/wizards/new_taglibs_file.gif
+SHA1-Digest: JcZG/H/OD4lDuQLXYqKukAd0RKQ=
+
+Name: images/xstudio/actions/run_project.gif
+SHA1-Digest: ilTYk6hVaejnNIOaTF1FjeLVkns=
+
+Name: images/xstudio/actions/tomcat/jrun.gif
+SHA1-Digest: gbuIxl9FyiGh7jBDnBzSbHE6Ebs=
+
+Name: images/xstudio/views/web_project.gif
+SHA1-Digest: 1wHZ4Li1lk3sFPV9uwXHUrplVfg=
+
+Name: images/xstudio/perspective.png
+SHA1-Digest: 392nS8UhUcXldrrJL1kg7k8O4cw=
+
+Name: images/xstudio/actions/tomcat/tomcat_reload.gif
+SHA1-Digest: MIPbwlsSSHllRyCXRz4zIn9Rs1E=
+
+Name: images/xstudio/editors/taglibs_file.gif
+SHA1-Digest: 6+SAD+2c2vGPI2/AiSj066MZ+C4=
+
+Name: images/xstudio/actions/tomcat/tomcat_start.gif
+SHA1-Digest: /g88QTDImurC/q7jkF5Lu338oxM=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: images/xstudio/editors/xml_file.gif
+SHA1-Digest: aS0oEVlUFHg7zVrXKRh54GszeoE=
+
+Name: images/xstudio/views/palette.gif
+SHA1-Digest: jKDBV/xApelFoOccCoToApr7wcc=
+
+Name: images/xstudio/wizards/new_css_file.gif
+SHA1-Digest: 08mSNB3vfn8Oj18AkqHoAyLQSr8=
+
+Name: images/xstudio/wizards/new_webapp_file.gif
+SHA1-Digest: ykHbHrZZCqTsEl7rr+ibvGnHtaI=
+
+Name: images/xstudio/editors/tiles_definition.gif
+SHA1-Digest: lQLTUZ2J9yQ9NKVH+GxvXUlKilk=
+
+Name: images/xstudio/actions/tomcat/tomcat_webxml.gif
+SHA1-Digest: Y+3kvucBFpbcXaxDPBNClOjSQE0=
+
+Name: images/xstudio/editors/script.gif
+SHA1-Digest: oCeyzT8SxmzOEcKWFNJFzemw6oc=
+
+Name: images/xstudio/editors/webapp_file.gif
+SHA1-Digest: npTvGBRoyuLbMCVRDxt5YlQ6YLc=
+
+Name: images/xstudio/wizards/new_css_class.gif
+SHA1-Digest: 8GqiUzSD2f78X86bPycJqWJXElY=
+
+Name: images/xstudio/actions/tomcat/jboss.gif
+SHA1-Digest: ge37vSI/sPXumQSnpZE+tIGCeCQ=
+
+Name: webui.jar
+SHA1-Digest: 8nqnZ6MAy/LO0lls/IzdwlIQZpE=
+
+Name: images/xstudio/wizards/new_html_file.gif
+SHA1-Digest: LyHtiSb6sVn32tFfaIvg4cXDIXc=
+
+Name: plugin.properties
+SHA1-Digest: IkqED3wEwg/jlUH5JCNlfNqqIBg=
+
+Name: images/xstudio/wizards/new_jsp_file.gif
+SHA1-Digest: vl6fGUXpiQ2i/PGkmuNvGr3qYts=
+
+Name: images/xstudio/editors/css.gif
+SHA1-Digest: 2L/DZ+YHZDArcj1VaW8KifPSnr8=
+
+Name: images/xstudio/actions/tomcat/tomcat.gif
+SHA1-Digest: fi2HmGHv4WtJNIdTdeYVpR07XEY=
+
+Name: images/xstudio/views/web_help.gif
+SHA1-Digest: KQiDFKYmadmhLNEgM5OTvGXT1g4=
+
+Name: images/xstudio/actions/save_model.gif
+SHA1-Digest: fTRztjCR8E3zHKp/NBcy+Q29OEM=
+
+Name: images/xstudio/wizards/new_js_file.gif
+SHA1-Digest: l5cnSgslmbgKf1KI+CJuP7Q8xbI=
+
+Name: images/xstudio/actions/tomcat/tomcat_stop.gif
+SHA1-Digest: oNBIyGsUEt4qREMch7u+uQgXwk4=
+
+Name: plugin.xml
+SHA1-Digest: OhY84C3j453+XMx57PnG0R2c7Os=
+
+Name: images/xstudio/wizards/new_properties_file.gif
+SHA1-Digest: sHwVPOLF5GYVAppvE5g4kGECYCI=
+
+Name: images/xstudio/actions/tomcat/xpl/tomcat_debug.gif
+SHA1-Digest: eFPao/Fujev01p6nG31IkbRsxfo=
+

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.myeclipse.persistence"
+      label="%featureName"
+      version="8.5.0.me201003250245-98947zFexXQawEMh9je4qqGMED"
+      provider-name="%providerName">
+
+   <description url="%featureUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      End User License Agreement 
+PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THE SOFTWARE.
+REGARDLESS OF HOW YOU ACQUIRE THE SOFTWARE (ELECTRONICALLY, PRE-LOADED,
+ON MEDIA OR OTHERWISE), DOWNLOADING, INSTALLING OR USING THE
+SOFTWARE SHALL INDICATE YOUR ACCEPTANCE OF THE TERMS AND CONDITIONS
+CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS
+AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS,
+YOU MAY NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE.
+1.0 Definitions. 1.1)&apos;Licensor&apos; means Genuitec L.L.C.; 1.2)&apos;Subscriber&apos;
+means registered members of the MyEclipse community who&apos;s dues
+have been paid in full; 1.3)&apos;Update&apos; shall refer to maintenance
+releases specific to the License, as they will be made by Licensor
+under no obligation or commitment to do so; 1.4)&apos;License&apos; shall
+mean the release version as designated on the distribution media;
+1.5)&apos;Term&apos; refers to the effective duration of the license agreement
+and is effective for 12 months following possession of this software.
+2.0 License. The License, including all content, is protected
+by copyright under United States, foreign laws and international
+treaties. Unauthorized use of the License may violate copyright,
+trademark and other laws. Licensor grants Subscriber the non-exclusive,
+non-transferable right and license to permit one End User the
+use of the license on computer workstations located at his/her
+normal places of business, during the Term and subject to the
+terms and conditions of this Software License Agreement. Licensor
+will provide Maintenance updates of the License to Subscriber
+during the Term at no additional charge. The terms of this Software
+License Agreement will apply to all Updates provided to Subscriber.
+This grant is not a transfer of title, and under this license
+Subscriber may not: a) use, republish, upload, post or transmit
+in any way the License or any Content except as expressly authorized
+pursuant to this Software License Agreement; b) copy, reproduce,
+modify or create derivative works from the Content except as
+expressly authorized pursuant to this Software License Agreement;
+c) attempt to decompile, disassemble or reverse engineer any
+software contained within the License; d) remove any copyright
+or other proprietary notations from the Content; e) distribute,
+transfer, sale, lease, sublicense, assign or otherwise make available,
+directly or indirectly, the License or any Content, in part or
+in whole, including any search output or results, to any other
+person; f) except as may be specifically provided in this Software
+License Agreement, permit the Software to be accessed through
+an electronic network beyond Subscriber&apos;s normal places of business;
+or g) transfer the Content to another person or &apos;mirror&apos; the
+Content on external servers. 
+3.0 Limitation of Liability. Licensor assumes no responsibility
+for the selection of the License to achieve any intended purpose,
+for the proper use of License or for verifying the results obtained
+from use of the License. We warrant that for a period of 90 days
+after delivery of this copy of the Software : a) the media on
+which this copy of the Software is provided to you will be free
+from defects in materials and workmanship under normal use, and
+b) the Software will perform in substantial accordance with the
+Documentation. To the extent permitted by applicable law, The
+foregoing limited warranty is in lieu of all other warranties
+or conditions, express or implied, and we disclaim any and all
+implied warranties or conditions, including any implied warranty
+of title, non-infringement, merchantability or fitness for a
+particular purpose, regardless of whether we know or had reason
+to know of your particular needs. No employee, agent, dealer
+or distributor of ours is authorized to modify this limited warranty,
+nor to make any additional warranties.Some states do not allow
+the limitation or exclusion of liability for incidental or consequential
+damages, so the above limitation may not apply to you. Licensor
+entire liability and Subscriber exclusive remedy for breach of
+the foregoing warranty shall be, at our option, to either: a)
+return the price you paid, or b) repair or replace the Software
+or media that does not meet the foregoing warranty if it is returned
+to us with a copy of your receipt. In no event will Licensor
+be liable to you for any damages, including any lost profits,
+lost savings, or other incidental or consequential damages arising
+from the use or the inability to use the software (even if Licensor
+or an authorized dealer or distributor has been advised of the
+possibility of these damages), or for any claim by any other
+party. 
+4.0 Termination of Agreement. This license agreement takes effect
+upon your use of the software and remains effective until terminated.
+This Software License Agreement shall immediately and automatically
+terminate without notice or any other act upon i) the expiry
+of the Term; ii) the attempted illegal copying, distribution,
+transfer, assignment, lease or sale of the License, or rights
+thereto, without the prior written consent of Licensor; or iii)
+notice in writing given by one party to the other upon the violation
+by that party of any provision of this Agreement. Upon termination
+of this Software License Agreement, Subscriber will forthwith
+cease use of the License and destroy all of the original and
+copied Software CD-ROMs and diskettes and Documentation in its
+possession and all copies of the License, the Content and the
+Documentation, or any portion thereof, stored in electronic form
+on any of its computer equipment. Upon Licensor&apos;s request, Subscriber
+will provide a written certification that all the copies of the
+License, the Content, and the Documentation, in whole or in part
+in any form have been destroyed. Failure to do so may result
+in additional fees and charges being levied against Subscriber.
+Any and all use of the License by Subscriber following termination
+of this Software License Agreement is prohibited and may result
+in additional fees and charges being levied against Subscriber.
+5.0 Confidentiality. The Software contains trade secrets and
+proprietary know-how that belong to the Licensor and it is being
+made available to you in strict confidence. Any use or disclosure
+of the software, or of its algorithms, protocols or interfaces,
+other than in strict accordance with this license agreement may
+be actionable as a violation of licensor trade secret rights.
+6.0 Indemnity. Subscriber will indemnify Licensor and hold them
+harmless from and against any and all claims which a third party
+may assert against Licensor by reason of or as a consequence
+of Subscribers use of the License.
+7.0 General Provisions. This Software License Agreement constitute
+the entire agreement between the parties and supersede all prior
+agreements and understandings, oral and written, express or implied,
+by and between any of the parties with respect to the subject
+matter of this Agreement. No amendment or modification of this
+Software License Agreement shall be binding unless in writing
+and signed by a duly authorized representative of both parties.
+This Software License Agreement shall be governed by and construed
+in accordance with the laws of the State of Texas and federal
+laws of the United States. Any actions at law or in equity arising
+out of or in relation to this Enterprise License Agreement may
+be filed only in the U.S. District Court in the State of Texas,
+U.S.A. and Subscriber hereby consents and submits to the personal
+jurisdiction of such court. If any one or more of the provisions
+contained in this Software License Agreement should be invalid,
+illegal or unenforceable in any respect in any jurisdiction,
+the validity, legality and enforceability of such provision or
+provisions shall not in any way be affected or impaired as a
+result of such event in any other jurisdiction and the validity,
+legality and enforceability of the remaining provisions contained
+in this Agreement shall not in any way be affected or impaired
+as a result of such event, unless in either case as a result
+of such determination this Agreement would fail in its essential
+purpose.
+8.0 Copyright and Trademark Notices. All Content is (c) Copyright
+Genuitec, LLC. 2000-2009, 2221 Justin Road #119-340, Flower Mound,
+TX 75028. Any rights not expressly granted herein are reserved
+to the Licensor.
+   </license>
+
+   <plugin
+         id="com.genuitec.eclipse.hibernate"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003212033"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.springhibernate"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+         
+   <plugin
+         id="com.genuitec.eclipse.lib.spring3"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003162025"
+         unpack="false"/>	
+
+   <plugin
+         id="com.genuitec.org.hibernate.eclipse"
+         download-size="0"
+         install-size="0"
+         version="3.2.4.CR1-me201003101716"/>
+
+   <plugin
+         id="com.genuitec.org.hibernate.eclipse.console"
+         download-size="0"
+         install-size="0"
+         version="3.2.4.CR1-me201003052220"/>
+
+   <plugin
+         id="com.genuitec.org.hibernate.eclipse.mapper"
+         download-size="0"
+         install-size="0"
+         version="3.2.4.CR1-me201003052220"/>
+
+   <plugin
+         id="org.hibernate.eclipse.jdt.ui"
+         download-size="0"
+         install-size="0"
+         version="3.2.4.CR1-me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.persistence.jpa"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.core"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.db"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.edit"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.gen"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.ui"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.utility"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.springframework"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.binding"
+         download-size="0"
+         install-size="0"
+         version="2.0.4.v200809171600"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.osgi.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v200807062000"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.osgi.doc"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200801251000"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.osgi.extender"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v200807062000"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.osgi.io"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v200807602000"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.spring"
+         download-size="0"
+         install-size="0"
+         version="2.5.6.v200808081800"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.spring.doc"
+         download-size="0"
+         install-size="0"
+         version="2.5.6.v200807062000"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.bundle.spring.webmvc"
+         download-size="0"
+         install-size="0"
+         version="2.5.6.v200808081800"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.faces"
+         download-size="0"
+         install-size="0"
+         version="2.0.4.v200809171600"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.aop.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.aop.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.aop.ui.matcher"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.core.autowire"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.osgibridge"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.editor"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.graph"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.refactoring"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003101716"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.search"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.doc"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.javaconfig.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.javaconfig.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.osgi"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.osgi.targetdefinition"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.security"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.webflow.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.webflow.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.webflow.ui.editor"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.webflow.ui.graph"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.javaconfig"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.m3_v200707150600"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.js"
+         download-size="0"
+         install-size="0"
+         version="2.0.4.v200809171600"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.osgi.backport.util.concurrent"
+         download-size="0"
+         install-size="0"
+         version="3.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.security.annotation"
+         download-size="0"
+         install-size="0"
+         version="2.0.5.v200809181800"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.security.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.5.v200809181800"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.webflow"
+         download-size="0"
+         install-size="0"
+         version="2.0.4.v200809171600"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.webflow.doc"
+         download-size="0"
+         install-size="0"
+         version="1.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003250242"
+         unpack="false"/>
+
+</feature>

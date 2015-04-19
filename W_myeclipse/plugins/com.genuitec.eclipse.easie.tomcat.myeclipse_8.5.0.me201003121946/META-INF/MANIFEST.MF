@@ -1,0 +1,178 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,com.genuitec.eclipse.easie.tomcat,org.eclipse.cor
+ e.runtime.compatibility,com.genuitec.eclipse.ast.deploy.core,com.genu
+ itec.eclipse.j2eedt.core
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.tomcat.myeclipse.MyEclipseTom
+ catLauncherPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: tomcat-myeclipse.jar
+Bundle-Version: 8.5.0.me201003121946
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.tomcat.myeclipse; sing
+ leton:=true
+
+Name: tomcat/bin/startup.bat
+SHA1-Digest: 7VxyUe4rBlVkPYouctFV85X0Z50=
+
+Name: tomcat/lib/tomcat-dbcp.jar
+SHA1-Digest: QjCRd04vYHol3iLjRYhMHiaNDEM=
+
+Name: tomcat/bin/shutdown.bat
+SHA1-Digest: Wfsk7O0Fh4ei4cW+EfKXwz3pZIY=
+
+Name: tomcat/LICENSE
+SHA1-Digest: R7Vz44JM1eAqGjrpnic1tJ4CVuQ=
+
+Name: tomcat/bin/cpappend.bat
+SHA1-Digest: Oyxztzy+6RgVaYn2Zd06UpH1qDw=
+
+Name: tomcat/bin/tomcat6w.exe
+SHA1-Digest: MC1BDdO7I68tvPEsI43DFDW0188=
+
+Name: tomcat/RELEASE-NOTES
+SHA1-Digest: qFzzYTgMIqpPMo0+AUNq4k5Te1s=
+
+Name: tomcat/lib/catalina.jar
+SHA1-Digest: +S+sxm16DTeh6UFBW9Xy+YDUjAk=
+
+Name: tomcat/lib/tomcat-i18n-fr.jar
+SHA1-Digest: K437Iaf60NfjpLYqH4FS+3Vprhs=
+
+Name: plugin.properties
+SHA1-Digest: wclh8FohNvoRg24+jBW2U15y4aE=
+
+Name: tomcat/lib/jasper-el.jar
+SHA1-Digest: kRtyshL8dcD2trk4VlDyPvIsydM=
+
+Name: tomcat/lib/jasper-jdt.jar
+SHA1-Digest: pNDRsdyUQgGx8/ha3WzUCbvh2vw=
+
+Name: tomcat/bin/tomcat-juli.jar
+SHA1-Digest: rn6lWQ0zL+UqQOcMzNor3gwz7QA=
+
+Name: tomcat/bin/catalina-tasks.xml
+SHA1-Digest: mKRFB/fSt/TSVR8RGRO0TYE5Dfk=
+
+Name: tomcat/bin/digest.sh
+SHA1-Digest: CrfPJgY8uOWeps+SWxmW3QkbW9w=
+
+Name: tomcat/bin/catalina.bat
+SHA1-Digest: Tch3m9OxP1yQN+cg8NuxNpBXFho=
+
+Name: tomcat/lib/tomcat-coyote.jar
+SHA1-Digest: Gyk2fNPsyBFRqC/+PkyCXA0ps2w=
+
+Name: license.html
+SHA1-Digest: PXrRzsknhGs9H05BUBqyeuRbA0c=
+
+Name: tomcat/lib/jasper.jar
+SHA1-Digest: 4Zxz13UI8kH1SoqHEpNC9NLmnYE=
+
+Name: tomcat/bin/catalina.sh
+SHA1-Digest: kzsDHw++g6+fdcahjS2Stlr8awY=
+
+Name: tomcat/RUNNING.txt
+SHA1-Digest: z7ctw7T+U9drreDH8HYVBn+rqTI=
+
+Name: tomcat/lib/annotations-api.jar
+SHA1-Digest: ghBns3RDI+0MKr4oRO0huFxpmhQ=
+
+Name: tomcat/bin/tool-wrapper.sh
+SHA1-Digest: lOb0Nu9CEMW+f7xXZ2tMMcLp+tc=
+
+Name: tomcat/lib/catalina-ant.jar
+SHA1-Digest: dpoDtPisvvUXZqwNP/6V7Osfd4U=
+
+Name: tomcat/lib/catalina-tribes.jar
+SHA1-Digest: aj3QumZlcBRxr2f1ItFCqqkPY44=
+
+Name: tomcat/bin/tomcat6.exe
+SHA1-Digest: 1+TcOq/KEeokue5Hc3kJNk5WfFU=
+
+Name: tomcat/bin/tool-wrapper.bat
+SHA1-Digest: dhJezR6KSdk0zVdWbn9t+24XuuQ=
+
+Name: tomcat/lib/jsp-api.jar
+SHA1-Digest: 724adpIiwe3G76Z6xFfNz+62b4k=
+
+Name: tomcat/tomcat-base.zip
+SHA1-Digest: Vyi3cp8j4B4d0N03BIzm6bV+DBA=
+
+Name: about.html
+SHA1-Digest: XI8nFcUBGFHVj8qujrMoftMWpTg=
+
+Name: tomcat/lib/el-api.jar
+SHA1-Digest: oi1TIw/LnNwHH+g3uKPUeO7Rp14=
+
+Name: tomcat/bin/startup.sh
+SHA1-Digest: +ClqxR3hiISQHRl5OpURZkiOWrw=
+
+Name: tomcat/bin/bootstrap.jar
+SHA1-Digest: FIw2ff/k4ATxmvz2Ure+DUspIGo=
+
+Name: tomcat/bin/version.sh
+SHA1-Digest: Bsxu+uruHKr/RYOQLkClocMaIfk=
+
+Name: tomcat/bin/jsvc.tar.gz
+SHA1-Digest: 5lEINxFtV0VWZasG4ljkqnzrJG8=
+
+Name: tomcat/bin/digest.bat
+SHA1-Digest: 7oCuSTc3sYwu4UUigO1KnRnxSFk=
+
+Name: tomcat/lib/servlet-api.jar
+SHA1-Digest: 2Gj0OPJ9o4s8zSU7y4WfBsGh/iw=
+
+Name: tomcat/lib/tomcat-i18n-ja.jar
+SHA1-Digest: VT32IeajI3VhoG5mVEZTvEbpMaA=
+
+Name: tomcat/bin/version.bat
+SHA1-Digest: LLy/KaJvFL3GdcskEo2M3OQIP6k=
+
+Name: tomcat/bin/commons-daemon.jar
+SHA1-Digest: Y+Rj2DSHq7DTvGpqWSSW4fTvKTU=
+
+Name: tomcat/bin/tomcat-native.tar.gz
+SHA1-Digest: Lk16VwWvQRAbrRfND170/22AZvg=
+
+Name: tomcat-myeclipse.jar
+SHA1-Digest: XaQocXh4fUMJiOcfpvc0m9Hw9UU=
+
+Name: tomcat/bin/setclasspath.bat
+SHA1-Digest: 9oh9euG1jIqvoNFY464eR9rgBpw=
+
+Name: tomcat/NOTICE
+SHA1-Digest: gH1uRufG+M3aWTXgWleqg0BVAYc=
+
+Name: tomcat/bin/service.bat
+SHA1-Digest: Z/VRlONkDFWUhpsH4jRBNFQuL7k=
+
+Name: tomcat/lib/catalina-ha.jar
+SHA1-Digest: KrcIpe2pCe5JKDqUGlHyWg00AuM=
+
+Name: preferences.ini
+SHA1-Digest: 7IJJdgSweB0Ozfb5o4tSQmF3UDw=
+
+Name: tomcat/bin/setclasspath.sh
+SHA1-Digest: b/2QmHov56WlOztmqb3PBpCCb48=
+
+Name: plugin.xml
+SHA1-Digest: 0dzcgNJlgg9BcZwk9nwnMDyv6U0=
+
+Name: tomcat/lib/tomcat-i18n-es.jar
+SHA1-Digest: +NOfbK9OGOY7xMK8VE2EfND97dI=
+
+Name: tomcat/bin/shutdown.sh
+SHA1-Digest: ZXEEGJ2bH2OGjW6Dg+0+9mE9nWM=
+

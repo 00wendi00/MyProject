@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension point="fr.obeo.acceleo.bridge.xmiloader">
+      <loader xmiloader="fr.obeo.acceleo.uml14.ui.popupMenus.SpecificUml14XmiLoader" priority="0"/>
+   </extension>
+   
+</plugin>

@@ -1,0 +1,833 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: nNOu5d/QSWfDCem33jSWUnbRaAc=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: aAf+XIBo7F6IXB0neXAqx1DSXhs=
+
+Name: xulrunner/components/necko_about.xpt
+SHA1-Digest: rSagSqGObgIdVk/t5uKhhcJIAKs=
+
+Name: xulrunner/components/saxparser.xpt
+SHA1-Digest: jLA0cWr+wfEdqXnH+Q+2hFcMHDo=
+
+Name: xulrunner/chrome/en-US.manifest
+SHA1-Digest: bnCbE/tJKEs25tL8djoNNLzsk10=
+
+Name: xulrunner/components/dom_canvas.xpt
+SHA1-Digest: aOf14GwXEDfpSesrRqOZLrrTCB0=
+
+Name: xulrunner/res/loading-image.gif
+SHA1-Digest: DEUn+o6rRyUhghpk/Pyhyos0Wkk=
+
+Name: xulrunner/components/parentalcontrols.xpt
+SHA1-Digest: ITk3CKC0Dsu6vTivUDMfcwZcQ7k=
+
+Name: xulrunner/components/dom_html.xpt
+SHA1-Digest: cp0AOMLEYU1Q11m9GpLUfG2Vu4U=
+
+Name: xulrunner/components/storage.xpt
+SHA1-Digest: /qMRbdnHSkGmvSX4hDUhtbxFgX0=
+
+Name: xulrunner/components/urlformatter.xpt
+SHA1-Digest: KVsatpCiFMThpbRrG/C0w/FqheA=
+
+Name: xulrunner/components/embed_base.xpt
+SHA1-Digest: pc+DqnCyhwdvZv8uTYOwNAK1zwo=
+
+Name: xulrunner/components/pluginGlue.js
+SHA1-Digest: NE6lPzzi6sQ3ce73ryk65Sr20DM=
+
+Name: xulrunner/components/xpcom_system.xpt
+SHA1-Digest: ysayKD+Vfa+0OvbS4PvoPkZpraY=
+
+Name: xulrunner/plds4.dll
+SHA1-Digest: 5y+zvhDGrIg9l5RWNZ2LxVkczsQ=
+
+Name: xulrunner/nssutil3.dll
+SHA1-Digest: Pljn7Z63w6h7r+NOhsmCqN+xA+8=
+
+Name: xulrunner/defaults/autoconfig/prefcalls.js
+SHA1-Digest: cWWBXwYhqv0NQ/gPALSOZN78pPI=
+
+Name: xulrunner/greprefs/security-prefs.js
+SHA1-Digest: IWLK6IFaJqwDbQ8tsnKj04j+v0k=
+
+Name: xulrunner/components/rdf.xpt
+SHA1-Digest: Ami7MQDzs88fsWK/ziMSeJscxFE=
+
+Name: xulrunner/res/table-add-row-after-active.gif
+SHA1-Digest: fgnx1eWSO4olKcSTQFHgsrgOaKM=
+
+Name: xulrunner/AccessibleMarshal.dll
+SHA1-Digest: teXQOS/a3J3Rqp/bGIkwl5QEpIo=
+
+Name: xulrunner/res/charsetalias.properties
+SHA1-Digest: EOlrpER3vBLgRbp16Sp/R/zgIOQ=
+
+Name: xulrunner/components/directory.xpt
+SHA1-Digest: 2yeigFt9qKG/IADB7Bu3f3Qp91k=
+
+Name: xulrunner/components/necko_file.xpt
+SHA1-Digest: ZRe2OM7/RCsOqcsfx3uDhFPeDgk=
+
+Name: xulrunner/components/xpcom_thread.xpt
+SHA1-Digest: bNzyZCa0sThjFo1K9MB2vPbq1nA=
+
+Name: xulrunner/components/dom_range.xpt
+SHA1-Digest: yEEq3i6RkVPKsl+Bsy5bUIbmFWk=
+
+Name: xulrunner/components/pipnss.xpt
+SHA1-Digest: 3u2PPsMMhO9JCWfYO5N4ox+kLkk=
+
+Name: xulrunner/chrome/comm.jar
+SHA1-Digest: YrUD2JtmVcNZCWI6YXPRB6WvnuM=
+
+Name: xulrunner/components/necko_strconv.xpt
+SHA1-Digest: Ie/qw4pc2Wf84A1POhEbfItDAQs=
+
+Name: xulrunner/res/table-remove-column.gif
+SHA1-Digest: agu9/T7InbA8X4uODZjw8ps+kng=
+
+Name: xulrunner/res/hiddenWindow.html
+SHA1-Digest: ZuG45wB7QkbWr0D+mIHMh9AvAbE=
+
+Name: xulrunner/components/necko_socket.xpt
+SHA1-Digest: CkClI5l3no3nAgSnVep+3d1QxFE=
+
+Name: xulrunner/components/dom_stylesheets.xpt
+SHA1-Digest: pGhPVFtIhb86Ty6h3YVDB2xwi8M=
+
+Name: xulrunner/res/table-add-column-before-hover.gif
+SHA1-Digest: 6MRuA9oWL1293Rs+l62aDdOwD1k=
+
+Name: xulrunner/res/grabber.gif
+SHA1-Digest: wkakWxBKjmqkqjWs2FzGUwRzEBQ=
+
+Name: xulrunner/freebl3.chk
+SHA1-Digest: +fbD/41Qfkd+MD+v5dIlgEgyJAA=
+
+Name: xulrunner/res/fonts/mathfontStandardSymbolsL.properties
+SHA1-Digest: Mfy0KSDOPYSNDEdPtRBF6hk0Zyk=
+
+Name: xulrunner/components/downloads.xpt
+SHA1-Digest: /j+iLufdsv5SL0k6ORqcSWNUyeo=
+
+Name: xulrunner/dictionaries/en-US.aff
+SHA1-Digest: mrpl7cATAdPZs75nFFM5Q5RzO8M=
+
+Name: xulrunner/res/table-add-row-before.gif
+SHA1-Digest: lSEnZxH6P6k/gPzGmtXJ8y17o6U=
+
+Name: xulrunner/res/table-add-column-after-hover.gif
+SHA1-Digest: +b+JlMnLOocBBvRxo8JpkeNxqRI=
+
+Name: xulrunner/components/mozbrwsr.xpt
+SHA1-Digest: diZAiN+H8vhhzAMf3kS4PkY/2BY=
+
+Name: xulrunner/components/unicharutil.xpt
+SHA1-Digest: P/txjOcgwG7d+4T9d5VPcwyD0LQ=
+
+Name: xulrunner/res/table-remove-row-hover.gif
+SHA1-Digest: 7UBbAiXKnPzNqCyYDxY9NgxSaKA=
+
+Name: xulrunner/components/storage-Legacy.js
+SHA1-Digest: Bj/CR6ADmFiyY0KGbjpUEVePe38=
+
+Name: xulrunner/components/nsDownloadManagerUI.js
+SHA1-Digest: 3haCWzZ0kg+3XitCeaNxkf0rRjg=
+
+Name: xulrunner/nssdbm3.dll
+SHA1-Digest: Xz7JQUvYmiBup5iN15QX/vs6mWc=
+
+Name: xulrunner/components/feeds.xpt
+SHA1-Digest: T88mkbvls8gSnOVlLfyMjuICoSA=
+
+Name: xulrunner/mozctl.dll
+SHA1-Digest: XZ1XfdLI9UT3RkUItDhhIMdMA40=
+
+Name: xulrunner/components/nsExtensionManager.js
+SHA1-Digest: mcEpiMtFfeIuAYeMpmZB+kRrkwg=
+
+Name: xulrunner/res/quirk.css
+SHA1-Digest: +JGRFzIEC4QxV1a/QfvkyjIyupk=
+
+Name: xulrunner/components/gfx.xpt
+SHA1-Digest: S5y1zfkIdra51QekHkFWB+n2W+0=
+
+Name: xulrunner/components/xpinstall.xpt
+SHA1-Digest: D7ElnfOJk5PtQlu7K8DrZ8YK5rY=
+
+Name: xulrunner/components/layout_printing.xpt
+SHA1-Digest: LF5zezkmn06BDfpACfJS4XcY/Vo=
+
+Name: xulrunner/plugins/npnul32.dll
+SHA1-Digest: yzSf/k4MhCOwqRnpY5Lh5Lt4seI=
+
+Name: xulrunner/res/entityTables/html40Latin1.properties
+SHA1-Digest: dxHRi0N6DckwqsHtjExRYZyXTXQ=
+
+Name: xulrunner/xpcom.dll
+SHA1-Digest: Q1geSR4HJTB8Ic9lWoKzCUUUllw=
+
+Name: xulrunner/LICENSE
+SHA1-Digest: NG8GvLntN2JmdNTgchTcFUeXSsY=
+
+Name: xulrunner/components/proxyObject.xpt
+SHA1-Digest: 1xVxsMX87MtxyaJum4tQNOgTh0g=
+
+Name: xulrunner/res/table-add-column-before-active.gif
+SHA1-Digest: vBqmhwvY3t59uw6A2JJ4nmOl7IQ=
+
+Name: xulrunner/components/commandlines.xpt
+SHA1-Digest: GqjzzoFGxDsBBc0Clrplx1AOGzA=
+
+Name: xulrunner/mozcrt19.dll
+SHA1-Digest: LFYVcs7rOO/OWYVSw+XFNLokKgM=
+
+Name: xulrunner/components/mozfind.xpt
+SHA1-Digest: Ir03Vmuu/2IfBPlbbVz9QrQkf2Q=
+
+Name: xulrunner/res/entityTables/html40Special.properties
+SHA1-Digest: mRW+ZkBULa8Y3oc5mIdV+f89hQU=
+
+Name: xulrunner/res/broken-image.gif
+SHA1-Digest: XoQWJBEtrvHCR8+rALLf9EW9nns=
+
+Name: xulrunner/js3250.dll
+SHA1-Digest: dxqudI4ovDFexe6J03miFlqWJsw=
+
+Name: xulrunner/components/necko_cache.xpt
+SHA1-Digest: 7fQ4mqqjlM4rQm/R3Qqayw7mZgY=
+
+Name: xulrunner/defaults/profile/US/chrome/userContent-example.css
+SHA1-Digest: 6H1SAwdxo1mhGSezpA7UL4bVnSk=
+
+Name: xulrunner/res/entityTables/transliterate.properties
+SHA1-Digest: w8I73P8ueqvaO89Yhqyy4uNLIDk=
+
+Name: xulrunner/components/nsPostUpdateWin.js
+SHA1-Digest: 2Nl0sxqOeLHKfNQOzwmYAQHPqwM=
+
+Name: xulrunner/components/exthandler.xpt
+SHA1-Digest: w8/X3PDpyK+QT1opqQsAXj0aKig=
+
+Name: xulrunner/components/necko_ftp.xpt
+SHA1-Digest: rtMgnMa4cQzDCg7DJA3UY3Lnt34=
+
+Name: xulrunner/mozctlx.dll
+SHA1-Digest: 6LUq3exIHdHS26T9r43rdRVl2WQ=
+
+Name: xulrunner/res/table-add-column-after-active.gif
+SHA1-Digest: VFLFZqrKuC2MGssUIe+ZKWOXKkE=
+
+Name: xulrunner/components/nsLoginManagerPrompter.js
+SHA1-Digest: zhzGAaesngrIBVU7HMjiNoe7yrk=
+
+Name: xulrunner/defaults/profile/US/localstore.rdf
+SHA1-Digest: zezLfEAZM3OcV+43mPjwjJ2n76M=
+
+Name: xulrunner/components/webshell_idls.xpt
+SHA1-Digest: qOJ9JWG2EyIShHlLO7vKHpNVMfg=
+
+Name: xulrunner/components/necko.xpt
+SHA1-Digest: dLVpew4TzH8FE+Artj8GZ0c7H5A=
+
+Name: xulrunner/components/cookie.xpt
+SHA1-Digest: jOPuUutz7rW5B4MdpTZSAb+B+K0=
+
+Name: xulrunner/res/mathml.css
+SHA1-Digest: k106t24k6lVcTdjyBivECWbjznY=
+
+Name: xulrunner/modules/JSON.jsm
+SHA1-Digest: ezSDLUcTpr9/DCMrufpDSX7lWiE=
+
+Name: xulrunner/components/inspector.xpt
+SHA1-Digest: QjpkDB9eK6hHgiWFR+ERVvMsiiA=
+
+Name: xulrunner/defaults/pref/xulrunner.js
+SHA1-Digest: 2XlXObBAoOFPyxDvP1ryxP8Kpvo=
+
+Name: xulrunner/components/necko_dns.xpt
+SHA1-Digest: xjTjp6HKr23jElqvYwC9j04+Rs0=
+
+Name: xulrunner/defaults/profile/chrome/userChrome-example.css
+SHA1-Digest: jkLfsgSv7NnscUVRfg4KF01HkSE=
+
+Name: xulrunner/components/windowwatcher.xpt
+SHA1-Digest: TeUyOKWFhpyk2TeeFO3POzvSdK4=
+
+Name: xulrunner/components/find.xpt
+SHA1-Digest: Wuiygc59OyNmn6fvIAJZv9LUEqo=
+
+Name: xulrunner/res/table-add-column-before.gif
+SHA1-Digest: jVHudrsuhAb/odyemnooQ7LxJ+E=
+
+Name: xulrunner/components/htmlparser.xpt
+SHA1-Digest: Moo104yUeQzodCsnCYtYeNFtank=
+
+Name: xulrunner/components/nsHandlerService.js
+SHA1-Digest: muaN1NrZoTJEhiISf58/fnn/6MU=
+
+Name: plugin.properties
+SHA1-Digest: aAkdh7GCyS+zYiuzbr8FXllasRQ=
+
+Name: xulrunner/sqlite3.dll
+SHA1-Digest: OUfaSQceuGXewwq196dX6C6/dLo=
+
+Name: xulrunner/components/layout_base.xpt
+SHA1-Digest: b33lH9xw5rH8NQ2XICpUWHMzggs=
+
+Name: xulrunner/modules/ISO8601DateUtils.jsm
+SHA1-Digest: LNJizxT7JaXLxbYYyNHSuNc+Ez0=
+
+Name: xulrunner/javaxpcom.jar
+SHA1-Digest: vOZr5BMSEJKuQDLusfQLLVO3BOs=
+
+Name: xulrunner/components/imglib2.xpt
+SHA1-Digest: XK8iGOezbfCWLYmNOFPkjNclFmc=
+
+Name: xulrunner/components/nsXULAppInstall.js
+SHA1-Digest: nisxa1D427ILGUlbhja5AWveVGw=
+
+Name: xulrunner/ssl3.dll
+SHA1-Digest: 00IhElMNfB3LSEEkNuhxwzCcgxI=
+
+Name: xulrunner/components/nsXmlRpcClient.js
+SHA1-Digest: g6ZCHmpqUUWUY5PttGvzLPgRHLM=
+
+Name: xulrunner/components/caps.xpt
+SHA1-Digest: Uc4DnNugyFVY+zL5JCr6N5QtXDo=
+
+Name: xulrunner/components/nsDefaultCLH.js
+SHA1-Digest: bCzsT0unE6LCcK000iqkvTOE0Rw=
+
+Name: xulrunner/components/nsLivemarkService.js
+SHA1-Digest: n+1RFWhD44JkDFqDSpF0xBtEYEE=
+
+Name: xulrunner/freebl3.dll
+SHA1-Digest: fBrb5TrTztqlHxyHa7aqoFmJIfY=
+
+Name: xulrunner/res/table-add-row-before-active.gif
+SHA1-Digest: 2Cv3PJqNEL41iVKI/HSgFaRv83A=
+
+Name: xulrunner/plc4.dll
+SHA1-Digest: 6DeRo8qnosOUV8CEfkCYceIbeNA=
+
+Name: xulrunner/greprefs/xpinstall.js
+SHA1-Digest: 1/rces5/PMQqOowZmNL074pOrpM=
+
+Name: xulrunner/chrome/pippki.manifest
+SHA1-Digest: 4Mad5CO+dMVdA9gVUxsGLkliaFQ=
+
+Name: xulrunner/components/dom_loadsave.xpt
+SHA1-Digest: cPv3eaEVhzIJp9tS+UWjmkteQRo=
+
+Name: xulrunner/components/content_base.xpt
+SHA1-Digest: 80xky4tcrhhwNm7zJNx080Soo/w=
+
+Name: xulrunner/res/entityTables/mathml20.properties
+SHA1-Digest: VK8Osz0o375KCni+LgbmBEDIERw=
+
+Name: xulrunner/components/intl.xpt
+SHA1-Digest: J24NlfH7M/hzYPrWZYMpfkPvS+I=
+
+Name: xulrunner/components/widget.xpt
+SHA1-Digest: 2ekBodXzrmSW9tAEksz34zXzKhw=
+
+Name: xulrunner/README.txt
+SHA1-Digest: k69+uU3PQcaEYiQtjCR4f4ftJ/Q=
+
+Name: xulrunner/components/chardet.xpt
+SHA1-Digest: W2Cuif/ayQYQjrihNJ+V7aZGqsY=
+
+Name: xulrunner/components/nsContentPrefService.js
+SHA1-Digest: 2ZRJ7acZdOp8KOZNje7OlB819EQ=
+
+Name: xulrunner/components/nsTryToClose.js
+SHA1-Digest: AuY5cpY+ZjWGPhaQRxwATRe9VpM=
+
+Name: xulrunner/softokn3.dll
+SHA1-Digest: lLbKgXhrom4Zhlx1eDSJxIAUqnI=
+
+Name: xulrunner/components/dom_storage.xpt
+SHA1-Digest: m44ynRUaQ6UL47E2Kdxmb/qmjHE=
+
+Name: xulrunner/components/nsLoginInfo.js
+SHA1-Digest: kX2GpUCMARH31uZbOO2sWcB6rG8=
+
+Name: xulrunner/components/mimetype.xpt
+SHA1-Digest: nWwPpZoIkz7hYy7bM2KwCrK6Obo=
+
+Name: xulrunner/modules/XPCOMUtils.jsm
+SHA1-Digest: 34nM5H1vi9KSa1fLXEdXRiHwTmU=
+
+Name: xulrunner/components/composer.xpt
+SHA1-Digest: 1mJkf8gJHtal4qQBOg6auwCzxzA=
+
+Name: xulrunner/res/contenteditable.css
+SHA1-Digest: UCihi2wNLOTjW4/of1FULtAoGAI=
+
+Name: xulrunner/modules/DownloadUtils.jsm
+SHA1-Digest: Vy+UMMtVzdjpdwHqin/ewzJBIjU=
+
+Name: xulrunner/components/docshell_base.xpt
+SHA1-Digest: vqzABXeLhk9JqCJ8UREP+QA3hhg=
+
+Name: xulrunner/components/nsHelperAppDlg.js
+SHA1-Digest: xf2MiT/P4tHtYptiq3NAEeyftWU=
+
+Name: xulrunner/res/EditorOverride.css
+SHA1-Digest: ublzuV5L3SQtoaObBs2k85sW2cI=
+
+Name: xulrunner/components/content_html.xpt
+SHA1-Digest: LMEFI/0x7cZkQUksIGuYqGmRFsE=
+
+Name: xulrunner/components/places.xpt
+SHA1-Digest: 9xZ3U5pzvznsX0/6SOUDlKVm64U=
+
+Name: xulrunner/components/necko_viewsource.xpt
+SHA1-Digest: loKR5qlpPOkQc9qLxR0aG3tZ9Rw=
+
+Name: xulrunner/components/nsUpdateService.js
+SHA1-Digest: wDpIRlN9QjdL0cc/WPAzJGo70Eo=
+
+Name: xulrunner/components/editor.xpt
+SHA1-Digest: LbxgGCAFo6NDGhI5o3XJSWk7S4M=
+
+Name: xulrunner/components/nsProgressDialog.js
+SHA1-Digest: ITjH4U6oxEkiCk9N1BpHefvDP/Y=
+
+Name: xulrunner/softokn3.chk
+SHA1-Digest: DtpjQd8LxkehLpOz8iWNXAN/BJQ=
+
+Name: xulrunner/platform.ini
+SHA1-Digest: uQvLfelHjJ1luRPbL/aREejGzCA=
+
+Name: xulrunner/components/nsResetPref.js
+SHA1-Digest: euovE+GYzE758hRgQsOdhAvwNhg=
+
+Name: xulrunner/components/plugin.xpt
+SHA1-Digest: 5kyXLc4Tk1IEOorqnKlC07ItAII=
+
+Name: xulrunner/smime3.dll
+SHA1-Digest: vFFmrNrzVd7F1hF3NQQI6aKWOO4=
+
+Name: xulrunner/components/jsdservice.xpt
+SHA1-Digest: 7vSgA+bDazhMJCo5sIHmcisPQlY=
+
+Name: xulrunner/components/extensions.xpt
+SHA1-Digest: QeBN4UKeTDQm9oa2i7x4VtY8SCc=
+
+Name: xulrunner/components/dom_sidebar.xpt
+SHA1-Digest: Nx8BmDsxS5nZtrGEfQ4gniN7iXU=
+
+Name: xulrunner/components/dom_css.xpt
+SHA1-Digest: 5NEdxt3kcvv9GgNIko1KX25LSYM=
+
+Name: xulrunner/components/xpcom_base.xpt
+SHA1-Digest: SDx9Jy8tOWx3ydaqMs0PFslKl10=
+
+Name: xulrunner/components/nsProxyAutoConfig.js
+SHA1-Digest: xWsJX9B27SwnK1xPphjkkuq2Tv0=
+
+Name: xulrunner/res/arrow.gif
+SHA1-Digest: XqF58sMSxPx/PqwgGl5/KIhOSTI=
+
+Name: xulrunner/components/xpcom_components.xpt
+SHA1-Digest: nsKzVZwjGjiczy2L4RCHj1hssMc=
+
+Name: xulrunner/components/accessibility-msaa.xpt
+SHA1-Digest: kxJD7EEhxao95O1xZ1hO1hsHhfc=
+
+Name: xulrunner/components/nsDictionary.js
+SHA1-Digest: nd5l/8IhBPdkXDZAdFF6oK34u6E=
+
+Name: xulrunner/components/alerts.xpt
+SHA1-Digest: yPaEXsLuFx2npFMu3nybLBP3R00=
+
+Name: xulrunner/components/pref.xpt
+SHA1-Digest: 9/cqILoV73OaESt9/fOaAz1njEQ=
+
+Name: xulrunner/components/dom_events.xpt
+SHA1-Digest: VM81MmYo1Pzyemj6Gvkq5HLoYU8=
+
+Name: xulrunner/components/xulapp_setup.xpt
+SHA1-Digest: VeKE4UgoTPYEByL1clIl3Eos7rw=
+
+Name: xulrunner/components/dom_xbl.xpt
+SHA1-Digest: l04RuXlINp8HIqzQwF+mU24n2o4=
+
+Name: xulrunner/res/ua.css
+SHA1-Digest: mkZWOFg8Z5LQuVulw1+J21+qwUQ=
+
+Name: xulrunner/components/nsBadCertHandler.js
+SHA1-Digest: LG7FKKjT+VWVbr1/KZ1lySS9wNE=
+
+Name: xulrunner/res/entityTables/html40Symbols.properties
+SHA1-Digest: 3g6pdjyuVhx0a1tEMki2XW6dO7c=
+
+Name: xulrunner/components/content_xtf.xpt
+SHA1-Digest: sMM72xhyI1hzRCPQWFBm1e01kNE=
+
+Name: xulrunner/components/xulapp.xpt
+SHA1-Digest: hXCgsxkyKa6pOrWiKtoiadPw4hI=
+
+Name: xulrunner/res/table-add-row-after-hover.gif
+SHA1-Digest: R5I0CgFLoBC6Dj02poUov7uZE3I=
+
+Name: xulrunner/res/fonts/mathfontSTIXSize1.properties
+SHA1-Digest: 2vsAGrwT2YgddTkQsd1zYtVp+hQ=
+
+Name: xulrunner/components/dom_offline.xpt
+SHA1-Digest: qrDOYHmmhgcffSWWkv5kYCSVlB0=
+
+Name: xulrunner/components/content_xslt.xpt
+SHA1-Digest: YSlj0Xzu6qE5IrD10KY3VWmT7Ec=
+
+Name: xulrunner/res/designmode.css
+SHA1-Digest: IE2n9vOnpySmDlhrPZPb9eopBoo=
+
+Name: xulrunner/components/dom_xul.xpt
+SHA1-Digest: zvaxDwJDMYH4gW1flvWqBn2dogI=
+
+Name: xulrunner/components/txmgr.xpt
+SHA1-Digest: 8AdLQSqE9uQpZe6j/9z0NEE1lxs=
+
+Name: xulrunner/res/html.css
+SHA1-Digest: 2DCDiKCT5L4uIXZj9mf0bw7NWOw=
+
+Name: xulrunner/modules/Microformats.js
+SHA1-Digest: uJK2A06f21ZlzwQU2eqaSf3niRU=
+
+Name: xulrunner/defaults/profile/chrome/userContent-example.css
+SHA1-Digest: 0yvgGgRnyLXu0vWPCFLx12F3PIc=
+
+Name: xulrunner/res/fonts/mathfontSTIXNonUnicode.properties
+SHA1-Digest: eRB5a6jZDSdUsdmx0lgZw44R+Cw=
+
+Name: xulrunner/components/xml-rpc.xpt
+SHA1-Digest: l6coK4oK5sQPGBx4inAPY8wxFdc=
+
+Name: xulrunner/res/table-remove-column-active.gif
+SHA1-Digest: 4Eh1Pp72D13IXZfzje3vlgjLabo=
+
+Name: xulrunner/components/txEXSLTRegExFunctions.js
+SHA1-Digest: er7XeTC6VcSddX/opHngrxIE9Ec=
+
+Name: xulrunner/components/dom_xpath.xpt
+SHA1-Digest: qAS9uF/FkuD8lHs70DYD26Hkypk=
+
+Name: xulrunner/res/table-remove-row-active.gif
+SHA1-Digest: GJ0ro8aRY3nYXQwgSC9gVryn2DY=
+
+Name: xulrunner/components/nsContentDispatchChooser.js
+SHA1-Digest: 9AMm2l5kb73/jq0fkVGQ3ZufFw4=
+
+Name: xulrunner/chrome/classic.jar
+SHA1-Digest: NQymg5QpkbM8LeWenURUyxr6+4s=
+
+Name: xulrunner/components/nsLoginManager.js
+SHA1-Digest: pg8cOPfbop90rUwXltkTC7abtsQ=
+
+Name: xulrunner/defaults/autoconfig/platform.js
+SHA1-Digest: M6o/HYUWd3YDB0woR9cMhYKKFi0=
+
+Name: xulrunner/res/langGroups.properties
+SHA1-Digest: JFKYRbTXaY1fTVJuSgmC1hP6aj8=
+
+Name: xulrunner/components/toolkitprofile.xpt
+SHA1-Digest: 17jwe/MU93Vu6oTW+U4enPQFGG4=
+
+Name: xulrunner/components/zipwriter.xpt
+SHA1-Digest: eeq5uGKqyhaQzwD0aZZStLvVsV0=
+
+Name: xulrunner/nss3.dll
+SHA1-Digest: Ry4pzDIVXubRuIw5XADA4dNL5Xc=
+
+Name: xulrunner/components/txtsvc.xpt
+SHA1-Digest: d+ebhPeKSqyUihoNQS9m7ocsyEw=
+
+Name: xulrunner/components/xpconnect.xpt
+SHA1-Digest: Kf2xqzo6MtyrzmQZosyfRCCyPPA=
+
+Name: xulrunner/components/profile.xpt
+SHA1-Digest: bYta2tIpES3nFpaP5Sexq2yAXrs=
+
+Name: xulrunner/components/fastfind.xpt
+SHA1-Digest: AFJzqStDjdd8UiTIP+9dsaRwiLc=
+
+Name: xulrunner/components/uriloader.xpt
+SHA1-Digest: aSme4cOiLJKWpDcr0Ke21j9NGv0=
+
+Name: xulrunner/res/arrowd.gif
+SHA1-Digest: h0y/+OUvMr+65j2p8JTC1SIdl2M=
+
+Name: xulrunner/IA2Marshal.dll
+SHA1-Digest: 3i/4rN+wz4CFqrFM0F6byUoVglM=
+
+Name: xulrunner/modules/PluralForm.jsm
+SHA1-Digest: DA4Upx3RdK99pcKNg0VSiuT0hBw=
+
+Name: xulrunner/components/content_htmldoc.xpt
+SHA1-Digest: h0F4x4sMSWGOEbIliRuqhEDKgfc=
+
+Name: xulrunner/chrome/toolkit.jar
+SHA1-Digest: yUJzg4NTgL7amQHFdDsJAMrdr9s=
+
+Name: xulrunner/components/xultmpl.xpt
+SHA1-Digest: /9onit1HSq0HXbx4lAaOqu4E+P8=
+
+Name: xulrunner/components/autoconfig.xpt
+SHA1-Digest: olLkqbGPE6w+IevM9ffYRCoaArQ=
+
+Name: xulrunner/components/appstartup.xpt
+SHA1-Digest: sz9FBljIYzTKkdpUq0DCpfQjZuk=
+
+Name: xulrunner/components/pippki.xpt
+SHA1-Digest: qQqWx+Yr9Ba5EJkWNNm0ABoNkK8=
+
+Name: plugin.xml
+SHA1-Digest: JxTWoJrPjfiERWzm5RTSi6m8rVI=
+
+Name: xulrunner/components/nsURLFormatter.js
+SHA1-Digest: OOU/oyzd62TtHQ1AyIci4zGrsRo=
+
+Name: xulrunner/components/dom_core.xpt
+SHA1-Digest: ktSgZW/oSMu4UJYk6kzHZBomVcc=
+
+Name: xulrunner/components/xpcom_io.xpt
+SHA1-Digest: +s57KeK2SecHc9Bp11fXt/FWM98=
+
+Name: xulrunner/components/xpcom_ds.xpt
+SHA1-Digest: uggm3Tm6SOlOM7u2q1m/afKw1vQ=
+
+Name: xulrunner/components/nsBlocklistService.js
+SHA1-Digest: 8HvIjAyF2pzliXUkQiGFk8etMbY=
+
+Name: xulrunner/chrome/toolkit.manifest
+SHA1-Digest: PVHadj035ZEqsCsaCrRmR3HTgqk=
+
+Name: xulrunner/res/html/folder.png
+SHA1-Digest: XASB53nBQeqUWCjOouI+tvhQU3A=
+
+Name: xulrunner/res/entityTables/htmlEntityVersions.properties
+SHA1-Digest: BSyEl5nIMdIM54bFt3+K90kaYcg=
+
+Name: xulrunner/chrome/classic.manifest
+SHA1-Digest: RWqzaaMW/kbtOA5PfK01RQ0dYPw=
+
+Name: xulrunner/components/contentprefs.xpt
+SHA1-Digest: ztlEssVaeRBzfI0yO9WH5nbPWw4=
+
+Name: xulrunner/components/webbrowserpersist.xpt
+SHA1-Digest: N9e4IvGA8jaXzE9sk2ZOBm0NHFY=
+
+Name: xulrunner/components/content_xmldoc.xpt
+SHA1-Digest: 6dfEByYeA2zuod76A45QNJeRXSk=
+
+Name: xulrunner/components/uconv.xpt
+SHA1-Digest: efH8El1rkBeOzgLOCgC38f4YqBg=
+
+Name: xulrunner/nssckbi.dll
+SHA1-Digest: aIRQb5p/XvREnaHTLHeF+cUKja8=
+
+Name: xulrunner/res/table-remove-column-hover.gif
+SHA1-Digest: JPKXiMud9uloOs/yG+UBIQmJdqk=
+
+Name: xulrunner/chrome/en-US.jar
+SHA1-Digest: w8vPDNLGErSq9JWxrqTY/4B/NJU=
+
+Name: xulrunner/components/spellchecker.xpt
+SHA1-Digest: GZZqWAm1TFofVP7AmQsYJrpE320=
+
+Name: xulrunner/components/update.xpt
+SHA1-Digest: RkSSmwyF/S7FojmvE0yedLPP24Q=
+
+Name: xulrunner/components/nsAddonRepository.js
+SHA1-Digest: cOwalwQjfH+lDVtpmyVWpJUZ1tA=
+
+Name: xulrunner/dictionaries/en-US.dic
+SHA1-Digest: 1F+TtXI4V4JgwI50Zf953LTBGzM=
+
+Name: xulrunner/components/webBrowser_core.xpt
+SHA1-Digest: AO5iVk4tXqCA1AKj/7nHVia8Aik=
+
+Name: xulrunner/res/dtd/mathml.dtd
+SHA1-Digest: zJ/8u3UvMHLz1prdkiOsAQjfvQY=
+
+Name: xulrunner/components/lwbrk.xpt
+SHA1-Digest: ytUsKlI1eFsn69qdi04Zo8O/U1A=
+
+Name: xulrunner/components/chrome.xpt
+SHA1-Digest: fXn0r3kpxxIIt3yGthZptzxqw9M=
+
+Name: xulrunner/chrome/pippki.jar
+SHA1-Digest: GY2jV8OHWBrkhQqK0a5arO3QRss=
+
+Name: xulrunner/components/FeedProcessor.js
+SHA1-Digest: 8vHw8pg7WRA1pnC7Xnhf4uPs5dk=
+
+Name: xulrunner/components/layout_xul.xpt
+SHA1-Digest: 83k3OVH0OakFva4WTzuzks8Sc9I=
+
+Name: xulrunner/components/layout_xul_tree.xpt
+SHA1-Digest: Nku+MwB6fBYvm+57XKuSVQ6E0pA=
+
+Name: xulrunner/modules/debug.js
+SHA1-Digest: drlSSjTKNFkynG2m59gwHZNE4Jc=
+
+Name: xulrunner/xul.dll
+SHA1-Digest: UeMoTjeJOTHfR9mNZ4L2RE0ghWw=
+
+Name: xulrunner/components/necko_res.xpt
+SHA1-Digest: Ytk0xICc/VUBunzM3k4SIboePqE=
+
+Name: xulrunner/components/nsWebHandlerApp.js
+SHA1-Digest: L1JFOhuKLAX5YxKoMfy8CVB6kM8=
+
+Name: xulrunner/greprefs/all.js
+SHA1-Digest: qglSU9sGXf6147hohWBp9Xdc18g=
+
+Name: xulrunner/modules/utils.js
+SHA1-Digest: Aq/nsS43ZEHTtdwppb3civrlVoI=
+
+Name: xulrunner/components/oji.xpt
+SHA1-Digest: rozVGFMXRRyd0oLXNMzRHlaT9L0=
+
+Name: xulrunner/components/locale.xpt
+SHA1-Digest: xhmxVcLqsDreuir0p5DaQRb8IpI=
+
+Name: xulrunner/chrome/comm.manifest
+SHA1-Digest: rqtd1YqI/3EFrPDjKI4w/xO+k5Q=
+
+Name: xulrunner/defaults/profile/US/chrome/userChrome-example.css
+SHA1-Digest: B34ng+3pgCKf1EX1+cEjJgX6nIA=
+
+Name: xulrunner/components/dom.xpt
+SHA1-Digest: PP5snsMhmmJ69g1IWCEirfPLJ5g=
+
+Name: xulrunner/components/appshell.xpt
+SHA1-Digest: ao7TMxVAxyjFQ0FSWn56+nQy85I=
+
+Name: xulrunner/components/shistory.xpt
+SHA1-Digest: OKlCTGD32Bm557cqhLLf7J6FgiA=
+
+Name: xulrunner/res/viewsource.css
+SHA1-Digest: gXEMUZkMD+JMUc3QHkZcdCt4PL4=
+
+Name: xulrunner/components/prefetch.xpt
+SHA1-Digest: 0kA8Fz8XVxLUraxWx9Y3IB36nEw=
+
+Name: xulrunner/res/table-add-row-after.gif
+SHA1-Digest: DNrbfRjIoZnGBAc5YJI1dri34vs=
+
+Name: xulrunner/defaults/profile/localstore.rdf
+SHA1-Digest: wkNdB2WB5EkU2kgC5A6EFquR6o4=
+
+Name: xulrunner/components/jsconsole-clhandler.js
+SHA1-Digest: q6e9bm3ncbWyVf6LwSQT5q2iGuI=
+
+Name: xulrunner/components/accessibility.xpt
+SHA1-Digest: Z5WGDAHXW2cCBQfxgP76w/8gepo=
+
+Name: xulrunner/res/dtd/xhtml11.dtd
+SHA1-Digest: 23Cm7QspqUiUGq96/a//fUFulx4=
+
+Name: xulrunner/components/xuldoc.xpt
+SHA1-Digest: ccyJNPg7Zky60HiHzn6x4HQNxmg=
+
+Name: xulrunner/components/xpcom_xpti.xpt
+SHA1-Digest: uXKoyi1GIdXLsgseyZg+7Wkai20=
+
+Name: xulrunner/components/exthelper.xpt
+SHA1-Digest: czGDAa7c7XSGU1I2R9P1RuVglco=
+
+Name: xulrunner/components/dom_base.xpt
+SHA1-Digest: kPjMOviHWglXYHunnR66E3dYJwc=
+
+Name: xulrunner/res/charsetData.properties
+SHA1-Digest: TuDVdIvgyWJnS5n4Fx/aC1Ioozg=
+
+Name: xulrunner/res/forms.css
+SHA1-Digest: vv8+afb2XwvoQbfo9fIGtF7U7hE=
+
+Name: xulrunner/components/pipboot.xpt
+SHA1-Digest: OAHzUVr00WhLC0jP2KiSY9/9kOM=
+
+Name: xulrunner/components/dom_json.xpt
+SHA1-Digest: W31REcdouzvgnPbja9qdhSNaaiI=
+
+Name: xulrunner/res/table-add-column-after.gif
+SHA1-Digest: YSk6g9TM7mPKgDKPlA3PxGRdaRc=
+
+Name: xulrunner/components/windowds.xpt
+SHA1-Digest: CUEWP70FnZO7XCEGyoSgh3OGZak=
+
+Name: xulrunner/components/loginmgr.xpt
+SHA1-Digest: CRGEoOzMMFz3m/JX74bUcNSi3kk=
+
+Name: xulrunner/components/nsTaggingService.js
+SHA1-Digest: MEQhz0YMUtN/XeWT1pkYdC9D+R0=
+
+Name: xulrunner/res/wincharset.properties
+SHA1-Digest: 9ehQYWZZIkE63ZwJr/5ePVZW6Qs=
+
+Name: xulrunner/javaxpcomglue.dll
+SHA1-Digest: AYaWLr99PI5gYtz23IY7EfS3pPM=
+
+Name: xulrunner/nspr4.dll
+SHA1-Digest: xnRXPdDws2y0GMiA28CAr9LSEm0=
+
+Name: xulrunner/components/dom_svg.xpt
+SHA1-Digest: 2xODYlWB6r6wb8fw33Zz8bEYfk0=
+
+Name: xulrunner/components/autocomplete.xpt
+SHA1-Digest: 9Ss6RftkMYy5IgX/ctLp6pAHD54=
+
+Name: xulrunner/res/table-remove-row.gif
+SHA1-Digest: dj2PxRJntP5ddd32ubsN3/lfUdA=
+
+Name: xulrunner/components/jar.xpt
+SHA1-Digest: uR5zAwM5B37dv4ARs6r1xECUQxE=
+
+Name: xulrunner/res/fonts/mathfont.properties
+SHA1-Digest: RkP8RauxskiY10Ga5oELD8mqOTc=
+
+Name: xulrunner/components/dom_traversal.xpt
+SHA1-Digest: y7qs0RpagWhA4yI9ILEufezPaNI=
+
+Name: xulrunner/res/fonts/mathfontSymbol.properties
+SHA1-Digest: NbGLNQ1VgcO8LSLNivrulM1w7F8=
+
+Name: xulrunner/components/commandhandler.xpt
+SHA1-Digest: CA8sUEf67BDYBRPLA9pS/b0/fVw=
+
+Name: xulrunner/components/imgicon.xpt
+SHA1-Digest: l4BziMbtz9Sme4mC6plXwMgqTz0=
+
+Name: xulrunner/res/table-add-row-before-hover.gif
+SHA1-Digest: SViVEgTG3akKwvSwlYk8NAbfVMI=
+
+Name: xulrunner/res/fonts/mathfontUnicode.properties
+SHA1-Digest: JgqkCSS3LlWXkmgqWWfetrhvqFE=
+
+Name: xulrunner/res/svg.css
+SHA1-Digest: XvST1To2+fIbQYukcRibOh3aGgI=
+
+Name: xulrunner/res/language.properties
+SHA1-Digest: HdtjYgQLn7ipTMYSmjv/AiOjGQM=
+
+Name: xulrunner/components/necko_cookie.xpt
+SHA1-Digest: XfkmB4sslSFid8l0UHYk048n40Y=
+
+Name: xulrunner/components/necko_http.xpt
+SHA1-Digest: jALc5FRH1g6aONl4M/0VDrI/ztk=
+
+Name: xulrunner/components/dom_views.xpt
+SHA1-Digest: bhLpw8LKn+G+jlxjeKG3z6ZW/6A=
+
+Name: xulrunner/components/satchel.xpt
+SHA1-Digest: C2XGc1SH1UEU1TmFiQQUu8evupY=
+
+Name: xulrunner/dependentlibs.list
+SHA1-Digest: 5n668nN6s7q1N3N31W3JlZiZGrI=
+

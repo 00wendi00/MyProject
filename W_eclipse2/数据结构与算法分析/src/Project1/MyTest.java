@@ -1,0 +1,18 @@
+/**
+ *文件名:Test.java
+ *项目-包:数据结构与算法分析,Project1
+ *作者:张文迪
+ *时间:2015年4月18日
+ */
+package Project1;
+
+/**
+ * @author 张文迪
+ * 类名:Test
+ * 类说明:
+ */
+public class MyTest {
+	public static void main(String args[]){
+		System.out.println(2/3);
+	}
+}

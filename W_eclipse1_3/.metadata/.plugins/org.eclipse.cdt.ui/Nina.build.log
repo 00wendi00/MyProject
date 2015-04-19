@@ -1,0 +1,10 @@
+16:48:42 **** Build of configuration Default for project Nina ****
+"E:\\ndk\\ndk-build.cmd" V=1 
+Android NDK: WARNING: APP_PLATFORM android-21 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+del /f/q .\libs\armeabi\libAndroidNDK.so       >NUL 2>NUL
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+copy /b/y ".\obj\local\armeabi\libAndroidNDK.so" ".\libs\armeabi\libAndroidNDK.so" > NUL
+E:/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  ./libs/armeabi/libAndroidNDK.so
+
+16:48:42 Build Finished (took 453ms)
+

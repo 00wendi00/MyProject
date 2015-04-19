@@ -1,0 +1,18 @@
+<feature id="org.maven.ide.eclipse.scm.feature" label="Maven SCM Integration (Optional)" plugin="org.maven.ide.eclipse" provider-name="Sonatype, Inc." version="0.10.0.20100209-0800">
+  <description url="http://m2eclipse.sonatype.org/">Checkout projects using Maven SCM providers</description>
+  <copyright url="http://sonatype.com/">Copyright (c) 2008 Sonatype, Inc.</copyright>
+  <license url="http://www.eclipse.org/legal/epl-v10.html">All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html</license>
+  <url>
+    <update label="Maven Integration" url="http://m2eclipse.sonatype.org/update/"/>
+  </url>
+  <requires>
+    <import match="equivalent" plugin="org.maven.ide.eclipse" version="0.10.0"/>
+    <import plugin="org.eclipse.core.runtime"/>
+    <import match="equivalent" plugin="org.maven.ide.eclipse.maven_embedder" version="0.10.0"/>
+  </requires>
+  <plugin unpack="false" id="org.maven.ide.eclipse.scm" install-size="9" version="0.10.0.20100209-0800" download-size="6"/>
+  <plugin id="org.maven.ide.eclipse.maven_scm" install-size="1672" version="0.10.0.20100209-0800" download-size="1107"/>
+</feature>

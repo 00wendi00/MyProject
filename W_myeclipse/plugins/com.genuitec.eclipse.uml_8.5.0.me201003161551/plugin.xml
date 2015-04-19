@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+    
+<!-- Define UML Nature -->
+   <extension
+         id="umlnature"
+         name="%nature.UMLNature.name"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.genuitec.eclipse.uml.UMLNature">
+         </run>
+      </runtime>
+   </extension>
+
+<!-- Define UML Perspective -->
+	<extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="%perspective.umlPerspectiv.name"
+            icon="icons/etool16/UML.gif"
+            class="com.genuitec.eclipse.uml.view.UMLPerspective"
+            id="com.genuitec.eclipse.uml.umlPerspective">
+      </perspective>
+   	</extension>
+   
+    <!-- Perspective extensions moved to myeclipse.perspective plugin
+    <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut
+               id="com.genuitec.eclipse.uml.umlPerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+         <perspectiveShortcut
+               id="com.genuitec.eclipse.uml.umlPerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut
+               id="com.genuitec.eclipse.uml.umlPerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaBrowsingPerspective">
+         <perspectiveShortcut
+               id="com.genuitec.eclipse.uml.umlPerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="org.eclipse.debug.ui.DebugPerspective">
+         <perspectiveShortcut
+               id="com.genuitec.eclipse.uml.umlPerspective">
+         </perspectiveShortcut>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.uml.umlPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.imageeditor.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>
+   </extension>        
+   -->
+   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="%category.uml.name"
+            parentCategory="com.genuitec.eclipse.myeclipse"
+            id="com.genuitec.eclipse.myeclipse.uml">
+      </category>
+      <wizard
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.uml"
+            class="com.genuitec.eclipse.uml.wizard.NewUMLModelFileWizard"
+            finalPerspective="com.genuitec.eclipse.uml.umlPerspective"
+            icon="icons/etool16/UML_wiz.gif"
+            id="com.genuitec.eclipse.uml.wizard.NewUMLModelFileWizard"
+            name="%wizard.newUMLModelFileWizard.name"
+            project="false">
+         <description>
+            %wizard.newUMLModelFileWizard.description
+         </description>
+      </wizard>
+    </extension>
+    
+   <extension point="org.eclipse.ui.views">    
+    <!-- MyEclipse UML View Category -->    
+	  <category
+            name="%category.views.myEclipseUMLCategory.name"
+            id="com.genuitec.eclipse.views.myEclipseUMLCategory">
+      </category>
+   </extension>
+      
+<!-- Add UML Editor -->     
+ 	<extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.genuitec.eclipse.uml.editor.UMLEditor"
+            icon="icons/etool16/UML.gif"
+            contributorClass="com.genuitec.eclipse.uml.editor.UMLEditorActionBarContributor"
+            name="%editor.UMLEditor.name"
+            id="com.genuitec.eclipse.uml.editor.UMLEditor"
+            extensions="zargo,umr">
+            
+            <!-- contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor" -->
+      </editor>
+    </extension>
+    
+<!-- Add UML PreferencePages -->  
+	<extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%page.UML1PreferencePage.name"
+            category="com.genuitec.eclipse.viper.preferencepage"
+            class="com.genuitec.eclipse.uml.preference.UMLPreferencePage"
+            id="com.genuitec.eclipse.uml.preferencepage">
+      </page>
+      <page
+            name="%page.UMLReverseEngineerPreferencePage.name"
+            category="com.genuitec.eclipse.uml.preferencepage"
+            class="com.genuitec.eclipse.uml.preference.UMLReverseEngineerPreferencePage"
+            id="com.genuitec.eclipse.uml.revengpreferencepage.">
+      </page>
+      <page
+            category="com.genuitec.eclipse.uml.preferencepage"
+            class="com.genuitec.eclipse.uml.preference.UMLCodeGenPreferencePage"
+            id="com.genuitec.eclipse.uml.codegenpreferencepage"
+            name="%page.UMLCodeGenPreferencePage.name"/>                
+   </extension>
+   
+<!-- UML Editor Actions -->
+	<extension
+		point="org.eclipse.ui.actionSets">
+		<actionSet
+			label="%actionSet.UMLActions.label"
+	        visible="false"
+	        id="com.genuitec.eclipse.uml.actions">
+		    <action
+		          class="com.genuitec.eclipse.uml.action.NewUMLModelActionDelegate"
+		          icon="icons/etool16/UML_wiz.gif"
+		          id="com.genuitec.eclipse.uml.newumlmodelaction"
+		          label="%action.newumlmodelaction.label"
+		          toolbarPath="Normal/debug"
+		          tooltip="%action.newumlmodelaction.tooltip"/> 
+		</actionSet>
+	</extension>		
+
+<!--
+  <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="MyEclipse-UMLTools"
+            visible="true"
+            id="com.genuitec.myeclipse.action.umltools">    
+         <menu
+               label="UML"
+               id="com.genuitec.eclipse.uml.menu">
+            <separator
+                  name="code">
+            </separator>
+            <separator
+                  name="other">
+            </separator>
+         </menu>       
+         <action
+               label="Generate Java..."
+               class="com.genuitec.eclipse.uml.action.GenerateJavaActionDelegate"
+               menubarPath="com.genuitec.eclipse.uml.menu/code"
+               enablesFor="1"
+               id="com.genuitec.eclipse.uml.action.generatecode">
+         </action> 
+         <action
+               label="Import Java..."
+               class="com.genuitec.eclipse.uml.action.ImportJavaActionDelegate"
+               menubarPath="com.genuitec.eclipse.uml.menu/code"
+               enablesFor="1"
+               id="com.genuitec.eclipse.uml.action.generatecode">
+         </action>
+         <action
+               label="Revert to Saved"
+               class="com.genuitec.eclipse.uml.action.RevertToSavedAction"
+               style="push"
+               menubarPath="file/save.ext"
+               id="com.genuitec.eclipse.uml.RevertToSaved"/>
+      </actionSet>
+   </extension>  
+--> 
+   
+<!-- Team file types -->
+   <extension point="org.eclipse.team.core.fileTypes">
+	  <fileTypes extension="zargo" type="binary"/>   
+	  <fileTypes extension="umr" type="binary"/>
+	  <fileTypes extension="xmi" type="text"/>   
+   </extension>
+   
+<!-- Editor actions -->   
+   <extension
+         point="org.eclipse.ui.editorActions">
+         
+      <!-- File Menubar actions -->
+      
+      <!-- UML Menubar actions -->
+      <editorContribution
+            targetID="com.genuitec.eclipse.uml.editor.UMLEditor"
+            id="com.genuitec.eclipse.uml.editormenubar">
+         <menu
+               label="%menu.UMLMenu.label"
+               id="com.genuitec.eclipse.uml.menu">
+            <separator
+                  name="code">
+            </separator>
+            <separator
+                  name="other">
+            </separator>
+         </menu>            
+	  <action
+        class="com.genuitec.eclipse.uml.uml2xml.GenerateXmlSchemaAction"
+        id="com.genuitec.eclipse.uml.action.GenerateXmlSchema"
+        label="%action.generateXmlSchema.label"
+        menubarPath="com.genuitec.eclipse.uml.menu/code"
+        style="push"/>      
+		 <action
+         label="%action.generatecode.label"
+         class="com.genuitec.eclipse.uml.action.GenerateJavaActionDelegate"
+         style="push"
+         menubarPath="com.genuitec.eclipse.uml.menu/code"
+         state="true"
+         id="com.genuitec.eclipse.uml.action.generatecode">
+         </action> 
+         <action
+               label="%action.ImportCode.label"
+               class="com.genuitec.eclipse.uml.action.UMLImportSourcesActionDelegate"
+               style="push"
+               menubarPath="com.genuitec.eclipse.uml.menu/code"
+               state="true"
+               id="com.genuitec.eclipse.uml.action.ImportCode">
+         </action>            
+	  <action
+        class="com.genuitec.eclipse.uml.action.ExportXMIAction"
+        id="com.genuitec.eclipse.uml.action.ExportXMI"
+        label="%action.exportXMI.label"
+        menubarPath="com.genuitec.eclipse.uml.menu/other"
+        style="push"/>            
+         <action
+               label="%action.ImportXMI.label"
+               class="com.genuitec.eclipse.uml.action.UMLImportXMI"
+               style="push"
+               state="true"
+               menubarPath="com.genuitec.eclipse.uml.menu/other"
+               id="com.genuitec.eclipse.uml.action.ImportXMI"/> 
+		<action
+        actionID="com.genuitec.eclipse.uml.action.autolayoutactiondelegate"
+        class="com.genuitec.eclipse.uml.action.AutoLayoutActionDelegate"
+        id="com.genuitec.eclipse.uml.action.autolayoutactiondelegate"
+        label="%action.autolayoutaction.label"
+        menubarPath="com.genuitec.eclipse.uml.menu/other"
+        state="true"
+        style="push"/>            
+      </editorContribution>
+      
+      <!-- Toolbar Actions -->
+      
+      <!--
+      <editorContribution
+            targetID="com.genuitec.eclipse.uml.editor.UMLEditor"
+            id="com.genuitec.eclipse.uml.editorDeleteFromModel">
+         <action
+               toolbarPath="Normal\additions"
+               label="Delete From Model"
+               icon="icons/sample.gif"
+               definitionId="deleteFromModel"
+               class="com.genuitec.eclipse.uml.action.UMLDeleteFromModelAction"
+               style="push"
+               state="true"
+               id="com.genuitec.eclipse.uml.UMLDeleteFromModel"/>
+      </editorContribution>
+-->
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            adaptable="true"
+            class="com.genuitec.eclipse.uml.preference.UMLProjectPropertyPage"
+            id="com.genuitec.eclipse.uml.preference.UMLProjectPropertyPage"
+            name="%page.UMLProjectPropertyPage.name"
+            objectClass="org.eclipse.core.resources.IProject"
+            category="myeclipse.root"/>
+   </extension>
+   
+<!-- PR-1518  
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <wizard
+            class="com.genuitec.eclipse.uml.wizard.NewUMLXMIExportWizard"
+            icon="icons/xmi.png"
+            id="com.genuitec.eclipse.uml.wizard.NewUMLXMIExportWizard"
+            name="UML XMI Export Wizard"/>
+   </extension>
+-->   
+   <!--
+   <extension
+         id="Uml.DeleteFromModel"
+         name="Delete From Model Key Bind"
+         point="org.eclipse.ui.commands">
+      <keyBinding
+            contextId="com.genuitec.eclipse.uml.editor.UMLEditor"
+            command="deleteFromModel"
+            commandId="deleteFromModel"
+            keySequence="Shift + Delete"
+            keyConfigurationId="K_deleteFromModel"/>
+   </extension>
+ -->
+ 
+  <extension
+        point="org.eclipse.ui.perspectiveExtensions">
+     <perspectiveExtension targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+        <newWizardShortcut id="com.genuitec.eclipse.uml.wizard.NewUMLModelFileWizard"/>
+        <actionSet id="com.genuitec.eclipse.uml.actions"/>
+     </perspectiveExtension>
+       
+      <!-- add shortcuts to all ME perspective from all SDK perspectives -->
+      <perspectiveExtension
+      		targetID="org.eclipse.team.cvs.ui.cvsPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.debug.ui.DebugPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaBrowsingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.jdt.ui.JavaHierarchyPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.pde.ui.PDEPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.team.ui.TeamSynchronizingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      
+      <!-- Add cross shortcuts for each ME perspective to other ME perspectives -->
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>            
+      </perspectiveExtension>
+
+      <perspectiveExtension
+            targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>      
+     
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.imageeditor.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>
+      
+      <perspectiveExtension targetID="com.genuitec.eclipse.dehory.dehoryperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective">            
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>      
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.web20.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension targetID="com.genuitec.dali.adapter.persistencePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.uml.umlPerspective"/>
+      </perspectiveExtension>      
+      
+	</extension>   
+	
+	<extension point="org.eclipse.ui.activities">
+	  <!-- Locate UML at Pro / UML in the capabilities list -->
+	  <activity id="com.genuitec.eclipse.capability.pro.uml"
+	   description="%activity.uml.description"
+	   name="%activity.uml.name" />
+	   
+	  <!-- Put the UML activity in the Pro category -->
+	  <categoryActivityBinding activityId="com.genuitec.eclipse.capability.pro.uml"
+	   categoryId="com.genuitec.eclipse.capability.pro" />
+	   
+	  <!-- Bind all contributions from the UML plugin to the capability  -->
+	  <activityPatternBinding activityId="com.genuitec.eclipse.capability.pro.uml"
+	   pattern="com\.genuitec\.eclipse\.uml/.*" />
+	   
+	  <!-- UML activity should be enabled by default -->
+	  <defaultEnablement id="com.genuitec.eclipse.capability.pro.uml" />		
+	</extension>
+  
+</plugin>

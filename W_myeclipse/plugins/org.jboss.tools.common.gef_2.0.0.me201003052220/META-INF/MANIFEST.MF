@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common,org.eclipse.jface.text,org.ecli
+ pse.ui.workbench.texteditor,org.eclipse.ui.editors,org.eclipse.ui.ide
+ ,org.eclipse.swt,org.eclipse.ui,org.eclipse.ui.views,org.eclipse.draw
+ 2d,org.eclipse.gef,org.eclipse.core.runtime,org.eclipse.core.resource
+ s
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: common-gef.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.jboss.tools.common.gef
+Provide-Package: org.jboss.tools.common.gef,org.jboss.tools.common.gef
+ .action,org.jboss.tools.common.gef.alignment.xpl,org.jboss.tools.comm
+ on.gef.edit,org.jboss.tools.common.gef.edit.xpl,org.jboss.tools.commo
+ n.gef.editor.xpl,org.jboss.tools.common.gef.figures,org.jboss.tools.c
+ ommon.gef.figures.xpl,org.jboss.tools.common.gef.messages,org.jboss.t
+ ools.common.gef.outline.xpl,org.jboss.tools.common.gef.xpl
+
+Name: common-gef.jar
+SHA1-Digest: VfFsyj+wnM2gGie1IOMIu9Y7JnU=
+
+Name: plugin.properties
+SHA1-Digest: JbIEwvnzutHaheob8wLLiV293LM=
+

@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.wdt.jsp.debug
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: debug.jar,lib/commons-el.jar,lib/commons-logging-api
+ .jar,lib/jsp-api.jar,lib/servlet-api.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.co
+ re.resources,org.eclipse.ui,org.eclipse.jdt.debug.ui,org.eclipse.debu
+ g.core,org.eclipse.debug.ui,org.eclipse.jdt.ui,org.eclipse.jdt.core,o
+ rg.eclipse.jdt,org.eclipse.jdt.launching,com.genuitec.eclipse.core,co
+ m.genuitec.eclipse.core.common,com.genuitec.eclipse.j2eedt.core,com.g
+ enuitec.eclipse.easie.core,org.eclipse.text,org.eclipse.jface.text,or
+ g.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,org.eclipse.
+ core.runtime.compatibility,org.eclipse.osgi,org.eclipse.jdt.debug,org
+ .eclipse.wst.validation,org.eclipse.wst.common.uriresolver,org.apache
+ .ant,org.eclipse.wst.xml.core,org.eclipse.jst.server.generic.ui,org.e
+ clipse.core.variables,org.eclipse.core.filesystem
+Bundle-Vendor: %pluginProvider
+Plugin-Class: com.genuitec.eclipse.wdt.jsp.debug.JSPDebugPlugin
+Bundle-Version: 8.5.0.me201003052220
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.wdt.jsp.debug; singleton:=tr
+ ue
+
+Name: lib/commons-logging-api.jar
+SHA1-Digest: KLTmyYXoQN7jOoKoR4GgnitIHSI=
+
+Name: icons/osprc_obj.gif
+SHA1-Digest: 8E5iCrMjG7Gq4trF5ED+weYHn6w=
+
+Name: lib/jasper-runtime.jar
+SHA1-Digest: ir31tw9bwXa2XPOFZJz5+7ozuGo=
+
+Name: lib/servlet-api.jar
+SHA1-Digest: L+XGrXMaxYsBF6QriJ0msPZuvds=
+
+Name: plugin.xml
+SHA1-Digest: S83mjiho4nDn9I6eHHjyyTOU/F4=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: icons/server.gif
+SHA1-Digest: lwe8d6GTus0aY/ZbxptV1kA4eNU=
+
+Name: about.html
+SHA1-Digest: oX8H7GnM1lPcPYaSYBPX3T+VSRc=
+
+Name: plugin.properties
+SHA1-Digest: VA4ASl7NLxAGztbgPE8qHVnS4E4=
+
+Name: lib/commons-el.jar
+SHA1-Digest: HfLAQrPy3gEkdQJBrGyIbb+izCw=
+
+Name: lib/jsp-api.jar
+SHA1-Digest: YGu3Bhseu+0v3gWZG6LGUj1WSpw=
+
+Name: debug.jar
+SHA1-Digest: psqpaKDQjcA9TmsDW6hLACZ0XZY=
+

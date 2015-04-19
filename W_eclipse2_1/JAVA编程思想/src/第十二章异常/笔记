@@ -1,0 +1,8 @@
+所有的Exception都继承自Throwable，它还有个子类为Error。
+异常对象和其它对象一样，是创建在堆上的。
+异常处理理论有两种基本模型，终止模型和恢复模型，java支持前者。
+对于RuntimeException及其子类，可以直接抛出，而不用进行异常处理，如try,catch或者throws。
+RuntimeException又称为不受检查的异常。
+finally子句无论如何都会执行，即使在try 中已经返回。
+将checked exception吃掉，抛出]RuntimeException好处多多。
+异常也有一个缺陷，具体以代码 书上例子！

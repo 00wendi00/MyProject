@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.gen,fr.obeo.acceleo.gen.phantom,fr.obe
+ o.acceleo.gen.runner,fr.obeo.acceleo.gen.template,fr.obeo.acceleo.gen
+ .template.debug,fr.obeo.acceleo.gen.template.eval,fr.obeo.acceleo.gen
+ .template.eval.log,fr.obeo.acceleo.gen.template.eval.merge,fr.obeo.ac
+ celeo.gen.template.expressions,fr.obeo.acceleo.gen.template.profile,f
+ r.obeo.acceleo.gen.template.scripts,fr.obeo.acceleo.gen.template.scri
+ pts.imports,fr.obeo.acceleo.gen.template.scripts.imports.services,fr.
+ obeo.acceleo.gen.template.statements
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.emf.ecore;visibility:=reexport,org.eclipse.emf.ecore.xmi,fr
+ .obeo.acceleo.ecore;visibility:=reexport,fr.obeo.acceleo.tools;visibi
+ lity:=reexport,org.eclipse.jdt.core,fr.obeo.acceleo.template,fr.obeo.
+ acceleo.gen.profiler
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.gen.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.gen.AcceleoEcoreGenPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.gen; singleton:=true
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Contex
+ tServices.java
+SHA1-Digest: Bk0LMznAIloIIFe5O/UgcdVFO3I=
+
+Name: plugin.properties
+SHA1-Digest: dNv6FzkuwbX8NLXPO3iLBn2bL4U=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Reques
+ tServices.java
+SHA1-Digest: toAEl0YZdXLyeazTf6gpLrFaRYU=
+
+Name: icons/acceleoLogo.gif
+SHA1-Digest: d7kj9QAYU+ro49JW8eMJLgT2GPI=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/EObjec
+ tServices.java
+SHA1-Digest: 1416NhloJJvXgNcCFYEZetppC7c=
+
+Name: about.ini
+SHA1-Digest: mgo86SCjoCwLewzckw7aFjW0+0w=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Proper
+ tiesServices.java
+SHA1-Digest: D30o7zHs5AFxXg60QrVJbha9dtI=
+
+Name: schema/module.exsd
+SHA1-Digest: uY0smqvczrqairwPZ7T+dVgQ83M=
+
+Name: schema/scriptloader.exsd
+SHA1-Digest: NgopFaKMF0JLX3fzxz3ljytVxH0=
+
+Name: schema/overdonecode.exsd
+SHA1-Digest: DQt4ub3Zee1OZXg3mZ7RfH8s+Zs=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/System
+ ServicesFactory.java
+SHA1-Digest: +aD4kCfssaktnGvtKI5cWvFKObg=
+
+Name: about.properties
+SHA1-Digest: eM54wGoyguqkRjp3f3gKGBnCns0=
+
+Name: acceleoCore.product
+SHA1-Digest: XOIpdVsdAVOiBRpVTjTmsxBkWB8=
+
+Name: plugin.xml
+SHA1-Digest: OYvl2kWdHAPXB7UmAhnGU2mBYtY=
+
+Name: about.html
+SHA1-Digest: Ow0TQkWy1xKVwrXKqJZx+424h74=
+
+Name: fr.obeo.acceleo.gen.jar
+SHA1-Digest: RbpjupWTg6nIuUrotLpVW1VGZMo=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/XpathS
+ ervices.java
+SHA1-Digest: Zpbpw6WxqfyGy1JLPsl5qZAj/So=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/Resour
+ ceServices.java
+SHA1-Digest: 4oRLJ4IfcvUlDcQJ8YpyAL0o+6U=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/ENodeS
+ ervices.java
+SHA1-Digest: jbR2ZCvOvaVIDPzxtGrBB4BmElA=
+
+Name: fr.obeo.acceleo.gensrc.zip
+SHA1-Digest: sHZwbwiD9MRs4vA/MmGh2Fn1ZXc=
+
+Name: src/fr/obeo/acceleo/gen/template/scripts/imports/services/String
+ Services.java
+SHA1-Digest: uu2UjJHdIyyrThT3ATP+ygkdgdE=
+
+Name: schema/syncphantom.exsd
+SHA1-Digest: 0aXYYDfj9iizdwM70uMZHneMYRo=
+

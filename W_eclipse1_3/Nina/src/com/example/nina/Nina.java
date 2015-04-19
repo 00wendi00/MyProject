@@ -1,0 +1,26 @@
+package com.example.nina;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class Nina extends ActionBarActivity {
+	Button button;
+	TextView textView;
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_nina);
+		
+		textView = (TextView)findViewById(R.id.text);
+		button = (Button)findViewById(R.id.button);
+		button.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				JNITest jniTest = new JNITest();
+				textView.setText(String.valueOf(jniTest.add(5, 6)));
+			}
+		});
+	}
+}

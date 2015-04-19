@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HelloWorld/res/layout/activity_hello_world.xml&apos; to &apos;main.xml&apos;" description="Rename resource &apos;activity_hello_world.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_hello_world.xml" name="main.xml" stamp="1428297700508" updateReferences="true"/>
+</session>

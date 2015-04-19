@@ -1,0 +1,332 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: jxn4sPvOuxc5BZvDIGVI6yc8oKc=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: Fqk+PvA+5nQQIcssvlF4ipb+1Ko=
+
+Name: rest-test/test-resbeans.html
+SHA1-Digest: fdgNVv5btmrgP/KBz6aDxLAZsSM=
+
+Name: lib/jersey/1.0/jersey-core-1.0.2.jar
+SHA1-Digest: 1S6PFXqx/KMdfJ2f370ivGMYlAw=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizard$2.cl
+ ass
+SHA1-Digest: aJ3YrXlLe2NDV6vUSxSafTfV9bw=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$4.cla
+ ss
+SHA1-Digest: YIK0Kt3BqgOwT5gihNBlnR31o0Q=
+
+Name: rest-test/collapse.gif
+SHA1-Digest: oKqsKxrhysUQXH4vxF1Mq5NUtL8=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSServletLibraryWizardPa
+ ge.class
+SHA1-Digest: LUfhaf9bsaiiWkgCQhw28X5VOt0=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JerseyLibraryPreferencePage
+ .class
+SHA1-Digest: BZuXRwHXHSsnd5myzoISEfUfBDs=
+
+Name: com/genuitec/eclipse/ws/action/TestRESTWSActionDelegate.class
+SHA1-Digest: YvMLrlj43KBK17ovB4Wk0kVnhUs=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizard.clas
+ s
+SHA1-Digest: fk7bDiTLMhXe9c8uMwBSq9nFkwE=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/MIMETypeHelper.class
+SHA1-Digest: xaO/JPS/TTbsK+zhuDqKHDlJ9Ts=
+
+Name: com/genuitec/eclipse/ws/editor/RESTExplorerBrowserEditor$MEBrows
+ erListener.class
+SHA1-Digest: MJTYbJE1zzJTIlmxZVVdvG17VV0=
+
+Name: lib/jersey/1.0/jersey-multipart-1.0.2.jar
+SHA1-Digest: FK88z1qPhbqgV0EMdkK7/mU4QfM=
+
+Name: rest-test/images/primary-enabled.gif
+SHA1-Digest: s9n6wVfUQKeE7OJbRt4yHCE2ynM=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$Metho
+ dProperties.class
+SHA1-Digest: aUcc0Ohv8sOs5sUpsMeRW9h856s=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$3.cla
+ ss
+SHA1-Digest: Ll8RI5u07tfLh+3lHKeDS2aI13M=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage.class
+SHA1-Digest: 3SrpHZs6h2dmCB4BfMpWubT1ij0=
+
+Name: icons/editor.gif
+SHA1-Digest: NfFwEPiw+BSVm7M/9GV+fb9qVvw=
+
+Name: com/genuitec/eclipse/ws/jaxrs/RESTUtil.class
+SHA1-Digest: OTFv1Kj31JJJVZgojxfT+dMAeLE=
+
+Name: rest-test/images/tbuns.png
+SHA1-Digest: 42qEpISTbhkfEqe61slOsFjLEUE=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizardPage.
+ class
+SHA1-Digest: s/DtN2bTw3ZgUTKv5P6l85KBCok=
+
+Name: com/genuitec/eclipse/ws/jaxrs/MethodParameterTracker.class
+SHA1-Digest: WYxEUmVOc5XKkLtmYAFbXHlgkSY=
+
+Name: lib/jersey/1.0/jersey-server-1.0.2.jar
+SHA1-Digest: PrNL8BmHVY0b78odjCkqVbCG74w=
+
+Name: rest-test/images/pname.png
+SHA1-Digest: 2vF/aZZezpTiQe9WwBsRsmm/4hI=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizardPage$
+ ClassProperties.class
+SHA1-Digest: jKWHmYtJRxv1F2oZf9QO12kSZKs=
+
+Name: com/genuitec/eclipse/ws/action/EnhanceWithRest.class
+SHA1-Digest: HMqhRYoZjpB4VgRIb/MXNpSlI9Q=
+
+Name: lib/jersey/1.0/FastInfoset-1.2.2.jar
+SHA1-Digest: XwQ2asTejRrf53y+SoT/I4BiLdg=
+
+Name: about.html
+SHA1-Digest: odVxZFwIV+6mOuqxGF6JNb9yz8A=
+
+Name: rest-test/images/bg_gradient.gif
+SHA1-Digest: 94wDr+o5K/tum+XXhIqP/1Damrs=
+
+Name: icons/new_webservice_wiz.gif
+SHA1-Digest: S97lcJMDAMqLDMckvwOecYgNiV4=
+
+Name: com/genuitec/eclipse/ws/jaxrs/JAXRSJob.class
+SHA1-Digest: YFfNrDAcvZqldbgUInvNU8AYL6Q=
+
+Name: rest-test/images/pbsel.png
+SHA1-Digest: IEjnapTESLBzEjeN3tyMC/uI+J8=
+
+Name: com/genuitec/eclipse/ws/WSClasspathVariableInitializer.class
+SHA1-Digest: tZCigFoQvDrB98VQ1SMfENDnQrc=
+
+Name: icons/wizban/client_wiz.gif
+SHA1-Digest: p/CR7U575VxMsape162v7xSj19A=
+
+Name: com/genuitec/eclipse/ws/jaxrs/JAXRSFramework.class
+SHA1-Digest: gbPDvkyVdDfIWXtrle0LhxBix9I=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizard$1.cl
+ ass
+SHA1-Digest: U+9x8znwCuDOMOLxjBn3WxiUZ0w=
+
+Name: com/genuitec/eclipse/ws/action/EditRestClassHandler.class
+SHA1-Digest: Xf+uCdinGzgMZ+z9v0oqOgd3P6s=
+
+Name: rest-test/images/secondary-enabled.gif
+SHA1-Digest: exhygk7G0sVxbNMPsARuDd2at7U=
+
+Name: lib/jersey/1.0/jaxb-impl-2.1.10.jar
+SHA1-Digest: 7cjjvg7Su3ifGKlKdBAQm0vfB2I=
+
+Name: rest-test/test-resbeans.js
+SHA1-Digest: +0Afok2fz+eWads/YYh0L6Cjkwk=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$RESTM
+ ethod.class
+SHA1-Digest: VGHOf3BsbCx6J+IAO1CsDsYBSIg=
+
+Name: com/genuitec/eclipse/ws/action/EditRestMethodHandler.class
+SHA1-Digest: OloI0ouz37AZ/7w3xx4rDeHtmAk=
+
+Name: preferences.ini
+SHA1-Digest: 4VduNEZQe0ZrYljkGADx8yAraFw=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$5.cla
+ ss
+SHA1-Digest: Uw1cXQwyFBc02mGgKQLjLde5w4g=
+
+Name: plugin.xml
+SHA1-Digest: 0PWEdZkSYi9pGKsppUHEP4gy4ME=
+
+Name: lib/jersey/1.0/jersey-json-1.0.2.jar
+SHA1-Digest: ArZy+QOIjfLkgYkyAFzupMNJPSg=
+
+Name: com/genuitec/eclipse/ws/jaxrs/JAXRSJob$1.class
+SHA1-Digest: vbMKcju/XDIHtB+0NPIQdMNUqkE=
+
+Name: lib/jersey/1.0/activation-1.1.jar
+SHA1-Digest: eLe6lLVeQKvcGmAr9KNPb86dl58=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$RESTP
+ aram.class
+SHA1-Digest: VcLEM8sTsCs54cHB7SSOiROnKk0=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$1.cla
+ ss
+SHA1-Digest: aqSPsrbNZcFpNpwkO5w7oBC96sE=
+
+Name: lib/jersey/1.0/jdom-1.0.jar
+SHA1-Digest: QJLD5QGrePsk9+5vDKOGKelN68M=
+
+Name: lib/jersey/1.0/jsr311-api-1.0.jar
+SHA1-Digest: 0ahQiG78XTQG1irFLElcJ4k/8xg=
+
+Name: rest-test/images/background_border_bottom.gif
+SHA1-Digest: PgY8dQz1++XtEU/RS4K7VfcNOoY=
+
+Name: rest-test/images/pbmou.png
+SHA1-Digest: 4fO9gDH/U9OZMMbxdkd1PYoZHYs=
+
+Name: lib/jersey/1.0/jersey-client-1.0.2.jar
+SHA1-Digest: zpTeaT3PADyujfr9TUJrF9pMFws=
+
+Name: rest-test/images/level1_selected-1lvl.jpg
+SHA1-Digest: TkVUREeCXsy0DufKgSi2rjQs6dQ=
+
+Name: rest-test/app.gif
+SHA1-Digest: dmd56dy7xjY3/uRzGZhfuwBymMo=
+
+Name: com/genuitec/eclipse/ws/WSCore.class
+SHA1-Digest: DouN/mZrbU5KrcqbgDS2l8qQeao=
+
+Name: lib/jersey/1.0/mail-1.4.jar
+SHA1-Digest: dyQQNu7gw8BNs9K+aTgIIRVOiwo=
+
+Name: com/genuitec/eclipse/ws/editor/WADLNavigationBar.class
+SHA1-Digest: SeWNxMQUXG/ccn59lfYI98MmOko=
+
+Name: icons/wizban/webservices_project_wiz.gif
+SHA1-Digest: UaQdWmOXmJJFLiLqG5stbm6O5FE=
+
+Name: icons/webservice_ovr.gif
+SHA1-Digest: I6/pWH7NsFUNq9jUMzkp8mljjbg=
+
+Name: plugin.properties
+SHA1-Digest: KliOMv0myi8wIfXtlLOAC4YHY7I=
+
+Name: icons/logo.gif
+SHA1-Digest: lY1QUuW+hZtvPZBrLQdgM1piq1Y=
+
+Name: icons/wizban/wiz.gif
+SHA1-Digest: 4z5r6GiOCqkVRJPrN1FEA4lzjQE=
+
+Name: license.html
+SHA1-Digest: 2Dl/O+hIyNn9h7j0ESUPb1Z4XnI=
+
+Name: rest-test/cc.gif
+SHA1-Digest: 1KTh4krWsiiab2sIp24d5sS/+7o=
+
+Name: lib/jersey/1.0/jaxb-api-2.1.jar
+SHA1-Digest: CB7yJ0a0NcbJRXrxQLJDe1c9tFw=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizard.class
+SHA1-Digest: JkKWBbujC6+1w8V+Rw0XDYIGrXY=
+
+Name: rest-test/images/masthead.png
+SHA1-Digest: ya2KlUUPpOq7zPuScluLAdLSAiw=
+
+Name: rest-test/images/pbdis.png
+SHA1-Digest: +euvtP5Eqe6Y1v1TVR3Qi0mnsE4=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$Param
+ eterProperties.class
+SHA1-Digest: SJhnTec3YfBSWh/Z7EyVmKn63LE=
+
+Name: rest-test/test-resbeans.css
+SHA1-Digest: +MXl207AEQjfB0YmNtf2AI3kN+k=
+
+Name: lib/jersey/1.0/asm-3.1.jar
+SHA1-Digest: tyJYnpvbcTN5aGL3AjibrDvpauA=
+
+Name: lib/jersey/1.0/jersey-atom-1.0.2.jar
+SHA1-Digest: VeXJy+pnSMNFIZVohBlY+YJ7QGY=
+
+Name: com/genuitec/eclipse/ws/messages.properties
+SHA1-Digest: rCCstrgwpril0jAm+GRotXvUE6A=
+
+Name: rest-test/images/primary-roll.gif
+SHA1-Digest: 22olaS21+tCHLrfe8IGZZGJJLqI=
+
+Name: rest-test/images/pbena.png
+SHA1-Digest: GcqLK3AeyfW7qgWubaOYNtRw/c0=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$RESTP
+ aramLabelProvider.class
+SHA1-Digest: Gw92Z/oU5NkuyjRuD+s8MyCx8vE=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSCapabilitiesWizard.cla
+ ss
+SHA1-Digest: LFZZ0JoO59W8Zdho4T/Wu6Awook=
+
+Name: com/genuitec/eclipse/ws/jaxrs/RESTNature.class
+SHA1-Digest: 9Nl/iK5lNY1Lm8A9NVc+tQd15BA=
+
+Name: com/genuitec/eclipse/ws/Messages.class
+SHA1-Digest: bORwTcWB1f2z/tO9WqEHfk42a/A=
+
+Name: icons/provider_obj.gif
+SHA1-Digest: IeHyr62/jI4xWFJ+E92COUbXkD8=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$2.cla
+ ss
+SHA1-Digest: RGSySHWKizuZkLJSmQNhrw7ltaM=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizardPage$
+ RESTClass.class
+SHA1-Digest: eAPDdjiQRc4jYlNMeywuwBfa1xA=
+
+Name: com/genuitec/eclipse/ws/editor/RESTExplorerBrowserEditor.class
+SHA1-Digest: K5kbANmMoer4pGUB8xCFdPQg11M=
+
+Name: rest-test/cg.gif
+SHA1-Digest: ipLweGdmNuGwwS9VaQxw9z5j65Q=
+
+Name: lib/jersey/1.0/jettison-1.0.1.jar
+SHA1-Digest: rkUsragPD76Ph5tirsjcdxfeZlo=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/JAXRSMethodWizardPage$RESTP
+ aramCellModifier.class
+SHA1-Digest: g9MHpsls2sIzEcbjZGvCVV3px5w=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizardPage$
+ 1.class
+SHA1-Digest: YLa6sCBHEKboIYfWCukFkkEywho=
+
+Name: lib/jersey/1.0/stax-api-1.0-2.jar
+SHA1-Digest: /gycnfUOubMLC/TMX/vmT3uqDKk=
+
+Name: com/genuitec/eclipse/ws/editor/RESTExplorerBrowserEditor$1.class
+SHA1-Digest: XBjZd9Bb55vuHR5RC41omu18tN0=
+
+Name: com/genuitec/eclipse/ws/action/AddRESTCapabilitiesActionDelegate
+ .class
+SHA1-Digest: 2Y4DKhxtG1HpPw0P65k7FyAfaDY=
+
+Name: rest-test/images/tbsel.png
+SHA1-Digest: w20/xAO6aVAQDn0ZoHoYXBi0HW8=
+
+Name: com/genuitec/eclipse/ws/jaxrs/wizard/NewJAXRSBottomUpWizardPage$
+ 2.class
+SHA1-Digest: 3P3N3oPujaiZ2bnd3X83ky9/kLg=
+
+Name: rest-test/css_master-all.css
+SHA1-Digest: oJF8mzeffN5+D15Gt+RYLL1H6j8=
+
+Name: rest-test/expand.gif
+SHA1-Digest: ENcUH/aC1bqthLHP1A6I70GIZrQ=
+
+Name: rest-test/item.gif
+SHA1-Digest: U8I+As0un1JPY2p19SSoeLs5Kxc=
+
+Name: lib/jersey/1.0/rome-0.9.jar
+SHA1-Digest: Nw13/EISFSEuBCwJBYIPmwrJspA=
+
+Name: com/genuitec/eclipse/ws/editor/WADLNavigationBar$1.class
+SHA1-Digest: jzG81KbsCo1s3fVHc8C3CucDXxQ=
+
+Name: rest-test/og.gif
+SHA1-Digest: 4akhUNdT9+sGtWmyHzVbry+pMC8=
+
+Name: lib/jersey/1.0/jersey-fastinfoset-1.0.2.jar
+SHA1-Digest: xh1d7daENb120JMDA8MEIdI2G0s=
+

@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiejonas5.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,com.genuitec.eclipse.easie.jonas,org.eclipse.core
+ .runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.jonas5.Jonas5LauncherPlugin
+Bundle-Version: 8.5.0.me201003121946
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.jonas5; singleton:=tru
+ e
+
+Name: easiejonas5.jar
+SHA1-Digest: BcTXGD5ew/0fArKtWh7WSmBNOfM=
+
+Name: preferences.ini
+SHA1-Digest: tv2firDoraqalRlyVVTYqPvrAeU=
+
+Name: plugin.xml
+SHA1-Digest: 5chsh+c0QOxAU6VxXRb7LnCGVlo=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: D+p6EfKzqpJSPGkf72M9ksT1KJY=
+
+Name: plugin.properties
+SHA1-Digest: ZyNXA3NE3NkymsobmjE/a2tbK/s=
+

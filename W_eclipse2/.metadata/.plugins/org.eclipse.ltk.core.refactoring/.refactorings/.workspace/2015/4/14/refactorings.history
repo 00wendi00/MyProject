@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;数据结构于算法分析&apos; to &apos;数据结构与算法分析&apos;&#x0D;&#x0A;- Original element: &apos;数据结构于算法分析&apos;&#x0D;&#x0A;- Renamed element: &apos;数据结构于算法分析&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;数据结构于算法分析&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=数据结构于算法分析" name="数据结构与算法分析" references="true" stamp="1427858819785" version="1.0"/>
+</session>

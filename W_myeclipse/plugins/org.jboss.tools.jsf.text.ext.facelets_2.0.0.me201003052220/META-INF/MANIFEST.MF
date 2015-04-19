@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.jface.text,org.jboss.tools.common.text.ext,o
+ rg.jboss.tools.jsf.text.ext
+Export-Package: org.jboss.tools.jsf.text.ext.facelets,org.jboss.tools.
+ jsf.text.ext.facelets.hyperlink
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: jsfextensions.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.text.ext.facelets.FaceletsExtens
+ ionsPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jboss.tools.jsf.text.ext.facelets; singleton:
+ =true
+
+Name: jsfextensions.jar
+SHA1-Digest: i9YbYpt8zCPi3EVmF74aM8dnIY8=
+
+Name: plugin.xml
+SHA1-Digest: LUFivWNGaDWuIiZ64Eard0Fop/0=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: YyW6RL4dzYCmIdE5CMZmP5rM/jE=
+

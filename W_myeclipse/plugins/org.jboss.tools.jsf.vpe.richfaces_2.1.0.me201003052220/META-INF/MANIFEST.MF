@@ -1,0 +1,799 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jboss.tool
+ s.vpe,org.jboss.tools.jst.jsp,org.jboss.tools.common.model,org.eclips
+ e.wst.sse.ui,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.ide,o
+ rg.mozilla.xpcom,org.eclipse.wst.sse.core,org.jboss.tools.vpe.xulrunn
+ er
+Export-Package: org.jboss.tools.jsf.vpe.richfaces,org.jboss.tools.jsf.
+ vpe.richfaces.template.util
+Bundle-Vendor: %Bundle-Vendor.0
+Eclipse-LazyStart: true
+Bundle-ClassPath: lib/jhighlight-1.0.jar,.
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.jboss.tools.jsf.vpe.richfaces.RichFacesTemplates
+ Activator
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.richfaces;singleton:=true
+
+Name: resources/tree/iconCollapsed.gif
+SHA1-Digest: V/21TE47nXa+FTrru9CWWNyuklE=
+
+Name: resources/fileUpload/ico_clear.gif
+SHA1-Digest: d96OpU0/voyFAE/s3Ma2GLXbGVQ=
+
+Name: resources/shuttle/arrow_last.gif
+SHA1-Digest: zzftgGDoxUK4x6ncwi40QBMqeR4=
+
+Name: resources/dropDownMenu/list-bg.png
+SHA1-Digest: BL7hNe0S6nkbwjlcQRb2/ub37zg=
+
+Name: resources/inplaceSelect/bg_shadow.png
+SHA1-Digest: QI9A528CzvYHMDGYGPIxoRbarHQ=
+
+Name: resources/dropDownMenu/menuComponents.css
+SHA1-Digest: vD2T7fbEsfzD5A3PKUpLZ7Icyws=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelMenuIte
+ mTemplate.class
+SHA1-Digest: 0+uEsCOjlllpt7YgeCiZoZ+HjQU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTabTemplate.
+ class
+SHA1-Digest: 3pt7lnBxHbF4VwtsqTlCNGe3seI=
+
+Name: resources/calendar/calendar.css
+SHA1-Digest: 2JlMsTX0e2eO+aQGidYmOdmURag=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesGMapTemplate
+ .class
+SHA1-Digest: 0aozQw6OuGQ0hqfRKTQG1CafFgc=
+
+Name: resources/toolBar/separatorDisc.gif
+SHA1-Digest: 1d3j3sEnn94M2sETOv2vWr7vVBU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesProgressBarT
+ emplate.class
+SHA1-Digest: n1h0eoBtNNp6u7kL7TvXXOekmCU=
+
+Name: resources/orderingList/bottom.gif
+SHA1-Digest: zzftgGDoxUK4x6ncwi40QBMqeR4=
+
+Name: resources/inplaceInput/red_arrow.gif
+SHA1-Digest: TkKHKOcvSCCEJvNTy6H3oQ7jGlM=
+
+Name: resources/toolBar/separatorGrid.gif
+SHA1-Digest: Y6/9yxydDW0mixEzETxxtWvADoU=
+
+Name: resources/pickList/arrow_remove.gif
+SHA1-Digest: 6J6k/k/wu7RDaiCb+Zq1qtnrB3k=
+
+Name: templates/vpe-templates-richfaces.xml
+SHA1-Digest: 2OnGbZw06Ppz82RCdpZAdSWrikY=
+
+Name: resources/dataOrderedList/dataOrderedList.css
+SHA1-Digest: 1Lq7wlvIwj0fHDuDm9yKDrnhCmg=
+
+Name: resources/tabPanel/disabled.gif
+SHA1-Digest: 2GIJcmmKintT+lo0ycuvTnj2cN8=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesCalendarTemp
+ late.class
+SHA1-Digest: wVm96klkufX2krl2c+4M61sDB3U=
+
+Name: resources/tabPanel/border.gif
+SHA1-Digest: GN6OneG7tm9Reg+ifak2d2IYH5w=
+
+Name: resources/calendar/calendar.gif
+SHA1-Digest: ZVLaO1L3tJBObrZ3CSz6en/eEKw=
+
+Name: resources/pickList/pickList.css
+SHA1-Digest: +2DU3kX2BpqkV0C4ooi0hTWM+q0=
+
+Name: resources/inplaceSelect/arrow.gif
+SHA1-Digest: 2ap8fHLxsfyxqqF6fXhEY9fA//M=
+
+Name: resources/tree/iconNotCollapsedWithAllLines.gif
+SHA1-Digest: pXbuRrNTZ5XusQiEX+dW+pnDpgw=
+
+Name: resources/pickList/arrow_copy_all.gif
+SHA1-Digest: RO0R5C7rWJuqbyxMtIzY4dC0R3w=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesSpacerTempla
+ te.class
+SHA1-Digest: gEVbu0cXHqPh9q+g1UBpcZeQ4S8=
+
+Name: resources/panelMenuItem/points.gif
+SHA1-Digest: wrf18ROVA6HP3O2bMXHBkwaKr4w=
+
+Name: resources/inputNumberSpinner/background-input.png
+SHA1-Digest: FEGxxrIvLweFji+Gck2svR307xE=
+
+Name: resources/panelMenuItem/spacer.gif
+SHA1-Digest: qu/xqrDBcn5q85y7jOYTzQaY848=
+
+Name: resources/tree/iconNotCollapsed.gif
+SHA1-Digest: VuFUWiqqRVonK/9opFj2/kqNEMA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTreeNodeTemp
+ late.class
+SHA1-Digest: YwlzPh4NeS4zjphxaHMz9z8aO+0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesOrderingList
+ .class
+SHA1-Digest: a1F/YH0IkpnQIwkR8PmCwHfzVPY=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesEditorTempla
+ te.class
+SHA1-Digest: I3pmduTU8g5LiOYaTUe/hQugurE=
+
+Name: resources/shuttle/arrow_down.gif
+SHA1-Digest: T/FJCyh7stgpjHGNrAJFuRC9fo0=
+
+Name: resources/panelMenu/style.css
+SHA1-Digest: Fbdeu2XcTIUE4ht0VZPeO8d3yu0=
+
+Name: resources/virtualEarth/earth_hybrid.png
+SHA1-Digest: /bm/SGZxdWaQgNcmdVW78FaDUGM=
+
+Name: resources/inputNumberSlider/input.gif
+SHA1-Digest: LKY7BLe0CflT9wioWeeyHvRYkgY=
+
+Name: resources/dataFilterSlider/dataFilterSlider.css.tmp
+SHA1-Digest: 6Cnwwva0zpQu7Vcn2BeWSoI6nbY=
+
+Name: resources/panelMenuGroup/spacer.gif
+SHA1-Digest: qu/xqrDBcn5q85y7jOYTzQaY848=
+
+Name: resources/panelMenuGroup/grid.gif
+SHA1-Digest: wrf18ROVA6HP3O2bMXHBkwaKr4w=
+
+Name: resources/pickList/button.gif
+SHA1-Digest: Ro45EmGsEMdL10QuPOyq4EZkW/U=
+
+Name: resources/inplaceInput/applyButton.gif
+SHA1-Digest: Do0h9xddh5c/ugIhE6HQcWo+edQ=
+
+Name: resources/orderingList/orderingList.css
+SHA1-Digest: J0T+lk0n0toVAQrkxym5LXOpC0k=
+
+Name: resources/gmap/large.png
+SHA1-Digest: yyvhLcC3fiyxzQyukQX6UyX5lVQ=
+
+Name: resources/dataFilterSlider/background-range.png
+SHA1-Digest: Ks9twgseizxV67mVSMDN8o+ZgMg=
+
+Name: resources/tree/leftLine.gif
+SHA1-Digest: nw4gG8tHm6U7lhIU2C8QC7beNSY=
+
+Name: resources/common/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: resources/menuGroup/arrow.gif
+SHA1-Digest: BVgyw+svEtj88/1xDoBbQTOceIg=
+
+Name: resources/scrollableDataTable/scrollableDataTable.css
+SHA1-Digest: tUXdyzdR4tsFSpVRipSpY1cCCSs=
+
+Name: resources/shuttle/button.gif
+SHA1-Digest: Ro45EmGsEMdL10QuPOyq4EZkW/U=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataTableScr
+ ollerTemplate.class
+SHA1-Digest: syLloYKV7Jblz5uXuOoXkMoP3kk=
+
+Name: resources/comboBox/bg_shadow.png
+SHA1-Digest: QI9A528CzvYHMDGYGPIxoRbarHQ=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/util/AttributeMap.cla
+ ss
+SHA1-Digest: /HEjXQZFpDBSlj7jdOEdg9pe7sI=
+
+Name: resources/gmap/type-scale.png
+SHA1-Digest: ydqbd7M4Q82bY0M3Maf0Qx73P1o=
+
+Name: resources/panelMenuGroup/chevron.gif
+SHA1-Digest: CvEOAIVvoOBlHlCvgxfxJCRHXrM=
+
+Name: resources/spacer/spacer.css
+SHA1-Digest: /DNaBe28KptcDjodhhnrZcdZXIU=
+
+Name: resources/fileUpload/fileUpload.css
+SHA1-Digest: 69B6+gLjcwDZLsPUBVDLV42MeJk=
+
+Name: resources/shuttle/arrow_copy_all.gif
+SHA1-Digest: RO0R5C7rWJuqbyxMtIzY4dC0R3w=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelMenuTem
+ plate.class
+SHA1-Digest: AK99caChXdLsWHrtzj37TQ1zPHM=
+
+Name: resources/inplaceInput/cancelButton.gif
+SHA1-Digest: PZyvq1VSEnACZLhnnChIWtJMCWY=
+
+Name: resources/panelMenuGroup/triangleUp.gif
+SHA1-Digest: wq+ZLn4L2i2LCgLxu1QN/3W0ihs=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarTempl
+ ate$SourceToolBarItems.class
+SHA1-Digest: FrfQPeaX25yP1LUiLBoGOj5N+1w=
+
+Name: resources/comboBox/background-arrows.gif
+SHA1-Digest: uXaBjgX2408GOnJWnk9XYrUdyNA=
+
+Name: resources/gmap/scale.png
+SHA1-Digest: vSgURfUkgOMJNZ40z19Dlcw+Yag=
+
+Name: resources/tree/iconNodeWithLines.gif
+SHA1-Digest: yPEJ4Qb6QrxeV8R0H+R0JJhudhA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataTableTem
+ plate.class
+SHA1-Digest: +xIK8VEAq25bH5kCt/DLTePx3VE=
+
+Name: resources/tree/line.gif
+SHA1-Digest: Qhr2JfJwBSo+jleQqC8IKuOtzaw=
+
+Name: resources/inputNumberSlider/handler.gif
+SHA1-Digest: 97pyNZ1QusVK9XnrcehWsjDjOcM=
+
+Name: resources/comboBox/comboBox.css
+SHA1-Digest: ek6SvQPdN8udWBQhTaKgvfwEvPE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataTableChi
+ ldrenEncoder.class
+SHA1-Digest: LqoQecnuo3PQXrGSK/XvVu466hQ=
+
+Name: resources/progressBar/progressBar.css
+SHA1-Digest: g/fc04ECLPC3mcKZpa0LXAqWwoQ=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToggleContro
+ lTemplate.class
+SHA1-Digest: BLrpMSlniOCamN6AUB06HImLfsc=
+
+Name: resources/virtualEarth/earth_road.png
+SHA1-Digest: cla9m4TcTiPvrJ9mJAJVJWxFesM=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesMessageTempl
+ ate.class
+SHA1-Digest: TvHgtIkL6Z3NmIEshnFGQ7ZmsBU=
+
+Name: resources/editor/editor.css
+SHA1-Digest: mJ4uZxAHswRN29kpessoal7DrO4=
+
+Name: resources/panelMenuItem/style.css
+SHA1-Digest: Ny+Psl28e3zDycsLu4+hnEJ6bQM=
+
+Name: resources/virtualEarth/earth_aerial.png
+SHA1-Digest: mdjz/4VS66rztdnqwosWA6szGZ4=
+
+Name: plugin.properties
+SHA1-Digest: SMIE9tVOceL+jOUNRgvBLQcxWb4=
+
+Name: resources/orderingList/up.gif
+SHA1-Digest: 2p4+SlTS3OmAdXnQo+8yyhOmdto=
+
+Name: resources/shuttle/arrow_remove_all.gif
+SHA1-Digest: gyZHhJNNbk7tpg4IoSM3rvxCKZc=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/RichFacesTemplatesActivator.cl
+ ass
+SHA1-Digest: sqPdJY5L4KIHSreVpfKOLZf8C8Y=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesEditorTempla
+ teHelper.class
+SHA1-Digest: yv6+vzStvDO4OdQV/2Wlic0Tc3k=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelItemTem
+ plate.class
+SHA1-Digest: D3W4A5k1GZxjyVU64fXowwBXUhg=
+
+Name: resources/extendedDataTable/extendedDataTable.css
+SHA1-Digest: 6AVob+3L2MJnhJARfo5iJcNruCE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataGridTemp
+ late.class
+SHA1-Digest: bk8TqM3emAQUW5p7+Eul+4tvKso=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataListTemp
+ late.class
+SHA1-Digest: cYLjQ+n4n3r6U8B6zY4SBiLNBVk=
+
+Name: resources/tree/rightLine.gif
+SHA1-Digest: eDLOtK5Jg+e9Ywr44JaouEzPYUQ=
+
+Name: resources/simpleTogglePanel/simpleTogglePanel.css
+SHA1-Digest: BvfU/3HW0tSUeerioewr/y6DFY8=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesRecursiveTre
+ eNodesAdaptorTemplate.class
+SHA1-Digest: IxkIM5iBZPnOGs0GYOrjcpWTLxA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesAbstractInpl
+ aceTemplate.class
+SHA1-Digest: AvCF68/Zsm+XDZS3m5CHq96R848=
+
+Name: resources/pickList/arrow_first.gif
+SHA1-Digest: 2ZEV5/alns3Y9OasjpwLLOAYiS0=
+
+Name: resources/shuttle/shuttle.css
+SHA1-Digest: qANHKzk2WdELnTREaOPdOF4R9co=
+
+Name: resources/fileUpload/ico_start.gif
+SHA1-Digest: sfkeayROh/fsNN8CClo5emB9gA8=
+
+Name: resources/pickList/header.gif
+SHA1-Digest: B1JlVvX26dOchtZUFWiBv7NdaIo=
+
+Name: resources/inputNumberSpinner/background-arrows.jpg
+SHA1-Digest: uXaBjgX2408GOnJWnk9XYrUdyNA=
+
+Name: resources/inputNumberSpinner/down.gif
+SHA1-Digest: 2ap8fHLxsfyxqqF6fXhEY9fA//M=
+
+Name: resources/dataDefinitionList/dataDefinitionList.css
+SHA1-Digest: Ep1aSJ1nJYrzIioU9QAiNlz3aEA=
+
+Name: resources/shuttle/header.gif
+SHA1-Digest: B1JlVvX26dOchtZUFWiBv7NdaIo=
+
+Name: resources/inplaceSelect/inplaceSelect.css
+SHA1-Digest: mwyNyunQrhHom88FlbO44p4AeAk=
+
+Name: resources/inputNumberSlider/track.gif
+SHA1-Digest: 00ocbEN3ToaTcNhdIoJgyqHMVsk=
+
+Name: resources/dataFilterSlider/dataFilterSlider.css
+SHA1-Digest: FJx7qPe3axQHi+YWaVgKGviw4Xw=
+
+Name: resources/comboBox/down-disabled.gif
+SHA1-Digest: iLUAXN9LmNYx0ZNgR0jVlWE8mcM=
+
+Name: resources/progressBar/upload_status.gif
+SHA1-Digest: pGxmf7nR33xq3Sjcun7A/2jHUfU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesAbstractTree
+ Template.class
+SHA1-Digest: QfMpbhY+v0INirBhe3yEtjkE+Ng=
+
+Name: resources/paint2D/paint2D.css
+SHA1-Digest: WAR83Y9TK5yT20ni2Jm0n7zDuiI=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPaint2DTempl
+ ate.class
+SHA1-Digest: yvVgEBJXNyIiVYYpPD+/Ffa+vYQ=
+
+Name: resources/orderingList/top.gif
+SHA1-Digest: 2ZEV5/alns3Y9OasjpwLLOAYiS0=
+
+Name: resources/tree/iconLeafWithLines.gif
+SHA1-Digest: ROUOHaD/K/IwmX406iOn4F7vJFA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDropDownMenu
+ Template.class
+SHA1-Digest: EKUmeUE3FBlFjGoTyvvTfG3nDLA=
+
+Name: resources/gmap/allControls.png
+SHA1-Digest: 430zVcekG6W1u8R+Xuih6rnIrRc=
+
+Name: resources/inplaceInput/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: resources/inputNumberSlider/numberSlider.css
+SHA1-Digest: 0DRdRudJzeSl6ahlqWD3x7KCHC0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/AbstractRichFacesTemp
+ late.class
+SHA1-Digest: TTVIjdP+0bVU8sPXcVfIMwd2Hp0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesCalendarTemp
+ late$DirectionData.class
+SHA1-Digest: c7WAc+iMlDGJphpyk/DwYaN2XTA=
+
+Name: resources/tree/tree.css
+SHA1-Digest: s0eJx8AgyGxHQVdgY3NvU4u+3r0=
+
+Name: resources/panelMenuGroup/triangle.gif
+SHA1-Digest: nKht4UtRFW5ZwM7K7hnyCn7gGIU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesColumnGroupT
+ emplate.class
+SHA1-Digest: O6blMnzdeyqf0/7KE08rn+Njkfc=
+
+Name: resources/calendar/disabled_button.gif
+SHA1-Digest: mPJ6RuaHrFvVv79APVAfd3JHE0c=
+
+Name: resources/inplaceSelect/button_bg.gif
+SHA1-Digest: uXaBjgX2408GOnJWnk9XYrUdyNA=
+
+Name: resources/shuttle/arrow_remove.gif
+SHA1-Digest: 6J6k/k/wu7RDaiCb+Zq1qtnrB3k=
+
+Name: resources/panelBar/background.gif
+SHA1-Digest: uXaBjgX2408GOnJWnk9XYrUdyNA=
+
+Name: resources/gmap/large-type.png
+SHA1-Digest: FLLnbKIKGYTqT0bGs0FbKkUiY2M=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesMenuGroupTem
+ plate.class
+SHA1-Digest: vibic9QSNuefrKj0nI/qGKUpndc=
+
+Name: resources/fileUpload/ico_add.gif
+SHA1-Digest: GFrCynMVEaT3FecWBWy/dJ1G5jg=
+
+Name: resources/inplaceInput/bg_shadow.png
+SHA1-Digest: QI9A528CzvYHMDGYGPIxoRbarHQ=
+
+Name: resources/tree/iconClosedNode.gif
+SHA1-Digest: aKhP9F/aU6XYKg2nrTQ68jNz6nc=
+
+Name: lib/jhighlight-1.0.jar
+SHA1-Digest: Cxd0Ap7ilHLfjCXlunlkMfdon9Y=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/AbstractEditableRichF
+ acesTemplate.class
+SHA1-Digest: yhwTJY8ney1GBa0zjkLgwDczwLY=
+
+Name: resources/panelMenuGroup/disc.gif
+SHA1-Digest: vwMUudhwqKMniH2By0Q9vwUEyzE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPickListTemp
+ late.class
+SHA1-Digest: 0mH+6FvSylJtGl52zyRk3mRaFqc=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesInplaceSelec
+ tTemplate.class
+SHA1-Digest: K9vMd3bv0zYurQhSE3O89iRocvQ=
+
+Name: resources/tree/iconNotCollapsedWithLines.gif
+SHA1-Digest: o/Oyv+B4+lotB9cCITXqljA5ySA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesMessageTempl
+ ate$Attributes.class
+SHA1-Digest: Ie6UoUKlRP1ec3RKknkBL0abZQg=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarGroup
+ Template$SourceToolBarGroupItems.class
+SHA1-Digest: LkwVNFCeHDfwm0ST3Ikrp+LsElk=
+
+Name: resources/dataFilterSlider/pos.gif
+SHA1-Digest: W1I34B2zt/vsaQaOvj+ZSwKL/6k=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesMessagesTemp
+ late.class
+SHA1-Digest: bmYE3jEIQPJIifh+jzZSUHp4oiU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarTempl
+ ate$SourceToolBarItem.class
+SHA1-Digest: jDnZgmwkmiPkod+KI7p2NHbRYqU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesFileUploadTe
+ mplate.class
+SHA1-Digest: UXWxMM1prtdHVA8s9Ki9awOwA28=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataOrderedL
+ istTemplate.class
+SHA1-Digest: mh/C+1XNpL6bq5uQIYKG44iPkoI=
+
+Name: resources/spacer/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: resources/menuGroup/menuGroup.css
+SHA1-Digest: NjCLSL6gsBGoCc/GEhAyRPERq0w=
+
+Name: resources/dataFilterSlider/background-input.png
+SHA1-Digest: Z5fuGPGMMXtcT2rZT8E5CS6PZ5E=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesFileUploadTe
+ mplate$StyleClasses.class
+SHA1-Digest: r0n9tSYk2x1rnV2FBA4DAtkRj8M=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesMenuItemTemp
+ late.class
+SHA1-Digest: vBlZth2xlByuFjBN9OanC/Odmt4=
+
+Name: resources/orderingList/table_header_cell_bg.gif
+SHA1-Digest: B1JlVvX26dOchtZUFWiBv7NdaIo=
+
+Name: resources/pickList/arrow_down.gif
+SHA1-Digest: T/FJCyh7stgpjHGNrAJFuRC9fo0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesSeparatorTem
+ plate.class
+SHA1-Digest: /ELr5iMIeabwKTr4jdd2lU9tGNI=
+
+Name: resources/tree/iconLeaf.gif
+SHA1-Digest: sQVlnHxwHFWeOUYf6jdlevbxI0Y=
+
+Name: resources/editor/editor_toolbar.gif
+SHA1-Digest: xPdeEm94A7tzAEjkX4iHzaPsUhA=
+
+Name: resources/tabPanel/active.gif
+SHA1-Digest: O/WcYdeFfgiRASEYhscftmK/3iI=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesListShuttleT
+ emplate.class
+SHA1-Digest: 6KW5+rAmoBM3LYQHDSGqmzPQThk=
+
+Name: resources/tree/iconNodeWithLine.gif
+SHA1-Digest: jvkVe2098yOpOUqnOGBi+3vvSkw=
+
+Name: resources/toolBar/separatorLine.gif
+SHA1-Digest: 5fmPlMyAS2i+AlCExc5ntGPA6gE=
+
+Name: resources/tabPanel/tabPanel.css
+SHA1-Digest: tq561bhr3z+S6y9XkTJrdAAj9Qw=
+
+Name: resources/comboBox/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesSubTableTemp
+ late.class
+SHA1-Digest: 0eMagr01Mm6gVg1wyw/0e9onbrk=
+
+Name: resources/pickList/arrow_last.gif
+SHA1-Digest: zzftgGDoxUK4x6ncwi40QBMqeR4=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarGroup
+ Template$SourceToolBarGroupItem.class
+SHA1-Digest: 0Reyy9cFV1RnH8cV/FdKH3e34tA=
+
+Name: resources/comboBox/down.gif
+SHA1-Digest: T/FJCyh7stgpjHGNrAJFuRC9fo0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarGroup
+ Template.class
+SHA1-Digest: m/PjfTyFhEG+aE9Xff361ocsHHk=
+
+Name: resources/tree/divLine.gif
+SHA1-Digest: gUPJiJB0KcmOnzPrlRFrQ6lbIK8=
+
+Name: resources/tree/unresolved.gif
+SHA1-Digest: zLUjvotGbB9zZPzLFN4kMZORg6Y=
+
+Name: resources/dataTable/dataTable.css
+SHA1-Digest: otfWrQjAnKeBDJTjCTpUEmQI44A=
+
+Name: resources/inplaceSelect/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelMenuGro
+ upTemplate.class
+SHA1-Digest: F/nyXcLMGrj6PXLh5+gnTFzwhUs=
+
+Name: resources/panelMenuGroup/triangleDown.gif
+SHA1-Digest: 4Vgwbeol+cYVln6ampXl8IYki/w=
+
+Name: resources/panelMenuGroup/chevronUp.gif
+SHA1-Digest: eGfp/EKf3j+bku6xt315lGq9og0=
+
+Name: resources/menuItem/spacer.gif
+SHA1-Digest: qu/xqrDBcn5q85y7jOYTzQaY848=
+
+Name: plugin.xml
+SHA1-Digest: vIK7Slk9qnPY/7+V5gRcCQKSRyo=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesColumnTempla
+ te.class
+SHA1-Digest: TkinaCBmMN43xfm3sX6SLOLm0l8=
+
+Name: resources/paint2D/paint2D.gif
+SHA1-Digest: G3weHUGEPhmK/FgIwUb1T3NvhQA=
+
+Name: resources/toolBar/separatorSquare.gif
+SHA1-Digest: vBpamHN81ze3YMAcqdWgG+wNeqo=
+
+Name: resources/shuttle/arrow_copy.gif
+SHA1-Digest: dI3b2wYxajC40kkeHCldbX3JToA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelMenuGro
+ upTemplate$Attributes.class
+SHA1-Digest: zaitWW3Y+YxtvZfVDMsp53tV1D4=
+
+Name: resources/pickList/arrow_copy.gif
+SHA1-Digest: dI3b2wYxajC40kkeHCldbX3JToA=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesSimpleToggle
+ PanelTemplate.class
+SHA1-Digest: 6ilxxRX34na+CrSI1s4F3S1Ee1w=
+
+Name: resources/column/sortable.gif
+SHA1-Digest: ikHqBMDe+dAN7OaRalVbAGCoWDY=
+
+Name: resources/gmap/type.png
+SHA1-Digest: cUOfi0prB4/DEk2VMJuPdROGLZI=
+
+Name: resources/dropDownMenu/dropDownMenu.css
+SHA1-Digest: xTIsK4TgJa1FIXiSzFonPVE0rSU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelTemplat
+ e.class
+SHA1-Digest: LQ30Q/eXCrDgRj8nYK1gSXCP0a0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataFilterSl
+ iderTemplate.class
+SHA1-Digest: iQENbzKUt+y61noDAbsZl0umqvQ=
+
+Name: resources/gmap/large-scale.png
+SHA1-Digest: niv2VVGo9wyFpoBX/jfOrPi7QQ8=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTreeNodesAda
+ ptorTemplate.class
+SHA1-Digest: i9oshdD62gcTq/xn3zqBpl98aHQ=
+
+Name: resources/toolBar/toolBar.css
+SHA1-Digest: fcwC1IdM+PP7qPQVHx6EQgy903U=
+
+Name: resources/menuItem/menuItem.css
+SHA1-Digest: 36RZIpFNuK0QF5olCfaQlro0lZc=
+
+Name: resources/panelMenuGroup/topGroupBkgImg.png
+SHA1-Digest: hL/92KQXsHKgdvIbB2M3PwJHaX0=
+
+Name: resources/panelMenuGroup/style.css
+SHA1-Digest: tFH9frcTd1jF0VdRAukAzayxweY=
+
+Name: resources/inputNumberSlider/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesToolBarTempl
+ ate.class
+SHA1-Digest: oqUNRGD2CyivxKeIASSY9vF2XG8=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataDefiniti
+ onListTemplate.class
+SHA1-Digest: asARoeA3ntxUI4iaupVxQ1TR/bI=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesComboBoxTemp
+ lateHelper.class
+SHA1-Digest: KLQbc/j45y62gPZtuVX+efyya04=
+
+Name: resources/calendar/separator.gif
+SHA1-Digest: DhlQp+RKqyAn8UvoUBBP8d1o+eI=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesColumnsTempl
+ ate.class
+SHA1-Digest: AW6vIogg6J8Mqgo2LjM8ovs2Nhw=
+
+Name: resources/common/background.gif
+SHA1-Digest: uXaBjgX2408GOnJWnk9XYrUdyNA=
+
+Name: resources/extendedDataTable/sortable.gif
+SHA1-Digest: ikHqBMDe+dAN7OaRalVbAGCoWDY=
+
+Name: resources/inputNumberSpinner/background-arrows.png
+SHA1-Digest: ImZTg6y1PhZ0ff36R2LOnBE7GK4=
+
+Name: resources/tree/iconCollapsedWithLines.gif
+SHA1-Digest: eluTsNjN9jRVix5MASGPm5FRlOY=
+
+Name: resources/panel/panel.css
+SHA1-Digest: d7uj604ICSvDHR4KrGWw1hLDUtw=
+
+Name: resources/panelBar/panelBar.css
+SHA1-Digest: xGR+c7/W2kUtZXD1+yzQa+iKF0U=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesPanelBarTemp
+ late.class
+SHA1-Digest: vzRuaSaz5uB2X4uJ1JdV5IZpDlo=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesVirtualEarth
+ Template.class
+SHA1-Digest: RL8461mg1TsBE6+tiYa6KsCpOgg=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesInplaceInput
+ Template.class
+SHA1-Digest: 9OMdBpkPSNaFop9aeZbkFd5mKhU=
+
+Name: resources/tree/iconClosedNodeWithLines.gif
+SHA1-Digest: Z5GjYUxdj8Doxe5PxJy8oTmevJE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTogglePanelT
+ emplate.class
+SHA1-Digest: +N/PEtyFo657+FfWpcFFFXhT/4A=
+
+Name: resources/pickList/arrow_remove_all.gif
+SHA1-Digest: gyZHhJNNbk7tpg4IoSM3rvxCKZc=
+
+Name: resources/shuttle/arrow_first.gif
+SHA1-Digest: 2ZEV5/alns3Y9OasjpwLLOAYiS0=
+
+Name: resources/panelMenuGroup/chevronDown.gif
+SHA1-Digest: 5cq6uO8uXzbfMSeSjHEZCGRXkBc=
+
+Name: resources/separator/separator.css
+SHA1-Digest: KM0kIOU3BeiI1OulFk+xvbdGkZ4=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/ComponentUtil.class
+SHA1-Digest: H8qOCSfUJ7Q9o2SxzzKy83zy9RE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/InputNumberSliderTemp
+ late.class
+SHA1-Digest: gpIlX6T/DcXzXjD4hOzDpn96s5A=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesExtendedData
+ TableTemplate.class
+SHA1-Digest: fqnCg+vyQtvBnw1NsavIdB6G6T4=
+
+Name: resources/inputNumberSpinner/inputNumberSpinner.css
+SHA1-Digest: FzttWZJ1OS5hJs1uASyXdxlMHfY=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/HtmlComponentUtil.class
+SHA1-Digest: O+o4CAfczSHetRvdB7NvZmHQfSk=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTabPanelTemp
+ late.class
+SHA1-Digest: Pv05LFUqtgvgcfmQcn6ui1KLM0o=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesScrollableDa
+ taTableTemplate.class
+SHA1-Digest: QRbDTrBz/X3q28b/hevH6HsAO9E=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesCalendarTemp
+ late$Cell.class
+SHA1-Digest: NlpGnsCPlIxx04rLIB0vPwknYHE=
+
+Name: resources/inplaceInput/inplaceInput.css
+SHA1-Digest: xvyU/YAIOhuMfv5JeY2LbUOjZfc=
+
+Name: resources/shuttle/arrow_up.gif
+SHA1-Digest: 2p4+SlTS3OmAdXnQo+8yyhOmdto=
+
+Name: resources/menuGroup/spacer.gif
+SHA1-Digest: qu/xqrDBcn5q85y7jOYTzQaY848=
+
+Name: resources/orderingList/button_bg.gif
+SHA1-Digest: Ro45EmGsEMdL10QuPOyq4EZkW/U=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesTreeTemplate
+ .class
+SHA1-Digest: 2DjpAwmVraRyFOd83NwjVHsIdII=
+
+Name: resources/gmap/noControls.png
+SHA1-Digest: xzUaIgPNEyI8VKazQ+NQLTo4lns=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/util/RichFaces.class
+SHA1-Digest: YZpOrUd45Xs+f+ekZyZnYLAmNtI=
+
+Name: resources/tree/iconNode.gif
+SHA1-Digest: /UiukE16H5R0Wj0XZwLmZoYw5ZQ=
+
+Name: resources/dataList/dataList.css
+SHA1-Digest: 1Lq7wlvIwj0fHDuDm9yKDrnhCmg=
+
+Name: resources/tabPanel/inactive.gif
+SHA1-Digest: 2GIJcmmKintT+lo0ycuvTnj2cN8=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesComboBoxTemp
+ late.class
+SHA1-Digest: sQu7+/xZlMkXTeIZI0mvanDo4qM=
+
+Name: resources/orderingList/down.gif
+SHA1-Digest: T/FJCyh7stgpjHGNrAJFuRC9fo0=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesDataTableSty
+ leClassesApplier.class
+SHA1-Digest: CiBodo25iAvgYe9c5xCfvLtYqVU=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesInsertTempla
+ te.class
+SHA1-Digest: dIedaTu6HJGP+CSHfdoTy/bcBmE=
+
+Name: resources/pickList/spacer.gif
+SHA1-Digest: 6n31g5gxM7YnErXnO/+81FzFNzY=
+
+Name: resources/inputNumberSpinner/up.gif
+SHA1-Digest: 6tBL86Bb2OnXh6ztUTvSpYrV47I=
+
+Name: resources/pickList/arrow_up.gif
+SHA1-Digest: 2p4+SlTS3OmAdXnQo+8yyhOmdto=
+
+Name: resources/dataTableScroller/dataTableScroller.css
+SHA1-Digest: Q8PjO9WKyNIdSSvt3V8D9mKpIQE=
+
+Name: org/jboss/tools/jsf/vpe/richfaces/template/RichFacesInputNumberS
+ pinnerTemplate.class
+SHA1-Digest: zTCnCr9JGzZV7u/EQui7bJMSHPE=
+

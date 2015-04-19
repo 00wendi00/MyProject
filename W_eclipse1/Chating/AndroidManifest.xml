@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hainu.it"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait"
+        >
+        <activity
+            android:name="hainu.it.login.LoginInterfacePre"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hainu.it.login.LoginInterface"
+            android:label="LoginInterface"
+            android:launchMode="singleTop"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"
+            >          
+        </activity>
+        <activity 
+            android:name="hainu.it.regist.Registration"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            >        
+        </activity>
+        <activity
+            android:name="hainu.it.chating.Chating"
+            android:label="Chating"
+            android:launchMode="singleInstance"
+            android:theme="@style/ThemeActivity2"
+            >          
+        </activity>
+        
+            
+    </application>
+
+</manifest>

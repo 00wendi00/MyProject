@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,com.genuitec.eclipse.easie.jetty,org.eclipse.core
+ .runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.jetty7.Jetty7LauncherPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiejetty7.jar
+Bundle-Version: 8.5.0.me201003231033
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.jetty7;singleton:=true
+
+Name: preferences.ini
+SHA1-Digest: xZU6Vk+44sKGdRLncPNnlPzkYwk=
+
+Name: plugin.xml
+SHA1-Digest: flRzQQYzZyvZbyOv2pk5JmbprqE=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: UzmZ5De3+djqX/2Idi7meq0NvXM=
+
+Name: plugin.properties
+SHA1-Digest: 5HiQ8mWaJqAT87AXJ4wtsVl57io=
+
+Name: easiejetty7.jar
+SHA1-Digest: i2hxhqdORX1EqVfprmlzb58fu4A=
+

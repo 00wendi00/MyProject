@@ -1,0 +1,58 @@
+/**
+ * 文件名：Ex1.java
+ * 项目-包：JAVA编程思想 - 第十六章数组
+ * 作者：张文迪
+ * 创建日期：2014-10-25
+ */
+package 第十六章数组;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/**
+ * @author 张文迪
+ * 类名：Ex1
+ * 类说明：
+ */
+class A 
+{
+	void haha()
+	{
+		System.out.print("哈哈 ~~~");
+	}
+}
+public class Ex1
+{
+	static int i = 0;
+	public static void main(String arg[])
+	{
+		A[] a;	
+		A[] b = new A[5];
+		//System.out.println(a);
+		System.out.println(Arrays.toString(b));
+		for(int i = 0; i<3;i++)
+			if(b[i]==null)
+			{
+				b[i] = new A();
+				b[i].haha();
+			}
+		System.out.println();
+		System.out.println(Arrays.toString(b));
+		
+		A[] c = {new A(),new A(),new A(),new A()};
+		System.out.println(c[0].getClass());
+		System.out.println(c.getClass());
+		System.out.println(c.getClass().getSimpleName());  //~~~
+		
+		
+		hide(b);
+		a=b;
+		hide(a);
+		hide(new A[]{new A(),new A() ,new A()});// 动态聚集初始化~~
+		
+	}
+	static <T> void hide(T[] t)
+	{
+		System.out.println(" ok  l !"+(++i));
+	}
+}

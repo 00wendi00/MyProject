@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime
+Export-Package: com.genuitec.eclipse.modeling.core.layout,y.algo,y.bas
+ e,y.geom,y.geom.b,y.geom.c,y.layout,y.layout.circular,y.layout.geneal
+ ogy,y.layout.grouping,y.layout.hierarchic,y.layout.hierarchic.increme
+ ntal,y.layout.labeling,y.layout.organic,y.layout.organic.b,y.layout.o
+ rganic.b.b,y.layout.orthogonal,y.layout.orthogonal.b,y.layout.orthogo
+ nal.b.b,y.layout.orthogonal.b.c,y.layout.orthogonal.c,y.layout.orthog
+ onal.d,y.layout.orthogonal.e,y.layout.orthogonal.f,y.layout.orthogona
+ l.g,y.layout.orthogonal.g.b,y.layout.planar,y.layout.planar.planarity
+ test,y.layout.random,y.layout.router,y.layout.transformer,y.layout.tr
+ ee,y.util,y.util.pq
+Bundle-Vendor: %pluginProvider
+Eclipse-LazyStart: true
+Bundle-ClassPath: lib/y.jar,core-layout.jar
+Bundle-Version: 8.5.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.genuitec.eclipse.modeling.core.layout.Activator
+Bundle-SymbolicName: com.genuitec.eclipse.modeling.core.layout
+
+Name: lib/y.jar
+SHA1-Digest: 03AJADFXNAKo/R6eH0KirD9iFMM=
+
+Name: plugin.properties
+SHA1-Digest: HfYRksXJ+r+GZUerdG4a0ndxLGA=
+
+Name: core-layout.jar
+SHA1-Digest: JAYcr2M5TWzJr/IOA7eWcLvYhyY=
+

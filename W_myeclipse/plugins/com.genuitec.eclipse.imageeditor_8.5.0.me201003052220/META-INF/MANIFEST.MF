@@ -1,0 +1,307 @@
+Manifest-Version: 1.0
+Export-Package: .,Acme,Acme.JPM.Encoders,com.apple.eawt,com.apple.eio,
+ com.apple.mrj,com.apple.mrj.datatransfer,com.apple.mrj.dnd,com.genuit
+ ec.eclipse.imageeditor,com.genuitec.eclipse.imageeditor.action,com.ge
+ nuitec.eclipse.imageeditor.editor,com.genuitec.eclipse.imageeditor.in
+ tegration,com.genuitec.eclipse.imageeditor.palette,com.genuitec.eclip
+ se.imageeditor.preferences,com.genuitec.eclipse.imageeditor.quantize,
+ com.genuitec.eclipse.imageeditor.util,com.genuitec.eclipse.imageedito
+ r.view,com.genuitec.eclipse.imageeditor.wizard,com.jhlabs.app,com.jhl
+ abs.app.mac,com.jhlabs.awt,com.jhlabs.beans,com.jhlabs.composite,com.
+ jhlabs.ie,com.jhlabs.ie.io,com.jhlabs.ie.layer,com.jhlabs.ie.tool,com
+ .jhlabs.ie.ui,com.jhlabs.image,com.jhlabs.image.fill,com.jhlabs.io,co
+ m.jhlabs.math,com.jhlabs.swing,com.jhlabs.util,com.jhlabs.vecmath,com
+ .jhlabs.xml,com.sun.jimi.core,com.sun.jimi.core.compat,com.sun.jimi.c
+ ore.component,com.sun.jimi.core.decoder.apf,com.sun.jimi.core.decoder
+ .bmp,com.sun.jimi.core.decoder.builtin,com.sun.jimi.core.decoder.cur,
+ com.sun.jimi.core.decoder.gif,com.sun.jimi.core.decoder.ico,com.sun.j
+ imi.core.decoder.pcx,com.sun.jimi.core.decoder.pict,com.sun.jimi.core
+ .decoder.png,com.sun.jimi.core.decoder.psd,com.sun.jimi.core.decoder.
+ sunraster,com.sun.jimi.core.decoder.tga,com.sun.jimi.core.decoder.tif
+ f,com.sun.jimi.core.decoder.xbm,com.sun.jimi.core.decoder.xpm,com.sun
+ .jimi.core.encoder.apf,com.sun.jimi.core.encoder.bmp,com.sun.jimi.cor
+ e.encoder.cur,com.sun.jimi.core.encoder.ico,com.sun.jimi.core.encoder
+ .jpg,com.sun.jimi.core.encoder.pcx,com.sun.jimi.core.encoder.pict,com
+ .sun.jimi.core.encoder.png,com.sun.jimi.core.encoder.psd,com.sun.jimi
+ .core.encoder.sunraster,com.sun.jimi.core.encoder.tga,com.sun.jimi.co
+ re.encoder.xbm,com.sun.jimi.core.encoder.xpm,com.sun.jimi.core.filter
+ s,com.sun.jimi.core.options,com.sun.jimi.core.raster,com.sun.jimi.cor
+ e.util,com.sun.jimi.core.util.lzw,com.sun.jimi.core.util.x11,com.sun.
+ jimi.core.vmem,com.sun.jimi.tools,com.sun.jimi.util
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: imageeditor.jar,lib/JimiProClasses.jar,lib/JPM.jar,l
+ ib/AppleJavaExtensions.jar,lib/MRJToolkitStubs.jar
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.runtime.compatibility,org.eclipse.ui.editors;visibility:=reexport,
+ org.eclipse.ui.views,org.eclipse.jface,org.eclipse.jface.text,org.ecl
+ ipse.core.resources,com.genuitec.eclipse.core,com.genuitec.eclipse.co
+ re.common,org.eclipse.jdt.ui;visibility:=reexport,org.eclipse.draw2d,
+ org.eclipse.gef,org.eclipse.core.filesystem;visibility:=reexport
+Bundle-Vendor: %bundleVendor
+Plugin-Class: com.genuitec.eclipse.imageeditor.ImageEditorPlugin
+Bundle-Version: 8.5.0.me201003052220
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.imageeditor; singleton:=true
+
+Name: icons/cursor/win32/PanToolCursor.gif
+SHA1-Digest: f8VoSEb4XNnnYS2Rf2tlor6k1tw=
+
+Name: icons/cursor/linux/EraserToolCursor.gif
+SHA1-Digest: xuORA6V3+xYS3acU94qB29y3r7A=
+
+Name: icons/gradient_bilinear.png
+SHA1-Digest: 4Jx31rY0rsFb1aaLHooZP0SlwAo=
+
+Name: icons/icon.gif
+SHA1-Digest: /px6yGJXF7/SCs5qIq2VJBhK8hk=
+
+Name: icons/ArrowsTool.png
+SHA1-Digest: Z8xoD51d2oFmxSfzHWW9RUEL1j8=
+
+Name: icons/cursor/win32/FillToolCursor.gif
+SHA1-Digest: 7J4ARoW+NEzfcBfoi/x0bG1RNxY=
+
+Name: icons/cursor/win32/DefaultCursor.gif
+SHA1-Digest: eNjTzYtiR1VKqwL7rrugG7b4bSA=
+
+Name: lib/JPM.jar
+SHA1-Digest: 7EVgx866sZ0QnoSY7fZJnS+uOLg=
+
+Name: icons/SelectTextTool.gif
+SHA1-Digest: X9Z0HdPdvio+sf8N3Qw6NXM3Q2o=
+
+Name: icons/gradient_square.png
+SHA1-Digest: gypaQCaal++DV+XmbZyHuJxDsS0=
+
+Name: icons/star_tool_poly.png
+SHA1-Digest: 1a0lhG0BMIg4OkP1ftpCv+hkUC8=
+
+Name: icons/ArrowTool.png
+SHA1-Digest: ehlIsJZM0vg0Ine1seQLd/hOPh0=
+
+Name: icons/BrushTool.png
+SHA1-Digest: 1fBwVX8OjSjJ3fmGqP19dwDc0vs=
+
+Name: icons/FilledOvalTool.gif
+SHA1-Digest: o0qGVtFFWHQtw98jBH07H5JaxXk=
+
+Name: ImageEditor.prf
+SHA1-Digest: 2bLgnJyqUxhxPJQOYbuT72nvW5Q=
+
+Name: icons/gradient_linear.png
+SHA1-Digest: ITc6hxOMkkI214jP/kgnRlh5hJw=
+
+Name: icons/cursor/linux/PanToolCursor.gif
+SHA1-Digest: UWt3GOAIYTQdjkaJ4B7TLIa429M=
+
+Name: icons/PanTool.gif
+SHA1-Digest: N5DrraeyTKFspvHB4vFFAbUN5K0=
+
+Name: icons/StarTool.png
+SHA1-Digest: on+AtIqYp3iMbOvUFBeiUP037ec=
+
+Name: icons/cursor/linux/RectangleToolCursor.gif
+SHA1-Digest: uiUXf1cyEjrM4I3ylsoQPZLH1ic=
+
+Name: icons/cursor/linux/FillToolCursor.gif
+SHA1-Digest: eJhfjBXKBliQlLDI/PNXIe915qI=
+
+Name: plugin.properties
+SHA1-Digest: uqESJh/Q4hWT9R7yGxgiXZiSFH0=
+
+Name: icons/FillTool.gif
+SHA1-Digest: vqQcuadwm6tfg72HAQ9kqslT4ZY=
+
+Name: icons/ime.gif
+SHA1-Digest: xFVhejMWy5Be2hLE4t9037HqL0M=
+
+Name: icons/cursor/win32/OvalToolCursor.gif
+SHA1-Digest: 1XxlcFy0qniObicZAq1+tdZxWkU=
+
+Name: icons/cursor/linux/ZoomToolCursor.gif
+SHA1-Digest: bPORka4qyUQNlDcL3LkV6+9IHjw=
+
+Name: icons/SmudgeTool.gif
+SHA1-Digest: a49mfo5UOanznrqV9Xg+e1kp8ps=
+
+Name: icons/DropperTool.png
+SHA1-Digest: hGihCFmJd8CfamUt7Sl7wesCy3A=
+
+Name: lib/JimiProClasses.jar
+SHA1-Digest: Fioq2Bz/BjbuzW307jprhrsPsZo=
+
+Name: icons/gradient_radial.png
+SHA1-Digest: 4fOe6tY6N/2+j9CeF0pDCUdLU3E=
+
+Name: lib/AppleJavaExtensions.jar
+SHA1-Digest: fzhAI4gKKAtUc0fmQ9LOsEG21X4=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: imageeditor.jar
+SHA1-Digest: CiuU2AFgf7KPo+uaSLsw+HoUzAs=
+
+Name: icons/gradient_fan.png
+SHA1-Digest: xebYSpeMczFzWV84hncDJFDXTcc=
+
+Name: icons/CloneTool.gif
+SHA1-Digest: 98aIEHLMyWn19q6txuA5Ow+IpQM=
+
+Name: icons/FilterTool.png
+SHA1-Digest: oX5b/aWH5yiPEWSTPiqP4Pb9/yc=
+
+Name: icons/OvalTool.png
+SHA1-Digest: MF0QGuQyisR24V5X9fveFGvqDyQ=
+
+Name: icons/ZoomTool.gif
+SHA1-Digest: 3uptD54gaDtg7slLr/t9t2N+wy8=
+
+Name: icons/WandTool.gif
+SHA1-Digest: /c9xa6fdA8rdqpICLFBWSgTJUzo=
+
+Name: icons/star_tool_star.png
+SHA1-Digest: 5/DR1JbEMUD4cvHNDvkIEAXg92U=
+
+Name: icons/ime_perspective.gif
+SHA1-Digest: a/t7z15oJrPxGSuamGh1aQ6nHF0=
+
+Name: icons/RoundRectangleTool.gif
+SHA1-Digest: BYPxGZW3B3+Ijc90uFCRq1CNDmE=
+
+Name: icons/cursor/win32/LineToolCursor.gif
+SHA1-Digest: cmqs797rstC51su38SpM1hNpVc8=
+
+Name: icons/BurnTool.gif
+SHA1-Digest: Dj/rXRCWE9kBWXZPK+A/WskypyI=
+
+Name: icons/SelectAreaTool.gif
+SHA1-Digest: kVWo6OnEiDXOHDMzkyjvqe7Jewc=
+
+Name: icons/ArrowTool.gif
+SHA1-Digest: t+gPORjNr05P5K/lci8x/c0f75g=
+
+Name: icons/FilledRectTool.gif
+SHA1-Digest: 5/Fb9m/vaHQjdL4FVhBi6IPLFa4=
+
+Name: icons/FieldWarpTool.png
+SHA1-Digest: H2rGTXqh10OSp7QmBK/lQZ0l5Fk=
+
+Name: icons/RectangleTool.gif
+SHA1-Digest: 7EjlPER4aQsrjdiofSRKaELsgec=
+
+Name: icons/TextTool.png
+SHA1-Digest: 5rqr0nz0WyubVaJeiIsqqI+ELvo=
+
+Name: icons/GradientTool.gif
+SHA1-Digest: 9dSzjWlqFRalPE+b3HdDL0k2a88=
+
+Name: icons/TextTool.gif
+SHA1-Digest: PXdKegVeheeoGVETvRY/LLGmQwc=
+
+Name: icons/cursor/win32/StarToolCursor.gif
+SHA1-Digest: YrzgWnS0t1GikwtfdbarbQlWZdI=
+
+Name: lib/MRJToolkitStubs.jar
+SHA1-Digest: SOPnHoIIT4KZtgR1UV04VLwIlKw=
+
+Name: about.html
+SHA1-Digest: Otn9FMgwCuTN2Yen5YTKxs/+RQE=
+
+Name: icons/cursor/linux/LineToolCursor.gif
+SHA1-Digest: b40cPfMeFLr/yazkR7nLg0qikic=
+
+Name: icons/BrushTool.gif
+SHA1-Digest: EW9TRj06CDeKsTiCqxJStr1dTCc=
+
+Name: icons/EraserTool.gif
+SHA1-Digest: OeNaDs+mFO53wxBXVmaEFaptqT0=
+
+Name: icons/EraserTool.png
+SHA1-Digest: KSeyryz2Ogvq61WB5rdsKSRd1vk=
+
+Name: icons/WarpTool_orig.png
+SHA1-Digest: yp7Ux7U57ym2B5SPjD+KUBXhePg=
+
+Name: icons/gradient_conical.png
+SHA1-Digest: FjTMturMhWEsxsgcqd1JHy+CNGc=
+
+Name: icons/StarTool.gif
+SHA1-Digest: PDI6V+yw70XjeNHSbQMQOe8ydZU=
+
+Name: icons/WarpTool.png
+SHA1-Digest: 8joH99mjYsBKJsRXupemHagPqs4=
+
+Name: icons/DodgeTool.gif
+SHA1-Digest: wRzma7mKQ9JLQpahTtC9N8EBuY8=
+
+Name: icons/cursor/linux/DropperToolCursor.gif
+SHA1-Digest: YqtbMAmlj+raX6ID5yjVPvKhNhY=
+
+Name: icons/cursor/win32/RectangleToolCursor.gif
+SHA1-Digest: G+AI0BoSVWgssC33QQZZg+DSQgI=
+
+Name: icons/RoundRectangleTool_orig.gif
+SHA1-Digest: Pl602Sse4whE9Dw3GQhuR0l/jmY=
+
+Name: icons/cursor/win32/EraserToolCursor.gif
+SHA1-Digest: Tsn996OfKbvNBUV5m6HfPPHO5fE=
+
+Name: icons/cursor/linux/StarToolCursor.gif
+SHA1-Digest: mw37R2/0iQ7Tr2rDX+mqsiJ+DKE=
+
+Name: icons/DropperTool.gif
+SHA1-Digest: nYdKmT8kNMZ8p4KiiyyuDuR+WLo=
+
+Name: icons/SelectEllipseTool.gif
+SHA1-Digest: H1jzgXt0X4vlDEzuzEB+x0gN1Hs=
+
+Name: icons/LassooTool.gif
+SHA1-Digest: yQ9HZ1Ce5GNykm348f4Sj/tHeeE=
+
+Name: icons/cursor/win32/DropperToolCursor.gif
+SHA1-Digest: Avt528jZ6W5Os7QMvrqdjYxZDro=
+
+Name: icons/PerspectiveTool.png
+SHA1-Digest: wmPc12zee8PaBcWv9N8ymzDZBBo=
+
+Name: icons/wizban/image.gif
+SHA1-Digest: ZgTWauzZezFtbnr1G6duHz13j6I=
+
+Name: icons/LineTool.gif
+SHA1-Digest: KvkHPBb+OKzAC1TYEB06Q8wobKQ=
+
+Name: icons/PerspectiveTool_orig.png
+SHA1-Digest: ZTlNbzrCfs+tZkqEyAJHgXgXGyw=
+
+Name: icons/cursor/win32/ZoomToolCursor.gif
+SHA1-Digest: NOuRPc0xkd8RMysSqn/nNe5AEbs=
+
+Name: icons/cursor/linux/WandToolCursor.gif
+SHA1-Digest: UT3SsqTxJnSNkK12dc9eBx5+kbQ=
+
+Name: icons/PencilTool.gif
+SHA1-Digest: 1Kufp9eO/Zji0Snsf4wAem1tivY=
+
+Name: preferences.ini
+SHA1-Digest: EkNT/3kj00GxRfWizjzrGfiJRSw=
+
+Name: icons/cursor/win32/WandToolCursor.gif
+SHA1-Digest: q8pmDjHOFNSyTi6xF8E5jjVs2rA=
+
+Name: icons/tools.psd
+SHA1-Digest: tmxoTLg89gSpjpNvOp1/6yRJsJ0=
+
+Name: icons/cursor/linux/DefaultCursor.gif
+SHA1-Digest: eNjTzYtiR1VKqwL7rrugG7b4bSA=
+
+Name: plugin.xml
+SHA1-Digest: tES++s4GxQSP08V97Xkw8TjnbyE=
+
+Name: icons/cursor/linux/OvalToolCursor.gif
+SHA1-Digest: KCFf1w4D8Q3C2+5mW7sX0MEhNhg=
+

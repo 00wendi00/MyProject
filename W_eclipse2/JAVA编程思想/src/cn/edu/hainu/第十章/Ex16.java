@@ -1,0 +1,83 @@
+/**
+ * 文件名：Ex16.java
+ * 项目-包：JAVA编程思想 - cn.edu.hainu.第十章
+ * 作者：张文迪
+ * 创建日期：2014-9-26
+ */
+package cn.edu.hainu.第十章;
+/**
+ * @author 张文迪
+ * 类名：Ex16
+ * 类说明：练习 16  。匿名内部类~
+ */
+public class Ex16
+{
+	public static void playCycle(CycleFactory factory)
+	{
+		Cycle c = factory.getCycle();
+		while(c.move());
+	}
+    public static void main(String args[])
+    {
+    	playCycle(Unicycle.factory);
+    	playCycle(Tricycle.factory);
+    	playCycle(Bicycle.factory);
+    }
+}
+interface Cycle{boolean move();}
+interface CycleFactory{Cycle getCycle();}
+class Unicycle implements Cycle
+{
+    private int moves = 4;
+	public boolean move()
+	{
+		System.out.println("UniCycle moves "+moves);
+		return --moves != 0 ;
+	}	
+	public static CycleFactory factory = new CycleFactory()
+	{
+		public Cycle getCycle()
+		{
+			return new Unicycle();
+		}
+	};
+}
+
+
+
+class Bicycle implements Cycle
+{
+    private int moves = 2 ;
+	public boolean move()
+	{
+		System.out.println("Bicycle moves " +moves );
+		return --moves != 0;
+	}	
+	public static CycleFactory factory = new CycleFactory()
+	{
+		public Cycle getCycle()
+		{
+			return new Bicycle();
+		}
+	};
+}
+
+
+
+class Tricycle implements Cycle
+{
+	private int moves = 3;
+	public boolean move()
+	{	
+		System.out.println("Tricycle moves "+moves);
+		return --moves != 0;
+	}	
+	public static CycleFactory factory = new CycleFactory()
+	{
+		public Cycle getCycle()
+		{
+			return new Tricycle();
+		}
+	};
+}
+

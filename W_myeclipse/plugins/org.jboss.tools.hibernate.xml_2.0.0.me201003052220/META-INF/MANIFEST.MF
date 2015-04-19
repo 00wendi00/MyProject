@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.jdt.core,org.eclipse.jdt.ui,org.eclipse.ui,org.eclipse.jfa
+ ce,org.eclipse.wst.sse.core,org.eclipse.core.resources,org.eclipse.co
+ re.runtime,org.jboss.tools.common,org.jboss.tools.common.model
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: orm2-xml.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.hibernate.xml.HibernateXMLPlugin
+Bundle-SymbolicName: org.jboss.tools.hibernate.xml; singleton:=true
+Provide-Package: org.jboss.tools.hibernate.xml,org.jboss.tools.hiberna
+ te.xml.model,org.jboss.tools.hibernate.xml.model.handlers,org.jboss.t
+ ools.hibernate.xml.model.impl
+
+Name: orm2-xml.jar
+SHA1-Digest: 8XKqYg0i4581ZnVlzSsz4uUOEjo=
+
+Name: plugin.xml
+SHA1-Digest: pLdcAYh0jVnokD4Y1yhfva8BbKw=
+
+Name: about.html
+SHA1-Digest: 1kc12j5+0hRbm6yuOIwUOiQQCbA=
+
+Name: plugin.properties
+SHA1-Digest: 6PyX/Mpg9RyGZGOJZ+0MhPonKWw=
+

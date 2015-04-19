@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.common,org.eclipse.ui.ide,org.eclipse.
+ ui.editors,org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.ui,or
+ g.eclipse.text,org.eclipse.jface,org.eclipse.jface.text,org.eclipse.u
+ i.workbench,org.eclipse.ui.workbench.texteditor,org.eclipse.jdt.ui,or
+ g.jboss.tools.common.kb,org.eclipse.jdt.core,org.eclipse.wst.xml.ui,o
+ rg.eclipse.wst.sse.ui,org.eclipse.wst.xml.core,org.eclipse.wst.sse.co
+ re,org.eclipse.core.resources
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: xmleditor.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %Bundle-Name.0
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.common.text.xml.XmlEditorPlugin
+Bundle-SymbolicName: org.jboss.tools.common.text.xml; singleton:=true
+Provide-Package: icons.xpl,org.jboss.tools.common.text.xml,org.jboss.t
+ ools.common.text.xml.contentassist,org.jboss.tools.common.text.xml.in
+ ternal.ui.preferencies,org.jboss.tools.common.text.xml.internal.ui.xm
+ leditor,org.jboss.tools.common.text.xml.kb,org.jboss.tools.common.tex
+ t.xml.ui,org.jboss.tools.common.text.xml.ui.xpl,org.jboss.tools.commo
+ n.text.xml.xpl,org.jboss.tools.jst.jsp.preferences,org.jboss.tools.js
+ t.jsp.preferences.xpl,org.jboss.tools.jst.jsp.text,org.jboss.tools.js
+ t.jsp.text.xpl
+
+Name: xmleditor.jar
+SHA1-Digest: NHtoeM/wqZsy00onpc/5N0PFAmQ=
+
+Name: icons/full/obj16/xpl/searchm_obj.gif
+SHA1-Digest: kCLmGfhNk3E8XFQCF5umAga+HXU=
+
+Name: resources/icons/xpl/mark_occurrences_on.gif
+SHA1-Digest: sbwSYFv55QQkp6B1B/tka8FhwRg=
+
+Name: plugin.xml
+SHA1-Digest: QBwVomOoe+sQfMqj3Mq94WOM3Ac=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: resources/org/jboss/tools/common/text/xml/internal/ui/preferenci
+ es/preview.xml
+SHA1-Digest: aeDZKUTfnNkTmW4ihyDDKraPsX4=
+
+Name: plugin.properties
+SHA1-Digest: lIG8pjICP33cMo+C7SVrmNpNrV0=
+
+Name: schema/occurrenceStructureProviders.exsd
+SHA1-Digest: ynvKhwrAtug+ct+hUGfsEU8x52k=
+
+Name: resources/icons/xpl/mark_occurrences_off.gif
+SHA1-Digest: PVdECHU79ZkkZORJNQEUiudhJfo=
+
+Name: schema/contentAssistProcessor.exsd
+SHA1-Digest: ITBHx6HYAkQpbBVHItpoNwg9Mhg=
+

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %pluginProvider
+Bundle-Version: 8.5.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.genuitec.myeclipse.visualvm
+
+Name: myeclipse-profiler.png
+SHA1-Digest: FJhT2VKFpaYNuAVQ6+mpao134KU=
+
+Name: about.properties
+SHA1-Digest: Kje0YmvJeMqVCIzYj1HDhYRITJ0=
+
+Name: license.html
+SHA1-Digest: LlcDKnZ5zi/dy5ntm6jV8CeRny4=
+
+Name: about.html
+SHA1-Digest: c/Q80iqbA98uklA8MpDH0C4D2jE=
+
+Name: plugin.properties
+SHA1-Digest: vDQVB9Mp1f2EOFIjEwAWbSzy8oA=
+
+Name: about.ini
+SHA1-Digest: sk6xsPKo+qhLggJD9x5hdNAEHe4=
+
+Name: about.mappings
+SHA1-Digest: zowDCrpWVZzhkoT9ObjZOPEcskk=
+

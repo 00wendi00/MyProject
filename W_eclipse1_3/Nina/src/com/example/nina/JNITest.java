@@ -1,0 +1,19 @@
+/**
+ *文件名:JNITest.java
+ *项目-包:Haha,com.example.haha
+ *作者:张文迪
+ *时间:2015年4月8日
+ */
+package com.example.nina;
+
+/**
+ * @author 张文迪
+ * 类名:JNITest
+ * 类说明:
+ */
+public class JNITest {
+	static{
+		System.loadLibrary("AndroidNDK");
+	}
+	public native int add(int a,int b);
+}

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="requestloader" name="fr.obeo.acceleo.gen.ui.requestloader" schema="schema/requestloader.exsd"/>
+
+   <extension point="fr.obeo.acceleo.gen.ui.requestloader">
+      <loader requestLoader="fr.obeo.acceleo.gen.ui.editors.reflective.preview.DefaultRequestLoader"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="fr.obeo.acceleo.gen.ui.editors.template.AcceleoTemplateEditor"
+            icon="icons/template_editor.gif"
+            contributorClass="fr.obeo.acceleo.gen.ui.editors.template.AcceleoTemplateEditorActionContributor"
+            name="%templateEditorName"
+            id="fr.obeo.acceleo.gen.ui.editors.template.AcceleoTemplateEditor"
+            extensions="mt"/>
+	  <editor
+	        id = "fr.obeo.acceleo.gen.ui.editors.reflective.AcceleoReflectiveEditor"
+	        name = "%reflectiveEditorName"
+	        icon = "icons/reflective_editor.gif"
+	        extensions = "xmi,uml14,uml13,uml2,uml,emt"
+	        class = "fr.obeo.acceleo.gen.ui.editors.reflective.AcceleoReflectiveEditor" 
+	        contributorClass="fr.obeo.acceleo.gen.ui.editors.reflective.AcceleoReflectiveActionBarContributor"/>
+   </extension>
+
+   <extension point="org.eclipse.core.resources.natures" id="acceleoGenNature" name="AcceleoGenNature">
+      <runtime>
+         <run class="fr.obeo.acceleo.gen.ui.natures.AcceleoGenNature" /> 
+      </runtime>
+   </extension>
+   
+   <extension point="org.eclipse.core.resources.builders" id="acceleoGenBuilder" name="AcceleoGenBuilder">
+      <builder>
+         <run class="fr.obeo.acceleo.gen.ui.builders.AcceleoGenBuilder" /> 
+      </builder>
+   </extension>
+   
+   <extension point="org.eclipse.ui.ide.projectNatureImages">
+      <image 
+         id="fr.obeo.acceleo.gen.ui.natures.acceleoGenNatureImage"
+         natureId="fr.obeo.acceleo.gen.ui.acceleoGenNature"
+         icon="icons/acceleoGenNature.gif">
+      </image>
+   </extension>
+
+   <extension point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            objectClass="org.eclipse.core.resources.IProject"
+            nameFilter="*"
+            id="fr.obeo.acceleo.gen.ui.popupMenus.contribution.IProject">
+         <menu id="fr.obeo.acceleo.gen.ui.menu" label="Acceleo" path="additionsAcceleo">
+               <groupMarker name="acceleo"/> 
+         </menu>    
+         <action
+               class="fr.obeo.acceleo.gen.ui.natures.AcceleoGenAddNatureAction"
+               enablesFor="1"
+               id="fr.obeo.acceleo.gen.ui.natures.AcceleoGenAddNatureAction"
+               icon = "icons/acceleoGenNature.gif"
+               label="%convertToGenerator"
+               menubarPath="fr.obeo.acceleo.gen.ui.menu/acceleo">
+          </action>
+      </objectContribution>
+      <objectContribution id="fr.obeo.acceleo.gen.ui.popupMenus.contribution.IFile" objectClass="org.eclipse.core.resources.IFile">
+          <menu id="fr.obeo.acceleo.gen.ui.menu" label="%openAs" path="additionsAcceleo">
+               <groupMarker name="acceleo"/> 
+          </menu>
+          <action
+               id="fr.obeo.acceleo.gen.ui.popupMenus.OpenReflectiveEditorAction"
+               icon = "icons/reflective_editor.gif"
+               label="%openAsAcceleoXMI"
+               menubarPath="fr.obeo.acceleo.gen.ui.menu/additions"
+               class="fr.obeo.acceleo.gen.ui.popupMenus.OpenReflectiveEditorAction"
+               enablesFor="1">
+          </action>
+      </objectContribution>
+   </extension>
+
+   <extension id="problem" point="org.eclipse.core.resources.markers" name="Acceleo Problem">
+      <super type="org.eclipse.core.resources.problemmarker" /> 
+      <super type="org.eclipse.core.resources.textmarker" /> 
+      <persistent value="true" /> 
+      <attribute name="id" /> 
+      <attribute name="flags" /> 
+      <attribute name="arguments" /> 
+   </extension>
+   
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="fr.obeo.acceleo.gen.ui.category"
+            name="Acceleo"/>
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.gen.ui.wizards.AcceleoNewEmptyTemplateWizard"
+            icon="icons/template_editor.gif"
+            id="fr.obeo.acceleo.gen.ui.wizards.AcceleoNewEmptyTemplateWizard"
+            name="%emptyGeneratorWizardName">
+         <description>
+            %emptyGeneratorWizardDescription
+         </description>
+      </wizard>
+      <wizard
+            category="fr.obeo.acceleo.gen.ui.category"
+            class="fr.obeo.acceleo.gen.ui.wizards.AcceleoNewGenProjectWizard"
+            icon="icons/template_editor.gif"
+            id="fr.obeo.acceleo.gen.ui.wizards.AcceleoNewGenProjectWizard"
+            name="%generatorProjectWizardName"
+            project="true">
+         <description>
+            %generatorProjectWizardDescription
+         </description>
+      </wizard>
+   </extension>
+   
+   <extension point="org.eclipse.ui.perspectives">
+      <perspective
+          name="Acceleo"
+          icon="/icons/acceleoPerspective.gif"
+          class="fr.obeo.acceleo.gen.ui.perspectives.AcceleoPerspectiveFactory"
+          id="fr.obeo.acceleo.gen.ui.perspectives.AcceleoPerspectiveFactory">
+      </perspective>
+   </extension>
+
+   <extension id="acceleoProduct" point="org.eclipse.core.runtime.products"> 
+      <product name="Acceleo" application="org.eclipse.ui.ide.workbench" description="Acceleo Generator"> 
+          <property name="windowImage" value="acceleoLogo.gif"/> 
+          <property name="aboutImage" value="acceleoLogo.gif"/> 
+          <property name="aboutText" value="%aboutText"/> 
+          <property name="appName" value="Acceleo Generator"/> 
+      </product> 
+   </extension> 
+
+   <extension
+         id="runtimeproblem"
+         name="%acceleoRuntimeErrorName"
+         point="org.eclipse.core.resources.markers">
+         <super type="org.eclipse.core.resources.problemmarker"/>
+         <persistent value="true"/> 
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerType="fr.obeo.acceleo.gen.ui.problem"
+            name="fr.obeo.acceleo.gen.ui.annotation.problem"/>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="fr.obeo.acceleo.gen.ui.annotation.problem"
+            colorPreferenceKey="highlight.color.problem"
+            colorPreferenceValue="255,210,210"
+            contributesToHeader="true"
+            highlightPreferenceKey="highlight.background.problem"
+            highlightPreferenceValue="true"
+            icon="icons/problemMarker.gif"
+            includeOnPreferencePage="false"
+            isGoToNextNavigationTarget="true"
+            isGoToPreviousNavigationTarget="true"
+            label="%acceleoRuntimeErrorName"
+            overviewRulerPreferenceKey="highlight.rulers.overview.problem"
+            overviewRulerPreferenceValue="true"
+            showInNextPrevDropdownToolbarAction="true"
+            symbolicIcon="error"
+            textPreferenceKey="highlight.text.problem"
+            textPreferenceValue="true"
+            textStylePreferenceKey="highlight.text.style.problem"
+            textStylePreferenceValue="NONE"
+            verticalRulerPreferenceKey="highlight.rulers.vertical.problem"
+            verticalRulerPreferenceValue="true"/>
+   </extension>
+
+   <extension
+      point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+         markerType="fr.obeo.acceleo.gen.ui.problem"
+         class="fr.obeo.acceleo.gen.ui.markers.AcceleoRuntimeErrorMarkerResolutionGenerator">
+      </markerResolutionGenerator>
+   </extension>
+   
+   
+    <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="%acceleoEditorActionsGroup"
+            description="%acceleoEditorActionsDescription"
+            visible="false"
+            id="fr.obeo.acceleo.gen.ui.actionSet">
+        <action
+           allowLabelUpdate="true"
+           class="fr.obeo.acceleo.gen.ui.popupMenus.OpenDefinitionAction"
+           definitionId="fr.obeo.gen.ui.edit.open.editor"
+           enablesFor="*"
+           id="fr.obeo.gen.ui.actions.Open"
+           label="%acceleoEditorActionOpen.Label"
+           retarget="false"
+           tooltip="%acceleoEditorActionOpen.Tooltip">
+        </action>
+        <action
+           allowLabelUpdate="true"
+           class="fr.obeo.acceleo.gen.ui.popupMenus.ReferencesSearchAction"
+           definitionId="fr.obeo.gen.ui.edit.searchReferences"
+           enablesFor="*"
+           id="fr.obeo.gen.ui.actions.SearchReferences"
+           label="%acceleoEditorActionReferencesSearch.Label"
+           retarget="false"
+           tooltip="%acceleoEditorActionReferencesSearch.Tooltip">
+        </action>
+        <action
+           allowLabelUpdate="true"
+           class="fr.obeo.acceleo.gen.ui.popupMenus.CommentAreaAction"
+           definitionId="fr.obeo.gen.ui.edit.import.comment"
+           enablesFor="*"
+           id="fr.obeo.gen.ui.actions.Comment"
+           label="%acceleoEditorActionComment.Label"
+           retarget="false"
+           tooltip="%acceleoEditorActionComment.Tooltip">
+        </action>
+      </actionSet>
+   </extension>
+    <extension
+         point="org.eclipse.ui.commands">
+          <command
+                categoryId="org.eclipse.ui.category.navigate"
+                description="%acceleoEditorCommandsOpen.Description"
+                id="fr.obeo.gen.ui.edit.open.editor"
+                name="%acceleoEditorCommandsOpen.Name">
+         </command>
+          <command
+                categoryId="org.eclipse.ui.category.navigate"
+                description="%acceleoEditorCommandsReferencesSearch.Description"
+                id="fr.obeo.gen.ui.edit.searchReferences"
+                name="%acceleoEditorCommandsReferencesSearch.Name">
+         </command>
+          <command
+                categoryId="org.eclipse.ui.category.navigate"
+                description="%acceleoEditorCommandsOrganize.Description"
+                id="fr.obeo.gen.ui.edit.import.comment"
+                name="%acceleoEditorCommandsOrganize.Name">
+      </command>
+    </extension>
+    <extension
+         point="org.eclipse.ui.contexts">
+      <context
+            name="%contextName"
+            description="%contextDescription"
+            parentId="org.eclipse.ui.textEditorScope"
+            id="fr.obeo.acceleo.gen.template.editor">
+      </context>
+   </extension>
+    <extension
+         point="org.eclipse.ui.bindings">
+               <key
+                     commandId="fr.obeo.gen.ui.edit.open.editor"
+                     contextId="fr.obeo.acceleo.gen.template.editor"
+                     schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+                     sequence="F3"/>
+               <key
+                     commandId="fr.obeo.gen.ui.edit.searchReferences"
+                     contextId="fr.obeo.acceleo.gen.template.editor"
+                     schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+                     sequence="M1+M2+G"/>
+			   <key
+                     commandId="fr.obeo.gen.ui.edit.import.comment"
+                     contextId="fr.obeo.acceleo.gen.template.editor"
+                     schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+                     sequence="M1+M2+C"/>       
+			   <key
+                     commandId="fr.obeo.gen.ui.edit.import.comment"
+                     contextId="fr.obeo.acceleo.gen.template.editor"
+                     schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+                     sequence="M1+/"/>                                   
+    </extension>    
+    <!-- perspective extensions for actions -->
+    <extension
+          point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <actionSet
+               id="fr.obeo.acceleo.gen.ui.actionSet">
+         </actionSet>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="org.eclipse.debug.ui.DebugPerspective">
+         <actionSet
+               id="fr.obeo.acceleo.gen.ui.actionSet">
+         </actionSet>
+      </perspectiveExtension>
+      <perspectiveExtension targetID="fr.obeo.acceleo.gen.ui.perspectives.AcceleoPerspectiveFactory">
+         <actionSet 
+               id="fr.obeo.acceleo.gen.ui.actionSet">
+         </actionSet>
+      </perspectiveExtension>
+    </extension>
+    
+    <!-- Breakpoint on ruler for AcceleoTemplateEditor -->
+    <extension
+         point="org.eclipse.ui.editorActions">
+      <editorContribution
+            targetID="fr.obeo.acceleo.gen.ui.editors.template.AcceleoTemplateEditor"
+            id="fr.obeo.acceleo.gen.ui.editors.template.rulerActions">
+         <action
+               label="%rulerActionToggleBreakpoint"
+               class="org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate"
+               style="push"
+               actionID="RulerDoubleClick"
+               id="fr.obeo.acceleo.gen.ui.editors.template.doubleClickBreakpointAction"/>
+      </editorContribution>
+    </extension>
+    <extension
+          point="org.eclipse.ui.exportWizards">
+       <wizard
+             category="fr.obeo.acceleo.gen.ui.category"
+             class="fr.obeo.acceleo.gen.ui.wizards.AcceleoExportToModelWizard"
+             icon="icons/wizard/export.gif"
+             id="fr.obeo.acceleo.gen.ui.wizards.AcceleoExportToModelWizard"
+             name="%exportToModelName">
+          <description>
+             %exportToModelDescription
+          </description>
+          <selection
+                class="org.eclipse.core.resources.IProject">
+          </selection>
+       </wizard>
+       <wizard
+             category="fr.obeo.acceleo.gen.ui.category"
+             class="fr.obeo.acceleo.gen.ui.wizards.product.AcceleoExportToProductWizard"
+             icon="icons/wizard/product.gif"
+             id="fr.obeo.acceleo.gen.ui.wizards.product.AcceleoExportToProductWizard"
+             name="%exportToProductName">
+          <description>
+             %exportToProductDescription
+          </description>
+          <selection
+                class="org.eclipse.core.resources.IProject">
+          </selection>
+       </wizard>
+       <category
+             id="fr.obeo.acceleo.gen.ui.category"
+             name="Acceleo">
+       </category>
+    </extension>
+    <extension
+          point="org.eclipse.ui.importWizards">
+       <category
+             id="fr.obeo.acceleo.gen.ui.category"
+             name="Acceleo">
+       </category>
+       <wizard
+             category="fr.obeo.acceleo.gen.ui.category"
+             class="fr.obeo.acceleo.gen.ui.wizards.AcceleoImportFromModelWizard"
+             icon="icons/wizard/import.gif"
+             id="fr.obeo.acceleo.gen.ui.wizards.AcceleoImportFromModelWizard"
+             name="%importFromModelName">
+          <description>
+             %importFromModelDescription
+          </description>
+       </wizard>
+    </extension>
+    <extension
+          point="org.eclipse.search.searchResultViewPages">
+       <viewPage
+             class="fr.obeo.acceleo.gen.ui.popupMenus.ReferencesSearchViewPage"
+             id="fr.obeo.acceleo.gen.ui.ReferencesSearchViewPage"
+             searchResultClass="fr.obeo.acceleo.gen.ui.popupMenus.ReferencesSearchResult">
+       </viewPage>
+    </extension>
+
+</plugin>

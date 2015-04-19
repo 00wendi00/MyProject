@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.swt,org.eclipse.ui,org.eclipse.draw2d,org.eclipse.gef,org.
+ eclipse.jdt.ui,org.jboss.tools.common,org.jboss.tools.common.model,or
+ g.jboss.tools.common.model.ui,org.eclipse.core.resources,org.eclipse.
+ core.runtime
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: palettegef.jar
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.vpe.ui.palette.PalettePlugin
+Bundle-SymbolicName: org.jboss.tools.vpe.ui.palette
+Provide-Package: org.jboss.tools.vpe.ui.palette,org.jboss.tools.vpe.ui
+ .palette.model
+
+Name: palettegef.jar
+SHA1-Digest: FOZa8wfKSjX7j7wG3yzM8F0rMgk=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: k6/hZds8o18sO/1ahat259EvPuk=
+

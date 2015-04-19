@@ -1,0 +1,140 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: vncdVybxVvAD/Wsfb5poS7MmBGE=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: wH/hOahQrs18DDP6xvaqAZqbhBE=
+
+Name: icons/services_open_highlighted.gif
+SHA1-Digest: y0FRb1SG8MyFLwO5fzy5OcC1aXA=
+
+Name: icons/full/wizban/webservices_project_wiz.gif
+SHA1-Digest: 489iLdIpGeZFfPlVrvDxmD0TFD0=
+
+Name: icons/import_ws.gif
+SHA1-Digest: 8MEHazZRy9PONDRDs9jMEPbTzCE=
+
+Name: lib/webservices-extra-api.jar
+SHA1-Digest: v6nRF15R3zFgP/Dgb3OVuDR4N30=
+
+Name: icons/import_wsil.gif
+SHA1-Digest: JtqVKL3cBFsy765GpD6+Cm33htA=
+
+Name: templates/XFireServiceIF.vtl
+SHA1-Digest: d4D0D+pMRUzMdUg3EZsE64s1alY=
+
+Name: icons/new_webserv_wiz.gif
+SHA1-Digest: EuI4V+uFQThUwGlvszJBol6Wc4M=
+
+Name: lib/webservices-rt.jar
+SHA1-Digest: oj5SWXhxwLehkTx/nC0cR0OCDac=
+
+Name: xfire.jar
+SHA1-Digest: yr1lF1xja0RIGofZ/zr4yjZIGHs=
+
+Name: icons/services_closed_highlighted.gif
+SHA1-Digest: hMV1aX59zh8elRoAk89chRgL7v8=
+
+Name: icons/newclient_webserv_wiz.gif
+SHA1-Digest: ZQ1bT1kWU1d2m4N9BOcxqbOCJj4=
+
+Name: icons/ServiceRef.gif
+SHA1-Digest: BAx+ZNIuoi9vbwUorXbbTfpbptI=
+
+Name: lib/webservices-extra.jar
+SHA1-Digest: 4/Ikrg+C34RRUqz0cB8DjkDDEAM=
+
+Name: templates/XFireServiceImpl.vtl
+SHA1-Digest: +U+e//OnOs0gNdxYfsTDG+lR3/Y=
+
+Name: templates/services.xml.vtl
+SHA1-Digest: YEFa59yyxYMaQfBVnCAcLsrGaa4=
+
+Name: lib/license/webservices.LICENSE.txt
+SHA1-Digest: Nes7pmkEg6UF2GqRMUnmj7fHAW0=
+
+Name: lib/webservices-tools.jar
+SHA1-Digest: jVJ/awQz/2Tqo24smx0+D7fChoQ=
+
+Name: icons/wsdl_perspective_highlighted.gif
+SHA1-Digest: sQtOHwoLFq21PX3JR7L8gQ14aLs=
+
+Name: dtd/spring-beans_xfire.dtd
+SHA1-Digest: 0LxMJFIYVmIZSfdjse8dToIVeI8=
+
+Name: icons/wsceditor.gif
+SHA1-Digest: A7kS+ysiZMPopq1fVTPpwLWwAzE=
+
+Name: icons/full/wizban/webservicesclient_wiz.gif
+SHA1-Digest: YlFHNC0uxMzgoLcmEvQbaN2OqCY=
+
+Name: icons/wseditor.gif
+SHA1-Digest: KUmH9CXIu9kaGGvY8dX+23hAMHM=
+
+Name: icons/import_ws_wiz.gif
+SHA1-Digest: 5fNI+r7cs0Eb2P5VnT7HGBQB+lg=
+
+Name: icons/import_wiz_banner_wsil.gif
+SHA1-Digest: qieX8QKBCXDXyZ0NdLVvL+iplEA=
+
+Name: icons/full/wizban/webservices_wiz.png
+SHA1-Digest: T5HElkq/IeQOKr9C9p0fKLRyViE=
+
+Name: icons/wsdl_file_obj.gif
+SHA1-Digest: /U+RTGlhQU1R5EtoHJodRNDOVag=
+
+Name: icons/webservice_ovr.gif
+SHA1-Digest: rWwAjFwjBlPXb/uGSTgrUsOSO/k=
+
+Name: icons/wsdl_service_node.gif
+SHA1-Digest: etj/QTExzrQT7I2QPNu10KO7pkk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: HNV4kj6djm1nVGsjpfE9c78L3/s=
+
+Name: icons/services_open_enabled.gif
+SHA1-Digest: 0Oxf/wD7xYMflIJShcx/KWyAMgA=
+
+Name: plugin.properties
+SHA1-Digest: V24eRksZ4a8HTObx887hggHTnjU=
+
+Name: templates/AsyncWrapperBinding.vm
+SHA1-Digest: 3eR64wvUZWi3mQZqwWW16bxCp4w=
+
+Name: icons/serviceref_obj.gif
+SHA1-Digest: Y6vBBkXpuLvISl7Mf3N2N9Qr5i8=
+
+Name: icons/full/ctool16/newclient_webserv_wiz.gif
+SHA1-Digest: HSRl8gUvDIPrq+rT/eNMJTuqmTI=
+
+Name: lib/license/cddl.htm
+SHA1-Digest: qI+/S+lkoLbBCT0Igtqk1G3Inlo=
+
+Name: icons/webservicedesc.gif
+SHA1-Digest: HIMg3laLr4SJ7DkFYRJXR41hDO8=
+
+Name: icons/services_closed_enabled.gif
+SHA1-Digest: l4/4lP5UgQ5Vdlmi1XXzWdLb/A4=
+
+Name: lib/webservices-api.jar
+SHA1-Digest: HsPlwmBhOM3FBuzcy7UQ0DQm980=
+
+Name: templates/ServiceImplementation.vm
+SHA1-Digest: FvwoH9+1tgfxZ6lKq2NtW1Kylkc=
+
+Name: templates.xml
+SHA1-Digest: AngB8rzkm+IdnSxhq1xzWgauUWs=
+
+Name: icons/rest_explorer_action.gif
+SHA1-Digest: CUAo1Q1BfuPZkho0tvFQ1iHR/9A=
+
+Name: preferences.ini
+SHA1-Digest: ZfCiI/jf2zMnDnNcP/nKmQbdh6A=
+
+Name: plugin.xml
+SHA1-Digest: RWEsTGEZUCulpMubAD/NcmzEKI4=
+
+Name: icons/registry.gif
+SHA1-Digest: S+rfMloqiwiyHZo6PFftAlKI27U=
+
+Name: icons/full/ctool16/new_webserv_wiz.gif
+SHA1-Digest: JtFLG7XmQXrFqDU9J1Do6h6oVEM=
+

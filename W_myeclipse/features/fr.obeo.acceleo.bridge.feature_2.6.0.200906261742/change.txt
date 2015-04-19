@@ -1,0 +1,4 @@
+Acceleo 2.3.0:
+
+- Creation of specific feature for Acceleo Bridge.
+- Adding of UML2 Converter for XMI (UML 2.1) exported by Enterprise Architect.

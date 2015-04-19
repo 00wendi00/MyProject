@@ -1,0 +1,70 @@
+##Service Implementation template for JAX-WS webservice
+#if ($packageName)
+	package $packageName;
+#end
+
+#foreach($import in $imports)
+	import $import;
+#end
+
+@javax.jws.WebService(
+#if ($ifName)
+endpointInterface="$ifName",  
+#end
+targetNamespace = 
+#if ($service)
+	"$service.getName().getNamespaceURI()"
+#else
+	"$targetNamespace"
+#end,
+serviceName = 
+#if ($service)
+	"$service.getName().getLocalPart()"
+#else
+	"$serviceName"
+#end, 
+portName =
+#if ($port) 
+	"$port.getName().getLocalPart()"
+#else
+	"$portName"
+#end
+#if ($wsdlLocation)
+	,wsdlLocation = "$wsdlLocation"
+#end
+)
+
+#if ($soap12Binding)
+	#if ($mtomEnabled)
+		@javax.xml.ws.BindingType (value=javax.xml.ws.soap.SOAPBinding.SOAP12HTTP_MTOM_BINDING)
+	#else
+		@javax.xml.ws.BindingType (value=javax.xml.ws.soap.SOAPBinding.SOAP12HTTP_BINDING)
+	#end
+#elseif ($mtomEnabled)
+		@javax.xml.ws.BindingType (value=javax.xml.ws.soap.SOAPBinding.SOAP11HTTP_MTOM_BINDING)
+#end
+
+#if ($parameterStyle)
+	#if($parameterStyle == "BARE")
+		@javax.jws.soap.SOAPBinding(parameterStyle=javax.jws.soap.SOAPBinding.ParameterStyle.BARE)
+	#elseif ($parameterStyle == "RPC")
+		@javax.jws.soap.SOAPBinding(style=javax.jws.soap.SOAPBinding.Style.RPC)
+	#end
+#end
+
+public class $implClassName {
+
+#if ($instanceName)
+	$inputClassName $instanceName = new ${inputClassName}();
+#end
+
+#foreach($method in $methods)
+	#set ($sig = $methodUtils.getSignature($method))
+	#if ($sig) 
+		public $sig $methodUtils.getThrowsString($method) {		
+			$methodUtils.getReturnString($method)
+		}
+	#end
+#end
+
+}

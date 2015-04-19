@@ -1,0 +1,18 @@
+package com.example.project7_1_1;
+
+import android.app.Activity;
+import android.content.res.AssetManager.AssetInputStream;
+import android.os.Bundle;
+import android.widget.ImageView;
+
+public class Project7_1_1 extends Activity {
+
+	AssetInputStream stream = null;
+	ImageView image;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_project7_1_1);
+		image = (ImageView)findViewById(R.id.image);
+	}
+}

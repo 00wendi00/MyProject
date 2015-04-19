@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jboss.tool
+ s.common,org.jboss.tools.vpe,org.mozilla.xpcom,org.jboss.tools.jst.js
+ p,org.eclipse.wst.sse.core,org.eclipse.jst.jsp.core,org.eclipse.wst.h
+ tml.core,org.jboss.tools.vpe.html,org.jboss.tools.jsf.vpe.jsf;bundle-
+ version="2.1.0"
+Export-Package: org.jboss.tools.jsf.vpe.jstl.template
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.jboss.tools.jsf.vpe.jstl.JstlTemplatePlugin
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.jstl;singleton:=true
+Import-Package: org.jboss.tools.jst.web.tld
+
+Name: templates/vpe-templates-jstl.xml
+SHA1-Digest: BRfOPFrNI83qjAIY+KxuL6it8kk=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/JstlOutTemplate.class
+SHA1-Digest: IkVrucKKkGpqlFWq34pu4uNTQWo=
+
+Name: plugin.xml
+SHA1-Digest: A22DOSwyQzE+25RmjNIc/W0LC74=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/AbstractOutputJstlTemplate
+ .class
+SHA1-Digest: 1FvGijoRgZtcLes+O9hj48Bmka4=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: JGOw3msNCUmXGCHIGI/z35UA82w=
+
+Name: org/jboss/tools/jsf/vpe/jstl/JstlTemplatePlugin.class
+SHA1-Digest: rOMZoRuW6UtLLD/cTYe0fVVudc0=
+
+Name: org/jboss/tools/jsf/vpe/jstl/ComponentUtil.class
+SHA1-Digest: 8tem0fGuzoGSpT7r6aoRIrsv7Wc=
+
+Name: org/jboss/tools/jsf/vpe/jstl/template/util/Jstl.class
+SHA1-Digest: rt9XbiZgA84hC5WsyanXJdSXO38=
+

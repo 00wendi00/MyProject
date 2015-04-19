@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+
+Name: license.html
+SHA1-Digest: 65PHVAJyeZn+ZZLb50zn1S/7iSI=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+
+Name: feature.xml
+SHA1-Digest: 86JXUfCNs6nZFOamUYd5GpFoCZA=
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: feature.properties
+SHA1-Digest: 8mOT/GqH5B1FJ+/nwBOqmgINk8I=
+

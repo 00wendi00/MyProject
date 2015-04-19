@@ -1,0 +1,169 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jboss.tool
+ s.common,org.jboss.tools.vpe,org.mozilla.xpcom,org.jboss.tools.jst.js
+ p,org.eclipse.wst.sse.core,org.eclipse.jst.jsp.core,org.eclipse.wst.h
+ tml.core,org.jboss.tools.vpe.html
+Export-Package: org.jboss.tools.jsf.vpe.jsf.template,org.jboss.tools.j
+ sf.vpe.jsf.template.util.model
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 2.1.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.jboss.tools.jsf.vpe.jsf.JsfTemplatePlugin
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.jsf;singleton:=true
+Import-Package: org.jboss.tools.jst.web.tld
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfBodyTemplate.class
+SHA1-Digest: owDLWHpvUlIqPVTjIKuYn2R4YE4=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfRadioSelectIt
+ emsTemplate.class
+SHA1-Digest: syxivKuJkP6ENXVXMUbSA9uDDAg=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfOutputFormatTemplate.cla
+ ss
+SHA1-Digest: ymnzYw4846PrJnY9Nf3ej7z/4WE=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/AbstractOutputJsfTemplate.c
+ lass
+SHA1-Digest: XeqOR2vxj/BmqCy4HTRxIm2JQbI=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSubView.class
+SHA1-Digest: 4TsCFpIdoQocexfX/1xp3pDuiFE=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfVerbatim.class
+SHA1-Digest: cx92F0jXqYD7588Wy3MAw/AU/us=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfRadioSelectIt
+ emTemplate.class
+SHA1-Digest: kK3sIQWYg2ahCugpqGzs8G+VauQ=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfOptionSelectI
+ temsTemplate.class
+SHA1-Digest: uiInVhHbvo8r1JNXkRIcevTkr1w=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/AbstractSelectIt
+ emTemplate.class
+SHA1-Digest: z+oP26PdkbJz4tNtxsLWiPLWW5U=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfCheckboxSelec
+ tItemsTemplate.class
+SHA1-Digest: BG+KMzrQNVUhAArPs1nhGfKVEA4=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/util/model/VpeElementProxyD
+ ata.class
+SHA1-Digest: jTbwa5bmcGtWHVTyfkcNMLmbWo4=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfForm.class
+SHA1-Digest: hdicAzrsCiaxfxE4zQox7sNHOEw=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfOptionSelectI
+ temTemplate.class
+SHA1-Digest: H6Ekm++Pu+A8gPXShMz/AoKMI5A=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfOutputLabelTemplate.clas
+ s
+SHA1-Digest: Jo2ioSOl4mrOeEjnRMDnGQqV08c=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/SelectItemType$2
+ .class
+SHA1-Digest: 20UXJ/qSw7BmZwRI5ZoAh6+JKDU=
+
+Name: templates/vpe-templates-jsf.xml
+SHA1-Digest: CTo7bWok49HLX6t7GOuLMCimTQo=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/util/proxy/JsfTemplateInvoc
+ ationHandler.class
+SHA1-Digest: aW0N6DntXyh4LTNEvCO0qqzGJyA=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/AbstractOptionSe
+ lectItemTemplate.class
+SHA1-Digest: 1q4u3SWIqsE4HbffUcSs1RdJQdU=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfOutputTextTemplate.class
+SHA1-Digest: x/X4s4PFVRl4UtN0ojNFxksi60A=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/SelectItemType.c
+ lass
+SHA1-Digest: IRzVP5iEjwCB4sCR7HghkeYzCgM=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfOutputLinkTemplate.class
+SHA1-Digest: tr4Tj4DC8uG4hPObJh+BxCicHYs=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/AbstractEditableJsfTemplate
+ .class
+SHA1-Digest: 315pH8xhb4XQsqIhhw/LEWZF64g=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/SelectItemType$1
+ .class
+SHA1-Digest: t4rYAxbq+yKtkpGGyNbM/Tu0fZg=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfCommandLinkTemplate.clas
+ s
+SHA1-Digest: /5cukOc5J3VoahQ7IhHBiwW5vxE=
+
+Name: org/jboss/tools/jsf/vpe/jsf/JsfTemplatePlugin.class
+SHA1-Digest: YkOhW6T0ohkPrT2DC2Rw1rTILSk=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/JsfCheckboxSelec
+ tItemTemplate.class
+SHA1-Digest: LVHg/8JF3J8edZC8UJ//3yGRJfI=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSelectOneListbox.class
+SHA1-Digest: NvYg4IfIYlRjyupnXzV7Jyrxj0o=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/util/ComponentUtil.class
+SHA1-Digest: bLCVdjpef00eFW+YQMY1JNAYWcY=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/AbstractRadioSel
+ ectItemTemplate.class
+SHA1-Digest: ryIsAWhgLcH/GBo5I/bYT3LiKcg=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/util/NodeProxyUtil.class
+SHA1-Digest: IdPMvq2No24vTXYKcDYTxVcdtRA=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfInputTextTemplate.class
+SHA1-Digest: J7krVJUXugIO/W4OOcde1nMpc8o=
+
+Name: plugin.properties
+SHA1-Digest: B7qyfPYJkoWC3zJdYbasAbi1gEk=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfFacet.class
+SHA1-Digest: S996TCp7ca4PNlIBNDLevGysSj4=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSelectManyCheckbox.class
+SHA1-Digest: MS3a1wqatUoLJRvo1cg8hg+XgiM=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSelectManyListbox.class
+SHA1-Digest: y6dMykIe8nlIQdrvgGX/PgyOaHM=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/selectitem/AbstractCheckbox
+ SelectItemTemplate.class
+SHA1-Digest: w3c4MF7I5w2SK0BasO3C42vF3e8=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSelectOneMenuTemplate.cl
+ ass
+SHA1-Digest: 8wGb5am5lffl0TLsLqeT3A4PP9k=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfSelectOneRadioTemplate.c
+ lass
+SHA1-Digest: BxYRQJlDYLvYmHIhjsWwIy0Vmvo=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/util/JSF.class
+SHA1-Digest: A37o6oQakLdlfICR7Wy2BGXoXYA=
+
+Name: plugin.xml
+SHA1-Digest: VSRBob8VQcYS4nRpt7WPn+rmA+M=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfInputTextAreaTemplate.cl
+ ass
+SHA1-Digest: FP9HJQ69QjRCcTh7sN0Y+Rb83WY=
+
+Name: org/jboss/tools/jsf/vpe/jsf/template/JsfView.class
+SHA1-Digest: ycH7FVx5rU/dM0XywFczKhorUsw=
+

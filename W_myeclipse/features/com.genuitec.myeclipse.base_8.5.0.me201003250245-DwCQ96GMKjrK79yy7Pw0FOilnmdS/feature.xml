@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.myeclipse.base"
+      label="%featureName"
+      version="8.5.0.me201003250245-DwCQ96GMKjrK79yy7Pw0FOilnmdS"
+      provider-name="%providerName">
+
+   <description url="%featureUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      End User License Agreement - MyEclipse
+MyEclipse is a comprehesive and affordable Integrated Development
+Environment (IDE) based on the Eclipse platform focusing primarily
+on improving developers&apos; productivity by simplifying development
+lifecycle in the delivery of UML, Web, J2EE, XML, JSP , JSF,
+Struts, Hibernate and database applications. Currently supported
+platforms include Windows, Linux and Mac OSX. 
+PLEASE READ THIS END-USER LICENSE AGREEMENT CAREFULLY BEFORE
+USING THE SOFTWARE. REGARDLESS OF HOW YOU ACQUIRE THE SOFTWARE
+(ELECTRONICALLY, PRE-LOADED, ON MEDIA OR OTHERWISE), DOWNLOADING,
+INSTALLING OR USING THE SOFTWARE SHALL INDICATE YOUR ACCEPTANCE
+OF THE TERMS AND CONDITIONS CONTAINED IN THIS END-USER LICENSE
+AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF
+THIS END-USER LICENSE AGREEMENT, YOU MAY NOT DOWNLOAD, INSTALL
+OR USE THE SOFTWARE. 
+1.0 Definitions. 1.1)&apos;Licensor&apos; means Genuitec L.L.C.; 1.2)&apos;Subscriber&apos;
+means registered members of the MyEclipse community whose dues
+have been paid in full; 1.3)&apos;Update&apos; shall refer to maintenance
+releases specific to the Software, as they will be made by Licensor
+under no obligation or commitment to do so; 1.4)&apos;Software&apos; shall
+mean the release version of MyEclipse, including any Content,
+as downloaded by Subscriber or as provided on distribution media
+in physical or electronic form; 1.5)&apos;Term&apos; refers to the effective
+duration of the license agreement and is effective for 12 months
+following possession of this software; 1.6) ‘Agreement’ shall
+mean this End User License Agreement; 1.7) ‘Content’ means all
+software and information in executable, binary or text form included
+in the distribution media, on-line or in electronic form, embedded
+data, programming, HTML, files, images, graphics, icons, Documentation
+and all other content or materials incorporated in or generated
+under the terms of this Agreement; and 1.8) ‘Documentation’ refers
+to published product specifications and accompanying documentation.
+2.0 Software. The Software is protected by copyright under United
+States, foreign laws and international treaties. Unauthorized
+use of the Software may violate copyright, trademark and other
+laws. Licensor grants Subscriber the non-exclusive, non-transferable
+right and license to permit one End User the use of the Software
+on computer workstations located at his/her normal places of
+business, during the Term and subject to the terms and conditions
+of the Agreement. If Licensor provides Updates to Subscriber
+during the Term, the Updates will be provided at no additional
+charge. The terms of the Agreement will apply to all Updates
+provided to Subscriber. This grant is not a transfer of title,
+and under this license Subscriber may not: a) use, republish,
+upload, post or transmit in any way the Software except as expressly
+authorized pursuant to the Agreement; b) copy, reproduce, modify
+or create derivative works from the Software except as expressly
+authorized pursuant to the Agreement; c) attempt to decompile,
+disassemble or reverse engineer the Software; d) remove any copyright
+or other proprietary notations from the Software; e) distribute,
+transfer, sale, lease, sublicense, assign or otherwise make available,
+directly or indirectly, the Software, in part or in whole, including
+any search output or results, to any other person; f) except
+as may be specifically provided in the Agreement, permit the
+Software to be accessed through an electronic network beyond
+Subscriber&apos;s normal places of business; or g) transfer the Software
+to another person or &apos;mirror&apos; the Software on external servers.
+3.0 Limitation of Liability. Licensor assumes no responsibility
+for the selection of the Software to achieve any intended purpose,
+for the proper use of Software or for verifying the results obtained
+from use of the Software. Licensee recognizes that the Software
+will interact with software provided by other suppliers, and
+accepts that Licensor assumes no responsibility for such use,
+interaction, performance issues, or failure to achieve any desired
+results. We warrant that for a period of 90 days after delivery
+of this copy of the Software: a) if the Software is provided
+on physical media by Licensor, the physical media on which this
+copy of the Software is provided to you will be free from defects
+in materials and workmanship under normal use, and b) the Software
+will perform in substantial accordance with the Documentation.
+To the extent permitted by applicable law, the foregoing limited
+warranty is in lieu of all other warranties or conditions, express
+or implied, and we disclaim any and all implied warranties or
+conditions, including any implied warranty of title, non-infringement,
+merchantability or fitness for a particular purpose, regardless
+of whether we know or had reason to know of your particular needs.
+No employee, agent, dealer or distributor of ours is authorized
+to modify this limited warranty, nor to make any additional warranties.
+Some states do not allow the limitation or exclusion of liability
+for incidental or consequential damages, so the above limitation
+may not apply to you. Licensor entire liability and Subscriber’s
+exclusive remedy for breach of the foregoing warranty shall be,
+at our option, to either: a) return the price you paid, or b)
+repair or replace the Software that does not meet the foregoing
+warranty if it is returned to us with a copy of your receipt.
+In no event will Licensor be liable to you for any damages, including
+any lost profits, lost savings, or other incidental or consequential
+damages arising from the use or the inability to use the Software
+(even if Licensor or an authorized dealer or distributor has
+been advised of the possibility of these damages), or for any
+claim by any other party. 
+4.0 Termination of Agreement. The Agreement takes effect upon
+your use of the Software and remains effective until terminated.
+The Agreement shall immediately and automatically terminate without
+notice or any other act upon i) the expiry of the Term; ii) the
+attempted illegal copying, distribution, transfer, assignment,
+lease or sale of the Software, or rights thereto, without the
+prior written consent of Licensor; or iii) notice in writing
+given by one party to the other upon the violation by that party
+of any provision of the Agreement. Upon termination of the Agreement,
+Subscriber will forthwith cease use of the Software and destroy
+all originals and copies of the Software or any portion thereof,
+stored in any form, including electronic form on any of its computer
+equipment. Upon Licensor&apos;s request, Subscriber will provide a
+written certification that all the copies of the Softwaren, in
+whole or in part in any form have been destroyed. Failure to
+do so may result in additional fees and charges being levied
+against Subscriber. Any and all use of the Software by Subscriber
+following termination of the Agreement is prohibited and may
+result in additional fees and charges being levied against Subscriber.
+5.0 Confidentiality. The Software contains trade secrets and
+proprietary know-how that belong to the Licensor and it is being
+made available to you in strict confidence. Any use or disclosure
+of the Software, or of its algorithms, protocols or interfaces,
+other than in strict accordance with the Agreement may be actionable
+as a violation of licensor trade secret rights. 
+6.0 Indemnity. Subscriber will indemnify Licensor and hold it
+harmless from and against any and all claims which a third party
+may assert against Licensor by reason of or as a consequence
+of Subscribers use of the Software. 
+7.0 General Provisions. The Agreement constitutes the entire
+agreement between the parties and supersedes all prior agreements
+and understandings, oral and written, express or implied, by
+and between any of the parties with respect to the subject matter
+of the Agreement. No amendment or modification of the Agreement
+shall be binding unless in writing and signed by a duly authorized
+representative of both parties. The Agreement shall be governed
+by and construed in accordance with the laws of the State of
+Texas and federal laws of the United States. Any actions at law
+or in equity arising out of or in relation to the Agreement may
+be filed only in the state or federal courts of Dallas, Texas,
+U.S.A. and Subscriber hereby consents and submits to the personal
+and exclusive jurisdiction of such courts. If any one or more
+of the provisions contained in the Agreement should be invalid,
+illegal or unenforceable in any respect in any jurisdiction,
+the validity, legality and enforceability of such provision or
+provisions shall not in any way be affected or impaired as a
+result of such event in any other jurisdiction and the validity,
+legality and enforceability of the remaining provisions contained
+in the Agreement shall not in any way be affected or impaired
+as a result of such event, unless in either case as a result
+of such determination the Agreement would fail in its essential
+purpose. 
+8.0 Copyright and Trademark Notices. The Software is trademarked
+and Copyright © 2004-2009 Genuitec, LLC. 2221 Justin Rd #119-340,
+Flower Mound, Texas, 75056 USA. Any rights not expressly granted
+herein are reserved to the Licensor. By selecting the &apos;Accept
+License&apos; button, you agree that you have reviewed the Agreement
+and that you will comply with all of its terms and conditions.
+   </license>
+
+   <url>
+      <discovery label="MyEclipse 8.0 Edition Discovery Site" url="http://downloads.myeclipseide.com/downloads/products/eworkbench/8.0/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.emf"
+         version="2.5.0.v200906151043"/>
+
+   <includes
+         id="org.eclipse.emf.ecore.sdo"
+         version="2.4.0.v200902171115"/>
+
+   <includes
+         id="org.eclipse.gef"
+         version="3.5.2.v20100111-1352-777928194B66D5D476C33B2A"/>
+
+   <includes
+         id="org.eclipse.xsd"
+         version="2.5.0.v200906151043"/>
+
+   <includes
+         id="org.eclipse.xsd.edit"
+         version="2.5.0.v200906151043"/>
+
+   <includes
+         id="com.genuitec.myeclipse.webtools"
+         version="8.5.0.me201003250245-7k7EFkIFDHXuTKc_dcSMwqhCZdz-"/>
+
+   <plugin
+         id="com.genuitec.eclipse.aspphp.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.aspphp.ui"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.ast.deploy.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003232017"/>
+
+   <plugin
+         id="com.genuitec.eclipse.browser"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003190322"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003250242"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.core.common"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003250241"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.core.common.platform"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003101716"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.cross.easystruts.eclipse"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003101716"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.jniwrapper"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.dtd"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.easie.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003232017"/>
+
+   <plugin
+         id="com.genuitec.eclipse.easie.sun"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003190322"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.easie.tomcat"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003190322"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.easie.tomcat.myeclipse"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003121946"/>
+
+   <plugin
+         id="com.genuitec.eclipse.examples"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.export.wizard"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.fileview"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.integration"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"/>
+
+   <plugin
+         id="com.genuitec.eclipse.j2eedt.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003231033"/>
+
+   <plugin
+         id="com.genuitec.eclipse.javascript"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003180050"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.memory"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.modeling.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.modeling.core.layout"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"/>
+
+   <plugin
+         id="com.genuitec.eclipse.portlet"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003101716"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.templates"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.wdt.jsp.debug"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"/>
+
+   <plugin
+         id="com.genuitec.eclipse.web.imagepreviewer"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.webdesigner3"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003231033"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.wizards"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.javascript.debug"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003180050"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.javascript.debug.mozilla"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.apache.xalan"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.xdoclet.assist"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.xdoclet.core"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.xdoclet.run"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.jboss.ide.eclipse.xdoclet.ui"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.myeclipse.compatibility"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.myeclipse.doc"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003250241"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.myeclipse.perspective"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003232017"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.org.eclipse.webbrowser"
+         download-size="0"
+         install-size="0"
+         version="8.5.0.me201003180050"
+         unpack="false"/>
+
+   <plugin
+         id="com.ibm.icu"
+         download-size="0"
+         install-size="0"
+         version="4.0.1.v20090822"
+         unpack="false"/>
+
+   <plugin
+         id="net.sourceforge.lpg.lpgjavaruntime"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v200803061910"
+         unpack="false"/>
+
+   <plugin
+         id="org.aopalliance"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="0"
+         install-size="0"
+         version="3.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="1.3.2.v20080604-1500"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jxpath"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v20080604-1500"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.derby.core"
+         download-size="0"
+         install-size="0"
+         version="10.5.1.1_v20100129"/>
+
+   <plugin
+         id="org.aspectj.aspectjrt"
+         download-size="0"
+         install-size="0"
+         version="1.6.0.v200808071200"
+         unpack="false"/>
+
+   <plugin
+         id="org.aspectj.aspectjweaver"
+         download-size="0"
+         install-size="0"
+         version="1.6.0.v200805211800"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.hibernate.xml"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.hibernate.xml.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.eclipse.albireo.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.3.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.core"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.mozilla.ide.core"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.mozilla.ide.debug"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.mozilla.ide.debug.ui"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.mozilla.ide.ui"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.mozilla.ide.ui.extras"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.templates"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.atf.ui"
+         download-size="0"
+         install-size="0"
+         version="0.2.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.core"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.db"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.edit"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.gen"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.ui"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.dali.utility"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.draw2d"
+         download-size="0"
+         install-size="0"
+         version="3.5.2.v20091126-1908"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.db"
+         download-size="0"
+         install-size="0"
+         version="1.2.102.v200911250220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.utility"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.v200905310000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.zest.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20090504-1850"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.zest.layouts"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20090504-1850"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.common"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.gef"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.kb"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.model"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.model.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.text.ext"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.common.text.xml"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.text.ext"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.text.ext.facelets"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.ajax4jsf"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.facelets"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.richfaces"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jst.jsp"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jst.web"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jst.web.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.vpe"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.ui.palette"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.xulrunner"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200806100616"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.javascript"
+         download-size="0"
+         install-size="0"
+         version="1.6.2.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.xpcom"
+         download-size="0"
+         install-size="0"
+         version="1.9.0.7-me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="0"
+         install-size="0"
+         version="2.2.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.1.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.common.el.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.common.resref.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.common.resref.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.me201003052220"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.jsf"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.jstl"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.myfaces"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.html"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.me201003052220"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.resref"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.me201003052220"
+         unpack="false"/>
+
+</feature>

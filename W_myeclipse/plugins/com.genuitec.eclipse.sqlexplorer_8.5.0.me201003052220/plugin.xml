@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?> <!-- i18n: added to work around 2.1 bug -->
+<plugin>
+
+     <extension-point id="browserNodeContribution" name="%browserNodeContribution.name" schema="schema/browserNodeContribution.exsd"/>
+   <extension-point id="tableViewContribution" name="%tableViewContribution.name" schema="schema/tableViewContribution.exsd"/>
+   <extension-point id="driverListenerContribution" name="%driverListenerContribution.name" schema="schema/driverListenerContribution.exsd"/>
+   
+	<extension
+         point="org.eclipse.ui.editors.documentProviders">
+      <provider
+            class="org.eclipse.ui.editors.text.TextFileDocumentProvider"
+            inputTypes="org.eclipse.ui.IStorageEditorInput"
+            id="org.eclipse.ui.editors.text.StorageDocumentProvider">
+      </provider>
+	</extension>
+   <extension
+      point="org.eclipse.core.filebuffers.annotationModelCreation">
+      <factory
+            extensions="sql"
+            class="org.eclipse.ui.texteditor.ResourceMarkerAnnotationModelFactory">
+      </factory>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="%resultViewName"
+            icon="icons/resultset.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView"
+            id="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView">
+      </view>
+      <view
+            name="%editTableViewName"
+            allowMultiple="true"
+            icon="icons/edit_table_data.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.EditDataView"
+            id="com.genuitec.eclipse.sqlexplorer.views.EditDataView">
+      </view>
+      <view
+            name="%historyViewName"
+            icon="icons/history_list.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView"
+            id="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView">
+      </view>
+      <view
+            name="%databaseViewName"
+            icon="icons/dbexplorer.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.DatabaseView"
+            id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView">
+      </view>
+      <view
+            name="%tableInfoViewName"
+            icon="icons/table.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.TableInfoView"
+            id="com.genuitec.eclipse.sqlexplorer.views.TableInfoView">
+      </view>
+      <view
+            name="%connectionInfoViewName"
+            icon="icons/db_connection.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo"
+            id="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo">
+      </view>
+      <view
+            name="%viewERDiagramOverview.name"
+            icon="icons/ERDOverview.gif"
+            category="com.genuitec.eclipse.views.myEclipseDBCategory"
+            class="com.genuitec.eclipse.erdesigner.OverviewView"
+            id="com.genuitec.eclipse.erdesigner.OverviewView">
+      </view>
+	  
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="%perspectiveName"
+            icon="icons/myeclipse-db.gif"
+            class="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"
+            id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective">
+      </perspective>	
+   </extension>   
+   
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%preferencePage"
+            category="com.genuitec.eclipse.viper.preferencepage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            id="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage">
+      </page>
+      <page
+            name="%editorPreferencePage"
+			category="com.genuitec.eclipse.viper.preferencepage.editor"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.SQLPreferencePage"
+            id="com.genuitec.eclipse.sqlexplorer.preferences.SQLPreferencePage">
+      </page>
+      <!-- removed because new Database driver wizard
+      <page
+            name="%driversPreferencePage"
+            category="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.DriversPreferencePage"
+            id="com.genuitec.eclipse.sqlexplorer.preferences.DriversPreferencePage">
+      </page>
+      -->
+      <page
+            name="%databaseDriversPreferencePage"
+            category="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.DatabaseDriversPreferencePage"
+            id="com.genuitec.eclipse.sqlexplorer.preferences.DatabaseDriversPreferencePage">
+      </page>
+      <page
+      		name="%erdPreferencePage"
+      		category="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            class="com.genuitec.eclipse.erdesigner.ERDesignerPreferencePage"            
+            id="com.genuitec.eclipse.erdesigner.ERDesignerPreferencePage"/>
+      <page
+            category="com.genuitec.eclipse.sqlexplorer.preferences.SQLPreferencePage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.SQLSourcePreferencePage"
+            id="com.genuitec.eclipse.sqlexplorer.preferences.SQLSourcePreferencePage"
+            name="%sourcePreferencePage"/>
+      <page
+      		name="%sqlServerPreferencePage"
+      		category="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.SQLServerPreferencePage"            
+            id="com.genuitec.eclipse.sqlexplorer.mssql.wizards.sqlserverpreferencepage"/>
+      <page
+      		name="%performanceOptimizationPreferencePage"
+      		category="com.genuitec.eclipse.sqlexplorer.preferences.GeneralPreferencePage"
+            class="com.genuitec.eclipse.sqlexplorer.preferences.PerformanceOptimizatonPreferencePage"            
+            id="com.genuitec.eclipse.sqlexplorer.preferences.performanceoptimization.preferencepage"/>
+   
+   </extension>
+   <extension
+         id="editors"
+         point="org.eclipse.ui.editors">
+      <editor
+            default="true"
+            name="%sqlEditorName"
+            extensions="sql,ddl"
+            icon="icons/sqlfile.gif"
+            class="com.genuitec.eclipse.sqlexplorer.editors.SQLEditor"
+            contributorClass="com.genuitec.eclipse.sqlexplorer.editors.SQLEditorActionContributor"
+            id="com.genuitec.eclipse.sqlexplorer.editors.SQLEditor">
+      </editor>
+      <editor
+            class="com.genuitec.eclipse.erdesigner.ERDesignerEditor"
+            icon="icons/model.gif"
+            contributorClass="com.genuitec.eclipse.erdesigner.ERDActionBarContributor"
+            name="%editorMyEclipseEntityRelationship.name"
+            id="com.genuitec.eclipse.erdesigner.ERDesignerEditor"
+            extensions="mer">
+      </editor>    
+      <editor
+            id="com.genuitec.eclipse.sqlexplorer.editor.QueryBuilder"
+            class="com.genuitec.eclipse.sqlexplorer.editors.MESQLBuilderEditor"
+            icon="icons/builder.gif"
+            default="false"
+            extensions="sql"
+            contributorClass="com.genuitec.eclipse.sqlexplorer.actions.MESQLBuilderActionBarContributor"
+            name="%editor.QueryBuilder.name">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.viewActions">
+         <viewContribution
+            targetID="com.genuitec.eclipse.sqlexplorer.views.DatabaseView"
+            id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView.connectionActions">
+         <action
+               label="%actionCloseAllConnections.label"
+               icon="icons/removeAll_co.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.CloseAllConnections"
+               tooltip="%actionCloseAllConnections.tooltip"
+               enablesFor="1"
+               toolbarPath="profiles"
+               id="com.genuitec.eclipse.sqlexplorer.actions.closeAll">
+            <selection
+                  name="*"
+                  class="com.genuitec.eclipse.sqlexplorer.utils.IConnectionProfile">
+            </selection>
+         </action>
+         <action
+               label="%actionCloseConnection.label"
+               icon="icons/remove_co.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.CloseConnection"
+               tooltip="%actionCloseConnection.tooltip"
+               enablesFor="1"
+               toolbarPath="profiles"
+               id="com.genuitec.eclipse.sqlexplorer.actions.close">
+            <selection
+                  class="com.genuitec.eclipse.sqlexplorer.model.ISessionTreeNode"
+                  name="*">
+            </selection>
+         </action>
+         <action
+               label="%actionOpenConnection.label"
+               icon="icons/Open_Connection2.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.NewConnection"
+               tooltip="%actionOpenConnection.tooltip"
+               enablesFor="1"
+               toolbarPath="profiles"
+               id="com.genuitec.eclipse.sqlexplorer.actions.openConnection">
+            <selection
+                  name="*"
+                  class="com.genuitec.eclipse.sqlexplorer.utils.IConnectionProfile">
+            </selection>
+         </action>
+      </viewContribution>
+      <viewContribution
+            targetID="com.genuitec.eclipse.sqlexplorer.views.DatabaseView"
+            id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView.profileActions">
+         <action
+               menubarPath="additions"
+               label="%actionDelete.label"
+               tooltip="%actionDelete.tooltip"
+               icon="icons/Delete_Connection.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.DeleteConnectionProfileAction"
+               id="com.genuitec.eclipse.sqlexplorer.actions.deleteProfile"/>
+         <action
+               menubarPath="additions"
+               label="%actionCopy.label"
+               tooltip="%actionCopy.tooltip"
+               icon="icons/Copy_Connection.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.CopyConnectionProfileAction"
+               id="com.genuitec.eclipse.sqlexplorer.actions.copyProfile"/>
+         <action
+               menubarPath="additions"
+               label="%actionEdit.label"
+               tooltip="%actionEdit.tooltip"
+               icon="icons/Edit_Connection.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.EditConnectionProfileAction"
+               id="com.genuitec.eclipse.sqlexplorer.actions.editProfile"/>
+         <action
+               menubarPath="additions"
+               label="%actionNew.label"
+               tooltip="%actionNew.tooltip"
+               icon="icons/New_Connection.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.NewConnectionProfileAction"
+               id="com.genuitec.eclipse.sqlexplorer.actions.newProfile"/>
+          <action
+                class="com.genuitec.eclipse.sqlexplorer.actions.ExportDriverProfileAction"
+                icon="icons/export_wiz.gif"
+                id="com.genuitec.eclipse.sqlexplorer.actions.exportprofiles"
+                label="%actionExport.label"
+                menubarPath="import">
+          </action>
+          <action
+               menubarPath="import"
+               label="%actionImport.label"
+               icon="icons/import_wiz.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.ImportDriverProfileAction"
+               id="com.genuitec.eclipse.sqlexplorer.actions.importprofiles"/>
+      </viewContribution>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="%categoryDatabaseExplorer.name"
+            parentCategory="com.genuitec.eclipse.myeclipse"
+            id="com.genuitec.eclipse.sqlexplorer.new">
+      </category>
+      <wizard
+            name="%wizardSQLFile.name"
+            icon="icons/new_sqlfile.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.sqlexplorer.new"
+            class="com.genuitec.eclipse.sqlexplorer.wizards.NewSQLEditorWizard"
+            id="com.genuitec.eclipse.sqlexplorer.wizards.sqleditor">
+         <description>
+            %wizardSQLFile.description
+         </description>
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <activeKeyConfiguration
+            value="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </activeKeyConfiguration>
+      <command
+            name="%commandRunSOL.name"
+            description="%commandRunSQL.description"
+            category="org.eclipse.ui.category.edit"
+            id="com.genuitec.eclipse.sqlexplorer.sqlrun">
+      </command>
+      <command
+            name="%commandRunSOL.name"
+            description="%commandRunSQL.description"
+            category="org.eclipse.ui.category.edit"
+            id="RunSQLAction">
+      </command>
+      <keyBinding
+            string="Ctrl+F9"
+            scope="org.eclipse.ui.textEditorScope"
+            command="com.genuitec.eclipse.sqlexplorer.sqlrun"
+            configuration="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </keyBinding>
+	  <keyBinding
+            string="Ctrl+F9"
+            command="RunSQLAction"
+            configuration="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </keyBinding>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="%SqlServer"
+            id="com.genuitec.eclipse.sqlexplorer.mssql.commands">
+      </category>      
+      <command
+            categoryId="com.genuitec.eclipse.sqlexplorer.mssql.commands"
+            description="%spHelp.description"
+            id="com.genuitec.eclipse.sqlexplorer.mssql.sphelp"
+            name="%spHelp">
+      </command>
+    </extension>
+    <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            targetID="com.genuitec.eclipse.sqlexplorer.editors.SQLEditor.EditorContextMenu"
+            id="com.genuitec.eclipse.sqlexplorer.formatter.sqlEditorContribution">
+         <action
+               label="%FormatSQL"
+               icon="icons/format.gif"
+               class="com.genuitec.eclipse.sqlexplorer.actions.FormatSqlAction"
+               tooltip="%FormatSQL"
+               menubarPath="additions"
+               id="com.genuitec.eclipse.sqlexplorer.actions.formatsqlaction"/>
+      </viewerContribution>
+      <viewerContribution
+            id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView.popupImportExport"
+            targetID="com.genuitec.eclipse.sqlexplorer.views.DatabaseView">
+         <action
+               class="com.genuitec.eclipse.sqlexplorer.actions.ExportDriverProfileAction"
+               icon="icons/export_wiz.gif"
+               id="com.genuitec.eclipse.sqlexplorer.actions.exportprofiles"
+               label="%actionExport.label"
+               menubarPath="additions">
+         </action>
+         <action
+               class="com.genuitec.eclipse.sqlexplorer.actions.ImportDriverProfileAction"
+               icon="icons/import_wiz.gif"
+               id="com.genuitec.eclipse.sqlexplorer.actions.importprofiles"
+               label="%actionImport.label"
+               menubarPath="additions">
+         </action>
+      </viewerContribution>
+   </extension>
+
+    <extension
+          point="org.eclipse.ui.importWizards">
+           <category
+             id="com.genuitec.eclipse.sqlexplorer.databasecategory"
+             name="%category.databaseimportcategory.name"/>    
+       <wizard
+             category="com.genuitec.eclipse.sqlexplorer.databasecategory"
+             class="com.genuitec.eclipse.sqlexplorer.wizards.ImportDriverProfileWizard"
+             icon="icons/dbexplorer.gif"
+             id="com.genuitec.eclipse.sqlexplorer.wizards.importdriverprofilewizard"
+             name="%wizard.importdriverprofilewizard.name"/>
+    </extension>    
+   	
+    <extension
+          point="org.eclipse.ui.exportWizards">
+       <category
+             id="com.genuitec.eclipse.sqlexplorer.databasecategory"
+             name="%category.databaseimportcategory.name">
+       </category>
+       <wizard
+             category="com.genuitec.eclipse.sqlexplorer.databasecategory"
+             class="com.genuitec.eclipse.sqlexplorer.wizards.ExportDriverProfileWizard"
+             icon="icons/dbexplorer.gif"
+             id="com.genuitec.eclipse.sqlexplorer.wizards.exportdriverprofilewizard"
+             name="%wizard.importdriverprofilewizard.name">
+       </wizard>
+    </extension>
+  	
+  	<extension
+         point="org.eclipse.ui.perspectiveExtensions">         
+      <!-- add shortcuts to all ME perspective from all SDK perspectives -->
+      <perspectiveExtension
+      		targetID="org.eclipse.team.cvs.ui.cvsPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.debug.ui.DebugPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaBrowsingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.jdt.ui.JavaHierarchyPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.pde.ui.PDEPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+      		targetID="org.eclipse.team.ui.TeamSynchronizingPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      
+      <!-- Add cross shortcuts for each ME perspective to other ME perspectives -->
+      <perspectiveExtension
+            targetID="com.genuitec.myeclipse.perspective.myeclipseperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>      
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.uml.umlPerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>      
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.imageeditor.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+      </perspectiveExtension>
+      
+     <perspectiveExtension targetID="com.genuitec.eclipse.dehory.dehoryperspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective">            
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>      
+      </perspectiveExtension>
+      
+      <perspectiveExtension
+            targetID="com.genuitec.eclipse.web20.perspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>         
+      </perspectiveExtension>
+      
+      <perspectiveExtension targetID="com.genuitec.dali.adapter.persistencePerspective">
+         <perspectiveShortcut id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+      </perspectiveExtension>      
+      
+   </extension>   
+   
+    <extension point="org.eclipse.ui.activities">
+    
+	    <!-- Locate Database at Standard / Database in the capabilities list -->
+		  <activity id="com.genuitec.eclipse.capability.standard.database"
+		   description="%activity.database.description"
+		   name="%activity.database.name" />
+		   
+		  <!-- Put the Database activity in the Standard category -->
+		  <categoryActivityBinding activityId="com.genuitec.eclipse.capability.standard.database"
+		   categoryId="com.genuitec.eclipse.capability.standard" />
+		   
+		  <!-- Bind all contributions from the Database plugin to the capability  -->
+		  <activityPatternBinding activityId="com.genuitec.eclipse.capability.standard.database"
+		   pattern="com\.genuitec\.eclipse\.sqlexplorer/.*" />
+		  
+		  <!-- Database activity should be enabled by default -->
+		  <defaultEnablement id="com.genuitec.eclipse.capability.standard.database" />
+    
+    	
+    	<!-- PREFERENCE PAGES that have been remapped / enhanced -->
+    	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools[\.\w]*/[\.\w]*[pP]reference[\.\w]*">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.core\.ui/[\.\w]*[pP]reference[\.\w]*">
+        </activityPatternBinding>
+      	
+      	
+      	<!-- VIEWS that have been remapped / enhanced -->
+
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools\.connectivity\.ui\.dse/org\.eclipse\.datatools\.connectivity\.DataSourceExplorerNavigator">
+      	</activityPatternBinding>
+      	
+
+		<!-- EDITORS that have been remapped / enhanced -->
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools\.sqltools\.data\.ui/org\.eclipse\.datatools\.sqltools\.data\.internal\.ui\.editor\.tableDataEditor">
+      	</activityPatternBinding>
+      	
+      	<!-- Older RDB items (used by JPA) -->
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.data\.ui/org\.eclipse\.wst\.rdb\.data\.internal\.ui\.editor\.tableDataEditor">
+      	</activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.server\.extensions/org\.eclipse\.wst\.rdb\.server\.extensions\.editorlaunch\.SQLEditorForServerExplorer">
+      	</activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.sqleditor/org\.eclipse\.wst\.rdb\.sqleditor\.SQLEditor">
+      	</activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.sqlscrapbook/org\.eclipse\.wst\.rdb\.internal\.sqlscrapbook\.editor\.SQLScrapbookEditor">
+      	</activityPatternBinding>      	
+       	
+      	
+      	<!-- WIZARDS that have been remapped / enhanced -->
+
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools\.connectivity\.ui/org\.eclipse\.datatools\.connectivity\.internal\.ui\.wizards\.newconnectionprofile">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqlscrapbook/org\.eclipse\.datatools\.sqltools\.internal\.sqlscrapbook\.wizards\.NewSQLScrapbookFileCreationWizard">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp.deprecated"
+            pattern="org\.eclipse\.datatools\.connectivity\.ui/org\.eclipse\.datatools\.connectivity\.ui\.wizard\.newrepositorywizard">
+      	</activityPatternBinding>
+      	
+		<!-- WTP capabilities go under one item under MyEclipse Standard -->
+     	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqlscrapbook/org\.eclipse\.datatools\.sqltools\.sqlscrapbook\.actionSet">
+      	</activityPatternBinding>
+      	
+       	<!-- Bind the J2EE perspective in WTP Core -->      	
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.debugger\.core/org\.eclipse\.datatools\.sqltools\.debugger\.perspectives\.DebuggerPerspective">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqleditor/org\.eclipse\.datatools\.sqltools\.sqleditor\.perspectives\.EditorPerspective">
+      	</activityPatternBinding>
+      	
+      	<!-- VIEWS -->
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.result/org\.eclipse\.datatools\.sqltools\.result\.resultView">
+      	</activityPatternBinding>      	
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.plan/org\.eclipse\.datatools\.sqltools\.plan\.planView">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.server\.ui/org\.eclipse\.wst\.rdb\.server.ui\.navigator\.serverExplorer">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.outputview/org\.eclipse\.wst\.rdb\.internal\.outputview\.OutputView">
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.server\.ui/org\.eclipse\.wst\.rdb\.server\.ui\.navigator\.serverExplorer">
+      	</activityPatternBinding>
+      	
+      	<!-- EDITORS that we don't need -->
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqlscrapbook/org\.eclipse\.datatools\.sqltools\.sqlscrapbook\.SQLScrapbookEditor">        
+      	</activityPatternBinding>
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqlbuilder/org\.eclipse\.datatools\.sqltools\.sqlbuilder">
+        </activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.routineeditor/org\.eclipse\.datatools\.sqltools\.routineeditor\.internal\.RoutineEditor">
+      	</activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.data\.ui/org\.eclipse\.datatools\.sqltools\.data\.internal\.ui\.editor\.tableDataEditor">
+      	</activityPatternBinding>
+       	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.datatools\.sqltools\.sqleditor/org\.eclipse\.datatools\.sqltools\.sqleditor\.SQLEditor">
+      	</activityPatternBinding>     
+      	
+      	 <!-- Bug Fix #6096 Added unneeded launch configs to WTP Extras --> 
+       <activityPatternBinding
+             activityId="com.genuitec.eclipse.wtp"
+             pattern="org\.eclipse\.datatools\.sqltools\.routineeditor/org\.eclipse\.datatools\.sqltools\.routineeditor\.launching\.launchConfigurationType">
+       </activityPatternBinding>
+       
+       	<!-- File > New > Data > SQL Scrapbook Page (and actions / popups etc.)-->
+      	<activityPatternBinding
+            activityId="com.genuitec.eclipse.wtp"
+            pattern="org\.eclipse\.wst\.rdb\.sqlscrapbook[\.\w/]*">
+      	</activityPatternBinding>
+    	       
+  	</extension>
+  
+</plugin>

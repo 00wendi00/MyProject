@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+     <extension
+         point="org.eclipse.ui.startup">
+   </extension>
+   
+   <extension
+         id="com.genuitec.eclipse.easie.tomcat.myeclipse.preferencepageextension"
+         name="%prefPageExtension"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%menu.label"
+            category="com.genuitec.eclipse.viper.preferencepage.integratedsandbox"
+            class="com.genuitec.eclipse.easie.tomcat.myeclipse.preference.MyEclipseTomcatLauncherPreferencePage"
+            id="com.genuitec.eclipse.easie.tomcat.myeclipse.integratedsandbox.preferencepage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.tomcat.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.jdk.label"
+            category="com.genuitec.eclipse.easie.tomcat.myeclipse.integratedsandbox.preferencepage"
+            class="com.genuitec.eclipse.easie.tomcat.myeclipse.preference.MyEclipseTomcatLauncherJVMPreferencePage"
+            id="com.genuitec.eclipse.easie.tomcat.myeclipse.jdkpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.tomcat.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <page
+            name="%menu.path.label"
+            category="com.genuitec.eclipse.easie.tomcat.myeclipse.integratedsandbox.preferencepage"
+            class="com.genuitec.eclipse.easie.tomcat.myeclipse.preference.MyEclipseTomcatLauncherClasspathPreferencePage"
+            id="com.genuitec.eclipse.easie.tomcat.myeclipse.classpathpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.tomcat.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      <!-- Fix for 12198
+      <page
+            name="%menu.launch.label"
+            category="com.genuitec.eclipse.easie.tomcat.myeclipse.integratedsandbox.preferencepage"
+            class="com.genuitec.eclipse.easie.tomcat.myeclipse.preference.MyEclipseTomcatLauncherModesPreferencePage"
+            id="com.genuitec.eclipse.easie.tomcat.myeclipse.launchpage">
+            <keywordReference id="com.genuitec.eclipse.easie.core.tomcat.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.server.keyword"/>
+            <keywordReference id="com.genuitec.eclipse.easie.core.applicationserver.keyword"/>
+      </page>
+      -->
+   </extension>
+
+</plugin>
+   

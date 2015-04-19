@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.integration,com.genuitec.eclipse.
+ integration.plugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: integration.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,com.genuitec.eclipse.core,com
+ .genuitec.eclipse.core.common,org.eclipse.ui.editors,org.eclipse.jfac
+ e.text,org.eclipse.debug.ui,com.genuitec.eclipse.j2eedt.core,org.ecli
+ pse.ui.workbench.texteditor,org.eclipse.core.runtime.compatibility,co
+ m.genuitec.eclipse.easie.core
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.integration.plugin.IntegrationPlugi
+ n
+Bundle-Version: 8.5.0.me201003052220
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.integration;singleton:=true
+
+Name: plugin.xml
+SHA1-Digest: IRDdtanb89JpZA5vspI67aJBFfs=
+
+Name: integration.jar
+SHA1-Digest: mwQV/V4nXytOVCx0KtX6JhupO18=
+
+Name: plugin.properties
+SHA1-Digest: NKYzf6l0VKfwCKfmGMj59EWTmk4=
+

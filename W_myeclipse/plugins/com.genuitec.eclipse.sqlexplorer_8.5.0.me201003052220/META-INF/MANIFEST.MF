@@ -1,0 +1,455 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.erdesigner,com.genuitec.eclipse.e
+ rdesigner.actions,com.genuitec.eclipse.erdesigner.model,com.genuitec.
+ eclipse.erdesigner.model.commands,com.genuitec.eclipse.erdesigner.par
+ t,com.genuitec.eclipse.erdesigner.policies,com.genuitec.eclipse.erdes
+ igner.wizard,com.genuitec.eclipse.sqlexplorer,com.genuitec.eclipse.sq
+ lexplorer.actions,com.genuitec.eclipse.sqlexplorer.actions.directedit
+ ,com.genuitec.eclipse.sqlexplorer.core,com.genuitec.eclipse.sqlexplor
+ er.editors,com.genuitec.eclipse.sqlexplorer.edittable,com.genuitec.ec
+ lipse.sqlexplorer.format,com.genuitec.eclipse.sqlexplorer.model,com.g
+ enuitec.eclipse.sqlexplorer.perspectives,com.genuitec.eclipse.sqlexpl
+ orer.preferences,com.genuitec.eclipse.sqlexplorer.utils,com.genuitec.
+ eclipse.sqlexplorer.views,com.genuitec.eclipse.sqlexplorer.views.deta
+ ils,com.genuitec.eclipse.sqlexplorer.wizards,com.genuitec.sqldialect,
+ net.sourceforge.squirrel_sql.fw.datasetviewer,net.sourceforge.squirre
+ l_sql.fw.id,net.sourceforge.squirrel_sql.fw.persist,net.sourceforge.s
+ quirrel_sql.fw.sql,net.sourceforge.squirrel_sql.fw.util,net.sourcefor
+ ge.squirrel_sql.fw.util.beanwrapper,net.sourceforge.squirrel_sql.fw.u
+ til.log,net.sourceforge.squirrel_sql.fw.xml,org.hibernate.dialect
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: sqlexplorer.jar,lib/squirrel.jar,lib/nanoxml.jar,lib
+ /log4j.jar,lib/commons-logging.jar,lib/hibernate3.jar
+Bundle-Name: %bundleName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime.compatibility,org.eclipse.ui,
+ org.eclipse.ui.ide,org.eclipse.core.resources,org.eclipse.core.runtim
+ e,org.eclipse.swt,org.eclipse.ui.editors,org.eclipse.ui.views,org.ecl
+ ipse.ui.workbench,org.eclipse.ui.workbench.texteditor,org.eclipse.jfa
+ ce,org.eclipse.text,org.eclipse.jface.text,org.eclipse.draw2d,org.ecl
+ ipse.gef,com.genuitec.eclipse.core,com.genuitec.eclipse.core.common,o
+ rg.eclipse.jdt.ui,com.genuitec.eclipse.modeling.core,org.eclipse.core
+ .filesystem,com.genuitec.eclipse.modeling.core.layout,org.jdom;bundle
+ -version="1.0.0",org.eclipse.datatools.sqltools.sqlbuilder,org.eclips
+ e.datatools.sqltools.editor.core,org.eclipse.datatools.sqltools.commo
+ n.ui,org.eclipse.datatools.sqltools.parsers.sql,org.eclipse.datatools
+ .sqltools.parsers.sql.query
+Bundle-Vendor: %bundleVendor
+Plugin-Class: com.genuitec.eclipse.sqlexplorer.core.SQLExplorerPlugin
+Bundle-Version: 8.5.0.me201003052220
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.sqlexplorer; singleton:=true
+
+Name: icons/persistence-perspective2.gif
+SHA1-Digest: sCvwR7aPf7j4HCuRrxjyaIrDi8w=
+
+Name: icons/delete_edit.gif
+SHA1-Digest: 5djKtistye0vLTU9UjR8HB7UKPw=
+
+Name: icons/NewFKWiz.gif
+SHA1-Digest: L3RvRDvqOdH/iPYQ/sC2mgES7Us=
+
+Name: icons/view.gif
+SHA1-Digest: eCgF5q1YzSP3U0KH++DrZRNKRWk=
+
+Name: icons/myeclipse-db.gif
+SHA1-Digest: 1TxFgifIld4MigxOX05ozYd8eFw=
+
+Name: icons/new_page.gif
+SHA1-Digest: shJNlhrWePuo14xF8+yVKbisGWY=
+
+Name: icons/import_wiz.gif
+SHA1-Digest: KBgRjdXon6FcAufJ9wYEAVQ3SNw=
+
+Name: icons/lrun_obj.gif
+SHA1-Digest: 9nUFtkM1LiPz9RddB8tq+Zl7LlE=
+
+Name: icons/stored_procedure.gif
+SHA1-Digest: qxaUBx4HOzVKiR4h6PXnQ2P3Rvk=
+
+Name: icons/key_p.gif
+SHA1-Digest: dA8edoqzrQHVFGDKlhEkWLgnRfQ=
+
+Name: icons/replace_persp.gif
+SHA1-Digest: fCLoxg7zg0hcef672QgMsqq4PIY=
+
+Name: icons/copy_edit1.gif
+SHA1-Digest: Og0R69pwO8AJXiVU+QwIdSrB/HA=
+
+Name: icons/sequence.gif
+SHA1-Digest: fo/7N7b3A3aP95gnIqNfAvlOzlc=
+
+Name: default_drivers.xml
+SHA1-Digest: bnxNSeEjntxRahuTkzo3g+PbYTw=
+
+Name: icons/configs.gif
+SHA1-Digest: QwW/MbqGG3z2YZfyvwHBUUa6nBw=
+
+Name: icons/NewRDBTableWiz.gif
+SHA1-Digest: EigYIAiHBGwgO+4JcvdLdMmSONE=
+
+Name: icons/tree_mode.gif
+SHA1-Digest: zP70CE3lcwVcEElD4m+J6u+26jQ=
+
+Name: icons/dbexplorer.gif
+SHA1-Digest: 4hB+8GE0HJhH1Ze6TXDYsp83A5I=
+
+Name: icons/run_wiz.gif
+SHA1-Digest: MgbWYjWwe6jglLje4EepGszB+/c=
+
+Name: icons/Delete_Connection.gif
+SHA1-Digest: 5djKtistye0vLTU9UjR8HB7UKPw=
+
+Name: icons/open.gif
+SHA1-Digest: vWsn29PEvRsCfzdv84nl1KueK+4=
+
+Name: lib/squirrel.jar
+SHA1-Digest: rGNjM/PeBOSeG65K+upZAf9hH2Y=
+
+Name: lib/commons-logging.jar
+SHA1-Digest: XG6NFqrkAiBwazTNH2FgtmZ/PkM=
+
+Name: icons/run_exc.gif
+SHA1-Digest: zPBwCWJnMNCi/lTg+PpuMydhqFk=
+
+Name: icons/new_driver.gif
+SHA1-Digest: wfwU9qnfeLA3LW6Yret9erzAWew=
+
+Name: icons/edittsk_tsk.gif
+SHA1-Digest: QGwD0e2xU1Io7toOe9ldp+ItYXE=
+
+Name: icons/format.gif
+SHA1-Digest: fzP1836Z0sa/slwGPCRZtfLCIy4=
+
+Name: icons/removeAll_co1.gif
+SHA1-Digest: VGf3pWo5TNl2QfnNWIHpwEnZcAo=
+
+Name: icons/nullkey.gif
+SHA1-Digest: nNkTS+Y+u/DHVR78aaPULh7AleA=
+
+Name: icons/sort_desc.gif
+SHA1-Digest: 3ruzu54Y6zx09OwL1Va/PxAZ/e0=
+
+Name: icons/check_on.gif
+SHA1-Digest: BBWo8XxknlpQUQgz7wDs0k2s/ik=
+
+Name: icons/package.gif
+SHA1-Digest: TAzEv4kYyock9dC9OENnoK2FF1Y=
+
+Name: icons/commit.gif
+SHA1-Digest: WZQxwgusl/FEMrK0CbqXC58cE58=
+
+Name: icons/Copy_Connection.gif
+SHA1-Digest: Np95Zwj6PLn46W0hnSdbUQOPVwE=
+
+Name: icons/feature_obj.gif
+SHA1-Digest: SV/+kDnRl6iiVY/9grheAJWYqi4=
+
+Name: icons/driver_unavailable_old.gif
+SHA1-Digest: HEyuwD6SJQRpHm/kF5ls3YIF+w0=
+
+Name: icons/remove_co1.gif
+SHA1-Digest: o58MZaHI1wB81Mj27t++2/xaJsk=
+
+Name: icons/New_Connection.gif
+SHA1-Digest: NngwpkYqa18MqDZbgfJfqLjzOj0=
+
+Name: icons/EditTable.gif
+SHA1-Digest: xcQjcpLX1ugJGmq/o2/0hSQp6U8=
+
+Name: icons/delete_edit1.gif
+SHA1-Digest: f59j4+D0jTMUjq9VWaxoevxbMEU=
+
+Name: icons/bookmark.gif
+SHA1-Digest: PoEOfDKiZ/lmp0SR2EEuol0lca4=
+
+Name: icons/table.gif
+SHA1-Digest: i5Gz4UX3GxGR7ncU05ZKC7fIs0I=
+
+Name: icons/open_connection_wizban.gif
+SHA1-Digest: a4cV0/k1PhWfD4hQHm3OD21r16Q=
+
+Name: icons/backward_nav.gif
+SHA1-Digest: cwW0I/lACGOFxIewa67VZm3KR6Q=
+
+Name: about.html
+SHA1-Digest: NX6WXOrZx/XuUjQlUUoZa9f4JSw=
+
+Name: icons/new_wiz1.gif
+SHA1-Digest: b9QHfbt9Sm1uxZsobECGttak4As=
+
+Name: icons/closure_table.gif
+SHA1-Digest: rEHAimusdTQ1vXMc969HL8yrGrk=
+
+Name: icons/template_obj.gif
+SHA1-Digest: K39DWhLktJvVDGoDDF9+I/glmCI=
+
+Name: icons/sqlfile_wizban.gif
+SHA1-Digest: n6sZG/moR3aABJjg+xLLfLXgc3M=
+
+Name: icons/copy.gif
+SHA1-Digest: R7Gjk5TLf2VhB7kGAw8SFO6PuRE=
+
+Name: lib/log4j.jar
+SHA1-Digest: NkDdcQadeYbJoU0zNRkhb0ylwJQ=
+
+Name: icons/generate_ddl.gif
+SHA1-Digest: Pg1dt5ivlS/9aElyfoaHdAi4GF0=
+
+Name: icons/edit_table_data.gif
+SHA1-Digest: 8th0v1b9Jpb7UJ19USosSd7V5gI=
+
+Name: icons/element_obj.gif
+SHA1-Digest: qXOW/i3thX6/w43Zzkh1mOayTG0=
+
+Name: icons/save.gif
+SHA1-Digest: 2gyM4XtYsKQ6TBRY4C4H2NwhWDA=
+
+Name: icons/DB_Driver_ExportWiz.gif
+SHA1-Digest: nBCEFolnzc0RA0J0o7RV39C/tn8=
+
+Name: icons/pin.gif
+SHA1-Digest: ATIBH+8jYHZlzRgJiDgzNI1JZWs=
+
+Name: icons/sort_asc.gif
+SHA1-Digest: dfnm9rOkLXM4jDz4lqQWzsnTSp8=
+
+Name: icons/generate_code.gif
+SHA1-Digest: oYwWWBR7fOp5gtLfGBMFacmRXLU=
+
+Name: icons/feature_obj1.gif
+SHA1-Digest: F49W3tMpXORK98SfzGaIWY3nhBk=
+
+Name: plugin.xml
+SHA1-Digest: my7xkI3I5RD1H0202LnVKtJ8PPw=
+
+Name: icons/NewRDBDatabaseWiz1.gif
+SHA1-Digest: X3N99AIjFlZ979avitdgMF6HDzU=
+
+Name: icons/elements_obj.gif
+SHA1-Digest: +Y4PBoznI/+Ieck8hQe04bAexkE=
+
+Name: icons/database.gif
+SHA1-Digest: N8SdnbdHy0AutHkAuOvAn+AtSYw=
+
+Name: icons/new_sqlfile.gif
+SHA1-Digest: Dq6X8+qVbdJaL8liBrH2BJm0BjU=
+
+Name: icons/plus.gif
+SHA1-Digest: /RKFxcM9Km1AN/wqeDUEs6sxMzk=
+
+Name: icons/sample.gif
+SHA1-Digest: ra58H6nanR7T5mUrbsVyw7ZSDFY=
+
+Name: icons/history_list.gif
+SHA1-Digest: M0IJmDXbywPEtiN8jAwAHua15lg=
+
+Name: icons/check_off.gif
+SHA1-Digest: 0Jxujn5MdCJx5KStas9PArLKvVo=
+
+Name: icons/app_obj.gif
+SHA1-Digest: 7gCorVKtnVTTtDHdZQ7k51WvCP8=
+
+Name: icons/ok_st_obj_fade.gif
+SHA1-Digest: cToFxPzQ+5onR6YhrOsB16r09ls=
+
+Name: icons/col_obj.gif
+SHA1-Digest: yj7yWcEVXmJC4fHlp+/ZSYfDvhY=
+
+Name: icons/key.gif
+SHA1-Digest: BDarFQL2XpiuhhmaBowIkjutzm4=
+
+Name: icons/model.gif
+SHA1-Digest: u4XOlPAcNadBDfmaTYCQMGObB28=
+
+Name: icons/edittsk_tsk1.gif
+SHA1-Digest: hX2z7v+BjfEywSjjmW/4lEZaQpg=
+
+Name: icons/alpha_mode.gif
+SHA1-Digest: 1W5Fd1IW71NEw3vqZwL7Tgc/9og=
+
+Name: icons/overview.gif
+SHA1-Digest: 5lQpOjdgcSMXSt5bE4JX4MeQLLc=
+
+Name: icons/script.gif
+SHA1-Digest: RWlteNri+AHpAs7mXaYga/wM7mI=
+
+Name: icons/rollback1.gif
+SHA1-Digest: 1aoQAdz+IYi9JatNe817+GzWvBI=
+
+Name: icons/schema.gif
+SHA1-Digest: chFL6I3bgQ5Fwn9idtkKDtB/bj4=
+
+Name: icons/NewRDBDatabaseWiz.gif
+SHA1-Digest: u03ZFLa+iQqPdiseBSQXraVcVfo=
+
+Name: icons/db_connection.gif
+SHA1-Digest: SV/+kDnRl6iiVY/9grheAJWYqi4=
+
+Name: icons/transparent.gif
+SHA1-Digest: hm8dCsLfcXeDGEJYd8kjVfZFbfQ=
+
+Name: icons/update.gif
+SHA1-Digest: jlMnpgTyTKpJXmsMpnxj3KX8J/Q=
+
+Name: icons/Open_Connection.gif
+SHA1-Digest: UuXz1f/5xFXSwGisFoqNNwvVJfc=
+
+Name: icons/index.gif
+SHA1-Digest: 1thX8ZxAcnqGaC6L2rcFWDj1m6E=
+
+Name: icons/Edit_Connection.gif
+SHA1-Digest: QGwD0e2xU1Io7toOe9ldp+ItYXE=
+
+Name: icons/error_st_obj.gif
+SHA1-Digest: hSb9mQ27H4LV7rx6CKwEPLtEzmU=
+
+Name: icons/nextall.gif
+SHA1-Digest: 2cItuBLefC/ue42afWRmLHY4NTk=
+
+Name: icons/3.gif
+SHA1-Digest: apK/1ocsc2qBG8TmUIfk10KrAuM=
+
+Name: icons/export_wiz.gif
+SHA1-Digest: LQPT2QoQELD7YcZiJV2Viw4nKYo=
+
+Name: icons/error_log.gif
+SHA1-Digest: 8ZkrvM+xW6pNAnMMWmb0bY+zpMI=
+
+Name: icons/removeAll_co.gif
+SHA1-Digest: vwj97Jie5/FChqB7dhA9c1vLydg=
+
+Name: icons/outline.gif
+SHA1-Digest: zP70CE3lcwVcEElD4m+J6u+26jQ=
+
+Name: icons/refresh.gif
+SHA1-Digest: VHUDPMiwiKJcwN0BG7ABhxxFfrA=
+
+Name: plugin.properties
+SHA1-Digest: YYVr/Lch+RzzTR7zQVIjknT0+k8=
+
+Name: icons/logo.gif
+SHA1-Digest: 97ZSoiXz84PTMgWh/TB9qAT4sKY=
+
+Name: icons/new_wiz.gif
+SHA1-Digest: NngwpkYqa18MqDZbgfJfqLjzOj0=
+
+Name: icons/sql.gif
+SHA1-Digest: OC4829/ky3iUTruE6E6KwQ0CBfY=
+
+Name: icons/export.gif
+SHA1-Digest: e5vZ16tzGI/duQWQbw2gISPZsmA=
+
+Name: lib/nanoxml.jar
+SHA1-Digest: v4vuzZ6t1R8aJTT8WLqgo+q8tI4=
+
+Name: icons/help.gif
+SHA1-Digest: YbYEcf1RBrb3RvxZ4GHa+BkR3H8=
+
+Name: sqlexplorer.jar
+SHA1-Digest: WYjt/C0VraGqbJucbLclBnIdnPs=
+
+Name: log4j.properties
+SHA1-Digest: m1fkhXScSm+2P2D+TyOKgAwUriA=
+
+Name: license.html
+SHA1-Digest: 0M3S5H/MkpUQMieJd/i24ZeCh0c=
+
+Name: icons/run_exc_original.gif
+SHA1-Digest: zPa8fpCxOyOJITXqjlCDt08bEcw=
+
+Name: icons/show_tables.gif
+SHA1-Digest: YbYEcf1RBrb3RvxZ4GHa+BkR3H8=
+
+Name: icons/security_constraint1.gif
+SHA1-Digest: p8BRzEzHJ3rQJFanYVlJbAtBi8w=
+
+Name: icons/replace_persp3.gif
+SHA1-Digest: Sv7HwFIrnL6Rx7HKnQnZP7vfH9Y=
+
+Name: lib/hibernate3.jar
+SHA1-Digest: ekOw2Nn3M5jUQF7ODsgTY1lSix4=
+
+Name: icons/sqlfile.gif
+SHA1-Digest: ITk4orZjxEU/QJsysQCMTBLD644=
+
+Name: icons/rollback.gif
+SHA1-Digest: Zm+g37Zm4XtLe9/y+vN/WwhXBO8=
+
+Name: icons/resultset.gif
+SHA1-Digest: iQ1sNMd2u7peNnBovYnj0mUJ8NI=
+
+Name: icons/old/sequence.gif
+SHA1-Digest: nO69YW9bFbp8cC0X//+LP0SB2Mw=
+
+Name: icons/showparents_mode.gif
+SHA1-Digest: /4A5Nl8bHOghknM6/IMfO7HjTug=
+
+Name: icons/copy_edit.gif
+SHA1-Digest: Np95Zwj6PLn46W0hnSdbUQOPVwE=
+
+Name: icons/remove_co.gif
+SHA1-Digest: aZWtRx4u4XeKezw5aat8UKHyFdY=
+
+Name: icons/key_pf.gif
+SHA1-Digest: YDwjBP5q8vj4Im+kbRpKQx1PxAM=
+
+Name: icons/Open_Connection2.gif
+SHA1-Digest: aGeaYD63EMLsDU+AgLL9f35p7r4=
+
+Name: icons/key_f.gif
+SHA1-Digest: YbAfRXXWD5nplX00qCYQG4RAo9Y=
+
+Name: icons/security_constraint.gif
+SHA1-Digest: cae8nV2GxV66glX/ZTU3O/kHt6M=
+
+Name: icons/clear.gif
+SHA1-Digest: HvS35PEmGunIFT6uMbNvDE5gWqU=
+
+Name: icons/replace_persp2.gif
+SHA1-Digest: DxH4e9y0qGvTj0G7T449yl6v56M=
+
+Name: icons/driver_unavailable.gif
+SHA1-Digest: GhDn3pHOAkculeQC6sc8yygPyQI=
+
+Name: icons/forward_nav.gif
+SHA1-Digest: zGR8Dq4p9j1PGwMj7ehcVC7K/+s=
+
+Name: icons/ok_st_obj.gif
+SHA1-Digest: M3cOk1tovefM5Mf/jzbqtPmB/as=
+
+Name: icons/next.gif
+SHA1-Digest: 94qFWxcWMnbBMyaC909ib0g/egM=
+
+Name: icons/myeclipse-db1.gif.old1
+SHA1-Digest: d8AV8VAC3hGhAcddWhn2sT1Uv0U=
+
+Name: icons/perspective_icon.gif
+SHA1-Digest: zCDjzi3f/5C9EY7oFfc/BdB9Bpk=
+
+Name: icons/column.gif
+SHA1-Digest: 3eooUdqc5y6qDJ6Jjp8cX/AFHYc=
+
+Name: icons/builder.gif
+SHA1-Digest: 8th0v1b9Jpb7UJ19USosSd7V5gI=
+
+Name: icons/minus.gif
+SHA1-Digest: BwqlyagucVd+jUW4dn9kw9zpUEM=
+
+Name: icons/defaultview_misc.gif
+SHA1-Digest: GgU3MuGq0t7oGN6C7YtelRTpRiE=
+
+Name: icons/connected.gif
+SHA1-Digest: uPwWpALPDYRXlIiHnrUbLTSeBdY=
+
+Name: icons/ERDOverview.gif
+SHA1-Digest: 11JN7qdHtBKhJoMtwrV+sr/VSC0=
+
+Name: icons/DB_Driver_ImportWiz.gif
+SHA1-Digest: /yjh4nxUPOmE4qU705SPOZ+Ve7I=
+
+Name: icons/NewIndexWiz.gif
+SHA1-Digest: fXuGNi0BQ+jLsS6urgdkY1bTPqk=
+

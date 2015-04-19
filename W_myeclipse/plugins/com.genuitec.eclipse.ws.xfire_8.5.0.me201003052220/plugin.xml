@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="framework" name="%extension-point.framework.name" schema="schema/com.genuitec.eclipse.ws.framework.exsd"/>
+
+<!-- Classpath Variable Initializers -->
+   <extension
+         point="org.eclipse.jdt.core.classpathVariableInitializer">
+      <classpathVariableInitializer
+            class="com.genuitec.eclipse.ws.xfire.classpath.XFireClasspathVariableInitializer"
+            variable="MYECLIPSE_WS_TOOLS_HOME">
+      </classpathVariableInitializer>    
+   </extension>
+
+<!-- Classpath Container Initializers -->
+   <extension
+         point="org.eclipse.jdt.core.classpathContainerInitializer">             
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_METRO_IMPL">
+      </classpathContainerInitializer>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_JAXWS_API">
+      </classpathContainerInitializer> 
+   </extension>  
+
+<!-- Natures -->
+   <extension
+         id="wsnature"
+         name="%nature.wsnature.name"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.genuitec.eclipse.ws.xfire.XFireNature">
+         </run>
+      </runtime>
+   </extension>
+   
+
+      
+     
+<!-- Wizards -->   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="%category.webservice.name"
+            parentCategory="com.genuitec.eclipse.myeclipse"
+            id="com.genuitec.eclipse.myeclipse.webservice">
+      </category>                        
+      <wizard
+            name="%wizard.NewXFireWebProjectWizard1.name"
+            icon="icons/full/ctool16/new_webserv_wiz.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.j2ee"
+            class="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard"
+            project="true"
+            finalPerspective="com.genuitec.myeclipse.perspective.myeclipseperspective"
+            id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1">
+         <description>
+            %wizard.WebServiceProject.description
+         </description>
+      </wizard>
+      
+      <!-- from org.eclipse.jst.ws.creation.ui -->
+      <wizard
+            name="%wizard.serverwizard.name"
+            icon="icons/full/ctool16/new_webserv_wiz.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webservice"
+            class="com.genuitec.eclipse.ws.xfire.wizards.NewWebServiceWizard"
+            id="com.genuitec.eclipse.ws.xfire.wizards.serverwizard">
+         <description>
+            %wizard.serverwizard.description
+         </description>
+      </wizard>
+      
+      <wizard
+            name="%wizard.clientwizard.name"
+            icon="icons/full/ctool16/newclient_webserv_wiz.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webservice"
+            class="com.genuitec.eclipse.ws.xfire.wizards.NewWebServiceClientWizard"
+            id="com.genuitec.eclipse.ws.xfire.wizards.clientwizard">
+         <description>
+            %wizard.clientwizard.description
+         </description>
+      </wizard>
+
+      <!-- from org.eclipse.wst.wsdl.ui -->   
+   	  <wizard
+			id="com.genuitec.eclipse.ws.xfire.wsdlWizard"
+			name="%wizard.wsdlWizard.name"
+			class="org.eclipse.wst.wsdl.ui.internal.wizards.NewWSDLWizard"
+			category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webservice"
+			icon="icons/wsdl_file_obj.gif">
+			<description>%wizard.wsdlWizard.description</description>
+			<selection class="org.eclipse.core.resources.IResource" />
+	   </wizard>
+	  
+	   <!-- from org.eclipse.jst.ws.uddiregistry -->
+       <!--
+       <wizard
+            name="%PLUGIN_NEW_WIZARD_NAME_WS_UNIT_TEST_UDDI"
+            icon="icons/registry.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webservice"
+            class="org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard"
+            id="org.eclipse.jst.ws.internal.uddiregistry.widgets.binding.PrivateUDDIWidgetBinding">
+       </wizard>
+       -->
+       
+       <!-- from org.eclipse.jst.ws.consumption.ui -->
+       <!--
+       <wizard
+            name="%PLUGIN_NEW_WIZARD_NAME_WS_CLIENT"
+            icon="icons/full/ctool16/newclient_webserv_wiz.gif"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webservice"
+            class="org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard"
+            id="org.eclipse.jst.ws.internal.consumption.ui.wizard.client.clientwizard">
+         <description>
+               %PLUGIN_NEW_WIZARD_DESC_WS_CLIENT
+         </description>
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+      </wizard>
+      -->
+      
+       <primaryWizard id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1"/>
+   </extension>
+   
+<!-- Preference Pages -->
+   
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            id="com.genuitec.eclipse.ws.capabilities.preferencepage"
+            category = "com.genuitec.eclipse.j2ee.capabilities.preferencepage"
+            name="%page.preferencepage.name"
+            class="org.eclipse.ui.internal.dialogs.EmptyPreferencePage"/>
+      <page
+            category="ValidationPreferencePage"
+            class="org.eclipse.wst.ws.internal.service.policy.ui.preferences.ServicePoliciesPreferencePage"
+            id="com.genuitec.eclipse.ws.xfire.wsi.preferencepage"
+            name="%page.wsi.preferencepage.name"/>
+      <page
+            category="com.genuitec.eclipse.ws.capabilities.preferencepage"
+            class="com.genuitec.eclipse.ws.jaxws.wizard.MetroLibraryPreferencePage"
+            id="com.genuitec.eclipse.ws.xfire.page1"
+            name="%page.xfirePage1.name">
+      </page>
+   </extension>
+   
+
+    <extension
+          point="org.eclipse.ui.popupMenus">       
+       <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*.wsdl"
+            id="com.genuitec.eclipse.ws.xfire.genwsil">
+         <action
+               label="%action.wsilimport.label"
+               class="org.eclipse.wst.command.internal.env.ui.widgets.popup.DynamicPopupWizard"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"
+               id="org.eclipse.jst.ws.consumption.ui.wsilimport">
+         </action>
+       </objectContribution>
+       <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            nameFilter="*.wsdl"
+            id="org.eclipse.jst.ws.creation.ui.wizard.publish">
+         <action
+               label="%action.publish.label"
+               class="org.eclipse.wst.command.internal.env.ui.widgets.popup.DynamicPopupWizard"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"
+               id="org.eclipse.jst.ws.creation.ui.wizard.publish">
+         </action>
+       </objectContribution>
+       <objectContribution
+             adaptable="true"
+             id="com.genuitec.eclipse.ws.xfire.testwsdl"
+             objectClass="org.eclipse.core.resources.IFile">
+         <action
+               class="org.eclipse.wst.ws.internal.explorer.popup.PopupTestWSDL"
+               icon="icons/wsdl_file_obj.gif"
+               id="com.genuitec.eclipse.ws.xfire.testwsdl"
+               label="%action.testwsdl.label"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"/>
+		<action
+               class="com.genuitec.eclipse.ws.xfire.actions.NewXFireClientActionDelegate"
+               icon="icons/full/ctool16/newclient_webserv_wiz.gif"
+               id="com.genuitec.eclipse.ws.xfire.wsclient"
+               label="%action.wsclient.label"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"/>               
+		<action
+               class="com.genuitec.eclipse.ws.xfire.actions.NewXFireTopDownServiceActionDelegate"
+               icon="icons/full/ctool16/new_webserv_wiz.gif"
+               id="com.genuitec.eclipse.ws.xfire.wstopdownservice"
+               label="%action.wstopdownservice.label"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/deployproject"/>      
+         <visibility>
+         	<objectState
+	                  name="contentTypeId"
+	                  value="org.eclipse.wst.wsdl.wsdlsource"/>			
+         </visibility>
+      </objectContribution>      
+    </extension>    
+	<extension
+		point="org.eclipse.ui.actionSets">
+		<actionSet
+			label="%actionSet.actions.label"
+	        visible="true"
+	        id="com.genuitec.eclipse.ws.xfire.actions">
+		    <action
+            class="com.genuitec.eclipse.ws.xfire.actions.LaunchWSExplorersAction"
+            icon="icons/wsdl_perspective_highlighted.gif"
+            id="com.genuitec.eclipse.ws.xfire.launchwebex"
+            label="%action.launchwebex.label"
+            style="pulldown"
+            toolbarPath="Normal/debug"
+            tooltip="%action.launchwebex.tooltip"/>
+			<action
+		          class="com.genuitec.eclipse.ws.xfire.actions.WebServiceToolbarActionDelegate"
+		          style="pulldown"
+		          icon="icons/new_webserv_wiz.gif"
+		          id="com.genuitec.eclipse.ws.xfire.actionDropDown"
+		          label="%actionset.webservices.dropdown.label "
+		          toolbarPath="Normal/debug"
+		          tooltip="%actionset.webservices.dropdown.tooltip"/>			
+		</actionSet>		
+	</extension>
+     
+   
+   <!-- Genuitec: #4325 - Missing WS import wizards from o.e.j.ws.consumption.ui -->
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+             id="org.eclipse.jst.ws.consumption.ui.wsimport.category"
+             name="%category.wsimport.name"/>
+   </extension>
+      
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <wizard
+            name="%wizard.wsimport.name"
+            icon="icons/import_ws.gif"
+            category="org.eclipse.jst.ws.consumption.ui.wsimport.category"
+            class="org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard"
+            id="org.eclipse.jst.ws.consumption.ui.wsimport">
+         <description>
+               %wizard.wsimport.description
+         </description>
+      </wizard>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <wizard
+            name="%wizard.wsilimport.name"
+            icon="icons/import_wsil.gif"
+            category="org.eclipse.jst.ws.consumption.ui.wsimport.category"
+            class="org.eclipse.wst.command.internal.env.ui.widgets.DynamicWizard"
+            id="org.eclipse.jst.ws.consumption.ui.wsilimport">
+         <description>
+               %wizard.wsilimport.description
+         </description>
+      </wizard>
+   </extension>
+   <extension
+         point="com.genuitec.eclipse.ws.xfire.framework">
+       <framework
+             class="com.genuitec.eclipse.ws.jaxws.JAXWSFramework"
+             id="com.genuitec.eclipse.ws.jaxws">
+       </framework>       
+   </extension>   
+   
+   <extension point="org.eclipse.ui.activities">
+		<!-- Locate Web Servies at Standard / Web Services in the capabilities list -->
+	  <activity id="com.genuitec.eclipse.capability.standard.webservices"
+	   description="%activity.webservices.description"
+	   name="%activity.webservices.name" />
+	  
+	  <!-- Put the Web Services activity in the Standard category -->
+	  <categoryActivityBinding activityId="com.genuitec.eclipse.capability.standard.webservices"
+	   categoryId="com.genuitec.eclipse.capability.standard" />
+	   
+	  <!-- Bind all contributions from the Web Services plugin to the capability  -->
+	  <activityPatternBinding activityId="com.genuitec.eclipse.capability.standard.webservices"
+	   pattern="com\.genuitec\.eclipse\.ws\.xfire/.*" />
+	   
+	   <activityPatternBinding activityId="com.genuitec.eclipse.capability.standard.webservices"
+	   pattern="com\.genuitec\.eclipse\.ws/.*" />
+
+	  <!-- Web Services activity should be enabled by default -->
+	  <defaultEnablement id="com.genuitec.eclipse.capability.standard.webservices" />		
+	</extension>    
+
+ 
+</plugin>

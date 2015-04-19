@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: fr.obeo.acceleo.tools,fr.obeo.acceleo.tools.classloade
+ rs,fr.obeo.acceleo.tools.format,fr.obeo.acceleo.tools.log,fr.obeo.acc
+ eleo.tools.plugins,fr.obeo.acceleo.tools.resources,fr.obeo.acceleo.to
+ ols.strings
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.emf.ecore,org.eclipse.emf.ecore.xmi,org.eclipse.jdt.core,or
+ g.eclipse.jdt.launching
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.tools.jar
+Bundle-Version: 2.6.0.200906261744
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.tools.AcceleoToolsPlugin
+Bundle-SymbolicName: fr.obeo.acceleo.tools;singleton:=true
+
+Name: fr.obeo.acceleo.toolssrc.zip
+SHA1-Digest: peAwJ2fh1O+F9g6MmN0WMNB/Exg=
+
+Name: plugin.xml
+SHA1-Digest: OUauYj3h95U0sf0Qv71SYV7SXIY=
+
+Name: fr.obeo.acceleo.tools.jar
+SHA1-Digest: 3TIYyzbb2Hk4Yv/IKAIPR+rgJ04=
+
+Name: plugin.properties
+SHA1-Digest: jsjXab98zNCJ7qknFqsHeWzSDMw=
+

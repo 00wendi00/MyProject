@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="fr.obeo.acceleo.bridge.feature"
+      label="Acceleo External Modelers Compatibility"
+      version="2.6.0.200906261742"
+      provider-name="Obeo.fr">
+
+   <description url="http://www.acceleo.org">
+      Acceleo generator bridge.
+   </description>
+
+   <copyright url="http://www.acceleo.org/legal.php">
+      Copyright (c) 2009 Obeo
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.help.appserver"/>
+      <import plugin="fr.obeo.acceleo.tools"/>
+      <import plugin="fr.obeo.acceleo.ecore"/>
+      <import plugin="fr.obeo.acceleo.uml13"/>
+      <import plugin="fr.obeo.acceleo.uml14"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="fr.obeo.acceleo.bridge"/>
+      <import plugin="fr.obeo.acceleo.uml14.ui"/>
+      <import plugin="org.eclipse.ant.core"/>
+      <import plugin="fr.obeo.acceleo.uml14.mof"/>
+   </requires>
+
+   <plugin
+         id="fr.obeo.acceleo.bridge"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"/>
+
+   <plugin
+         id="fr.obeo.acceleo.bridge.ui"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"
+         unpack="false"/>
+
+   <plugin
+         id="fr.obeo.acceleo.uml13"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"
+         unpack="false"/>
+
+   <plugin
+         id="fr.obeo.acceleo.uml14"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"
+         unpack="false"/>
+
+   <plugin
+         id="fr.obeo.acceleo.uml14.mof"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"/>
+
+   <plugin
+         id="fr.obeo.acceleo.uml14.ui"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.200906261742"/>
+
+</feature>

@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Require-Bundle: org.jboss.tools.jst.web;visibility:=reexport,org.eclip
+ se.ui.ide,org.eclipse.ui.views,org.eclipse.jface.text,org.eclipse.ui.
+ workbench.texteditor,org.eclipse.ui.editors,org.eclipse.jdt.core,org.
+ eclipse.jdt.ui,org.eclipse.ui,org.eclipse.jface,org.eclipse.wst.sse.c
+ ore,org.eclipse.ltk.core.refactoring,org.eclipse.ltk.ui.refactoring,o
+ rg.eclipse.core.resources,org.eclipse.core.runtime,org.eclipse.wst.we
+ b,org.eclipse.jdt.core.manipulation,org.eclipse.wst.common.project.fa
+ cet.core,org.eclipse.wst.common.frameworks,org.eclipse.wst.common.mod
+ ulecore
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-ClassPath: jsf.jar
+Bundle-Version: 2.0.0.me201003052220
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.JSFModelPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jboss.tools.jsf;singleton:=true
+Provide-Package: org.jboss.tools.jsf,org.jboss.tools.jsf.messages,org.
+ jboss.tools.jsf.model,org.jboss.tools.jsf.model.handlers,org.jboss.to
+ ols.jsf.model.handlers.bean,org.jboss.tools.jsf.model.handlers.refact
+ oring,org.jboss.tools.jsf.model.handlers.run,org.jboss.tools.jsf.mode
+ l.handlers.tile,org.jboss.tools.jsf.model.helpers,org.jboss.tools.jsf
+ .model.helpers.autolayout,org.jboss.tools.jsf.model.helpers.bean,org.
+ jboss.tools.jsf.model.helpers.converter,org.jboss.tools.jsf.model.hel
+ pers.pages,org.jboss.tools.jsf.model.impl,org.jboss.tools.jsf.model.p
+ v,org.jboss.tools.jsf.model.pv.handler,org.jboss.tools.jsf.project,or
+ g.jboss.tools.jsf.project.capabilities,org.jboss.tools.jsf.web,org.jb
+ oss.tools.jsf.web.helpers.context,org.jboss.tools.jsf.web.pattern
+
+Name: jsf.jar
+SHA1-Digest: h8xhrfKcMvIcB+eV7/ZnbI8NNoc=
+
+Name: plugin.xml
+SHA1-Digest: 6RZYtrXYzjtnnFU3DqRfNB8sBJ4=
+
+Name: about.html
+SHA1-Digest: FDXlekC0uPiVuMc9PMXO8vceOZ8=
+
+Name: plugin.properties
+SHA1-Digest: mBwwX2lzo2Z/wO9Hyo1Mv3yKNz0=
+

@@ -1,0 +1,112 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.help.appserver,fr
+ .obeo.acceleo.tools,fr.obeo.acceleo.ecore,fr.obeo.acceleo.uml13,fr.ob
+ eo.acceleo.uml14,org.eclipse.core.resources,org.eclipse.emf.ecore,org
+ .eclipse.emf.ecore.xmi
+Export-Package: com.werken.saxpath,fr.obeo.acceleo.bridge,fr.obeo.acce
+ leo.bridge.util,javax.jmi.corbaidltypes,javax.jmi.model,javax.jmi.pri
+ mitivetypes,javax.jmi.reflect,javax.jmi.xmi,org.jaxen,org.jaxen.dom,o
+ rg.jaxen.dom4j,org.jaxen.exml,org.jaxen.expr,org.jaxen.expr.iter,org.
+ jaxen.function,org.jaxen.function.ext,org.jaxen.jdom,org.jaxen.patter
+ n,org.jaxen.util,org.jdom,org.jdom.adapters,org.jdom.filter,org.jdom.
+ input,org.jdom.output,org.jdom.transform,org.netbeans.api.mdr,org.net
+ beans.api.mdr.events,org.netbeans.api.xmi,org.netbeans.api.xmi.sax,or
+ g.netbeans.jmi.uml,org.netbeans.jmiimpl.mof.model,org.netbeans.lib.jm
+ i.mapping,org.netbeans.lib.jmi.query,org.netbeans.lib.jmi.query.mof,o
+ rg.netbeans.lib.jmi.util,org.netbeans.lib.jmi.xmi,org.netbeans.mdr,or
+ g.netbeans.mdr.handlers,org.netbeans.mdr.handlers.gen,org.netbeans.md
+ r.persistence,org.netbeans.mdr.persistence.btreeimpl.btreeindex,org.n
+ etbeans.mdr.persistence.btreeimpl.btreestorage,org.netbeans.mdr.persi
+ stence.memoryimpl,org.netbeans.mdr.storagemodel,org.netbeans.mdr.stor
+ agemodel.transientimpl,org.netbeans.mdr.util,org.netbeans.modules.ope
+ nide.util,org.omg.uml,org.omg.uml.behavioralelements,org.omg.uml.beha
+ vioralelements.activitygraphs,org.omg.uml.behavioralelements.collabor
+ ations,org.omg.uml.behavioralelements.commonbehavior,org.omg.uml.beha
+ vioralelements.statemachines,org.omg.uml.behavioralelements.usecases,
+ org.omg.uml.foundation,org.omg.uml.foundation.core,org.omg.uml.founda
+ tion.datatypes,org.omg.uml.foundation.extensionmechanisms,org.omg.uml
+ .modelmanagement,org.openide,org.openide.util,org.openide.util.action
+ s,org.openide.util.datatransfer,org.openide.util.io,org.openide.util.
+ lookup,org.openide.xml,org.saxpath,org.saxpath.conformance,org.saxpat
+ h.helpers
+Bundle-Vendor: %providerName
+Eclipse-AutoStart: true
+Bundle-ClassPath: fr.obeo.acceleo.bridge.jar,lib/jmi/jmi.jar,lib/jmi/m
+ of.jar,lib/jmi/uml-1.4.jar,lib/jmi/uml13.jar,lib/jdom-jaxen-saxpath/j
+ axen-1.0-FCS-full.jar,lib/jdom-jaxen-saxpath/jdom-1.0b8.jar,lib/jdom-
+ jaxen-saxpath/saxpath.jar,lib/mdr/jmiutils.jar,lib/mdr/mdrapi.jar,lib
+ /mdr/nbmdr.jar,lib/mdr/openide-util.jar,lib/jsr173_1.0_api.jar,lib/js
+ r173_1.0_ri.jar
+Bundle-Version: 2.6.0.200906261742
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-Activator: fr.obeo.acceleo.bridge.AcceleoBridgePlugin
+Bundle-SymbolicName: fr.obeo.acceleo.bridge; singleton:=true
+
+Name: lib/jdom-jaxen-saxpath/jaxen-1.0-FCS-full.jar
+SHA1-Digest: lgno+8KLYsU2I/+qRBtmbRfH4e8=
+
+Name: model/01-02-15_Diff.xml
+SHA1-Digest: zle8k+A5IpYKN4iOmAYz9VzaZI8=
+
+Name: fr.obeo.acceleo.bridgesrc.zip
+SHA1-Digest: rdw2K47NJUqiDjXN2lwaJINYfWQ=
+
+Name: lib/jmi/uml13.jar
+SHA1-Digest: wQiV8p4n53y3TZmVZEn0A2n5uaE=
+
+Name: lib/mdr/nbmdr.jar
+SHA1-Digest: YbbLZp+RUK0llrT8fMExl09iE6M=
+
+Name: lib/jmi/jmi.jar
+SHA1-Digest: l8ecyjYfN1ITlkcuMP2PIUXyxrc=
+
+Name: schema/xmiloader.exsd
+SHA1-Digest: 6uKcAmM95Y5RdjM7611V40lFlgQ=
+
+Name: plugin.properties
+SHA1-Digest: ZB5ATjG3wO0wM6e7/ToMJOsI7kQ=
+
+Name: model/01-12-02_Diff.xml
+SHA1-Digest: sm9HODGxIsXwU/rOe/5gI8HLXz0=
+
+Name: lib/jdom-jaxen-saxpath/saxpath.jar
+SHA1-Digest: 9R9z5C313ljUOxIaJlWy1vz4b8Q=
+
+Name: model/01-02-15.xml
+SHA1-Digest: IpDhKSawvSZEMjmgjSUXv52h5uM=
+
+Name: lib/jmi/mof.jar
+SHA1-Digest: ThghXAhszWlTp17nZZMp/cWl4b4=
+
+Name: lib/jmi/uml-1.4.jar
+SHA1-Digest: AOgqnSngvoRVVqJiavI2HwpMN64=
+
+Name: lib/jsr173_1.0_ri.jar
+SHA1-Digest: TdLMj/QvFeC1fuKsGYQHt6uE1Hg=
+
+Name: lib/jdom-jaxen-saxpath/jdom-1.0b8.jar
+SHA1-Digest: zJGCRkSpak3rQWz9pxcvgw4SnQk=
+
+Name: lib/mdr/jmiutils.jar
+SHA1-Digest: J4Ee6C0ZKT51tsS5xgLsL4eA64M=
+
+Name: model/01-12-02.xml
+SHA1-Digest: TyderbH9//xDOCkCj1jCBatrRX4=
+
+Name: plugin.xml
+SHA1-Digest: XGLyCdxaHcGZgbnNICVqbOrKq/E=
+
+Name: lib/mdr/openide-util.jar
+SHA1-Digest: k7epIS4T8ZzrJMmyCEX42uog0tM=
+
+Name: lib/jsr173_1.0_api.jar
+SHA1-Digest: abKYyxts46WFLpa371zToozCDDg=
+
+Name: fr.obeo.acceleo.bridge.jar
+SHA1-Digest: smmb/yVnfBmTvgKsU0gsN5rhVzs=
+
+Name: lib/mdr/mdrapi.jar
+SHA1-Digest: 1Qst26nV9WQSsL/YXiybj02E+aA=
+

@@ -1,0 +1,1747 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: b6XfZ2a/MBm9b69xs046pcXHZvk=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: epXXeByOg18huPFdB2qs77b4XKk=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-ui_zh_CN.jar
+SHA1-Digest: o4mqeOPjwxxx4RyZ83QvDfmMcmA=
+
+Name: visualvm/platform9/modules/org-netbeans-api-visual.jar
+SHA1-Digest: i7nig2Ia1tcVf6q7oNItucvqSLQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-nodes_zh_CN.jar
+SHA1-Digest: MIVE2LXsaw3+xHzfVHmYf4oivS4=
+
+Name: visualvm/profiler3/update_tracking/org-netbeans-lib-profiler-ui.
+ xml
+SHA1-Digest: 4GoqQHA26XtxMjfp9cZRzjFofME=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-spi-quicksearch.x
+ ml
+SHA1-Digest: dT8uRm0ltXaO5dEXUrjlXjLhKqo=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-masterfs_
+ pt_BR.jar
+SHA1-Digest: VNt+j4KkfESIDOqI0+RMfoZC7U0=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-sa.xml
+SHA1-Digest: seIlVdnAVU6rRtmIDkW8haaTctI=
+
+Name: visualvm/profiler3/config/Modules/org-netbeans-lib-profiler-comm
+ on.xml
+SHA1-Digest: ii0ZTqGkkYbiVaMKQd3bl3DoZ1w=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-editor-mimelooku
+ p.jar
+SHA1-Digest: IWUdfuFGh0Esl2UUfMMfBSFUfI8=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-javahelp_
+ pt_BR.jar
+SHA1-Digest: naSP8ud7xB0KBrEkI3TcNjjzs6g=
+
+Name: visualvm/platform9/update_tracking/org-openide-nodes.xml
+SHA1-Digest: NJdOjTFAD0XSeTCPgYcg0oka5gU=
+
+Name: visualvm/platform9/modules/org-openide-compat.jar
+SHA1-Digest: txSXT3tHxMTHDhrCi3VTGSESq44=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-junit4_zh_CN
+ .jar
+SHA1-Digest: aTepNLwNlRGxRH15iTE1b+88U90=
+
+Name: visualvm/profiler3/update_tracking/org-netbeans-lib-profiler-com
+ mon.xml
+SHA1-Digest: KWHUwNsjPpKB5nJrGi8UJc84rX4=
+
+Name: visualvm/platform9/core/org-openide-filesystems.jar
+SHA1-Digest: 6AKTlmz8p7nOR9GXKmeeYtX5WQs=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-multiview_ja
+ .jar
+SHA1-Digest: SbtxJcrfuTl/Lc8FefTrx9XpLRQ=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-output2_pt_B
+ R.jar
+SHA1-Digest: /TWWVgJmYemS2djFJ9i9xC+sYbc=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-tools.jar
+SHA1-Digest: Kj09NwXxKtihjMnAo6wcExKJLZg=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-jmx.jar
+SHA1-Digest: td1ONse8dIVk8zd5C0Ua5s2UfC0=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-comm
+ on_pt_BR.jar
+SHA1-Digest: o7Zcc0sHRymtktMuExwanP0TNY4=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-options-
+ api.xml
+SHA1-Digest: lBnPDgdwwyHmSOIeguAOSPFM77I=
+
+Name: visualvm/platform9/config/Modules/org-jdesktop-layout.xml
+SHA1-Digest: BCVVnMavzBDOs9ai7n5t+oaXs90=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-threaddu
+ mp_ja.jar
+SHA1-Digest: wXzFYTKe9NCG04Evcd89AWhCynY=
+
+Name: visualvm/platform9/modules/locale/org-openide-actions_pt_BR.jar
+SHA1-Digest: 5X3w1i+jDfXNAFYcEyM1ay9cb3I=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core_pt_BR.jar
+SHA1-Digest: /6hNGOXJORiPowbsZpZrfGuPBZU=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-editor-m
+ imelookup-impl.xml
+SHA1-Digest: wf+s5zoYIg1qNbCZUQPHOaX9suM=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-core.jar
+SHA1-Digest: /QZVYsxsv3zVbPx0hl5iXX83yWs=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-settings.
+ xml
+SHA1-Digest: yKioOpCNuIbH/vOo9zxk6As07ZY=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-libs-jsr223.xml_hi
+ dden
+SHA1-Digest: Zk80lEzQMko0gk8QLKPX8fVDFk0=
+
+Name: visualvm/platform9/modules/ext/jh-2.0_05.jar
+SHA1-Digest: LBZQV2HquwlWcYkRIuqYE/jG4jM=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-nativeaccess
+ _pt_BR.jar
+SHA1-Digest: LKCTF+Tpgetc5XtRxXK/JfLOm6w=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-applemenu
+ .xml
+SHA1-Digest: 0/bhAMRBUroMngiia/xQbVdojus=
+
+Name: visualvm/platform9/update_tracking/org-openide-compat.xml
+SHA1-Digest: nATLFB5joqOjt8CH7wUGWhWhH4I=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/windows-amd64/profilerinte
+ rface.dll
+SHA1-Digest: szS37FJl+C8H0SWg7ptMguBM6SQ=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-options-api.jar
+SHA1-Digest: QY2RK6a5tNz9S4popzctLU5qyX4=
+
+Name: visualvm/platform9/modules/org-netbeans-core-ui.jar
+SHA1-Digest: 01p2hbBdRZpW+xxP2PkTofAHo8Y=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core_ja.jar
+SHA1-Digest: nCszpLiJYJtD9SnArW4jV5Hs+5U=
+
+Name: visualvm/platform9/lib/boot.jar
+SHA1-Digest: cmrAXNC+Ewj7WcCmNazknWGFRdE=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-threaddu
+ mp_zh_CN.jar
+SHA1-Digest: CrJ0mGhcU1c6ST8QpP7kq9rDm9M=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-api-progress.xml
+SHA1-Digest: a9KstRYQ2iafuctowa9tUNoFDhI=
+
+Name: visualvm/profiler3/config/Services/filtersets-default.xml
+SHA1-Digest: 2p2KZCJAsK4eXuCca0aPc77vgrw=
+
+Name: visualvm/profiler3/config/Services/filters-default.xml
+SHA1-Digest: Uro3f57pnqb0wSk0lRfXB+UELyQ=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-applemenu
+ _ja.jar
+SHA1-Digest: keE8KR28FhoqTOrm3Or9tHMANfI=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-progress_ja.j
+ ar
+SHA1-Digest: VLqEDXSZG0LPuSHyJ1ToMbsTUB4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-favorites
+ _pt_BR.jar
+SHA1-Digest: B41sISgqhclB1evl/5cmbEmW63Q=
+
+Name: visualvm/platform9/lib/locale/org-openide-modules_ja.jar
+SHA1-Digest: +9ybSmqc8FNcZDN37fJrul2o62Y=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-queries.
+ xml
+SHA1-Digest: HK024qEZnhuxft37pWxuM0Hv0pc=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup_ja.jar
+SHA1-Digest: XpBU70xB2st7RjA8ydoUu6l6c2Y=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-spi-quicksearch_z
+ h_CN.jar
+SHA1-Digest: 3XW/Id+qGtiCCRixGq0JKkYEI6o=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-heapdump
+ _zh_CN.jar
+SHA1-Digest: 5JVYQDHMzr4g6C4CqLuD7REo1ZA=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-application.jar
+SHA1-Digest: 5g6CUyTJG59MwO2oq1hTEKaEx1E=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-core_visualvm.jar
+SHA1-Digest: EYwIySJ4SHQnhhMKl8RQPJOCi1w=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-sa.xml
+SHA1-Digest: 7f6O45APKhzSf2BxnNAe6tSkwYw=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-profiler
+ .xml
+SHA1-Digest: zKcBIAKxchzXpmEnTHuuPe/C/Uw=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-libs-jsr223.xml
+SHA1-Digest: i0AFaRBIMev2WfzOz2m/CWzVjmw=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-settings
+ .xml
+SHA1-Digest: EZ6wGUaFx4Z31RIERiHi6JzMpo0=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-plaf_zh_CN.
+ jar
+SHA1-Digest: O2YNMvtALRYjsWqQZXR9RpVhslE=
+
+Name: visualvm/platform9/update_tracking/org-openide-loaders.xml
+SHA1-Digest: YW/JzF8WprgW0Hc3lzYzZpbWexU=
+
+Name: visualvm/platform9/modules/org-openide-loaders.jar
+SHA1-Digest: /IvURIVpHuty6q1QOpB64ydgvEM=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-openide-modules.xml
+SHA1-Digest: 1+jf3PqVk8YVix6DMqicB4k5tj8=
+
+Name: visualvm/platform9/modules/locale/org-openide-loaders_ja.jar
+SHA1-Digest: mntIogiM7ulL4DDO5rSZpyraL7A=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-netbeans-modules-qu
+ eries.xml
+SHA1-Digest: R1C00dPhiXhnzDoAv7TIMBLIbW4=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/windows-amd64/profilerinte
+ rface.map
+SHA1-Digest: pKuVkkni55b5H/3zKTvq05sI7a4=
+
+Name: visualvm/platform9/update_tracking/org-openide-dialogs.xml
+SHA1-Digest: C8IHDJKl1mTjTcBUs/60HPyP9Zk=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-queries.x
+ ml
+SHA1-Digest: ibK+Z6YgdQYfiEH7A6szaIIN/i0=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-javahelp_
+ zh_CN.jar
+SHA1-Digest: MUml9NGxqShnlw/xCCVfKY2O6nY=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/linux/libprofilerinterface
+ .so
+SHA1-Digest: UNl+jz7Lw9q1fMzGOdFoghxAINo=
+
+Name: visualvm/platform9/.lastModified
+SHA1-Digest: RYRbWA4iq1dDnGsQYegagHSfuEw=
+
+Name: visualvm/platform9/modules/org-openide-dialogs.jar
+SHA1-Digest: ypjWQDoZGzdC4icJ9WUk+o3SFng=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-coredump
+ .xml
+SHA1-Digest: a+EUXb3sleMbplI+0Cq7tDEYZdM=
+
+Name: visualvm/profiler3/modules/org-netbeans-lib-profiler.jar
+SHA1-Digest: m3jSZbAGl3ZKQj81jmH3NB8qRu8=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-ui_pt_BR.jar
+SHA1-Digest: S4VscNnihdAPiTqR/sie0CGjs2Y=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-applemenu
+ _zh_CN.jar
+SHA1-Digest: 7sFa2JbAA5zGvO0WTL+lqVWNl9Q=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-applicat
+ ion-views_ja.jar
+SHA1-Digest: xAYirjm4Z47VjQZapupxE7cdi1Q=
+
+Name: visualvm/platform9/modules/locale/org-openide-windows_zh_CN.jar
+SHA1-Digest: vLfO6yscTrZhQ8fbXZOtkzFkWF4=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-modules
+ -appui.xml
+SHA1-Digest: Mf9vkhN3/sx0sNrRfZmG6q6t7Yk=
+
+Name: visualvm/visualvm/core/locale/com-sun-tools-visualvm-modules-sta
+ rtup_ja.jar
+SHA1-Digest: 1X3NjGpYLkfSZJ7MPazrHbzjJUU=
+
+Name: visualvm/platform9/config/Modules/org-openide-nodes.xml
+SHA1-Digest: AuL87aD7PlXEgvk4Hsr7BV5/zkY=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-vie
+ ws_zh_CN.jar
+SHA1-Digest: y7AiDkHiy9th51hmdqXqU66zNKg=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-attach.jar
+SHA1-Digest: yo8BHTVa5W0V45F97h5FXpKmL3o=
+
+Name: visualvm/platform9/modules/org-openide-windows.jar
+SHA1-Digest: rePDc/lne+uGPM7rGAbexuv6G3g=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-startup.xml
+SHA1-Digest: ZqltoQLTT05XocmKGXqdv7Nb3KQ=
+
+Name: visualvm/platform9/update_tracking/org-openide-filesystems.xml
+SHA1-Digest: yWo9MkhoMu1NAK7ti9OjM2L+mtE=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup-impl_pt_BR.jar
+SHA1-Digest: VR3F9RJdqV8jbpo2ttcE+EvxQoQ=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-masterfs.jar
+SHA1-Digest: eOPxM6vbjzh3Mxa72c4nwwcZDkk=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-applicat
+ ion.xml
+SHA1-Digest: phYSFRAl6spXGQNTLj8sFOh5AW4=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-core-execution.xml
+ _hidden
+SHA1-Digest: WhJLGY4YU0MFeeVw1QbMjMl+RQg=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/hpux-pa_risc2.0w/libprofil
+ erinterface.sl
+SHA1-Digest: O0gEKM0i8Ct8Zx+ZbdjOGCBDy2U=
+
+Name: visualvm/platform9/modules/ext/jna-3.0.2.jar
+SHA1-Digest: 5Ksvsxyd25MfArCnapWMeNJgjKo=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-k
+ eymap_pt_BR.jar
+SHA1-Digest: ywY2PRTM1gMGxllYHbV4uMxpWik=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-output2.xml
+SHA1-Digest: qYiW23ffz4cEsKUaSDTGGre08rw=
+
+Name: visualvm/platform9/core/locale/core_pt_BR.jar
+SHA1-Digest: o5eyGz0QEduHF68xVHejSeE1GjE=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-modules-
+ appui_zh_CN.jar
+SHA1-Digest: 51pt283YshDkvHoC32rL61gmQrI=
+
+Name: visualvm/platform9/modules/locale/org-openide-awt_ja.jar
+SHA1-Digest: MtDMrA55FfXeLP4x2yg6Rex7XYo=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-tools_zh
+ _CN.jar
+SHA1-Digest: JQqSMI60B+v57Lnm7JVvXIM8lek=
+
+Name: plugin.properties
+SHA1-Digest: DIJiYUvEgOpKG4KnsvCvURkCPDo=
+
+Name: visualvm/profiler3/modules/org-netbeans-lib-profiler-common.jar
+SHA1-Digest: TrKK0nVdTaaUYuXOkZV4FneMXws=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-options-keymap.j
+ ar
+SHA1-Digest: wSp/QF07Hzs7CocsXZIMkNyvSjs=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-visual_pt_BR.
+ jar
+SHA1-Digest: L/KQV5veYO3ZE0No1P3oJCejW9k=
+
+Name: visualvm/platform9/config/Modules/org-openide-options.xml
+SHA1-Digest: rqUT5zlDcsqezCVOzh/Jj4a0ukg=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sa_ja.ja
+ r
+SHA1-Digest: Sq5u/QKk3Olus36fgH5GXOaQfpQ=
+
+Name: visualvm/platform9/core/locale/org-openide-filesystems_ja.jar
+SHA1-Digest: sTDcwew68MeVVIqyEmRO95q/7Ao=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-swing-tabcontrol.
+ xml
+SHA1-Digest: TxKPYJF0YfoDhtIw5zxxJsXSes0=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-sendopts_
+ ja.jar
+SHA1-Digest: KR34CFDQeUuOkK5bcRzweIjRTsQ=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-sendopts_
+ pt_BR.jar
+SHA1-Digest: 97mvxcpq5ixgcpO+e7uFFmJ36sc=
+
+Name: visualvm/platform9/core/locale/org-openide-filesystems_zh_CN.jar
+SHA1-Digest: sfuN4BAAAOyA4MTeK3WWHlmuKr4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-windows_zh_C
+ N.jar
+SHA1-Digest: xRexoKm1R6zYQG3bktOPYc+mEhc=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-settings_
+ zh_CN.jar
+SHA1-Digest: TNZLEFaMijSBZUOWjExk83aDsSU=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-applicat
+ ion-views.xml
+SHA1-Digest: X3rSMPNP2tSiPjaksaURM5sdWhw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-ui_ja.jar
+SHA1-Digest: 6wsrbWXl2NwMDcN0XtpZKgPo1w0=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-editor-mimelooku
+ p-impl.jar
+SHA1-Digest: vK8QxPeOAg61g08mvEmiz4VRFBg=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-openide-execution.x
+ ml
+SHA1-Digest: 77jozMkPCX1KMr7BMixrIFZdLUw=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jmx_ja.j
+ ar
+SHA1-Digest: i3cSagyUQpZKPwhj7QsaFEcqyZM=
+
+Name: visualvm/etc/visualvm.conf
+SHA1-Digest: AwafRiimLFDDHpBqZhTZYcmqaI4=
+
+Name: visualvm/platform9/modules/ext/locale/updater_ja.jar
+SHA1-Digest: 8XJ36G8L2Z2odMyca2jX+xQAIq4=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-core_visualvm4me.j
+ ar
+SHA1-Digest: 84dg3WpdRIJ9+Ams0SWYHbfAhgU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-javahelp_
+ ja.jar
+SHA1-Digest: 9ih8fmqGXaeb05Lbd0vPNBvPEgc=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-autoupda
+ te-services.xml
+SHA1-Digest: BPdebkat6ifP4h38j/dyv223Ebk=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-javahelp.jar
+SHA1-Digest: lZolrbkM9xccEMf4w4KvG6r2aXw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-templates
+ _pt_BR.jar
+SHA1-Digest: 8Np5IfapARRNuBdn7qXPJ5gAxDU=
+
+Name: visualvm/platform9/modules/org-netbeans-core-windows.jar
+SHA1-Digest: rNwpsBLw58MqyldyoqcHKG0vZq4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-outline_zh_
+ CN.jar
+SHA1-Digest: LBg8FECsR6CHUcyzNZ76WkyKlyE=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host_zh_
+ CN.jar
+SHA1-Digest: c77rQ9lWh8yUXW0mJrYl7Dk4zs4=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-core.xml
+SHA1-Digest: /DHv5NFgqPUogQ7hmiIF+K1/kkE=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-host.jar
+SHA1-Digest: AleklBF8W8HMOUOimyYTSzLt4kQ=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-core-windows_visua
+ lvm4me.jar
+SHA1-Digest: IItBv/i5Gh4kwwIjmZBJ6M7iCNU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-junit4_ja.ja
+ r
+SHA1-Digest: X1pvFj/PxNkODaqVyGfnVUYdcdk=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-a
+ pi_pt_BR.jar
+SHA1-Digest: 4komTWEebpq/4uQGw+4+KziB57o=
+
+Name: visualvm/platform9/modules/locale/org-openide-nodes_pt_BR.jar
+SHA1-Digest: iDGi7s4jSxpzPChDlmOuX8+8Wj0=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-settings_
+ ja.jar
+SHA1-Digest: FDK5ikC/JeFh9vccqRT0WapArRg=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-swing-plaf.xml
+SHA1-Digest: doYliwNmzqwztftKFLOqPPRv2xg=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core_zh_CN.jar
+SHA1-Digest: FhOyCJOrn5TLnrW+j14vx97oAmY=
+
+Name: visualvm/platform9/config/Modules/org-openide-compat.xml
+SHA1-Digest: zuq3U9tKdisCNIG7jnLUKnC/eMo=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-applicat
+ ion_ja.jar
+SHA1-Digest: 3yiWIQlK125BnejI+VrUZH3pkqU=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-windows.xml
+SHA1-Digest: j8i+TiazZvVvTtdfj4Os3W8fhkw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-visual_zh_CN.
+ jar
+SHA1-Digest: y/SiLqXpMAuugoik0YO8mC48xUY=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-libs-junit4.xml
+SHA1-Digest: GOIdCIW7NeazhkkbCtISgZ5w6NA=
+
+Name: visualvm/visualvm/core/locale/com-sun-tools-visualvm-modules-sta
+ rtup_zh_CN.jar
+SHA1-Digest: iIcTULb+1cO8Rx/r6jsiBXom7GY=
+
+Name: visualvm/platform9/modules/locale/org-openide-text_ja.jar
+SHA1-Digest: JDuKyncStsnRcReMzEb+U7tiS4E=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-multiview_zh
+ _CN.jar
+SHA1-Digest: gE8Th8mShWM6JRZhuyGJzfOKQW0=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-autoupdat
+ e-services.xml
+SHA1-Digest: vgFwcEnXIuUFwVf3owgjO45WPnQ=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-a
+ pi_zh_CN.jar
+SHA1-Digest: EqnWseiXTtrReo2hSj0kRcJo8Ow=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-outline_ja.
+ jar
+SHA1-Digest: JXDqIwVnBgmQy+IKjqunfdS1cKc=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jvmstat
+ .xml
+SHA1-Digest: mVbGHPtjYF2WRiQ0RJhto+w7yJw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-progress-
+ ui_ja.jar
+SHA1-Digest: 1pAMDq/pGPQe/xKJnZNpwCpXNKQ=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-libs-jsr223.xml
+SHA1-Digest: yEnt6m0DDFBiSWnHVnVAHLcP4ZI=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-execution_ja
+ .jar
+SHA1-Digest: CrKHIWTJtC0IDiKb+TXaQNXoc3c=
+
+Name: visualvm/platform9/modules/org-openide-actions.jar
+SHA1-Digest: ff8C933CmOT2rTpinWP579xOwFM=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/linux/libprofilerinterface
+ .so
+SHA1-Digest: mbZrvzv2CsV7+yKy2/9tGBlMP/Q=
+
+Name: visualvm/platform9/config/Modules/org-openide-loaders.xml
+SHA1-Digest: 38abNoam1e6S/+2BV2Sf/iG4ChY=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-libs-junit4.xml_hi
+ dden
+SHA1-Digest: Mlc49jJQT4apGRg75A304zVkt0E=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-spi-quicksearch.
+ xml
+SHA1-Digest: c7PaUW9u58/kJvn9KcoKe6h1cxE=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-execution.xm
+ l
+SHA1-Digest: +RoSetbsCeSwlYpF0MMc0zRVwhc=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host_ja.
+ jar
+SHA1-Digest: NKehSo5PuYfRM8QCZXOrm9rQPDk=
+
+Name: visualvm/platform9/modules/locale/org-openide-actions_ja.jar
+SHA1-Digest: G7yNXZyhXQiLhc+shIo0icpYMjs=
+
+Name: visualvm/platform9/modules/ext/locale/updater_zh_CN.jar
+SHA1-Digest: 66UjiB84sPueugmGFz7hkw/WVEA=
+
+Name: visualvm/profiler3/lib/locale/jfluid-server_zh_CN.jar
+SHA1-Digest: DMYIYIaYb3kcRl6G2xCGx8HftIc=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-autoupdat
+ e-ui.xml
+SHA1-Digest: cVB5mZ8yQ4zKjTvbG3O8Ga9Ryo4=
+
+Name: visualvm/visualvm/config/Modules/org-openide-compat.xml_hidden
+SHA1-Digest: Enn0ZHSOMQ2cOYSPo5+TF4NbbU0=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-progress
+ -ui.xml
+SHA1-Digest: +N5oD/PsxAfONzeL3v/++Zs1Ej8=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-javahelp
+ .xml
+SHA1-Digest: MOeB2GFAt7qJdsNxFC7qfUQ8Hno=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-ui_zh_CN.jar
+SHA1-Digest: Kg9hbDck+h7EuCC/p+z1q8oTN70=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-coredump
+ _ja.jar
+SHA1-Digest: 5uomXov0wYZ42OnZkkyPPBrjs2g=
+
+Name: visualvm/bin/visualvm_w.exe
+SHA1-Digest: s5ElFE0mrhZbZ2+ovlkLx37IPJQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-loaders_zh_CN.jar
+SHA1-Digest: CQPlgcN8Uqf6mWDKes5LEZqKGy8=
+
+Name: visualvm/platform9/lib/locale/boot_pt_BR.jar
+SHA1-Digest: Y38py4viMln0V9AI8cg6cJMioXg=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-comm
+ on_zh_CN.jar
+SHA1-Digest: w5qkP5NsbXKFzODLyi1obpU7BpY=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/solaris-i386/libprofilerin
+ terface.so
+SHA1-Digest: naZGbgV24Md5tO/seP5noafptqw=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-favorite
+ s.xml
+SHA1-Digest: IH8Y99svBC+2VG3ukYs9hoc1d84=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jsr223_pt_BR
+ .jar
+SHA1-Digest: zPTk4wVZfl9eD1CaqVDRPTnrgGo=
+
+Name: visualvm/platform9/modules/locale/org-openide-compat_ja.jar
+SHA1-Digest: qZ7shSCDMLxePe77oR4cIx1hFZQ=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-host.xml
+SHA1-Digest: 1+lHMwBq/2JWxw0KRka0tlnP+VQ=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-services_pt_BR.jar
+SHA1-Digest: /cA3p6qplUXoKladiKs7WB3CUZw=
+
+Name: visualvm/platform9/lib/nbexec
+SHA1-Digest: s2KCDuv0/e6m1JGBZjLNvBaGx2A=
+
+Name: visualvm/platform9/modules/org-jdesktop-layout.jar
+SHA1-Digest: eQvA7C6nvHrrW4vx4cECfROsufo=
+
+Name: visualvm/platform9/config/Modules/org-openide-execution.xml
+SHA1-Digest: Vp1JcNmHGlqteD42IDMb7eVWoJo=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/windows/profilerinterface.
+ map
+SHA1-Digest: dT5xJK72ZtIE5TMyjn2Nn6tuMlA=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler_pt_B
+ R.jar
+SHA1-Digest: EhWC6FCgFzQB6yBIrlifCrHvlUM=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-openide-text.xml
+SHA1-Digest: dKNVP80r1hcEI6/E10yOgahYdxc=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-favorites
+ .xml
+SHA1-Digest: KBCENtBnvsYU0Ty4a7g/ZQDuNw0=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/linux-amd64/libprofilerint
+ erface.so
+SHA1-Digest: I/NqVJpKi1WM44CtEUAiOGl4rVI=
+
+Name: visualvm/platform9/lib/locale/org-openide-util_zh_CN.jar
+SHA1-Digest: hvzhpupRhhPZ2p4x+9pGPDN8Df4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-core-kit_
+ ja.jar
+SHA1-Digest: rDh2bx/xnTtyqFwJOk4roBGfUXY=
+
+Name: visualvm/platform9/modules/org-netbeans-libs-junit4.jar
+SHA1-Digest: j3H7f8DCfQsodyzodmFKVZC8jzE=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-vie
+ ws_ja.jar
+SHA1-Digest: dddgWQUKINv9AhjLJj9lhcIFi4k=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-attach.
+ xml
+SHA1-Digest: BmE0Sp3BXzhltJjsIWPP5KI4MG8=
+
+Name: visualvm/platform9/update_tracking/org-openide-text.xml
+SHA1-Digest: i31nBmjbEegabpjo5CgJgujKaLQ=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-nativeacces
+ s.xml
+SHA1-Digest: +Hgd3VmMAqipmVS+fF65PCkeuX8=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-host-vi
+ ews.xml
+SHA1-Digest: taFb0RtAeXwgibjoEiXSuLSFRJE=
+
+Name: visualvm/platform9/config/Modules/org-openide-text.xml
+SHA1-Digest: YarmTk2TaEP6ZM0dmhFJ3wF94/0=
+
+Name: visualvm/platform9/modules/locale/org-openide-io_zh_CN.jar
+SHA1-Digest: ReYQ3UiWbhP5nZxWOQsEOsc9FVs=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jvm.xml
+SHA1-Digest: qPPeiwRmGvxhUoY8GywWRM+Smek=
+
+Name: visualvm/profiler3/lib/locale/jfluid-server_ja.jar
+SHA1-Digest: Gn2h4/7mL2RcACSFTvbaOYHtar0=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-modules-
+ appui.xml
+SHA1-Digest: dpAcqYxV02IMosdw0nbDUNd1KRI=
+
+Name: visualvm/platform9/modules/org-openide-text.jar
+SHA1-Digest: WF+0ikPoYU/mhsILWpSvwJxHgeQ=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-modules-profiler_
+ zh_CN.jar
+SHA1-Digest: WY6gsyKKBf9Gs87T4zQlHRGPI1U=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-core-windows_visua
+ lvm.jar
+SHA1-Digest: +D+qqw29oOQWNYXcGaV6hv/ntWs=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-heapdump
+ _ja.jar
+SHA1-Digest: 1hHMFcyOdvvSbBotTd8xlxQ8aL4=
+
+Name: visualvm/platform9/core/locale/core_zh_CN.jar
+SHA1-Digest: QqJ/tIK8aBZlhIxitMZDCM39Clo=
+
+Name: visualvm/platform9/lib/locale/org-openide-util_ja.jar
+SHA1-Digest: pZoaJ/nec/lacyQspMNv/lc1zQo=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-multiview.xm
+ l
+SHA1-Digest: 8oGkfyEIrXERlgjdnUbFiNPklEA=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/windows/profilerinterface.
+ dll
+SHA1-Digest: l1UGt7oEwFyVdFKIfYM1CEctxSs=
+
+Name: visualvm/platform9/modules/org-netbeans-libs-jsr223.jar
+SHA1-Digest: YA+krmvS6WcsABPdO1PRxhbzTYA=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-attach_z
+ h_CN.jar
+SHA1-Digest: TpoJbyBUoqN+06IRdfbdDK9GFh0=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/solaris-sparc/libprofileri
+ nterface.so
+SHA1-Digest: Mmt28JBJSx9NupLsmEzaMkLCDyI=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jna_pt_BR.ja
+ r
+SHA1-Digest: S/WJ8hLHzMIw6NiYoo3AJnA/FdI=
+
+Name: visualvm/platform9/modules/locale/org-jdesktop-layout_ja.jar
+SHA1-Digest: 27y1nA6gXH4W4z5tLzGQ01TkDH0=
+
+Name: visualvm/platform9/config/Modules/org-openide-explorer.xml
+SHA1-Digest: PbFshzi96Rhs6ggE6IGnZEqhAtM=
+
+Name: visualvm/platform9/modules/locale/org-openide-compat_pt_BR.jar
+SHA1-Digest: +rIr42ko7e6O/uNb4TjOZlZxPWA=
+
+Name: visualvm/platform9/modules/locale/org-openide-options_zh_CN.jar
+SHA1-Digest: OGB8DcvddZxL/kw+rwJ4tV0C5mk=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-templates
+ _ja.jar
+SHA1-Digest: MG2fC3VVdUTqOs9GFcrZnfXlmQQ=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-coredump
+ _zh_CN.jar
+SHA1-Digest: ci/MzIZzsDZB+a2f9zU2MRCLm20=
+
+Name: visualvm/visualvm/core/com-sun-tools-visualvm-modules-startup.ja
+ r
+SHA1-Digest: Pzb9v/EnRjFDxw0dbi4YWrnnm6o=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/windows-amd64/profilerinte
+ rface.dll
+SHA1-Digest: NOxggmXTGfE4Mgv3830zwTvvXSM=
+
+Name: visualvm/platform9/update_tracking/org-jdesktop-layout.xml
+SHA1-Digest: 0yjw4hdSZfBU1RVQh1iafGnUzcM=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jna_zh_CN.ja
+ r
+SHA1-Digest: V60I8RpVsNwSmZcO3opHQvqa3v4=
+
+Name: visualvm/platform9/core/core.jar
+SHA1-Digest: Pg4cw+ubRsGF3qBImv+wSQrxIXY=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-ui.xml
+SHA1-Digest: Kl1jQvHqnCgsozwC4CJXWeR2MnM=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-options-k
+ eymap.xml
+SHA1-Digest: NLKKQ+BQf8h8rorBugiaHQSVhaM=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-core-kit
+ .xml
+SHA1-Digest: H+mWDYH+cD56cTRpR6A3UuKuRAc=
+
+Name: visualvm/platform9/docs/swing-layout-1.0.3-doc.zip
+SHA1-Digest: mkUsYO5p3gyYvtfPN8H3EH2+O1A=
+
+Name: visualvm/platform9/modules/org-openide-execution.jar
+SHA1-Digest: 3Oh5KK5RBF8O+FOvtzeZ/OiHtSc=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-k
+ eymap_ja.jar
+SHA1-Digest: 2ue7TYojnMt3r7T+gc2+XeLo/gw=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-core_zh_
+ CN.jar
+SHA1-Digest: kK/IwSu/7ern6qtmjz/FSosGa6w=
+
+Name: visualvm/platform9/modules/ext/script-api.jar
+SHA1-Digest: RpXZIdDFnMQEk0/2MxcfSeoiZV4=
+
+Name: visualvm/platform9/modules/locale/org-openide-options_ja.jar
+SHA1-Digest: eExAzMgEDi1aS+tQ/YgsLP5bypk=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-libs-jna.xml
+SHA1-Digest: /NlilNTIzO5FmbllPfkyN7nXimU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-ui_ja.jar
+SHA1-Digest: Xk7l53RFGDtf+kd91YOY92zOcFM=
+
+Name: visualvm/platform9/modules/org-openide-options.jar
+SHA1-Digest: y1penY1VEGoaxPJErdZ6UfYB5gE=
+
+Name: visualvm/platform9/update_tracking/org-openide-actions.xml
+SHA1-Digest: E2GV36uINK36cE6TAzY3U/EWEZ4=
+
+Name: visualvm/profiler3/lib/jfluid-server-15.jar
+SHA1-Digest: miYtxR7ogOCXyx1G61ROWu4ppYw=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-host-vie
+ ws.xml
+SHA1-Digest: 35Y26AZGdTSObPKbohmNjfw9nXs=
+
+Name: visualvm/platform9/modules/org-netbeans-spi-quicksearch.jar
+SHA1-Digest: ns4kyR76qKxhpT07qqtOiohl28w=
+
+Name: visualvm/profiler3/lib/locale/jfluid-server_pt_BR.jar
+SHA1-Digest: PQe+MIIdtHZA/UNZ3KMkiKPR6t0=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-api-visual.xml
+SHA1-Digest: wLT3ctRFF//BjfRGb8Xl90hjlKU=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-windows.xml
+SHA1-Digest: H9mVa5GAL2ppTjtfoosG5fqwn2I=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-autoupda
+ te-ui.xml
+SHA1-Digest: 8+qL6aVA3FViyxAFcPlzWZ8bfUQ=
+
+Name: visualvm/bin/visualvm.exe
+SHA1-Digest: sABSKpNWZVxTtMqUE39oiJ6wWow=
+
+Name: visualvm/platform9/modules/org-openide-io.jar
+SHA1-Digest: U1+9GUMOV8asGTJnfiO5rtoM/8Y=
+
+Name: visualvm/profiler3/config/Modules/org-netbeans-lib-profiler.xml
+SHA1-Digest: qJPk9k416fhYOKVUrnp+FYWPTlc=
+
+Name: visualvm/platform9/modules/org-netbeans-api-progress.jar
+SHA1-Digest: Ds57fPgeDuFnhQKLE2BRw4ZdMWE=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core.xml
+SHA1-Digest: Wvv2FH8Vj6dqexoE99Lm91gr1Bs=
+
+Name: visualvm/visualvm/.lastModified
+SHA1-Digest: 6H2htN70whOP+fgAPXI8sjMgByA=
+
+Name: visualvm/profiler3/update_tracking/org-netbeans-modules-profiler
+ .xml
+SHA1-Digest: QY459hVnjV54f/1bL70kvoyHyM8=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiler
+ _zh_CN.jar
+SHA1-Digest: xfFfo9wFDBz/fBdHVNia6SqOgy4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-services_zh_CN.jar
+SHA1-Digest: MjOy9Ats3004usH7Ju2GqDToLPo=
+
+Name: visualvm/platform9/lib/locale/boot_ja.jar
+SHA1-Digest: xz19KFFDwKp7jhlaKqFEoKbZ3MM=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-tabcontrol_
+ pt_BR.jar
+SHA1-Digest: blvMApALhM74Sw1mcZQfhOXeNEw=
+
+Name: visualvm/platform9/modules/org-netbeans-core-output2.jar
+SHA1-Digest: VOPL1fFGbVAOMYlEllkJaBGBTmk=
+
+Name: visualvm/platform9/update_tracking/org-openide-io.xml
+SHA1-Digest: CpGr365CkH+w+DB7opAZTCxk/PY=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-editor-mi
+ melookup.xml
+SHA1-Digest: 9ruGmtpgPmeyfR6Aap6jI1NBeFk=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-sa.jar
+SHA1-Digest: jk5YiMd2GDL1V9lUMeEsh+5V9tk=
+
+Name: visualvm/platform9/update_tracking/org-openide-options.xml
+SHA1-Digest: 3ibPQvJoGQYOT564IxwQ1N6/Mfg=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-queries_z
+ h_CN.jar
+SHA1-Digest: jsCQYXZ8z0GVl/BdumlVhxiaFzo=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-applemenu.jar
+SHA1-Digest: fdBJteuU3tb61TEgyIlouSBSq9A=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-modules-profiler_
+ pt_BR.jar
+SHA1-Digest: gCqRtHkJz0o8Xc/N/69fxzZDVzE=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvmstat_
+ ja.jar
+SHA1-Digest: XiSL3XJe/p8ICOCykLdbNipWnvM=
+
+Name: visualvm/platform9/modules/org-netbeans-core.jar
+SHA1-Digest: rwcE5sAqZQGzEpGG5r3yR+TNNOs=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-progress-
+ ui_pt_BR.jar
+SHA1-Digest: mlX5b5QMjwBNoBkN83yGRv5VkAM=
+
+Name: visualvm/platform9/modules/org-openide-awt.jar
+SHA1-Digest: uYXqWD7dsJOjF0VAiyc4+hF7ILw=
+
+Name: visualvm/platform9/modules/org-openide-explorer.jar
+SHA1-Digest: lqxUkcu1E6ec5gNwFKbapyhWemg=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sa_zh_CN
+ .jar
+SHA1-Digest: i0bOoV1/DB+Ux9OQav6pxtALHmQ=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvm_ja.j
+ ar
+SHA1-Digest: iYtkTmkM5j7PuKL650uIkdGKdYY=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/linux-amd64/libprofilerint
+ erface.so
+SHA1-Digest: aLT7yuLkZUeDx/tFyc+Ruxr/2Gc=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiler
+ _ja.jar
+SHA1-Digest: WAhok5x1KIcBSHk7zLLkdh8JV7Q=
+
+Name: visualvm/platform9/modules/locale/org-openide-util-enumerations_
+ zh_CN.jar
+SHA1-Digest: kq7k6Lno1JeLz1kBaEAxdPUGzQA=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/solaris-amd64/libprofileri
+ nterface.so
+SHA1-Digest: Rvu3gNbrzOJEZkTKJuTS/5gfbKU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-progress_zh_C
+ N.jar
+SHA1-Digest: MEoCLbDD7A628rSfcXYhcZLmtn4=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-modules-
+ appui_ja.jar
+SHA1-Digest: JZOrZL9uJ6E45SEjzdAoDGx+6ow=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-api-visual.xml
+SHA1-Digest: XyXrdR96yrfY1zvbMqB1QolYnEo=
+
+Name: visualvm/bin/visualvm
+SHA1-Digest: lNHGle2ScJhrWlhuJBCIZKyMFYU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-ui_pt_BR.jar
+SHA1-Digest: uTQKm4Giqv6Nt6ZfH/tj8jKmw5o=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-options-
+ keymap.xml
+SHA1-Digest: avSl9Ss/ZNLa5pNOUjrk7UVbOYQ=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/hpux-pa_risc2.0w/libprofil
+ erinterface.sl
+SHA1-Digest: PL0tzMiRkJVLoG6XFI8iShA3jzM=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-options-a
+ pi.xml
+SHA1-Digest: aKw/glrOCinrnvdbTw192fPcfiQ=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-modules
+ -startup.xml
+SHA1-Digest: U8KHMZXp+SNCLCFRPuttpP8iJrU=
+
+Name: visualvm/platform9/modules/locale/org-jdesktop-layout_zh_CN.jar
+SHA1-Digest: vDBdjTaKmF8bmT0Z2eisMFXkxvs=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-execution_pt
+ _BR.jar
+SHA1-Digest: lAnpucfSOqhYwgUBbK+yxQF/C0Y=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-progress-ui.jar
+SHA1-Digest: ItaNSm282g9YgAP2ohedSqRhI48=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-editor-m
+ imelookup.xml
+SHA1-Digest: /Qbf4wZesUDc2/HWU7bC70HtJiw=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/solaris-i386/libprofilerin
+ terface.so
+SHA1-Digest: fLIf/ipblaLxfySCxoEe9GhbyDQ=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-jvmstat.jar
+SHA1-Digest: dP6tvsXsg071z/fsQgCPVpY1ydE=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-jvm.jar
+SHA1-Digest: 65+ywvzzr6o4gGfxukqOirhUvvU=
+
+Name: visualvm/platform9/modules/locale/org-openide-explorer_pt_BR.jar
+SHA1-Digest: vay5f3k3iXaocdoPekQNb+8mmjs=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-ui_j
+ a.jar
+SHA1-Digest: 96ccRPubmUZxOoXNmOoakIZldjw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-queries_p
+ t_BR.jar
+SHA1-Digest: t4nmjqjFFPW/lPvLZlvbu5sJ6S0=
+
+Name: visualvm/platform9/config/Modules/org-openide-actions.xml
+SHA1-Digest: +LNF+0LprX3V7gJVxjwbwEqLiDM=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-modules-core-kit.x
+ ml_hidden
+SHA1-Digest: NTjew4Kf6RNz91JwzznpznZXkxQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-util-enumerations_
+ ja.jar
+SHA1-Digest: UC/ulg9GxK09l06Yikff1tPVcv8=
+
+Name: visualvm/platform9/modules/org-netbeans-core-execution.jar
+SHA1-Digest: pcOKVOFQQ2aDF3HtUoFiF+UmIbM=
+
+Name: visualvm/platform9/modules/locale/org-openide-windows_ja.jar
+SHA1-Digest: 4ic8s6Ff830ZATPhZeEJSUiJMiQ=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-attach_j
+ a.jar
+SHA1-Digest: IfEUKJ5zW2zha6rVX0wmR8jE8p8=
+
+Name: visualvm/platform9/update_tracking/org-openide-explorer.xml
+SHA1-Digest: MRbkc/SbeUdx5sin8e6AcDX2uGo=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-nativeaccess
+ _zh_CN.jar
+SHA1-Digest: l+W/0khtfvpr7iX9rl7sK+pHNsQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-dialogs_ja.jar
+SHA1-Digest: 5cj+NDQ8fUMYqoNkvfUmh+JAtAY=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-swing-plaf.xml
+SHA1-Digest: 19iBx7QQsAclB8AlV42vtPMS13A=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-modules-appui.j
+ ar
+SHA1-Digest: 7/oR2791PEq2GnqMX+MCCSBM2sI=
+
+Name: visualvm/platform9/config/Modules/org-openide-dialogs.xml
+SHA1-Digest: KZFjB2rkkxtg9+gPV5bEZvH0x3s=
+
+Name: visualvm/platform9/modules/locale/org-openide-text_zh_CN.jar
+SHA1-Digest: qdlJR/OpLbAhzW88201KXIscK2s=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-tabcontrol_
+ zh_CN.jar
+SHA1-Digest: jq33iR9+tef7wUdAkn0nR0jUuqs=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-bootstrap.xml
+SHA1-Digest: 4lWRJEIOmgMannk3rGiRieckMjM=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler_zh_C
+ N.jar
+SHA1-Digest: qfjy3FX9g1bO9mhALo0C/jiyWTI=
+
+Name: visualvm/platform9/lib/org-openide-modules.jar
+SHA1-Digest: d8Pem1yDi66gembr5j9W2PUCqoA=
+
+Name: visualvm/platform9/update_tracking/org-openide-util-enumerations
+ .xml
+SHA1-Digest: bKbRgoGDvs7qx3LhoNGwfG92/dc=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-template
+ s.xml
+SHA1-Digest: 5CQrsyi2T0AU8YB1cN8gUluY4as=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-modules-profiler_v
+ isualvm4me.jar
+SHA1-Digest: fSmh37zA6cIHBO698l08Q+Y9hIU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-core-kit_
+ pt_BR.jar
+SHA1-Digest: qQUZAACLCF1T9CxVX72uFoQFhqw=
+
+Name: visualvm/platform9/config/Modules/org-openide-io.xml
+SHA1-Digest: 711XfR2y5dKyUQYdrrMh9jXbleo=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-sendopts.
+ xml
+SHA1-Digest: 7kqZsFBgTvqRSkcQY9/Y0QyPqL8=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-multiview.x
+ ml
+SHA1-Digest: ftOax6Gqd56kbp33vAUl94iqqWA=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-profile
+ r.xml
+SHA1-Digest: H4rwBgDcujyzcYn0b/bxzwbXsJA=
+
+Name: visualvm/platform9/update_tracking/org-openide-util.xml
+SHA1-Digest: 9U+l6DDBj5Sja3x+kbOQaY0jxd0=
+
+Name: visualvm/platform9/modules/org-openide-nodes.jar
+SHA1-Digest: iB9trJRYS2LmnYelQU4qHjw4bEw=
+
+Name: visualvm/platform9/update_tracking/org-openide-modules.xml
+SHA1-Digest: Gk0r5AFMj4J2wwT/BEqXwo5ksis=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-swing-outline.xm
+ l
+SHA1-Digest: CF6n/7rWpCC0OXLnTVNBkxxK62E=
+
+Name: visualvm/platform9/lib/locale/boot_zh_CN.jar
+SHA1-Digest: TSLcMoUWsnTjxhNTMSrVQhx3iW4=
+
+Name: visualvm/platform9/modules/org-netbeans-swing-outline.jar
+SHA1-Digest: N+jTb6OonBKkhIknjQ/fhJKVQUw=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-core.xm
+ l
+SHA1-Digest: FVTnr8mkKHxcHr+LZ1unbqAN20s=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-output2_ja.j
+ ar
+SHA1-Digest: ciJvOOVLN8RgbI3gHS3tOXicgAQ=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-sendopts
+ .xml
+SHA1-Digest: 2DDazv1+cIsjWQaOphaSqhmAwSw=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-application-vie
+ ws.jar
+SHA1-Digest: 3xq53pXSdyzMWH5sQ2+cvScEQ+c=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-core-kit_
+ zh_CN.jar
+SHA1-Digest: bhleZSt62loabmySj+3mwFbISls=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-modules-options-ke
+ ymap.xml_hidden
+SHA1-Digest: XYcHCutH0xWbVW9n9zshA3P+Dnc=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-a
+ pi_ja.jar
+SHA1-Digest: py7xTtYPqTZnbl2VJ6FbpbZT36g=
+
+Name: visualvm/platform9/core/locale/core_ja.jar
+SHA1-Digest: mDLdSvPFjQWIIW+nGIZHrPL6/D8=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/mac/libprofilerinterface.j
+ nilib
+SHA1-Digest: O6mZVv7YGuIy29X91luCH+intfo=
+
+Name: visualvm/profiler3/config/Modules/org-netbeans-lib-profiler-ui.x
+ ml
+SHA1-Digest: nMcfzqscdeThF4FYPfmxi7iGIWg=
+
+Name: visualvm/etc/visualvm.clusters
+SHA1-Digest: NVZsTJ8J79H906L/YrsbWYS9xDM=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-swing-tabcontrol
+ .xml
+SHA1-Digest: fC87JbL238pKIoAl7UuKTJhzybE=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-spi-quicksearch_p
+ t_BR.jar
+SHA1-Digest: SRuRgLPNcRKwfI7qXN2g1VVAO+0=
+
+Name: visualvm/platform9/modules/locale/org-openide-execution_ja.jar
+SHA1-Digest: Hovkk+LIIl8ksijpqawYXTxgu/k=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-heapdump
+ .xml
+SHA1-Digest: FFm1jIv9IWKwzSOpi8/hVUb+/ks=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-sendopts_
+ zh_CN.jar
+SHA1-Digest: HdifCUUCxs/79+BS2Jhi9TVfIJk=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-ui_z
+ h_CN.jar
+SHA1-Digest: bUg498TyumIrlNlEGBXrv1y8Xxg=
+
+Name: visualvm/visualvm/core/locale/core_visualvm4me.jar
+SHA1-Digest: DrGnq0Mx7bKRvhw5AuqccDoXDnE=
+
+Name: visualvm/platform9/docs/swing-layout-1.0.3-src.zip
+SHA1-Digest: /u/WJzquZxpJS+qePZ0qOaVfRa4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-favorites
+ _ja.jar
+SHA1-Digest: vTH23mcPRt34mNEaV0QIDliky8k=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-modules-favorites.
+ xml_hidden
+SHA1-Digest: 6GJhYp6gu/6QMLyS6+MkUtdC+bs=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-javahelp.
+ xml
+SHA1-Digest: FwSXHm54OUcq1BbsLN4nVnL4kAQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-io_pt_BR.jar
+SHA1-Digest: jl1IfRzDaIUPHL4UqYSZVAWpvZw=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/windows/profilerinterface.
+ map
+SHA1-Digest: n5tpa6uTMXVB8Zuo12j9li2otB0=
+
+Name: visualvm/platform9/modules/org-netbeans-core-multiview.jar
+SHA1-Digest: zjqPVqZDyc3K1V9QuEyXqYMI5kc=
+
+Name: visualvm/platform9/modules/locale/org-openide-dialogs_zh_CN.jar
+SHA1-Digest: laCIqJPN9PMDiyNSjlM+Ul8sEZo=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-queries.jar
+SHA1-Digest: /5osGQGf1RHg9fxZODTCgACXuSw=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-execution_zh
+ _CN.jar
+SHA1-Digest: 7PncNTaZj+6y1eUUM8DXkr91ftM=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-applica
+ tion.xml
+SHA1-Digest: xEGGtaRP0ifCE0bJiibYHyvFwek=
+
+Name: visualvm/platform9/core/locale/org-openide-filesystems_pt_BR.jar
+SHA1-Digest: 7HxwZSlfja+TJ+bKnArOeNWe4oQ=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-applicat
+ ion_zh_CN.jar
+SHA1-Digest: UvWWb2scvd9ves4zwkDodWdZBao=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/hpux-pa_risc2.0/libprofile
+ rinterface.sl
+SHA1-Digest: hO2lwxoUV9pugXvhtYjmSqTwqYw=
+
+Name: visualvm/platform9/modules/ext/swing-layout-1.0.3.jar
+SHA1-Digest: 77J56eJeM48VNvy3HlHAQ101guk=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-ui_p
+ t_BR.jar
+SHA1-Digest: kGWBq+gqGTR5go9cPZtVWbqK4Do=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-spi-quicksearch_j
+ a.jar
+SHA1-Digest: 27NQU98CwMNKG4B0kIw7MtbUe6g=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-attach.x
+ ml
+SHA1-Digest: 4MuAbFuApij3/DeK6ClzA/7Pme0=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-ui.xml
+SHA1-Digest: ofBaYWqOp/Vc5eOlf2k+8v0Ock0=
+
+Name: visualvm/platform9/update_tracking/org-openide-windows.xml
+SHA1-Digest: qgA85X+vwKsoxsQ7APFp9XcGkjs=
+
+Name: visualvm/visualvm/config/Modules/org-openide-util-enumerations.x
+ ml_hidden
+SHA1-Digest: Vi1Y09aTmGeqk5yJfhTILCduOLk=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-netbeans-core.xml
+SHA1-Digest: DJe4UzBpPJqELPyqLn8fntA1Krc=
+
+Name: visualvm/profiler3/modules/org-netbeans-modules-profiler.jar
+SHA1-Digest: zdcQ8jgcaoGyc3gEQ+Kw3L1BC2o=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-tools.xm
+ l
+SHA1-Digest: q6jn3D6d7PByHB4UlCZcWmxMqvw=
+
+Name: visualvm/platform9/modules/locale/org-openide-awt_pt_BR.jar
+SHA1-Digest: 8NTmkVw8pWeG0fvVOScR2iklAyM=
+
+Name: visualvm/LICENSE.txt
+SHA1-Digest: 4/xZj/HSy7Cu8n/NWDA4yXcmyD8=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/mac/libprofilerinterface.j
+ nilib
+SHA1-Digest: FS4HlklPLP+56h9w/GzcJDELwGY=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-favorites
+ _zh_CN.jar
+SHA1-Digest: eNEgw8jlkAnXWAbxyWoADQUIn3M=
+
+Name: visualvm/platform9/modules/locale/org-openide-explorer_ja.jar
+SHA1-Digest: xnWPCsZY7BvdGPQrw2rQ3CWoZ2I=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-queries_j
+ a.jar
+SHA1-Digest: MolJE8BhPr1tNyZ2xEqFqtDb7Ec=
+
+Name: visualvm/platform9/modules/locale/org-openide-awt_zh_CN.jar
+SHA1-Digest: ZmY+WS8Cugaj1u7VVipj45YMIDs=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-heapdump.jar
+SHA1-Digest: P0JQcfo4WXDB9F0TX+TueDILhV4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-multiview_pt
+ _BR.jar
+SHA1-Digest: DGfisZiuTHCbL3nmN5P63cCY3rI=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-libs-junit4.xml
+SHA1-Digest: D4vCUcfG+lRkgQ1cwz3hWqXrgc4=
+
+Name: visualvm/platform9/lib/org-openide-util.jar
+SHA1-Digest: YphYcpAYGuxINwxJagScs06U0S4=
+
+Name: visualvm/platform9/modules/locale/org-openide-execution_zh_CN.ja
+ r
+SHA1-Digest: PrAKH6lYKls/c7ClrNGSBRnVs5Q=
+
+Name: visualvm/platform9/modules/locale/org-openide-windows_pt_BR.jar
+SHA1-Digest: ZWNqrp3PADSdDus5K5okhtgwESA=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-masterfs_
+ ja.jar
+SHA1-Digest: JEkWRiIxuhHK9iExrHrjg1mRccQ=
+
+Name: visualvm/platform9/modules/locale/org-openide-util-enumerations_
+ pt_BR.jar
+SHA1-Digest: KiFPVaBFoKnYiuPwvIX9mp3uns8=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-windows_pt_B
+ R.jar
+SHA1-Digest: yObs9dhjpgPPsz+G1M6W+n17ksE=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-coredump.jar
+SHA1-Digest: WjkUpbvf2rT4td0FEp1Yxl/lmww=
+
+Name: visualvm/platform9/modules/locale/org-openide-text_pt_BR.jar
+SHA1-Digest: BOfWPqBN32fWzQHWq3uFV2iiObc=
+
+Name: visualvm/platform9/update_tracking/org-openide-execution.xml
+SHA1-Digest: t/SlXDc0zWA083Esz6IgJxcCgJM=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-tabcontrol_
+ ja.jar
+SHA1-Digest: WhR1nSS8R0pCWQT5TBzNWsMBmRY=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-output2.xml
+SHA1-Digest: 64pRs5nAU6T/Lx84NCoMPlGZQjQ=
+
+Name: visualvm/profiler3/lib/jfluid-server.jar
+SHA1-Digest: HArvzWM7+eQl8TUtTcfPHaM+QUE=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-favorites.jar
+SHA1-Digest: MKqeZgBBMNYCaC65OCk2pjjl+WE=
+
+Name: visualvm/platform9/modules/locale/org-openide-actions_zh_CN.jar
+SHA1-Digest: m/DVo2Yqr6/zIuY8cJuYhF5rWk4=
+
+Name: visualvm/platform9/modules/locale/org-openide-execution_pt_BR.ja
+ r
+SHA1-Digest: H0jGXAnjy1VxE8CqKcxydtaytc4=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/windows/profilerinterface.
+ dll
+SHA1-Digest: 0+/KQeafDxaauXqt3CEypmSNG/0=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-progress-
+ ui.xml
+SHA1-Digest: eiClSfj/0jfds0gCjtZK+Y271N8=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jmx.xml
+SHA1-Digest: nq2T7SxUTdUTgfrhvKHdm9CJGPs=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core.xml
+SHA1-Digest: Hu3x/S08g5QFNEuruHofqUetcew=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-host-views.jar
+SHA1-Digest: Z9PXbJpHWst8d8ieJk1D0LqeOnk=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-heapdum
+ p.xml
+SHA1-Digest: WbXSSlAF0cDpw1xjNwTPI2zfOII=
+
+Name: visualvm/platform9/lib/locale/org-openide-modules_zh_CN.jar
+SHA1-Digest: W8OKt4sp75zj//aw2Yxyf4Tyi+0=
+
+Name: visualvm/platform9/update_tracking/org-openide-awt.xml
+SHA1-Digest: /rJynhO3A9QOMJgNU6Afl+cMY3A=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-threadd
+ ump.xml
+SHA1-Digest: CgGq74oTudoQ8S8DfaH5ln/0Ir0=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-editor-mi
+ melookup-impl.xml
+SHA1-Digest: nSgvwUHCdfNuKkvSSFRNaMMY01U=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-applemenu
+ _pt_BR.jar
+SHA1-Digest: 7dxmseSXGB096LeS4YATYJlcz+g=
+
+Name: visualvm/platform9/modules/locale/org-jdesktop-layout_pt_BR.jar
+SHA1-Digest: j/CUWzmpgI8T1BJSg9pWCA96CVA=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-masterfs_
+ zh_CN.jar
+SHA1-Digest: 4dj9TIzI7cgnc1ru9evo9Z747wU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-progress_pt_B
+ R.jar
+SHA1-Digest: +Ffm3mXw5KafVOgVOCKB2Tnu/os=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-libs-jna.xml
+SHA1-Digest: EEpQZvvNvD5bSO6AWgBVyzn4PDw=
+
+Name: visualvm/platform9/modules/locale/org-openide-nodes_ja.jar
+SHA1-Digest: sPE7qCY7bNYLkC/t2HIXH+2o+7U=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-api-progress.xml
+SHA1-Digest: hlYlEIG+NvZe6vzuebv4J8rNYgo=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/solaris-amd64/libprofileri
+ nterface.so
+SHA1-Digest: nTimBsg+EIcASmg13QmdrjWmDWs=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-templates
+ .xml
+SHA1-Digest: dcBOOnpnyradKAO73hZvF6YxV6c=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-plaf_ja.jar
+SHA1-Digest: BsKKCtv7E//LwR9Ck75P+IanXRc=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-core-kit.
+ xml
+SHA1-Digest: BqAxplx6ad0jiq/WF/B3u1QwdxI=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jmx.xml
+SHA1-Digest: mRq66ld+IOjyP6I9lYElIcS36xU=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-threaddump.jar
+SHA1-Digest: v1/2u4aE5X3zgLIlCPfwLdyhHwk=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-nativeaccess
+ _ja.jar
+SHA1-Digest: 4YPdneLSph6n6kuvSh5hJ2HMevk=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-core_ja.
+ jar
+SHA1-Digest: dHmiq6XNua2KJYX0lOLb/s1aXr0=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-applicat
+ ion-views_zh_CN.jar
+SHA1-Digest: XDmii8xgdsZsC1OM7NKw2FfBLWQ=
+
+Name: visualvm/platform9/modules/ext/locale/updater_pt_BR.jar
+SHA1-Digest: 28UyJGXsD90MmRokCw4tgG7oYp8=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-outline_pt_
+ BR.jar
+SHA1-Digest: qkEtnVmutgftNv7SC5nkGJVi+Jk=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-core-kit.jar
+SHA1-Digest: SIgkHvLkBXx5/CxuPuzrUIoidDk=
+
+Name: .keep
+SHA1-Digest: IJDjreXYVqbuXs0f13h7aMVDlM8=
+
+Name: visualvm/profiler3/update_tracking/org-netbeans-lib-profiler.xml
+SHA1-Digest: eOdBMZrHQFHiQv43QC763DKNk1g=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-progress-
+ ui_zh_CN.jar
+SHA1-Digest: xoOucWxYNdEmy5JbaS89zn7ZSWo=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jmx_zh_C
+ N.jar
+SHA1-Digest: 9b0ZFisWjIMVO/6/RHTKCVLZfpA=
+
+Name: visualvm/platform9/modules/org-openide-util-enumerations.jar
+SHA1-Digest: FwQYta79TRzpMq8J/fWpEkFNrpo=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/windows-amd64/profilerinte
+ rface.map
+SHA1-Digest: 2BY1pxbzKeEnc/0GsjY16c+P5RQ=
+
+Name: visualvm/platform9/lib/locale/org-openide-modules_pt_BR.jar
+SHA1-Digest: wVz4gV91iPTbLLWOs3Hayay/n6c=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jna_ja.jar
+SHA1-Digest: SVnorKBsa8EGmIWEqy11O9G+VRI=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup-impl_ja.jar
+SHA1-Digest: ujW6mOS+WjJnU8HPctBnJwKb+Dk=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-core-nativeaccess
+ .xml
+SHA1-Digest: CeI4/sg7lLlTNP0/i6vf0HV9J5c=
+
+Name: visualvm/platform9/lib/locale/org-openide-util_pt_BR.jar
+SHA1-Digest: RXrFi6ootzI74l6AqjGnblXFtD8=
+
+Name: visualvm/platform9/modules/locale/org-openide-options_pt_BR.jar
+SHA1-Digest: Bnf8l24iTIgFztttqSH03gjyw2g=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-api-visual_ja.jar
+SHA1-Digest: VjfONEnBzmy8faQiHskgbRIIzCU=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-sendopts.jar
+SHA1-Digest: I9jnUNctWArcKcqdPCrxyWJbn9g=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jvm.xml
+SHA1-Digest: LcRGfw3BqZyxGrR/cC0a+FNsoV4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup_pt_BR.jar
+SHA1-Digest: ndPfiHmP+38BcqGO3ttGzQX8b64=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jvmstat.
+ xml
+SHA1-Digest: kMQxWv62ouscgeu05zdfjmSQaNk=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-masterfs
+ .xml
+SHA1-Digest: AWMSKxY+DphW4GCgQPVu4SIuF6o=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-junit4_pt_BR
+ .jar
+SHA1-Digest: e+LFwsiXTjUuNPH8BugOI/jFXC4=
+
+Name: visualvm/platform9/lib/nbexec.exe
+SHA1-Digest: YqHPdBUWQIc09dqY++DLuKabdg8=
+
+Name: visualvm/platform9/modules/locale/org-openide-loaders_pt_BR.jar
+SHA1-Digest: KzDNDh4PSK/kjdTnLMykHSxUasQ=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvm_zh_C
+ N.jar
+SHA1-Digest: dGwSe5XriXN3bemgNXWsTQpIDek=
+
+Name: visualvm/profiler3/lib/deployed/jdk16/solaris-sparcv9/libprofile
+ rinterface.so
+SHA1-Digest: dFz2WdMaL7fHnq38il2UTVBHG/U=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-modules-applemen
+ u.xml
+SHA1-Digest: JZe9kS8DYVPNuJynz6kW6EaHbBw=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/solaris-sparc/libprofileri
+ nterface.so
+SHA1-Digest: QDbdqTc2l/KFPYbUM7hddyLpL2I=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler_ja.j
+ ar
+SHA1-Digest: yuOY8uL713udQXta5u4RgDdyE20=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-options-k
+ eymap_zh_CN.jar
+SHA1-Digest: QfQHArMgmPYMbpFRne9sGDa/M1U=
+
+Name: visualvm/platform9/modules/ext/junit-4.5.jar
+SHA1-Digest: 6voRU7uZgrDom5S3KgCqENAI7Wg=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jsr223_ja.ja
+ r
+SHA1-Digest: bt867e/mTwXgyDtdUJpNPYnDpWU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-swing-plaf_pt_BR.
+ jar
+SHA1-Digest: A49iYFe/TZGJxEq18xdLccyFKPo=
+
+Name: visualvm/visualvm/core/locale/core_visualvm.jar
+SHA1-Digest: CssmZm3HUMi8RJl5LV/2oP+rPow=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-modules-templates.
+ xml_hidden
+SHA1-Digest: fWx63mgHFrmBQt1O1buxN/XFE1E=
+
+Name: visualvm/platform9/modules/locale/org-openide-explorer_zh_CN.jar
+SHA1-Digest: tIOMy0YOKNWDeVPSB4olti5BqnY=
+
+Name: visualvm/platform9/modules/locale/org-openide-compat_zh_CN.jar
+SHA1-Digest: AKilRWwxuL1gSNwBf7tN+LamtTU=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-templates
+ _zh_CN.jar
+SHA1-Digest: HRiSZYwbdsCmB72ntjy6sqX40wI=
+
+Name: visualvm/platform9/modules/org-netbeans-swing-tabcontrol.jar
+SHA1-Digest: gx2zoXMs5683sdaPaO3vlvS5gw0=
+
+Name: visualvm/profiler3/.lastModified
+SHA1-Digest: EfyHqBnyNEbz+f0/qlxHqaNorgA=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-settings.jar
+SHA1-Digest: wKYzHI2lilI5JNC8OoBN4HLSe7Y=
+
+Name: visualvm/platform9/modules/org-netbeans-libs-jna.jar
+SHA1-Digest: QiPc7U0k4hE6ODhdnC57qZOwgUo=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-autoupdate-ui.ja
+ r
+SHA1-Digest: eFNrH8KNROLYoxmVFComz28jGuI=
+
+Name: visualvm/visualvm/modules/locale/org-netbeans-modules-profiler_v
+ isualvm.jar
+SHA1-Digest: 8esFmC6+Xi1QNuiv6Q8GynnT1Nc=
+
+Name: license.html
+SHA1-Digest: 77JOPUeRo+G9KURfzUFRYmXIkSA=
+
+Name: visualvm/platform9/modules/ext/updater.jar
+SHA1-Digest: Mb5jCknb7ZzJm7FXtsa4OxBIFqc=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-tools_ja
+ .jar
+SHA1-Digest: 0cR6ZZzYIV5bFAPVq2OHR5kW5Q0=
+
+Name: visualvm/platform9/config/Modules/org-openide-windows.xml
+SHA1-Digest: bQmcQpc6KZw0y3x+Et5FmGtp20I=
+
+Name: visualvm/platform9/config/Modules/org-openide-awt.xml
+SHA1-Digest: cfc3BBjeOz54BCq/eoLFfM8wbWM=
+
+Name: visualvm/visualvm/modules/com-sun-tools-visualvm-profiler.jar
+SHA1-Digest: m/TaM52lbgJj+EfIlZxG0niSXMM=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-host.xm
+ l
+SHA1-Digest: joujau0+VnCM7WwIXgq9Ku/HmlQ=
+
+Name: visualvm/platform9/modules/org-netbeans-swing-plaf.jar
+SHA1-Digest: s75NioD1Jdaah+YYnPvTsipNVhE=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-settings_
+ pt_BR.jar
+SHA1-Digest: 4FI4Ma3hl9yoP7PVvRixUEbzvKY=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-netbeans-modules-op
+ tions-api.xml
+SHA1-Digest: 1GtKti/lZk3YyPSPeW6JgFj6Sns=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-output2_zh_C
+ N.jar
+SHA1-Digest: A+smWrdOyqkOJkz4EhrcooY+WkY=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-core-windows_ja.j
+ ar
+SHA1-Digest: OoOuzX6IOA9NpPoD7N1sOGG1aGs=
+
+Name: visualvm/visualvm/config/Modules/org-netbeans-core-output2.xml_h
+ idden
+SHA1-Digest: /7CFWXutakaFfKGHQLU0XR0CfNo=
+
+Name: visualvm/platform9/update_tracking/org-netbeans-core-execution.x
+ ml
+SHA1-Digest: 3M8FjyVXTMpkD/hH8+tesx2xmT8=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-templates.jar
+SHA1-Digest: Y7+aw4SFRo1DVX9vsTX7CAompuw=
+
+Name: visualvm/profiler3/modules/org-netbeans-lib-profiler-ui.jar
+SHA1-Digest: 1GWsjLh5+qI9J4UHBoRr9FffDZI=
+
+Name: visualvm/profiler3/config/Modules/org-netbeans-modules-profiler.
+ xml
+SHA1-Digest: O/LsWiT4bgA1OIlsj/9ZEbDaaXU=
+
+Name: visualvm/platform9/modules/locale/org-openide-io_ja.jar
+SHA1-Digest: R23vxy35BnqCj5nE6yE1CCqIX2k=
+
+Name: visualvm/platform9/modules/org-netbeans-core-nativeaccess.jar
+SHA1-Digest: 7xSGLTG6Us24M477wHTesgjPJKI=
+
+Name: visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvmstat_
+ zh_CN.jar
+SHA1-Digest: QzPgTfYGGUeFDJKKKLh8xrh3prA=
+
+Name: visualvm/platform9/config/Modules/org-openide-util-enumerations.
+ xml
+SHA1-Digest: 9yBdaApsbUhccuO806qBkjRiaEw=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-tools.x
+ ml
+SHA1-Digest: aeaTg8z9QQ41IvLN3hCDHAubIHI=
+
+Name: visualvm/platform9/modules/locale/org-openide-dialogs_pt_BR.jar
+SHA1-Digest: RoFm0giUJ0lPxhkgnvNjQRDyAEI=
+
+Name: visualvm/platform9/config/ModuleAutoDeps/org-openide-explorer.xm
+ l
+SHA1-Digest: awVpbZjg3O1YRdvm/GATy0jjHuI=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-lib-profiler-comm
+ on_ja.jar
+SHA1-Digest: FKF3wUOJLSMlEq8jQCL6mn5/T04=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-applica
+ tion-views.xml
+SHA1-Digest: 0rbOX40yOwgrBN6PcSwtiKZU8ZA=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/solaris-sparcv9/libprofile
+ rinterface.so
+SHA1-Digest: LEBPD4Eg8JR5Q6rl4RVV0y2G/10=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-libs-jsr223_zh_CN
+ .jar
+SHA1-Digest: /QNw5ldrgX7fNglPBQUYfKzjMfY=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-autoupdat
+ e-services_ja.jar
+SHA1-Digest: tOojYrfdZ/JcShmO3+xKBoEH5oQ=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-modules-masterfs.
+ xml
+SHA1-Digest: a+uwAwa4TCU78DG+IVrdeWPCGJ4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup_zh_CN.jar
+SHA1-Digest: ElbUJKO9NlNFx98C79JHgURHRX8=
+
+Name: visualvm/visualvm/update_tracking/com-sun-tools-visualvm-coredum
+ p.xml
+SHA1-Digest: FJ5Hafyg+MMNzQRdjkqx/BHoMO0=
+
+Name: visualvm/platform9/config/Modules/org-netbeans-swing-outline.xml
+SHA1-Digest: h8lcj/NIid2+mo5pN5afaQKciT4=
+
+Name: visualvm/platform9/modules/locale/org-netbeans-modules-editor-mi
+ melookup-impl_zh_CN.jar
+SHA1-Digest: wJOsboloDTlY+qljU70SxeqZEkQ=
+
+Name: visualvm/platform9/modules/org-netbeans-modules-autoupdate-servi
+ ces.jar
+SHA1-Digest: 1a701VRd3mbwgU2S/U7hULE60U4=
+
+Name: visualvm/profiler3/modules/locale/org-netbeans-modules-profiler_
+ ja.jar
+SHA1-Digest: Hq3dfnzSg4dy9ySJiuIT6fkb4Sk=
+
+Name: visualvm/profiler3/lib/deployed/jdk15/hpux-pa_risc2.0/libprofile
+ rinterface.sl
+SHA1-Digest: VFKhrbHQYS5Ippgk9ajJj+jMd7o=
+
+Name: visualvm/visualvm/config/Modules/com-sun-tools-visualvm-threaddu
+ mp.xml
+SHA1-Digest: Q91IvkvRQN7wqo8parPYQ/LS2XI=
+

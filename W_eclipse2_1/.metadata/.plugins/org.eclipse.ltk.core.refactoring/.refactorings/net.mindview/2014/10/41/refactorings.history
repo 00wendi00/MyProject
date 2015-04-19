@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from 项目“net.mindview”&#x0D;&#x0A;－ 原始项目：“net.mindview”&#x0D;&#x0A;－ 原始元素：“net.mindview/net”" description="删除元素" element1="/net" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1412901633302" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete element from 项目“net.mindview”&#x0D;&#x0A;－ 原始项目：“net.mindview”&#x0D;&#x0A;－ 原始元素：“net.mindview/src”" description="删除元素" element1="/src" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1412901638827" subPackages="false" version="1.0"/>
+</session>

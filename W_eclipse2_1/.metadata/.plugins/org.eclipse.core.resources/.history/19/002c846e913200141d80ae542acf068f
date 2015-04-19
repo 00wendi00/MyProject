@@ -1,0 +1,45 @@
+/**
+ * 文件名：Incrementable.java
+ * 项目-包：JAVA编程思想 - 第一二章
+ * 作者：张文迪
+ * 创建日期：2014-9-2
+ */
+package 第一二章;
+
+/**
+ * @author 张文迪
+ * 类名：Incrementable
+ * 类说明：
+ */
+ class Incrementable
+{
+	 
+    static void increment()
+    {
+    	StaticTest.i++;
+    }
+    
+    public static void main(String args[])
+    {
+    	StaticTest st1 = new StaticTest();
+    	StaticTest st2 = new StaticTest(); 	
+    	StaticTest st3 = new StaticTest();
+    	Incrementable sf = new Incrementable();
+    	
+        sf.increment();
+        sf.increment();
+        sf.increment();
+        sf.increment();
+        
+    	Incrementable.increment();
+    	System.out.println(st1.i++);
+    	System.out.println(st2.i++);
+    	System.out.println(st3.i++);
+    }
+}
+ 
+ 
+class StaticTest
+{
+	static int i = 47;
+}
